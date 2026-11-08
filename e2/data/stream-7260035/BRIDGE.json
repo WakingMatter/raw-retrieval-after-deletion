@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Rohan Menon",
+   "session": "s50",
+   "paragraph": 12,
+   "sentence": "For the record, Tundra Lite lives in the tundra-lite-stack repo.",
+   "bridged_key": "K074"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K086",
+   "via": "Kabir Sethi",
+   "session": "s37",
+   "paragraph": 8,
+   "sentence": "Kabir Sethi (owner of quota-guard) signed off on this.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K050",
+   "via": "Ines Shah",
+   "session": "s49",
+   "paragraph": 24,
+   "sentence": "Ines Shah, who leads Saffron, confirmed the update.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K096",
+   "key": "K097",
+   "via": "Ines Shah",
+   "session": "s46",
+   "paragraph": 10,
+   "sentence": "Ines Shah, who owns order-router, confirmed the update.",
+   "bridged_key": "K096"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K080",
+   "via": "Kavya Mehta",
+   "session": "s49",
+   "paragraph": 27,
+   "sentence": "For the record, tile-server is hosted in ap-southeast-1.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K063",
+   "key": "K066",
+   "via": "Mateo Kapoor",
+   "session": "s56",
+   "paragraph": 30,
+   "sentence": "For the record, Atlas lives in the atlas-app repo.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K092",
+   "via": "Felix Raman",
+   "session": "s36",
+   "paragraph": 33,
+   "sentence": "Felix Raman, who owns session-cache, confirmed the update.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Rohan Menon",
+   "session": "s52",
+   "paragraph": 24,
+   "sentence": "Rohan Menon, who leads Tundra Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K084",
+   "via": "Kabir Sethi",
+   "session": "s34",
+   "paragraph": 20,
+   "sentence": "For the record, quota-guard is hosted in us-east-1.",
+   "bridged_key": "K084"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K051",
+   "via": "Ines Shah",
+   "session": "s36",
+   "paragraph": 30,
+   "sentence": "For the record, Saffron is due September 1.",
+   "bridged_key": "K051"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1074",
+   "id": "e1074b",
+   "key": "K074",
+   "op": "observe",
+   "seq": 1074,
+   "session": "s50",
+   "slot": "repo_name",
+   "subject": "E22",
+   "subject_name": "Tundra Lite",
+   "t": "2030-03-23T09:24:00Z",
+   "type": "ASSERT",
+   "value": "tundra-lite-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0804",
+   "id": "e0804b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 804,
+   "session": "s37",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "quota-guard",
+   "t": "2030-03-03T16:31:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1058",
+   "id": "e1058b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 1058,
+   "session": "s49",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Saffron",
+   "t": "2030-03-21T14:21:00Z",
+   "type": "ASSERT",
+   "value": "Ines Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0989",
+   "id": "e0989b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 989,
+   "session": "s46",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "order-router",
+   "t": "2030-03-17T11:22:00Z",
+   "type": "ASSERT",
+   "value": "Ines Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1061",
+   "id": "e1061b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 1061,
+   "session": "s49",
+   "slot": "host_region",
+   "subject": "E24",
+   "subject_name": "tile-server",
+   "t": "2030-03-21T14:27:00Z",
+   "type": "ASSERT",
+   "value": "ap-southeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1202",
+   "id": "e1202b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 1202,
+   "session": "s56",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Atlas",
+   "t": "2030-04-01T16:20:00Z",
+   "type": "ASSERT",
+   "value": "atlas-app",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0797",
+   "id": "e0797b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 797,
+   "session": "s36",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "session-cache",
+   "t": "2030-03-02T16:59:00Z",
+   "type": "ASSERT",
+   "value": "Felix Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1118",
+   "id": "e1118b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 1118,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Tundra Lite",
+   "t": "2030-03-26T15:43:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0745",
+   "id": "e0745b",
+   "key": "K084",
+   "op": "observe",
+   "seq": 745,
+   "session": "s34",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "quota-guard",
+   "t": "2030-02-27T09:52:00Z",
+   "type": "ASSERT",
+   "value": "us-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0794",
+   "id": "e0794b",
+   "key": "K051",
+   "op": "observe",
+   "seq": 794,
+   "session": "s36",
+   "slot": "proj_deadline",
+   "subject": "E16",
+   "subject_name": "Saffron",
+   "t": "2030-03-02T16:53:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "cap_per_unit": 3,
+ "capped_units": [
+  "window(stream session)",
+  "topic",
+  "source_group"
+ ],
+ "max_per_unit": {
+  "group": 3,
+  "session": 3,
+  "source_day_reported_only": 0,
+  "topic": 3
+ },
+ "n_probes": 30,
+ "per_event_class": {
+  "ABSENT": {
+   "probes": 1,
+   "share": 0.0333
+  },
+  "ASSERT": {
+   "probes": 4,
+   "share": 0.1333
+  },
+  "DELETE": {
+   "probes": 1,
+   "share": 0.0333
+  },
+  "DERIVED": {
+   "probes": 4,
+   "share": 0.1333
+  },
+  "RETRACT": {
+   "probes": 2,
+   "share": 0.0667
+  },
+  "RETURN": {
+   "probes": 3,
+   "share": 0.1
+  },
+  "RE_READ": {
+   "probes": 4,
+   "share": 0.1333
+  },
+  "SUPERSEDE_EXPLICIT": {
+   "probes": 3,
+   "share": 0.1
+  },
+  "SUPERSEDE_IMPLICIT": {
+   "probes": 4,
+   "share": 0.1333
+  },
+  "TRANSIENT_SET": {
+   "probes": 4,
+   "share": 0.1333
+  }
+ },
+ "per_source_day": {},
+ "per_source_file": {}
+}

@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K087",
+   "key": "K090",
+   "via": "Priya Naik",
+   "session": "s30",
+   "paragraph": 20,
+   "sentence": "For the record, ledger-api runs on Postgres.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K068",
+   "via": "Sameer Reddy",
+   "session": "s41",
+   "paragraph": 30,
+   "sentence": "For the record, Zephyr is in planning.",
+   "bridged_key": "K068"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K109",
+   "via": "Sameer Reddy",
+   "session": "s36",
+   "paragraph": 26,
+   "sentence": "For the record, metrics-sink-v2 is hosted in us-east-1.",
+   "bridged_key": "K109"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K056",
+   "via": "Sofia Chopra",
+   "session": "s52",
+   "paragraph": 22,
+   "sentence": "Sofia Chopra, who leads Sable, confirmed the update.",
+   "bridged_key": "K054"
+  },
+  {
+   "hop_key": "K094",
+   "key": "K095",
+   "via": "Meera Sethi",
+   "session": "s32",
+   "paragraph": 12,
+   "sentence": "Meera Sethi, who owns sync-daemon, confirmed the update.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K053",
+   "via": "Ishaan Shah",
+   "session": "s50",
+   "paragraph": 34,
+   "sentence": "For the record, Meridian lives in the meridian-hub repo.",
+   "bridged_key": "K053"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K043",
+   "via": "Rahul Kapoor",
+   "session": "s37",
+   "paragraph": 14,
+   "sentence": "For the record, Halcyon is in active build.",
+   "bridged_key": "K043"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K089",
+   "via": "Priya Naik",
+   "session": "s30",
+   "paragraph": 20,
+   "sentence": "For the record, ledger-api listens on port 8080.",
+   "bridged_key": "K089"
+  },
+  {
+   "hop_key": "K094",
+   "key": "K096",
+   "via": "Meera Sethi",
+   "session": "s33",
+   "paragraph": 28,
+   "sentence": "Meera Sethi (owner of sync-daemon) signed off on this.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K057",
+   "via": "Sofia Chopra",
+   "session": "s37",
+   "paragraph": 24,
+   "sentence": "For the record, Sable lives in the sable-stack repo.",
+   "bridged_key": "K057"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0669",
+   "id": "e0669b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 669,
+   "session": "s30",
+   "slot": "db_engine",
+   "subject": "E26",
+   "subject_name": "ledger-api",
+   "t": "2030-02-21T17:12:00Z",
+   "type": "ASSERT",
+   "value": "Postgres",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0908",
+   "id": "e0908b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 908,
+   "session": "s41",
+   "slot": "proj_status",
+   "subject": "E21",
+   "subject_name": "Zephyr",
+   "t": "2030-03-09T17:17:00Z",
+   "type": "ASSERT",
+   "value": "in planning",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0800",
+   "id": "e0800b",
+   "key": "K109",
+   "op": "observe",
+   "seq": 800,
+   "session": "s36",
+   "slot": "host_region",
+   "subject": "E32",
+   "subject_name": "metrics-sink-v2",
+   "t": "2030-03-02T12:52:00Z",
+   "type": "ASSERT",
+   "value": "us-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1134",
+   "id": "e1134b",
+   "key": "K054",
+   "op": "observe",
+   "seq": 1134,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Sable",
+   "t": "2030-03-26T12:30:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0706",
+   "id": "e0706b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 706,
+   "session": "s32",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "sync-daemon",
+   "t": "2030-02-24T16:14:00Z",
+   "type": "ASSERT",
+   "value": "Meera Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1099",
+   "id": "e1099b",
+   "key": "K053",
+   "op": "observe",
+   "seq": 1099,
+   "session": "s50",
+   "slot": "repo_name",
+   "subject": "E16",
+   "subject_name": "Meridian",
+   "t": "2030-03-23T09:42:00Z",
+   "type": "ASSERT",
+   "value": "meridian-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0813",
+   "id": "e0813b",
+   "key": "K043",
+   "op": "observe",
+   "seq": 813,
+   "session": "s37",
+   "slot": "proj_status",
+   "subject": "E14",
+   "subject_name": "Halcyon",
+   "t": "2030-03-03T17:06:00Z",
+   "type": "ASSERT",
+   "value": "in active build",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0669",
+   "id": "e0669b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 669,
+   "session": "s30",
+   "slot": "listen_port",
+   "subject": "E26",
+   "subject_name": "ledger-api",
+   "t": "2030-02-21T17:12:00Z",
+   "type": "ASSERT",
+   "value": "8080",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0735",
+   "id": "e0735b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 735,
+   "session": "s33",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "sync-daemon",
+   "t": "2030-02-25T17:19:00Z",
+   "type": "ASSERT",
+   "value": "Meera Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0818",
+   "id": "e0818b",
+   "key": "K057",
+   "op": "observe",
+   "seq": 818,
+   "session": "s37",
+   "slot": "repo_name",
+   "subject": "E17",
+   "subject_name": "Sable",
+   "t": "2030-03-03T17:16:00Z",
+   "type": "ASSERT",
+   "value": "sable-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

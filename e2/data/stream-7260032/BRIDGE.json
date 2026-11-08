@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K065",
+   "key": "K068",
+   "via": "Felix Menon",
+   "session": "s48",
+   "paragraph": 35,
+   "sentence": "Felix Menon, who leads Orchid, confirmed the update.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K096",
+   "key": "K098",
+   "via": "Sameer Ghosh",
+   "session": "s44",
+   "paragraph": 35,
+   "sentence": "Sameer Ghosh, who owns profile-store, confirmed the update.",
+   "bridged_key": "K096"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K076",
+   "via": "Ishaan Kapoor",
+   "session": "s15",
+   "paragraph": 16,
+   "sentence": "For the record, Vesper Lite lives in the vesper-lite-hub repo.",
+   "bridged_key": "K076"
+  },
+  {
+   "hop_key": "K088",
+   "key": "K089",
+   "via": "Aisha Khanna",
+   "session": "s49",
+   "paragraph": 26,
+   "sentence": "Aisha Khanna (owner of vault-bridge) signed off on this.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K111",
+   "key": "K112",
+   "via": "Ishaan Kapoor",
+   "session": "s29",
+   "paragraph": 29,
+   "sentence": "Ishaan Kapoor (owner of ledger-api-v2) signed off on this.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K103",
+   "key": "K104",
+   "via": "Zoya Pillai",
+   "session": "s30",
+   "paragraph": 8,
+   "sentence": "For the record, session-cache is hosted in ap-northeast-1.",
+   "bridged_key": "K104"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K048",
+   "via": "Kabir Chopda",
+   "session": "s29",
+   "paragraph": 22,
+   "sentence": "Kabir Chopda, who leads Vesper, confirmed the update.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K052",
+   "via": "Leela Shah",
+   "session": "s49",
+   "paragraph": 32,
+   "sentence": "For the record, Mosaic is due April 28.",
+   "bridged_key": "K052"
+  },
+  {
+   "hop_key": "K111",
+   "key": "K113",
+   "via": "Ishaan Kapoor",
+   "session": "s37",
+   "paragraph": 6,
+   "sentence": "Ishaan Kapoor (owner of ledger-api-v2) signed off on this.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K103",
+   "key": "K105",
+   "via": "Zoya Pillai",
+   "session": "s32",
+   "paragraph": 34,
+   "sentence": "Zoya Pillai, who owns session-cache, confirmed the update.",
+   "bridged_key": "K103"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1044",
+   "id": "e1044b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 1044,
+   "session": "s48",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Orchid",
+   "t": "2030-03-20T14:05:00Z",
+   "type": "ASSERT",
+   "value": "Felix Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0957",
+   "id": "e0957b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 957,
+   "session": "s44",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-03-14T10:09:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0316",
+   "id": "e0316b",
+   "key": "K076",
+   "op": "observe",
+   "seq": 316,
+   "session": "s15",
+   "slot": "repo_name",
+   "subject": "E23",
+   "subject_name": "Vesper Lite",
+   "t": "2030-01-29T10:11:00Z",
+   "type": "ASSERT",
+   "value": "vesper-lite-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1058",
+   "id": "e1058b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 1058,
+   "session": "s49",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "vault-bridge",
+   "t": "2030-03-21T16:51:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0646",
+   "id": "e0646b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 646,
+   "session": "s29",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "ledger-api-v2",
+   "t": "2030-02-19T12:22:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0656",
+   "id": "e0656b",
+   "key": "K104",
+   "op": "observe",
+   "seq": 656,
+   "session": "s30",
+   "slot": "host_region",
+   "subject": "E31",
+   "subject_name": "session-cache",
+   "t": "2030-02-21T15:03:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0641",
+   "id": "e0641b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 641,
+   "session": "s29",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Vesper",
+   "t": "2030-02-19T12:12:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Chopda",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1064",
+   "id": "e1064b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 1064,
+   "session": "s49",
+   "slot": "proj_deadline",
+   "subject": "E16",
+   "subject_name": "Mosaic",
+   "t": "2030-03-21T17:03:00Z",
+   "type": "ASSERT",
+   "value": "April 28",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0800",
+   "id": "e0800b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 800,
+   "session": "s37",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "ledger-api-v2",
+   "t": "2030-03-03T13:56:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0714",
+   "id": "e0714b",
+   "key": "K103",
+   "op": "observe",
+   "seq": 714,
+   "session": "s32",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "session-cache",
+   "t": "2030-02-24T09:52:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K101",
+   "key": "K103",
+   "via": "Meera Kapoor",
+   "session": "s09",
+   "paragraph": 22,
+   "sentence": "For the record, vault-bridge listens on port 5000.",
+   "bridged_key": "K103"
+  },
+  {
+   "hop_key": "K104",
+   "key": "K106",
+   "via": "Dev Khana",
+   "session": "s07",
+   "paragraph": 18,
+   "sentence": "For the record, session-cache listens on port 8443.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K081",
+   "key": "K082",
+   "via": "Dev Khanna",
+   "session": "s25",
+   "paragraph": 32,
+   "sentence": "Dev Khanna, who owns tile-server, confirmed the update.",
+   "bridged_key": "K081"
+  },
+  {
+   "hop_key": "K089",
+   "key": "K092",
+   "via": "Elena Joshua",
+   "session": "s25",
+   "paragraph": 35,
+   "sentence": "Elena Joshua, who owns profile-store, confirmed the update.",
+   "bridged_key": "K089"
+  },
+  {
+   "hop_key": "K043",
+   "key": "K045",
+   "via": "Yusuf Menon",
+   "session": "s31",
+   "paragraph": 34,
+   "sentence": "For the record, Lumen is due June 30.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K069",
+   "key": "K071",
+   "via": "Leela Reddy",
+   "session": "s02",
+   "paragraph": 37,
+   "sentence": "For the record, Meridian Lite is due October 13.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K055",
+   "key": "K058",
+   "via": "Rahul Varma",
+   "session": "s41",
+   "paragraph": 29,
+   "sentence": "For the record, Nimbus lives in the nimbus-platform repo.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K075",
+   "via": "Meera Kapoor",
+   "session": "s51",
+   "paragraph": 14,
+   "sentence": "For the record, Lumen Lite is due July 21.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K061",
+   "via": "Tara Bose",
+   "session": "s27",
+   "paragraph": 28,
+   "sentence": "Tara Bose, who leads Quasar, confirmed the update.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K104",
+   "key": "K105",
+   "via": "Dev Khana",
+   "session": "s43",
+   "paragraph": 14,
+   "sentence": "Dev Khana, who owns session-cache, confirmed the update.",
+   "bridged_key": "K104"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0202",
+   "id": "e0202b",
+   "key": "K103",
+   "op": "observe",
+   "seq": 202,
+   "session": "s09",
+   "slot": "listen_port",
+   "subject": "E30",
+   "subject_name": "vault-bridge",
+   "t": "2030-01-20T16:54:00Z",
+   "type": "ASSERT",
+   "value": "5000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0159",
+   "id": "e0159b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 159,
+   "session": "s07",
+   "slot": "listen_port",
+   "subject": "E31",
+   "subject_name": "session-cache",
+   "t": "2030-01-17T17:03:00Z",
+   "type": "ASSERT",
+   "value": "8443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0548",
+   "id": "e0548b",
+   "key": "K081",
+   "op": "observe",
+   "seq": 548,
+   "session": "s25",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "tile-server",
+   "t": "2030-02-13T10:15:00Z",
+   "type": "ASSERT",
+   "value": "Dev Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0551",
+   "id": "e0551b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 551,
+   "session": "s25",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "profile-store",
+   "t": "2030-02-13T10:21:00Z",
+   "type": "ASSERT",
+   "value": "Elena Joshua",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0682",
+   "id": "e0682b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 682,
+   "session": "s31",
+   "slot": "proj_deadline",
+   "subject": "E15",
+   "subject_name": "Lumen",
+   "t": "2030-02-22T16:30:00Z",
+   "type": "ASSERT",
+   "value": "June 30",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0068",
+   "id": "e0068b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 68,
+   "session": "s02",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Meridian Lite",
+   "t": "2030-01-10T15:49:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0888",
+   "id": "e0888b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 888,
+   "session": "s41",
+   "slot": "repo_name",
+   "subject": "E18",
+   "subject_name": "Nimbus",
+   "t": "2030-03-09T10:58:00Z",
+   "type": "ASSERT",
+   "value": "nimbus-platform",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1104",
+   "id": "e1104b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 1104,
+   "session": "s51",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Lumen Lite",
+   "t": "2030-03-24T12:51:00Z",
+   "type": "ASSERT",
+   "value": "July 21",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0590",
+   "id": "e0590b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 590,
+   "session": "s27",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Quasar",
+   "t": "2030-02-16T09:37:00Z",
+   "type": "ASSERT",
+   "value": "Tara Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0923",
+   "id": "e0923b",
+   "key": "K104",
+   "op": "observe",
+   "seq": 923,
+   "session": "s43",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "session-cache",
+   "t": "2030-03-12T12:33:00Z",
+   "type": "ASSERT",
+   "value": "Dev Khana",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

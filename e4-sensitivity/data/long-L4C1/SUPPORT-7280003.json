@@ -1,0 +1,296 @@
+{
+ "seed": 7280003,
+ "L": 4,
+ "chain": 1,
+ "tokens": 338378,
+ "sessions": 240,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280003:MULTIHOP:K067": {
+   "cls": "MULTIHOP",
+   "gold": "in design review",
+   "union": 159.85,
+   "minimal": 159.85,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K088": {
+   "cls": "MULTIHOP",
+   "gold": "7443",
+   "union": 173.64999999999998,
+   "minimal": 121.89999999999999,
+   "n_paragraphs": 3
+  },
+  "7280003:MULTIHOP:K084": {
+   "cls": "MULTIHOP",
+   "gold": "8080",
+   "union": 141.45,
+   "minimal": 141.45,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K111": {
+   "cls": "MULTIHOP",
+   "gold": "CockroachDB",
+   "union": 192.04999999999998,
+   "minimal": 143.75,
+   "n_paragraphs": 3
+  },
+  "7280003:MULTIHOP:K072": {
+   "cls": "MULTIHOP",
+   "gold": "April 28",
+   "union": 103.5,
+   "minimal": 103.5,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K076": {
+   "cls": "MULTIHOP",
+   "gold": "September 22",
+   "union": 161.0,
+   "minimal": 116.14999999999999,
+   "n_paragraphs": 3
+  },
+  "7280003:MULTIHOP:K047": {
+   "cls": "MULTIHOP",
+   "gold": "October 13",
+   "union": 105.79999999999998,
+   "minimal": 105.79999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K107": {
+   "cls": "MULTIHOP",
+   "gold": "8443",
+   "union": 155.25,
+   "minimal": 110.39999999999999,
+   "n_paragraphs": 3
+  },
+  "7280003:MULTIHOP:K068": {
+   "cls": "MULTIHOP",
+   "gold": "May 19",
+   "union": 201.25,
+   "minimal": 115.0,
+   "n_paragraphs": 3
+  },
+  "7280003:MULTIHOP:K085": {
+   "cls": "MULTIHOP",
+   "gold": "Cassandra",
+   "union": 144.89999999999998,
+   "minimal": 144.89999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K141": {
+   "cls": "DERIVED",
+   "gold": "Observability",
+   "union": 152.95,
+   "minimal": 89.69999999999999,
+   "n_paragraphs": 3
+  },
+  "7280003:DERIVED:K130": {
+   "cls": "DERIVED",
+   "gold": "Jaipur",
+   "union": 90.85,
+   "minimal": 90.85,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K131": {
+   "cls": "DERIVED",
+   "gold": "Mumbai",
+   "union": 215.04999999999998,
+   "minimal": 102.35,
+   "n_paragraphs": 4
+  },
+  "7280003:DERIVED:K140": {
+   "cls": "DERIVED",
+   "gold": "Observability",
+   "union": 90.85,
+   "minimal": 90.85,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K137": {
+   "cls": "DERIVED",
+   "gold": "Bengaluru",
+   "union": 265.65,
+   "minimal": 179.39999999999998,
+   "n_paragraphs": 4
+  },
+  "7280003:DERIVED:K132": {
+   "cls": "DERIVED",
+   "gold": "Jaipur",
+   "union": 143.75,
+   "minimal": 143.75,
+   "n_paragraphs": 3
+  },
+  "7280003:DERIVED:K147": {
+   "cls": "DERIVED",
+   "gold": "AppSec",
+   "union": 141.45,
+   "minimal": 141.45,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K133": {
+   "cls": "DERIVED",
+   "gold": "Billing Ops",
+   "union": 289.79999999999995,
+   "minimal": 143.75,
+   "n_paragraphs": 5
+  },
+  "7280003:DERIVED:K145": {
+   "cls": "DERIVED",
+   "gold": "Hyderabad",
+   "union": 117.29999999999998,
+   "minimal": 117.29999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K138": {
+   "cls": "DERIVED",
+   "gold": "Kochi",
+   "union": 172.5,
+   "minimal": 113.85,
+   "n_paragraphs": 3
+  },
+  "7280003:AGG:K083": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 131.1,
+   "minimal": 131.1,
+   "n_paragraphs": 2
+  },
+  "7280003:AGG:K065": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 106.94999999999999,
+   "minimal": 46.0,
+   "n_paragraphs": 2
+  },
+  "7280003:AGG:K000": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280003:AGG:K038": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 178.25,
+   "minimal": 178.25,
+   "n_paragraphs": 3
+  },
+  "7280003:AGG:K096": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 46.0,
+   "minimal": 46.0,
+   "n_paragraphs": 1
+  },
+  "7280003:AGG:K017": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280003:AGG:K094": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 123.05,
+   "minimal": 123.05,
+   "n_paragraphs": 2
+  },
+  "7280003:AGG:K026": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 108.1,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 2
+  },
+  "7280003:AGG:K077": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280003:AGG:K081": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 105.79999999999998,
+   "minimal": 105.79999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:CURRENT:K012": {
+   "cls": "CURRENT",
+   "gold": "Jaipur",
+   "union": 60.949999999999996,
+   "minimal": 60.949999999999996,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K029": {
+   "cls": "CURRENT",
+   "gold": "Jaipur",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K020": {
+   "cls": "CURRENT",
+   "gold": "Bengaluru",
+   "union": 59.8,
+   "minimal": 59.8,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K115": {
+   "cls": "CURRENT",
+   "gold": "DynamoDB",
+   "union": 52.9,
+   "minimal": 52.9,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K041": {
+   "cls": "CURRENT",
+   "gold": "Nisha Shah",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K123": {
+   "cls": "CURRENT",
+   "gold": "250",
+   "union": 69.0,
+   "minimal": 69.0,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K051": {
+   "cls": "CURRENT",
+   "gold": "June 9",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K086": {
+   "cls": "CURRENT",
+   "gold": "Yusuf Sethi",
+   "union": 73.6,
+   "minimal": 73.6,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K117": {
+   "cls": "CURRENT",
+   "gold": "250",
+   "union": 60.949999999999996,
+   "minimal": 60.949999999999996,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K011": {
+   "cls": "CURRENT",
+   "gold": "product designer",
+   "union": 52.9,
+   "minimal": 52.9,
+   "n_paragraphs": 1
+  }
+ }
+}

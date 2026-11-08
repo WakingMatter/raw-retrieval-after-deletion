@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K041",
+   "key": "K043",
+   "via": "Nisha Mennon",
+   "session": "s227",
+   "paragraph": 26,
+   "sentence": "For the record, Orchid is due September 22.",
+   "bridged_key": "K043"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K066",
+   "via": "Priya Kapoor",
+   "session": "s230",
+   "paragraph": 18,
+   "sentence": "For the record, Pylon lives in the pylon-stack repo.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K059",
+   "via": "Leela Reddy",
+   "session": "s176",
+   "paragraph": 26,
+   "sentence": "For the record, Cobalt is due March 14.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K078",
+   "key": "K081",
+   "via": "Ines Iyer",
+   "session": "s187",
+   "paragraph": 2,
+   "sentence": "For the record, session-cache runs on Cassandra.",
+   "bridged_key": "K081"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K093",
+   "via": "Omar Bose",
+   "session": "s230",
+   "paragraph": 22,
+   "sentence": "For the record, order-router runs on DynamoDB.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K070",
+   "key": "K072",
+   "via": "Yusuf Pillai",
+   "session": "s227",
+   "paragraph": 8,
+   "sentence": "For the record, Orchid Lite is due September 1.",
+   "bridged_key": "K072"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K083",
+   "via": "Aisha Raman",
+   "session": "s230",
+   "paragraph": 39,
+   "sentence": "For the record, ranker-svc is hosted in us-west-2.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K106",
+   "via": "Nisha Menon",
+   "session": "s125",
+   "paragraph": 6,
+   "sentence": "Nisha Menon, who owns ledger-api, confirmed the update.",
+   "bridged_key": "K105"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Priya Kapoor",
+   "session": "s230",
+   "paragraph": 18,
+   "sentence": "For the record, Pylon is in design review.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K078",
+   "key": "K080",
+   "via": "Ines Iyer",
+   "session": "s187",
+   "paragraph": 2,
+   "sentence": "For the record, session-cache listens on port 5000.",
+   "bridged_key": "K080"
+  }
+ ],
+ "events": [
+  {
+   "after": "e4325",
+   "id": "e4325b",
+   "key": "K043",
+   "op": "observe",
+   "seq": 4325,
+   "session": "s227",
+   "slot": "proj_deadline",
+   "subject": "E14",
+   "subject_name": "Orchid",
+   "t": "2030-12-13T11:07:00Z",
+   "type": "ASSERT",
+   "value": "September 22",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4407",
+   "id": "e4407b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 4407,
+   "session": "s230",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-12-18T13:56:00Z",
+   "type": "ASSERT",
+   "value": "pylon-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3241",
+   "id": "e3241b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 3241,
+   "session": "s176",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Cobalt",
+   "t": "2030-09-28T11:24:00Z",
+   "type": "ASSERT",
+   "value": "March 14",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3441",
+   "id": "e3441b",
+   "key": "K081",
+   "op": "observe",
+   "seq": 3441,
+   "session": "s187",
+   "slot": "db_engine",
+   "subject": "E24",
+   "subject_name": "session-cache",
+   "t": "2030-10-14T11:24:00Z",
+   "type": "ASSERT",
+   "value": "Cassandra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4409",
+   "id": "e4409b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 4409,
+   "session": "s230",
+   "slot": "db_engine",
+   "subject": "E27",
+   "subject_name": "order-router",
+   "t": "2030-12-18T14:00:00Z",
+   "type": "ASSERT",
+   "value": "DynamoDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4316",
+   "id": "e4316b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 4316,
+   "session": "s227",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Orchid Lite",
+   "t": "2030-12-13T10:49:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4424",
+   "id": "e4424b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 4424,
+   "session": "s230",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "ranker-svc",
+   "t": "2030-12-18T14:30:00Z",
+   "type": "ASSERT",
+   "value": "us-west-2",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e2279",
+   "id": "e2279b",
+   "key": "K105",
+   "op": "observe",
+   "seq": 2279,
+   "session": "s125",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "ledger-api",
+   "t": "2030-07-13T10:52:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4407",
+   "id": "e4407b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 4407,
+   "session": "s230",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-12-18T13:56:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3441",
+   "id": "e3441b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 3441,
+   "session": "s187",
+   "slot": "listen_port",
+   "subject": "E24",
+   "subject_name": "session-cache",
+   "t": "2030-10-14T11:24:00Z",
+   "type": "ASSERT",
+   "value": "5000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

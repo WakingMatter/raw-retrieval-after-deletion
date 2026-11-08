@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K101",
+   "key": "K102",
+   "via": "Zoya Joshi",
+   "session": "s40",
+   "paragraph": 12,
+   "sentence": "For the record, media-proxy is hosted in ca-central-1.",
+   "bridged_key": "K102"
+  },
+  {
+   "hop_key": "K052",
+   "key": "K055",
+   "via": "Neel Shah",
+   "session": "s33",
+   "paragraph": 6,
+   "sentence": "Neel Shah (lead on Pylon) signed off on this.",
+   "bridged_key": "K052"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K098",
+   "via": "Aisha Menon",
+   "session": "s24",
+   "paragraph": 10,
+   "sentence": "Aisha Menon (owner of search-indexer) signed off on this.",
+   "bridged_key": "K097"
+  },
+  {
+   "hop_key": "K077",
+   "key": "K080",
+   "via": "Leela Mehta",
+   "session": "s33",
+   "paragraph": 25,
+   "sentence": "Leela Mehta, who owns quota-guard, confirmed the update.",
+   "bridged_key": "K077"
+  },
+  {
+   "hop_key": "K056",
+   "key": "K058",
+   "via": "Leela Mehta",
+   "session": "s24",
+   "paragraph": 2,
+   "sentence": "For the record, Orchid is due October 13.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K060",
+   "key": "K062",
+   "via": "Lucas Chopra",
+   "session": "s26",
+   "paragraph": 10,
+   "sentence": "For the record, Atlas is due April 28.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K094",
+   "via": "Leela Mehra",
+   "session": "s44",
+   "paragraph": 30,
+   "sentence": "For the record, ledger-api is hosted in sa-east-1.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K089",
+   "key": "K090",
+   "via": "Ines Khanna",
+   "session": "s26",
+   "paragraph": 31,
+   "sentence": "Ines Khanna, who owns order-router, confirmed the update.",
+   "bridged_key": "K089"
+  },
+  {
+   "hop_key": "K045",
+   "key": "K048",
+   "via": "Yusuf Sethi",
+   "session": "s50",
+   "paragraph": 16,
+   "sentence": "Yusuf Sethi (lead on Meridian) signed off on this.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K068",
+   "via": "Farhan Ghosh",
+   "session": "s48",
+   "paragraph": 4,
+   "sentence": "For the record, Nimbus is due October 13.",
+   "bridged_key": "K068"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0871",
+   "id": "e0871b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 871,
+   "session": "s40",
+   "slot": "host_region",
+   "subject": "E30",
+   "subject_name": "media-proxy",
+   "t": "2030-03-08T14:43:00Z",
+   "type": "ASSERT",
+   "value": "ca-central-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0718",
+   "id": "e0718b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 718,
+   "session": "s33",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Pylon",
+   "t": "2030-02-25T12:00:00Z",
+   "type": "ASSERT",
+   "value": "Neel Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0535",
+   "id": "e0535b",
+   "key": "K097",
+   "op": "observe",
+   "seq": 535,
+   "session": "s24",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "search-indexer",
+   "t": "2030-02-12T12:57:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0728",
+   "id": "e0728b",
+   "key": "K077",
+   "op": "observe",
+   "seq": 728,
+   "session": "s33",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "quota-guard",
+   "t": "2030-02-25T12:20:00Z",
+   "type": "ASSERT",
+   "value": "Leela Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0531",
+   "id": "e0531b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 531,
+   "session": "s24",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Orchid",
+   "t": "2030-02-12T12:49:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0577",
+   "id": "e0577b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 577,
+   "session": "s26",
+   "slot": "proj_deadline",
+   "subject": "E19",
+   "subject_name": "Atlas",
+   "t": "2030-02-15T16:42:00Z",
+   "type": "ASSERT",
+   "value": "April 28",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0966",
+   "id": "e0966b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 966,
+   "session": "s44",
+   "slot": "host_region",
+   "subject": "E28",
+   "subject_name": "ledger-api",
+   "t": "2030-03-14T09:38:00Z",
+   "type": "ASSERT",
+   "value": "sa-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0591",
+   "id": "e0591b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 591,
+   "session": "s26",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "order-router",
+   "t": "2030-02-15T17:10:00Z",
+   "type": "ASSERT",
+   "value": "Ines Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1096",
+   "id": "e1096b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 1096,
+   "session": "s50",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Meridian",
+   "t": "2030-03-23T09:30:00Z",
+   "type": "ASSERT",
+   "value": "Yusuf Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1041",
+   "id": "e1041b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 1041,
+   "session": "s48",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Nimbus",
+   "t": "2030-03-20T10:56:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

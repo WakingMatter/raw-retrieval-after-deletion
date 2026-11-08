@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K046",
+   "key": "K047",
+   "via": "Sofia Ghosh",
+   "session": "s48",
+   "paragraph": 28,
+   "sentence": "For the record, Tundra is in design review.",
+   "bridged_key": "K047"
+  },
+  {
+   "hop_key": "K088",
+   "key": "K089",
+   "via": "Ishaan Chopra",
+   "session": "s56",
+   "paragraph": 32,
+   "sentence": "Ishaan Chopra, who owns ranker-svc, confirmed the update.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K104",
+   "key": "K106",
+   "via": "Diya Reddy",
+   "session": "s32",
+   "paragraph": 22,
+   "sentence": "For the record, ledger-api listens on port 8000.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K059",
+   "via": "Tara Varma",
+   "session": "s55",
+   "paragraph": 12,
+   "sentence": "Tara Varma (lead on Mosaic) signed off on this.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K109",
+   "via": "Rohan Khanna",
+   "session": "s38",
+   "paragraph": 18,
+   "sentence": "Rohan Khanna, who owns vault-bridge-v2, confirmed the update.",
+   "bridged_key": "K108"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K055",
+   "via": "Neel Nair",
+   "session": "s26",
+   "paragraph": 12,
+   "sentence": "Neel Nair, who leads Nimbus, confirmed the update.",
+   "bridged_key": "K054"
+  },
+  {
+   "hop_key": "K068",
+   "key": "K069",
+   "via": "Ishaan Chopra",
+   "session": "s47",
+   "paragraph": 20,
+   "sentence": "Ishaan Chopra, who leads Falcon, confirmed the update.",
+   "bridged_key": "K068"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K098",
+   "via": "Lucas Iyer",
+   "session": "s50",
+   "paragraph": 35,
+   "sentence": "For the record, profile-store is hosted in sa-east-1.",
+   "bridged_key": "K098"
+  },
+  {
+   "hop_key": "K084",
+   "key": "K086",
+   "via": "Omar Pillay",
+   "session": "s57",
+   "paragraph": 32,
+   "sentence": "Omar Pillay, who owns metrics-sink, confirmed the update.",
+   "bridged_key": "K084"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K051",
+   "via": "Omar Pillai",
+   "session": "s54",
+   "paragraph": 18,
+   "sentence": "For the record, Lumen is paused.",
+   "bridged_key": "K051"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1067",
+   "id": "e1067b",
+   "key": "K047",
+   "op": "observe",
+   "seq": 1067,
+   "session": "s48",
+   "slot": "proj_status",
+   "subject": "E15",
+   "subject_name": "Tundra",
+   "t": "2030-03-20T15:23:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1236",
+   "id": "e1236b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 1236,
+   "session": "s56",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "ranker-svc",
+   "t": "2030-04-01T15:59:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0713",
+   "id": "e0713b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 713,
+   "session": "s32",
+   "slot": "listen_port",
+   "subject": "E31",
+   "subject_name": "ledger-api",
+   "t": "2030-02-24T13:19:00Z",
+   "type": "ASSERT",
+   "value": "8000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1203",
+   "id": "e1203b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 1203,
+   "session": "s55",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Mosaic",
+   "t": "2030-03-30T14:14:00Z",
+   "type": "ASSERT",
+   "value": "Tara Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0847",
+   "id": "e0847b",
+   "key": "K108",
+   "op": "observe",
+   "seq": 847,
+   "session": "s38",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "vault-bridge-v2",
+   "t": "2030-03-05T13:39:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0578",
+   "id": "e0578b",
+   "key": "K054",
+   "op": "observe",
+   "seq": 578,
+   "session": "s26",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Nimbus",
+   "t": "2030-02-15T12:56:00Z",
+   "type": "ASSERT",
+   "value": "Neel Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1044",
+   "id": "e1044b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 1044,
+   "session": "s47",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Falcon",
+   "t": "2030-03-18T13:09:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1115",
+   "id": "e1115b",
+   "key": "K098",
+   "op": "observe",
+   "seq": 1115,
+   "session": "s50",
+   "slot": "host_region",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-03-23T16:52:00Z",
+   "type": "ASSERT",
+   "value": "sa-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1255",
+   "id": "e1255b",
+   "key": "K084",
+   "op": "observe",
+   "seq": 1255,
+   "session": "s57",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "metrics-sink",
+   "t": "2030-04-02T12:59:00Z",
+   "type": "ASSERT",
+   "value": "Omar Pillay",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1188",
+   "id": "e1188b",
+   "key": "K051",
+   "op": "observe",
+   "seq": 1188,
+   "session": "s54",
+   "slot": "proj_status",
+   "subject": "E16",
+   "subject_name": "Lumen",
+   "t": "2030-03-29T10:05:00Z",
+   "type": "ASSERT",
+   "value": "paused",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

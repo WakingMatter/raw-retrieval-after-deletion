@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K082",
+   "key": "K083",
+   "via": "Ananya Mennon",
+   "session": "s48",
+   "paragraph": 26,
+   "sentence": "Ananya Mennon, who owns auth-gateway, confirmed the update.",
+   "bridged_key": "K082"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K044",
+   "via": "Rohan Naik",
+   "session": "s42",
+   "paragraph": 24,
+   "sentence": "Rohan Naik, who leads Meridian, confirmed the update.",
+   "bridged_key": "K042"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K098",
+   "via": "Omar Raman",
+   "session": "s51",
+   "paragraph": 32,
+   "sentence": "For the record, sync-daemon is hosted in ap-northeast-1.",
+   "bridged_key": "K098"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K111",
+   "via": "Sofia Shah",
+   "session": "s30",
+   "paragraph": 18,
+   "sentence": "For the record, search-indexer-v2 runs on MongoDB.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K068",
+   "via": "Maya Varma",
+   "session": "s55",
+   "paragraph": 8,
+   "sentence": "Maya Varma, who leads Falcon, confirmed the update.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K094",
+   "key": "K095",
+   "via": "Rohan Nair",
+   "session": "s25",
+   "paragraph": 35,
+   "sentence": "For the record, tile-server listens on port 9000.",
+   "bridged_key": "K095"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K065",
+   "via": "Sofia Shah",
+   "session": "s46",
+   "paragraph": 39,
+   "sentence": "For the record, Sable lives in the sable-app repo.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K055",
+   "key": "K056",
+   "via": "Ananya Menon",
+   "session": "s24",
+   "paragraph": 32,
+   "sentence": "Ananya Menon, who leads Lumen, confirmed the update.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K078",
+   "key": "K079",
+   "via": "Yusuf Reddy",
+   "session": "s26",
+   "paragraph": 8,
+   "sentence": "For the record, search-indexer is hosted in ca-central-1.",
+   "bridged_key": "K079"
+  },
+  {
+   "hop_key": "K086",
+   "key": "K087",
+   "via": "Maya Varma",
+   "session": "s43",
+   "paragraph": 8,
+   "sentence": "Maya Varma (owner of session-cache) signed off on this.",
+   "bridged_key": "K086"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1056",
+   "id": "e1056b",
+   "key": "K082",
+   "op": "observe",
+   "seq": 1056,
+   "session": "s48",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "auth-gateway",
+   "t": "2030-03-20T10:13:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Mennon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0926",
+   "id": "e0926b",
+   "key": "K042",
+   "op": "observe",
+   "seq": 926,
+   "session": "s42",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Meridian",
+   "t": "2030-03-11T12:02:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Naik",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1132",
+   "id": "e1132b",
+   "key": "K098",
+   "op": "observe",
+   "seq": 1132,
+   "session": "s51",
+   "slot": "host_region",
+   "subject": "E29",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-24T11:07:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0671",
+   "id": "e0671b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 671,
+   "session": "s30",
+   "slot": "db_engine",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2",
+   "t": "2030-02-21T10:24:00Z",
+   "type": "ASSERT",
+   "value": "MongoDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1200",
+   "id": "e1200b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 1200,
+   "session": "s55",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Falcon",
+   "t": "2030-03-30T16:22:00Z",
+   "type": "ASSERT",
+   "value": "Maya Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0574",
+   "id": "e0574b",
+   "key": "K095",
+   "op": "observe",
+   "seq": 574,
+   "session": "s25",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "tile-server",
+   "t": "2030-02-13T16:47:00Z",
+   "type": "ASSERT",
+   "value": "9000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1020",
+   "id": "e1020b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 1020,
+   "session": "s46",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Sable",
+   "t": "2030-03-17T17:34:00Z",
+   "type": "ASSERT",
+   "value": "sable-app",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0551",
+   "id": "e0551b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 551,
+   "session": "s24",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Lumen",
+   "t": "2030-02-12T15:41:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0579",
+   "id": "e0579b",
+   "key": "K079",
+   "op": "observe",
+   "seq": 579,
+   "session": "s26",
+   "slot": "host_region",
+   "subject": "E24",
+   "subject_name": "search-indexer",
+   "t": "2030-02-15T15:05:00Z",
+   "type": "ASSERT",
+   "value": "ca-central-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0941",
+   "id": "e0941b",
+   "key": "K086",
+   "op": "observe",
+   "seq": 941,
+   "session": "s43",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "session-cache",
+   "t": "2030-03-12T12:41:00Z",
+   "type": "ASSERT",
+   "value": "Maya Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

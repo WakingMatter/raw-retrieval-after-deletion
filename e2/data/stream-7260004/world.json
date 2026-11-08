@@ -1,0 +1,1736 @@
+{
+ "absent_pairs": [
+  [
+   "E05",
+   "job_role"
+  ],
+  [
+   "E10",
+   "job_role"
+  ],
+  [
+   "E16",
+   "proj_status"
+  ],
+  [
+   "E19",
+   "proj_status"
+  ],
+  [
+   "E21",
+   "repo_name"
+  ],
+  [
+   "E31",
+   "listen_port"
+  ],
+  [
+   "E37",
+   "cfg_timeout_ms"
+  ]
+ ],
+ "bait_slots": [
+  [
+   "K083",
+   "K114"
+  ],
+  [
+   "K006",
+   "K037"
+  ],
+  [
+   "K046",
+   "K075"
+  ],
+  [
+   "K080",
+   "K111"
+  ],
+  [
+   "K005",
+   "K036"
+  ],
+  [
+   "K084",
+   "K115"
+  ]
+ ],
+ "change_type": {
+  "K000": "SUPERSEDE-explicit",
+  "K002": "SUPERSEDE-explicit",
+  "K003": "RETRACT",
+  "K006": "SUPERSEDE-implicit",
+  "K007": "RETRACT",
+  "K009": "RETURN",
+  "K010": "TRANSIENT",
+  "K012": "SUPERSEDE-implicit",
+  "K016": "SUPERSEDE-explicit",
+  "K017": "TRANSIENT",
+  "K019": "SUPERSEDE-implicit",
+  "K020": "RETRACT",
+  "K021": "SUPERSEDE-explicit",
+  "K022": "SUPERSEDE-explicit",
+  "K026": "RETRACT",
+  "K027": "SUPERSEDE-implicit",
+  "K028": "SUPERSEDE-explicit",
+  "K031": "SUPERSEDE-explicit",
+  "K032": "RETRACT",
+  "K033": "SUPERSEDE-explicit",
+  "K035": "TRANSIENT",
+  "K039": "SUPERSEDE-explicit",
+  "K041": "SUPERSEDE-explicit",
+  "K042": "RETURN",
+  "K043": "SUPERSEDE-explicit",
+  "K045": "SUPERSEDE-explicit",
+  "K048": "SUPERSEDE-explicit",
+  "K049": "SUPERSEDE-explicit",
+  "K052": "SUPERSEDE-explicit",
+  "K055": "TRANSIENT",
+  "K056": "SUPERSEDE-implicit",
+  "K057": "SUPERSEDE-implicit",
+  "K061": "SUPERSEDE-explicit",
+  "K062": "SUPERSEDE-explicit",
+  "K063": "RETURN",
+  "K065": "SUPERSEDE-implicit",
+  "K069": "SUPERSEDE-explicit",
+  "K071": "SUPERSEDE-implicit",
+  "K072": "TRANSIENT",
+  "K073": "SUPERSEDE-explicit",
+  "K074": "TRANSIENT",
+  "K076": "SUPERSEDE-explicit",
+  "K077": "RETURN",
+  "K079": "RETRACT",
+  "K080": "SUPERSEDE-explicit",
+  "K083": "SUPERSEDE-explicit",
+  "K084": "SUPERSEDE-implicit",
+  "K085": "SUPERSEDE-explicit",
+  "K086": "SUPERSEDE-explicit",
+  "K087": "SUPERSEDE-explicit",
+  "K088": "SUPERSEDE-implicit",
+  "K089": "SUPERSEDE-explicit",
+  "K090": "SUPERSEDE-explicit",
+  "K094": "SUPERSEDE-explicit",
+  "K095": "SUPERSEDE-explicit",
+  "K096": "RETURN",
+  "K097": "SUPERSEDE-implicit",
+  "K098": "SUPERSEDE-explicit",
+  "K099": "TRANSIENT",
+  "K100": "RETURN",
+  "K101": "SUPERSEDE-implicit",
+  "K102": "SUPERSEDE-explicit",
+  "K103": "SUPERSEDE-explicit",
+  "K104": "RETURN",
+  "K108": "SUPERSEDE-explicit",
+  "K109": "SUPERSEDE-implicit",
+  "K111": "SUPERSEDE-explicit",
+  "K112": "RETRACT",
+  "K115": "TRANSIENT",
+  "K116": "SUPERSEDE-explicit",
+  "K118": "RETRACT",
+  "K120": "SUPERSEDE-explicit",
+  "K121": "RETURN",
+  "K122": "SUPERSEDE-explicit",
+  "K124": "SUPERSEDE-implicit",
+  "K125": "SUPERSEDE-implicit",
+  "K126": "SUPERSEDE-explicit"
+ },
+ "entities": {
+  "E00": {
+   "id": "E00",
+   "name": "Elena Kapoor",
+   "twin": "E11",
+   "type": "person"
+  },
+  "E01": {
+   "id": "E01",
+   "name": "Ines Pillai",
+   "twin": "E12",
+   "type": "person"
+  },
+  "E02": {
+   "id": "E02",
+   "name": "Sofia Sethi",
+   "twin": "E13",
+   "type": "person"
+  },
+  "E03": {
+   "id": "E03",
+   "name": "Rohan Chopra",
+   "twin": null,
+   "type": "person"
+  },
+  "E04": {
+   "id": "E04",
+   "name": "Diya Nair",
+   "twin": null,
+   "type": "person"
+  },
+  "E05": {
+   "id": "E05",
+   "name": "Rahul Shah",
+   "twin": null,
+   "type": "person"
+  },
+  "E06": {
+   "id": "E06",
+   "name": "Vikram Varma",
+   "twin": null,
+   "type": "person"
+  },
+  "E07": {
+   "id": "E07",
+   "name": "Zoya Ghosh",
+   "twin": null,
+   "type": "person"
+  },
+  "E08": {
+   "id": "E08",
+   "name": "Yusuf Bose",
+   "twin": null,
+   "type": "person"
+  },
+  "E09": {
+   "id": "E09",
+   "name": "Kabir Iyer",
+   "twin": null,
+   "type": "person"
+  },
+  "E10": {
+   "id": "E10",
+   "name": "Hana Joshi",
+   "twin": null,
+   "type": "person"
+  },
+  "E11": {
+   "id": "E11",
+   "name": "Elena Kapur",
+   "twin": "E00",
+   "type": "person"
+  },
+  "E12": {
+   "id": "E12",
+   "name": "Ines Pillay",
+   "twin": "E01",
+   "type": "person"
+  },
+  "E13": {
+   "id": "E13",
+   "name": "Sofia Sethia",
+   "twin": "E02",
+   "type": "person"
+  },
+  "E14": {
+   "id": "E14",
+   "name": "Lumen",
+   "twin": "E22",
+   "type": "project"
+  },
+  "E15": {
+   "id": "E15",
+   "name": "Tundra",
+   "twin": "E23",
+   "type": "project"
+  },
+  "E16": {
+   "id": "E16",
+   "name": "Mosaic",
+   "twin": null,
+   "type": "project"
+  },
+  "E17": {
+   "id": "E17",
+   "name": "Meridian",
+   "twin": null,
+   "type": "project"
+  },
+  "E18": {
+   "id": "E18",
+   "name": "Orchid",
+   "twin": null,
+   "type": "project"
+  },
+  "E19": {
+   "id": "E19",
+   "name": "Saffron",
+   "twin": null,
+   "type": "project"
+  },
+  "E20": {
+   "id": "E20",
+   "name": "Atlas",
+   "twin": null,
+   "type": "project"
+  },
+  "E21": {
+   "id": "E21",
+   "name": "Pylon",
+   "twin": null,
+   "type": "project"
+  },
+  "E22": {
+   "id": "E22",
+   "name": "Lumen Lite",
+   "twin": "E14",
+   "type": "project"
+  },
+  "E23": {
+   "id": "E23",
+   "name": "Tundra Lite",
+   "twin": "E15",
+   "type": "project"
+  },
+  "E24": {
+   "id": "E24",
+   "name": "search-indexer",
+   "twin": "E32",
+   "type": "service"
+  },
+  "E25": {
+   "id": "E25",
+   "name": "session-cache",
+   "twin": "E33",
+   "type": "service"
+  },
+  "E26": {
+   "id": "E26",
+   "name": "ledger-api",
+   "twin": null,
+   "type": "service"
+  },
+  "E27": {
+   "id": "E27",
+   "name": "order-router",
+   "twin": null,
+   "type": "service"
+  },
+  "E28": {
+   "id": "E28",
+   "name": "ranker-svc",
+   "twin": null,
+   "type": "service"
+  },
+  "E29": {
+   "id": "E29",
+   "name": "notif-hub",
+   "twin": null,
+   "type": "service"
+  },
+  "E30": {
+   "id": "E30",
+   "name": "tile-server",
+   "twin": null,
+   "type": "service"
+  },
+  "E31": {
+   "id": "E31",
+   "name": "quota-guard",
+   "twin": null,
+   "type": "service"
+  },
+  "E32": {
+   "id": "E32",
+   "name": "search-indexer-v2",
+   "twin": "E24",
+   "type": "service"
+  },
+  "E33": {
+   "id": "E33",
+   "name": "session-cache-v2",
+   "twin": "E25",
+   "type": "service"
+  },
+  "E34": {
+   "id": "E34",
+   "name": "ingest throttle",
+   "twin": "E39",
+   "type": "config"
+  },
+  "E35": {
+   "id": "E35",
+   "name": "retry policy",
+   "twin": null,
+   "type": "config"
+  },
+  "E36": {
+   "id": "E36",
+   "name": "cache policy",
+   "twin": null,
+   "type": "config"
+  },
+  "E37": {
+   "id": "E37",
+   "name": "rate-limit policy",
+   "twin": null,
+   "type": "config"
+  },
+  "E38": {
+   "id": "E38",
+   "name": "webhook policy",
+   "twin": null,
+   "type": "config"
+  },
+  "E39": {
+   "id": "E39",
+   "name": "legacy ingest throttle",
+   "twin": "E34",
+   "type": "config"
+  }
+ },
+ "keys": {
+  "K000": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E00",
+   "subject_name": "Elena Kapoor"
+  },
+  "K001": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E00",
+   "subject_name": "Elena Kapoor"
+  },
+  "K002": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E00",
+   "subject_name": "Elena Kapoor"
+  },
+  "K003": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E01",
+   "subject_name": "Ines Pillai"
+  },
+  "K004": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E01",
+   "subject_name": "Ines Pillai"
+  },
+  "K005": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E01",
+   "subject_name": "Ines Pillai"
+  },
+  "K006": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E02",
+   "subject_name": "Sofia Sethi"
+  },
+  "K007": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E02",
+   "subject_name": "Sofia Sethi"
+  },
+  "K008": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E02",
+   "subject_name": "Sofia Sethi"
+  },
+  "K009": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E03",
+   "subject_name": "Rohan Chopra"
+  },
+  "K010": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E03",
+   "subject_name": "Rohan Chopra"
+  },
+  "K011": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E03",
+   "subject_name": "Rohan Chopra"
+  },
+  "K012": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E04",
+   "subject_name": "Diya Nair"
+  },
+  "K013": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E04",
+   "subject_name": "Diya Nair"
+  },
+  "K014": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E04",
+   "subject_name": "Diya Nair"
+  },
+  "K015": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E05",
+   "subject_name": "Rahul Shah"
+  },
+  "K016": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E05",
+   "subject_name": "Rahul Shah"
+  },
+  "K017": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E06",
+   "subject_name": "Vikram Varma"
+  },
+  "K018": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E06",
+   "subject_name": "Vikram Varma"
+  },
+  "K019": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E06",
+   "subject_name": "Vikram Varma"
+  },
+  "K020": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E07",
+   "subject_name": "Zoya Ghosh"
+  },
+  "K021": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E07",
+   "subject_name": "Zoya Ghosh"
+  },
+  "K022": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E07",
+   "subject_name": "Zoya Ghosh"
+  },
+  "K023": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E08",
+   "subject_name": "Yusuf Bose"
+  },
+  "K024": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E08",
+   "subject_name": "Yusuf Bose"
+  },
+  "K025": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E08",
+   "subject_name": "Yusuf Bose"
+  },
+  "K026": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E09",
+   "subject_name": "Kabir Iyer"
+  },
+  "K027": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E09",
+   "subject_name": "Kabir Iyer"
+  },
+  "K028": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E09",
+   "subject_name": "Kabir Iyer"
+  },
+  "K029": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E10",
+   "subject_name": "Hana Joshi"
+  },
+  "K030": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E10",
+   "subject_name": "Hana Joshi"
+  },
+  "K031": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E11",
+   "subject_name": "Elena Kapur"
+  },
+  "K032": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E11",
+   "subject_name": "Elena Kapur"
+  },
+  "K033": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E11",
+   "subject_name": "Elena Kapur"
+  },
+  "K034": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E12",
+   "subject_name": "Ines Pillay"
+  },
+  "K035": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E12",
+   "subject_name": "Ines Pillay"
+  },
+  "K036": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E12",
+   "subject_name": "Ines Pillay"
+  },
+  "K037": {
+   "kind": "base",
+   "slot": "office_city",
+   "subject": "E13",
+   "subject_name": "Sofia Sethia"
+  },
+  "K038": {
+   "kind": "base",
+   "slot": "team_name",
+   "subject": "E13",
+   "subject_name": "Sofia Sethia"
+  },
+  "K039": {
+   "kind": "base",
+   "slot": "job_role",
+   "subject": "E13",
+   "subject_name": "Sofia Sethia"
+  },
+  "K040": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Lumen"
+  },
+  "K041": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E14",
+   "subject_name": "Lumen"
+  },
+  "K042": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E14",
+   "subject_name": "Lumen"
+  },
+  "K043": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Lumen"
+  },
+  "K044": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Tundra"
+  },
+  "K045": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E15",
+   "subject_name": "Tundra"
+  },
+  "K046": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E15",
+   "subject_name": "Tundra"
+  },
+  "K047": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E15",
+   "subject_name": "Tundra"
+  },
+  "K048": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Mosaic"
+  },
+  "K049": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E16",
+   "subject_name": "Mosaic"
+  },
+  "K050": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E16",
+   "subject_name": "Mosaic"
+  },
+  "K051": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Meridian"
+  },
+  "K052": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E17",
+   "subject_name": "Meridian"
+  },
+  "K053": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E17",
+   "subject_name": "Meridian"
+  },
+  "K054": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E17",
+   "subject_name": "Meridian"
+  },
+  "K055": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Orchid"
+  },
+  "K056": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E18",
+   "subject_name": "Orchid"
+  },
+  "K057": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Orchid"
+  },
+  "K058": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E18",
+   "subject_name": "Orchid"
+  },
+  "K059": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Saffron"
+  },
+  "K060": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E19",
+   "subject_name": "Saffron"
+  },
+  "K061": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E19",
+   "subject_name": "Saffron"
+  },
+  "K062": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Atlas"
+  },
+  "K063": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Atlas"
+  },
+  "K064": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E20",
+   "subject_name": "Atlas"
+  },
+  "K065": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Atlas"
+  },
+  "K066": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Pylon"
+  },
+  "K067": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E21",
+   "subject_name": "Pylon"
+  },
+  "K068": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Pylon"
+  },
+  "K069": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Lumen Lite"
+  },
+  "K070": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E22",
+   "subject_name": "Lumen Lite"
+  },
+  "K071": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Lumen Lite"
+  },
+  "K072": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E22",
+   "subject_name": "Lumen Lite"
+  },
+  "K073": {
+   "kind": "base",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Tundra Lite"
+  },
+  "K074": {
+   "kind": "base",
+   "slot": "proj_status",
+   "subject": "E23",
+   "subject_name": "Tundra Lite"
+  },
+  "K075": {
+   "kind": "base",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Tundra Lite"
+  },
+  "K076": {
+   "kind": "base",
+   "slot": "repo_name",
+   "subject": "E23",
+   "subject_name": "Tundra Lite"
+  },
+  "K077": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "search-indexer"
+  },
+  "K078": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E24",
+   "subject_name": "search-indexer"
+  },
+  "K079": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E24",
+   "subject_name": "search-indexer"
+  },
+  "K080": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E24",
+   "subject_name": "search-indexer"
+  },
+  "K081": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "session-cache"
+  },
+  "K082": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "session-cache"
+  },
+  "K083": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E25",
+   "subject_name": "session-cache"
+  },
+  "K084": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E25",
+   "subject_name": "session-cache"
+  },
+  "K085": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "ledger-api"
+  },
+  "K086": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E26",
+   "subject_name": "ledger-api"
+  },
+  "K087": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E26",
+   "subject_name": "ledger-api"
+  },
+  "K088": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E26",
+   "subject_name": "ledger-api"
+  },
+  "K089": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "order-router"
+  },
+  "K090": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E27",
+   "subject_name": "order-router"
+  },
+  "K091": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "order-router"
+  },
+  "K092": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E27",
+   "subject_name": "order-router"
+  },
+  "K093": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "ranker-svc"
+  },
+  "K094": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E28",
+   "subject_name": "ranker-svc"
+  },
+  "K095": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "ranker-svc"
+  },
+  "K096": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E28",
+   "subject_name": "ranker-svc"
+  },
+  "K097": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "notif-hub"
+  },
+  "K098": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E29",
+   "subject_name": "notif-hub"
+  },
+  "K099": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E29",
+   "subject_name": "notif-hub"
+  },
+  "K100": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E29",
+   "subject_name": "notif-hub"
+  },
+  "K101": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E30",
+   "subject_name": "tile-server"
+  },
+  "K102": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E30",
+   "subject_name": "tile-server"
+  },
+  "K103": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E30",
+   "subject_name": "tile-server"
+  },
+  "K104": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E30",
+   "subject_name": "tile-server"
+  },
+  "K105": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "quota-guard"
+  },
+  "K106": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E31",
+   "subject_name": "quota-guard"
+  },
+  "K107": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E31",
+   "subject_name": "quota-guard"
+  },
+  "K108": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2"
+  },
+  "K109": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2"
+  },
+  "K110": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2"
+  },
+  "K111": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2"
+  },
+  "K112": {
+   "kind": "base",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "session-cache-v2"
+  },
+  "K113": {
+   "kind": "base",
+   "slot": "host_region",
+   "subject": "E33",
+   "subject_name": "session-cache-v2"
+  },
+  "K114": {
+   "kind": "base",
+   "slot": "listen_port",
+   "subject": "E33",
+   "subject_name": "session-cache-v2"
+  },
+  "K115": {
+   "kind": "base",
+   "slot": "db_engine",
+   "subject": "E33",
+   "subject_name": "session-cache-v2"
+  },
+  "K116": {
+   "kind": "base",
+   "slot": "cfg_max_rps",
+   "subject": "E34",
+   "subject_name": "ingest throttle"
+  },
+  "K117": {
+   "kind": "base",
+   "slot": "cfg_timeout_ms",
+   "subject": "E34",
+   "subject_name": "ingest throttle"
+  },
+  "K118": {
+   "kind": "base",
+   "slot": "cfg_max_rps",
+   "subject": "E35",
+   "subject_name": "retry policy"
+  },
+  "K119": {
+   "kind": "base",
+   "slot": "cfg_timeout_ms",
+   "subject": "E35",
+   "subject_name": "retry policy"
+  },
+  "K120": {
+   "kind": "base",
+   "slot": "cfg_max_rps",
+   "subject": "E36",
+   "subject_name": "cache policy"
+  },
+  "K121": {
+   "kind": "base",
+   "slot": "cfg_timeout_ms",
+   "subject": "E36",
+   "subject_name": "cache policy"
+  },
+  "K122": {
+   "kind": "base",
+   "slot": "cfg_max_rps",
+   "subject": "E37",
+   "subject_name": "rate-limit policy"
+  },
+  "K123": {
+   "kind": "base",
+   "slot": "cfg_max_rps",
+   "subject": "E38",
+   "subject_name": "webhook policy"
+  },
+  "K124": {
+   "kind": "base",
+   "slot": "cfg_timeout_ms",
+   "subject": "E38",
+   "subject_name": "webhook policy"
+  },
+  "K125": {
+   "kind": "base",
+   "slot": "cfg_max_rps",
+   "subject": "E39",
+   "subject_name": "legacy ingest throttle"
+  },
+  "K126": {
+   "kind": "base",
+   "slot": "cfg_timeout_ms",
+   "subject": "E39",
+   "subject_name": "legacy ingest throttle"
+  },
+  "K127": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K112",
+   "slot": "owner_team_name",
+   "subject": "E33",
+   "subject_name": "session-cache-v2"
+  },
+  "K128": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K048",
+   "slot": "lead_team_name",
+   "subject": "E16",
+   "subject_name": "Mosaic"
+  },
+  "K129": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K089",
+   "slot": "owner_team_name",
+   "subject": "E27",
+   "subject_name": "order-router"
+  },
+  "K130": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K093",
+   "slot": "owner_office_city",
+   "subject": "E28",
+   "subject_name": "ranker-svc"
+  },
+  "K131": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K048",
+   "slot": "lead_office_city",
+   "subject": "E16",
+   "subject_name": "Mosaic"
+  },
+  "K132": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K112",
+   "slot": "owner_office_city",
+   "subject": "E33",
+   "subject_name": "session-cache-v2"
+  },
+  "K133": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K108",
+   "slot": "owner_office_city",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2"
+  },
+  "K134": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K059",
+   "slot": "lead_office_city",
+   "subject": "E19",
+   "subject_name": "Saffron"
+  },
+  "K135": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K055",
+   "slot": "lead_team_name",
+   "subject": "E18",
+   "subject_name": "Orchid"
+  },
+  "K136": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K051",
+   "slot": "lead_office_city",
+   "subject": "E17",
+   "subject_name": "Meridian"
+  },
+  "K137": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K066",
+   "slot": "lead_team_name",
+   "subject": "E21",
+   "subject_name": "Pylon"
+  },
+  "K138": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K085",
+   "slot": "owner_team_name",
+   "subject": "E26",
+   "subject_name": "ledger-api"
+  },
+  "K139": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K069",
+   "slot": "lead_office_city",
+   "subject": "E22",
+   "subject_name": "Lumen Lite"
+  },
+  "K140": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K051",
+   "slot": "lead_team_name",
+   "subject": "E17",
+   "subject_name": "Meridian"
+  },
+  "K141": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K101",
+   "slot": "owner_team_name",
+   "subject": "E30",
+   "subject_name": "tile-server"
+  },
+  "K142": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K069",
+   "slot": "lead_team_name",
+   "subject": "E22",
+   "subject_name": "Lumen Lite"
+  },
+  "K143": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K040",
+   "slot": "lead_team_name",
+   "subject": "E14",
+   "subject_name": "Lumen"
+  },
+  "K144": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K062",
+   "slot": "lead_office_city",
+   "subject": "E20",
+   "subject_name": "Atlas"
+  },
+  "K145": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K040",
+   "slot": "lead_office_city",
+   "subject": "E14",
+   "subject_name": "Lumen"
+  },
+  "K146": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K081",
+   "slot": "owner_office_city",
+   "subject": "E25",
+   "subject_name": "session-cache"
+  },
+  "K147": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K093",
+   "slot": "owner_team_name",
+   "subject": "E28",
+   "subject_name": "ranker-svc"
+  },
+  "K148": {
+   "attr_key_by_value": {
+    "Diya Nair": "K013",
+    "Elena Kapoor": "K001",
+    "Elena Kapur": "K032",
+    "Hana Joshi": "K030",
+    "Ines Pillai": "K004",
+    "Ines Pillay": "K035",
+    "Kabir Iyer": "K027",
+    "Rahul Shah": "K016",
+    "Rohan Chopra": "K010",
+    "Sofia Sethi": "K007",
+    "Sofia Sethia": "K038",
+    "Vikram Varma": "K018",
+    "Yusuf Bose": "K024",
+    "Zoya Ghosh": "K021"
+   },
+   "attr_slot": "team_name",
+   "kind": "derived",
+   "ref_key": "K062",
+   "slot": "lead_team_name",
+   "subject": "E20",
+   "subject_name": "Atlas"
+  },
+  "K149": {
+   "attr_key_by_value": {
+    "Diya Nair": "K012",
+    "Elena Kapoor": "K000",
+    "Elena Kapur": "K031",
+    "Hana Joshi": "K029",
+    "Ines Pillai": "K003",
+    "Ines Pillay": "K034",
+    "Kabir Iyer": "K026",
+    "Rahul Shah": "K015",
+    "Rohan Chopra": "K009",
+    "Sofia Sethi": "K006",
+    "Sofia Sethia": "K037",
+    "Vikram Varma": "K017",
+    "Yusuf Bose": "K023",
+    "Zoya Ghosh": "K020"
+   },
+   "attr_slot": "office_city",
+   "kind": "derived",
+   "ref_key": "K077",
+   "slot": "owner_office_city",
+   "subject": "E24",
+   "subject_name": "search-indexer"
+  }
+ },
+ "pairs": [
+  [
+   "E00",
+   "E11"
+  ],
+  [
+   "E01",
+   "E12"
+  ],
+  [
+   "E02",
+   "E13"
+  ],
+  [
+   "E14",
+   "E22"
+  ],
+  [
+   "E15",
+   "E23"
+  ],
+  [
+   "E24",
+   "E32"
+  ],
+  [
+   "E25",
+   "E33"
+  ],
+  [
+   "E34",
+   "E39"
+  ]
+ ],
+ "reread_keys": [
+  "K009",
+  "K042",
+  "K063",
+  "K077",
+  "K104"
+ ]
+}

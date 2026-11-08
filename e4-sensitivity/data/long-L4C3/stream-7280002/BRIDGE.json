@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K056",
+   "key": "K059",
+   "via": "Farhan Varma",
+   "session": "s207",
+   "paragraph": 26,
+   "sentence": "For the record, Ember lives in the ember-svc repo.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K068",
+   "via": "Nisha Ghose",
+   "session": "s196",
+   "paragraph": 8,
+   "sentence": "Nisha Ghose, who leads Zephyr, confirmed the update.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K083",
+   "via": "Hana Nair",
+   "session": "s133",
+   "paragraph": 4,
+   "sentence": "For the record, ledger-api is hosted in ap-south-1.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K078",
+   "key": "K080",
+   "via": "Farhan Varma",
+   "session": "s211",
+   "paragraph": 24,
+   "sentence": "Farhan Varma (owner of sync-daemon) signed off on this.",
+   "bridged_key": "K078"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Ananya Mehta",
+   "session": "s211",
+   "paragraph": 10,
+   "sentence": "For the record, Mosaic lives in the mosaic-stack repo.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K070",
+   "key": "K072",
+   "via": "Sofia Pillai",
+   "session": "s230",
+   "paragraph": 2,
+   "sentence": "For the record, Pylon Lite is due July 21.",
+   "bridged_key": "K072"
+  },
+  {
+   "hop_key": "K052",
+   "key": "K053",
+   "via": "Zoya Menon",
+   "session": "s229",
+   "paragraph": 4,
+   "sentence": "Zoya Menon (lead on Sable) signed off on this.",
+   "bridged_key": "K052"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K092",
+   "via": "Nisha Ghosh",
+   "session": "s188",
+   "paragraph": 22,
+   "sentence": "Nisha Ghosh, who owns session-cache, confirmed the update.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K101",
+   "key": "K103",
+   "via": "Kabir Chopra",
+   "session": "s213",
+   "paragraph": 30,
+   "sentence": "For the record, vault-bridge listens on port 8080.",
+   "bridged_key": "K103"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K096",
+   "via": "Zoya Menon",
+   "session": "s205",
+   "paragraph": 30,
+   "sentence": "Zoya Menon, who owns order-router, confirmed the update.",
+   "bridged_key": "K093"
+  }
+ ],
+ "events": [
+  {
+   "after": "e3786",
+   "id": "e3786b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 3786,
+   "session": "s207",
+   "slot": "repo_name",
+   "subject": "E18",
+   "subject_name": "Ember",
+   "t": "2030-11-13T11:32:00Z",
+   "type": "ASSERT",
+   "value": "ember-svc",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3560",
+   "id": "e3560b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 3560,
+   "session": "s196",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Zephyr",
+   "t": "2030-10-28T13:28:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Ghose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e2403",
+   "id": "e2403b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 2403,
+   "session": "s133",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "ledger-api",
+   "t": "2030-07-25T12:17:00Z",
+   "type": "ASSERT",
+   "value": "ap-south-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3856",
+   "id": "e3856b",
+   "key": "K078",
+   "op": "observe",
+   "seq": 3856,
+   "session": "s211",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "sync-daemon",
+   "t": "2030-11-19T10:15:00Z",
+   "type": "ASSERT",
+   "value": "Farhan Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3849",
+   "id": "e3849b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 3849,
+   "session": "s211",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Mosaic",
+   "t": "2030-11-19T10:01:00Z",
+   "type": "ASSERT",
+   "value": "mosaic-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4229",
+   "id": "e4229b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 4229,
+   "session": "s230",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Pylon Lite",
+   "t": "2030-12-18T12:27:00Z",
+   "type": "ASSERT",
+   "value": "July 21",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4208",
+   "id": "e4208b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 4208,
+   "session": "s229",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Sable",
+   "t": "2030-12-16T11:23:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3417",
+   "id": "e3417b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 3417,
+   "session": "s188",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "session-cache",
+   "t": "2030-10-16T15:54:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3901",
+   "id": "e3901b",
+   "key": "K103",
+   "op": "observe",
+   "seq": 3901,
+   "session": "s213",
+   "slot": "listen_port",
+   "subject": "E30",
+   "subject_name": "vault-bridge",
+   "t": "2030-11-22T13:31:00Z",
+   "type": "ASSERT",
+   "value": "8080",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3747",
+   "id": "e3747b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 3747,
+   "session": "s205",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "order-router",
+   "t": "2030-11-10T15:18:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

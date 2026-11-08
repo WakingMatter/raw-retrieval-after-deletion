@@ -1,0 +1,4365 @@
+{
+ "A6_calls": [
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2692,
+   "out": 1585,
+   "latency": 19.531,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2503,
+      "output_tokens": 1585,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 19.531
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2824,
+   "out": 3163,
+   "latency": 25.212,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2582,
+      "output_tokens": 3163,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 25.212
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 1301,
+   "out": 3353,
+   "latency": 45.435,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1059,
+      "output_tokens": 3353,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 45.435
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1524,
+   "out": 13,
+   "latency": 1.17,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1177,
+      "output_tokens": 13,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.17
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2889,
+   "out": 3470,
+   "latency": 15.2,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2633,
+      "output_tokens": 3470,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 15.2
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1528,
+   "out": 102,
+   "latency": 2.443,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1400,
+      "output_tokens": 102,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.443
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3413,
+   "out": 411,
+   "latency": 3.129,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3157,
+      "output_tokens": 411,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.129
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3792,
+   "out": 2987,
+   "latency": 56.872,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3536,
+      "output_tokens": 2987,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 56.872
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2863,
+   "out": 2793,
+   "latency": 13.352,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2607,
+      "output_tokens": 2793,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 13.352
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1564,
+   "out": 14,
+   "latency": 1.284,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1217,
+      "output_tokens": 14,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.284
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3880,
+   "out": 3457,
+   "latency": 37.303,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3752,
+      "output_tokens": 3457,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 37.303
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3978,
+   "out": 3911,
+   "latency": 29.709,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3687,
+      "output_tokens": 3911,
+      "cache_read_input_tokens": 291,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 29.709
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3116,
+   "out": 3231,
+   "latency": 29.564,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2825,
+      "output_tokens": 3231,
+      "cache_read_input_tokens": 291,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 29.564
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 98,
+   "latency": 3.004,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1362,
+      "output_tokens": 98,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.004
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2852,
+   "out": 2621,
+   "latency": 11.321,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2596,
+      "output_tokens": 2621,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 11.321
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2892,
+   "out": 2101,
+   "latency": 10.354,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2636,
+      "output_tokens": 2101,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 10.354
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2842,
+   "out": 5591,
+   "latency": 62.375,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2650,
+      "output_tokens": 5591,
+      "cache_read_input_tokens": 192,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 62.375
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1515,
+   "out": 92,
+   "latency": 1.746,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1387,
+      "output_tokens": 92,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.746
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3988,
+   "out": 3003,
+   "latency": 22.728,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3860,
+      "output_tokens": 3003,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 22.728
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3823,
+   "out": 2898,
+   "latency": 28.59,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd3ca22295845a5d88d57caa22841\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3634,
+      "output_tokens": 2898,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 28.59
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3498,
+   "out": 2740,
+   "latency": 27.551,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3256,
+      "output_tokens": 2740,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 27.551
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1628,
+   "out": 107,
+   "latency": 7.914,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1500,
+      "output_tokens": 107,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 7.914
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3503,
+   "out": 3389,
+   "latency": 16.113,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3247,
+      "output_tokens": 3389,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 16.113
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 4034,
+   "out": 4013,
+   "latency": 18.204,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3778,
+      "output_tokens": 4013,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 18.204
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3842,
+   "out": 4340,
+   "latency": 97.264,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd440543e5ede653c109198de7a30\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd44b3900d742b4f986fcf7475e01\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3586,
+      "output_tokens": 4340,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 97.264
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1603,
+   "out": 62,
+   "latency": 1.515,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1259,
+      "output_tokens": 62,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.515
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2945,
+   "out": 2683,
+   "latency": 39.198,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2703,
+      "output_tokens": 2683,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 39.198
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3909,
+   "out": 3329,
+   "latency": 25.342,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd4f4e0feda99efe71f2670d04452\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3618,
+      "output_tokens": 3329,
+      "cache_read_input_tokens": 291,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 25.342
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1636,
+   "out": 64,
+   "latency": 3.297,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5257eafcf8b43d235e444afebcb\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd536d099c0bc07769648d424156f\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1380,
+      "output_tokens": 64,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.297
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1550,
+   "out": 120,
+   "latency": 2.033,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1294,
+      "output_tokens": 120,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.033
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1512,
+   "out": 49,
+   "latency": 1.368,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1256,
+      "output_tokens": 49,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.368
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1596,
+   "out": 8,
+   "latency": 1.157,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1340,
+      "output_tokens": 8,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.157
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1554,
+   "out": 93,
+   "latency": 1.666,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1298,
+      "output_tokens": 93,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.666
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1503,
+   "out": 10,
+   "latency": 1.311,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1314,
+      "output_tokens": 10,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.311
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3964,
+   "out": 1866,
+   "latency": 14.493,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3836,
+      "output_tokens": 1866,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 14.493
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2911,
+   "out": 1510,
+   "latency": 14.305,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2655,
+      "output_tokens": 1510,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 14.305
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3838,
+   "out": 1742,
+   "latency": 24.317,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3582,
+      "output_tokens": 1742,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 24.317
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3856,
+   "out": 3096,
+   "latency": 26.164,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3614,
+      "output_tokens": 3096,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 26.164
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3489,
+   "out": 3721,
+   "latency": 40.82,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3361,
+      "output_tokens": 3721,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 40.82
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1581,
+   "out": 48,
+   "latency": 1.445,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1325,
+      "output_tokens": 48,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.445
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1635,
+   "out": 74,
+   "latency": 2.202,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1507,
+      "output_tokens": 74,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.202
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1550,
+   "out": 5,
+   "latency": 0.902,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd572891ee1989dcfdd34694dda6e\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1294,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.902
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1590,
+   "out": 218,
+   "latency": 7.331,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1334,
+      "output_tokens": 218,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 7.331
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1558,
+   "out": 45,
+   "latency": 2.472,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1302,
+      "output_tokens": 45,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.472
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1567,
+   "out": 72,
+   "latency": 1.368,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1311,
+      "output_tokens": 72,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.368
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3698,
+   "out": 3970,
+   "latency": 17.543,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3442,
+      "output_tokens": 3970,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 17.543
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1556,
+   "out": 7,
+   "latency": 1.095,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1367,
+      "output_tokens": 7,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.095
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1588,
+   "out": 47,
+   "latency": 1.412,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1241,
+      "output_tokens": 47,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.412
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1592,
+   "out": 66,
+   "latency": 1.881,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1350,
+      "output_tokens": 66,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.881
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1554,
+   "out": 37,
+   "latency": 1.04,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1426,
+      "output_tokens": 37,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.04
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1541,
+   "out": 73,
+   "latency": 1.347,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1285,
+      "output_tokens": 73,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.347
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 41,
+   "latency": 1.618,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1041,
+      "output_tokens": 41,
+      "cache_read_input_tokens": 512,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.618
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1531,
+   "out": 30,
+   "latency": 1.178,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1275,
+      "output_tokens": 30,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.178
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2883,
+   "out": 4807,
+   "latency": 37.25,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd570d426a132bebf0cb3978a0516\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd578f0ada6bc0a6241cb8a2ccc34\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2627,
+      "output_tokens": 4807,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 37.25
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1549,
+   "out": 32,
+   "latency": 1.589,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5a008451582b80c14e43ba21635\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1293,
+      "output_tokens": 32,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.589
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 73,
+   "latency": 1.375,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1297,
+      "output_tokens": 73,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.375
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1546,
+   "out": 36,
+   "latency": 2.042,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5a9ab1cd9109a381174e63570f7\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1290,
+      "output_tokens": 36,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.042
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1597,
+   "out": 32,
+   "latency": 3.128,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1341,
+      "output_tokens": 32,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.128
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 65,
+   "latency": 1.205,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1297,
+      "output_tokens": 65,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.205
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1535,
+   "out": 62,
+   "latency": 1.215,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1279,
+      "output_tokens": 62,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.215
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1607,
+   "out": 6,
+   "latency": 1.05,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1418,
+      "output_tokens": 6,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.05
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1574,
+   "out": 32,
+   "latency": 1.777,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1229,
+      "output_tokens": 32,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.777
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1609,
+   "out": 76,
+   "latency": 5.046,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1264,
+      "output_tokens": 76,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 5.046
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1487,
+   "out": 157,
+   "latency": 3.334,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5a8932bfa05edaae8eedbaec548\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5b6acbd018b5d711e8bba3e6daa\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5d9fafce434b0b70e93fab2da3e\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd5e559f8e2a862280090549b0dba\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1231,
+      "output_tokens": 157,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.334
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1594,
+   "out": 88,
+   "latency": 3.996,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1338,
+      "output_tokens": 88,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.996
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2543,
+   "out": 2551,
+   "latency": 89.496,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2415,
+      "output_tokens": 2551,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 89.496
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1638,
+   "out": 31,
+   "latency": 1.472,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1382,
+      "output_tokens": 31,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.472
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1572,
+   "out": 77,
+   "latency": 1.733,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1444,
+      "output_tokens": 77,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.733
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 129,
+   "latency": 1.995,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1295,
+      "output_tokens": 129,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.995
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1587,
+   "out": 4,
+   "latency": 0.904,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1331,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.904
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1574,
+   "out": 37,
+   "latency": 2.084,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1318,
+      "output_tokens": 37,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.084
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1575,
+   "out": 228,
+   "latency": 3.866,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1319,
+      "output_tokens": 228,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.866
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1569,
+   "out": 4,
+   "latency": 1.041,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1313,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.041
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1577,
+   "out": 50,
+   "latency": 1.3,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1321,
+      "output_tokens": 50,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.3
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 5,
+   "latency": 1.459,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1206,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.459
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 57,
+   "latency": 1.637,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1362,
+      "output_tokens": 57,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.637
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1557,
+   "out": 123,
+   "latency": 2.269,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1210,
+      "output_tokens": 123,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.269
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1506,
+   "out": 51,
+   "latency": 2.433,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1378,
+      "output_tokens": 51,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.433
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 905,
+   "out": 467,
+   "latency": 3.316,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 649,
+      "output_tokens": 467,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.316
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1562,
+   "out": 58,
+   "latency": 1.459,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1306,
+      "output_tokens": 58,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.459
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1505,
+   "out": 42,
+   "latency": 1.451,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1377,
+      "output_tokens": 42,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.451
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1614,
+   "out": 72,
+   "latency": 1.551,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1486,
+      "output_tokens": 72,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.551
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2842,
+   "out": 685,
+   "latency": 6.993,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2586,
+      "output_tokens": 685,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.993
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1651,
+   "out": 266,
+   "latency": 3.775,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1302,
+      "output_tokens": 266,
+      "cache_read_input_tokens": 349,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.775
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1598,
+   "out": 423,
+   "latency": 6.012,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1342,
+      "output_tokens": 423,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.012
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1660,
+   "out": 245,
+   "latency": 6.667,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1316,
+      "output_tokens": 245,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.667
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3341,
+   "out": 1582,
+   "latency": 8.242,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3085,
+      "output_tokens": 1582,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 8.242
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1559,
+   "out": 99,
+   "latency": 1.576,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1303,
+      "output_tokens": 99,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.576
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1562,
+   "out": 112,
+   "latency": 3.535,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd630a31f434eb7d6ae34ada9c6c5\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1373,
+      "output_tokens": 112,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.535
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1554,
+   "out": 77,
+   "latency": 3.681,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1426,
+      "output_tokens": 77,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.681
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1545,
+   "out": 116,
+   "latency": 3.376,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1289,
+      "output_tokens": 116,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.376
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1550,
+   "out": 354,
+   "latency": 8.504,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1294,
+      "output_tokens": 354,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 8.504
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1564,
+   "out": 111,
+   "latency": 1.948,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1436,
+      "output_tokens": 111,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.948
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1549,
+   "out": 265,
+   "latency": 2.825,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1293,
+      "output_tokens": 265,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.825
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1552,
+   "out": 185,
+   "latency": 2.946,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1296,
+      "output_tokens": 185,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.946
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1562,
+   "out": 192,
+   "latency": 2.242,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1306,
+      "output_tokens": 192,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.242
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1593,
+   "out": 412,
+   "latency": 3.798,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1337,
+      "output_tokens": 412,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.798
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1599,
+   "out": 194,
+   "latency": 2.104,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1343,
+      "output_tokens": 194,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.104
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1566,
+   "out": 161,
+   "latency": 2.057,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1310,
+      "output_tokens": 161,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.057
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1589,
+   "out": 161,
+   "latency": 4.605,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1333,
+      "output_tokens": 161,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.605
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1568,
+   "out": 4,
+   "latency": 0.92,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1312,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.92
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1578,
+   "out": 4,
+   "latency": 2.833,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1322,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.833
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1532,
+   "out": 120,
+   "latency": 1.518,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1276,
+      "output_tokens": 120,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.518
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1526,
+   "out": 51,
+   "latency": 1.21,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1270,
+      "output_tokens": 51,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.21
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1541,
+   "out": 147,
+   "latency": 4.491,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1285,
+      "output_tokens": 147,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.491
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1501,
+   "out": 23,
+   "latency": 1.079,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1245,
+      "output_tokens": 23,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.079
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1612,
+   "out": 4,
+   "latency": 3.627,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd665817c849b375620ffde7fb91d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1484,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.627
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1599,
+   "out": 43,
+   "latency": 1.456,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd666b171cee72a1de2eb5a6e5cb4\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1343,
+      "output_tokens": 43,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.456
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1584,
+   "out": 130,
+   "latency": 1.779,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1072,
+      "output_tokens": 130,
+      "cache_read_input_tokens": 512,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.779
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 67,
+   "latency": 2.433,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1425,
+      "output_tokens": 67,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.433
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1522,
+   "out": 55,
+   "latency": 1.148,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1266,
+      "output_tokens": 55,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.148
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1502,
+   "out": 48,
+   "latency": 2.666,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1246,
+      "output_tokens": 48,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.666
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1542,
+   "out": 8,
+   "latency": 0.96,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1300,
+      "output_tokens": 8,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.96
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1530,
+   "out": 71,
+   "latency": 1.411,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1274,
+      "output_tokens": 71,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.411
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1575,
+   "out": 55,
+   "latency": 1.952,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1319,
+      "output_tokens": 55,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.952
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1574,
+   "out": 88,
+   "latency": 2.267,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1318,
+      "output_tokens": 88,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.267
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2821,
+   "out": 4138,
+   "latency": 94.174,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2565,
+      "output_tokens": 4138,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 94.174
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1493,
+   "out": 118,
+   "latency": 2.699,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1365,
+      "output_tokens": 118,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.699
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1544,
+   "out": 97,
+   "latency": 1.596,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1288,
+      "output_tokens": 97,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.596
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1568,
+   "out": 151,
+   "latency": 1.861,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1312,
+      "output_tokens": 151,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.861
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1531,
+   "out": 97,
+   "latency": 1.824,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1403,
+      "output_tokens": 97,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.824
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1514,
+   "out": 58,
+   "latency": 1.256,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1258,
+      "output_tokens": 58,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.256
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1526,
+   "out": 55,
+   "latency": 3.417,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1398,
+      "output_tokens": 55,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.417
+    }
+   ]
+  }
+ ],
+ "RR_calls": [
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1580,
+   "out": 30,
+   "latency": 1.355,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1324,
+      "output_tokens": 30,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.355
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1580,
+   "out": 83,
+   "latency": 1.787,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1324,
+      "output_tokens": 83,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.787
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1574,
+   "out": 10,
+   "latency": 0.641,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1446,
+      "output_tokens": 10,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.641
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1604,
+   "out": 60,
+   "latency": 1.888,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1415,
+      "output_tokens": 60,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.888
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1538,
+   "out": 58,
+   "latency": 3.163,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1282,
+      "output_tokens": 58,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.163
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1510,
+   "out": 35,
+   "latency": 1.384,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1165,
+      "output_tokens": 35,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.384
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1508,
+   "out": 115,
+   "latency": 3.092,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1164,
+      "output_tokens": 115,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.092
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1543,
+   "out": 67,
+   "latency": 5.301,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1198,
+      "output_tokens": 67,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 5.301
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1585,
+   "out": 152,
+   "latency": 2.587,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd59f7e885421afe7b138e76c2e94\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1329,
+      "output_tokens": 152,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.587
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1530,
+   "out": 55,
+   "latency": 2.765,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1402,
+      "output_tokens": 55,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.765
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1557,
+   "out": 26,
+   "latency": 1.337,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1301,
+      "output_tokens": 26,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.337
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1565,
+   "out": 106,
+   "latency": 1.607,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1309,
+      "output_tokens": 106,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.607
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1569,
+   "out": 5,
+   "latency": 3.664,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1313,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.664
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1560,
+   "out": 23,
+   "latency": 2.978,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1432,
+      "output_tokens": 23,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.978
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1613,
+   "out": 46,
+   "latency": 1.53,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1269,
+      "output_tokens": 46,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.53
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1573,
+   "out": 95,
+   "latency": 1.494,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1317,
+      "output_tokens": 95,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.494
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1598,
+   "out": 81,
+   "latency": 1.432,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1470,
+      "output_tokens": 81,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.432
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1559,
+   "out": 146,
+   "latency": 1.87,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1303,
+      "output_tokens": 146,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.87
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1506,
+   "out": 50,
+   "latency": 1.315,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1250,
+      "output_tokens": 50,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.315
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1577,
+   "out": 124,
+   "latency": 4.702,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1321,
+      "output_tokens": 124,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.702
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1591,
+   "out": 142,
+   "latency": 3.292,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1246,
+      "output_tokens": 142,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.292
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1612,
+   "out": 352,
+   "latency": 2.878,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1356,
+      "output_tokens": 352,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.878
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1673,
+   "out": 57,
+   "latency": 1.852,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1329,
+      "output_tokens": 57,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.852
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1547,
+   "out": 96,
+   "latency": 2.416,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd632046b2a21a1b9f6388b677417\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1291,
+      "output_tokens": 96,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.416
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1542,
+   "out": 55,
+   "latency": 1.678,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1286,
+      "output_tokens": 55,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.678
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1564,
+   "out": 244,
+   "latency": 7.221,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1436,
+      "output_tokens": 244,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 7.221
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1528,
+   "out": 67,
+   "latency": 1.585,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1400,
+      "output_tokens": 67,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.585
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1573,
+   "out": 271,
+   "latency": 2.515,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1317,
+      "output_tokens": 271,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.515
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1597,
+   "out": 434,
+   "latency": 3.594,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1341,
+      "output_tokens": 434,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.594
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1589,
+   "out": 95,
+   "latency": 3.76,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1333,
+      "output_tokens": 95,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.76
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1589,
+   "out": 5,
+   "latency": 1.149,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1333,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.149
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1537,
+   "out": 64,
+   "latency": 1.498,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1295,
+      "output_tokens": 64,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.498
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1528,
+   "out": 92,
+   "latency": 1.51,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1272,
+      "output_tokens": 92,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.51
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1580,
+   "out": 50,
+   "latency": 1.875,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1324,
+      "output_tokens": 50,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.875
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1569,
+   "out": 70,
+   "latency": 1.344,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1313,
+      "output_tokens": 70,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.344
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1503,
+   "out": 9,
+   "latency": 1.084,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1247,
+      "output_tokens": 9,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.084
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1532,
+   "out": 68,
+   "latency": 1.522,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1276,
+      "output_tokens": 68,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.522
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1567,
+   "out": 54,
+   "latency": 2.923,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1439,
+      "output_tokens": 54,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.923
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1518,
+   "out": 64,
+   "latency": 1.451,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1262,
+      "output_tokens": 64,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.451
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1525,
+   "out": 119,
+   "latency": 3.48,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1336,
+      "output_tokens": 119,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.48
+    }
+   ]
+  }
+ ],
+ "recompute": [
+  {
+   "node": 13,
+   "phase": "warm",
+   "t": "2030-01-22T08:53:00Z",
+   "ok": true
+  },
+  {
+   "node": 0,
+   "phase": "warm",
+   "t": "2030-01-22T08:53:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-01-22T08:53:00Z",
+   "ok": true
+  },
+  {
+   "node": 5,
+   "phase": "warm",
+   "t": "2030-01-22T08:53:00Z",
+   "ok": true
+  },
+  {
+   "node": 11,
+   "phase": "warm",
+   "t": "2030-03-12T14:56:00Z",
+   "ok": true
+  },
+  {
+   "node": 8,
+   "phase": "warm",
+   "t": "2030-03-12T14:56:00Z",
+   "ok": true
+  },
+  {
+   "node": 0,
+   "phase": "warm",
+   "t": "2030-03-12T14:56:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-03-12T14:56:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "warm",
+   "t": "2030-03-12T14:56:00Z",
+   "ok": true
+  },
+  {
+   "node": 9,
+   "phase": "warm",
+   "t": "2030-03-12T14:56:00Z",
+   "ok": true
+  },
+  {
+   "node": 0,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 13,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 5,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 9,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 9,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 1,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 11,
+   "phase": "warm",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 13,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 11,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 9,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 8,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 0,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 1,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 6,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 2,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 15,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 5,
+   "phase": "probe",
+   "t": "2030-04-06T12:32:00Z",
+   "ok": true
+  }
+ ],
+ "poison": [
+  {
+   "kind": "wb_soft",
+   "id": "wb:005",
+   "text": "not found in memory"
+  },
+  {
+   "kind": "wb_soft",
+   "id": "wb:009",
+   "text": "not found in memory"
+  },
+  {
+   "kind": "wb_soft",
+   "id": "wb:010",
+   "text": "not found in memory"
+  }
+ ],
+ "summaries": {
+  "n07": {
+   "key": "840b24a5dba8e6be23894205a3d9c3c2b21e17ae7f50a118ec8ac27038a49398",
+   "truncated": true,
+   "cost_raw": 323.15,
+   "cost_served": 196.64999999999998,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n13": {
+   "key": "d84ff172cea8ea2ad681908992168084669fbf7238927007649de5f2787afcc5",
+   "truncated": true,
+   "cost_raw": 288.65,
+   "cost_served": 198.95,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n11": {
+   "key": "fdee4aead5b74dd54fd917636c37318fe19c6f3b9e61eb52ef03d0b2d9c8ef6a",
+   "truncated": true,
+   "cost_raw": 242.64999999999998,
+   "cost_served": 185.14999999999998,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n10": {
+   "key": "9114845dba33fc82f1b158fb7373ff681832760814d1830ebf39f177ab0dfe51",
+   "truncated": true,
+   "cost_raw": 333.5,
+   "cost_served": 188.6,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n09": {
+   "key": "f470fab17ac2ebc3f8c4e45d417a43056eac1713ca086e356b6fafc3c7416217",
+   "truncated": true,
+   "cost_raw": 290.95,
+   "cost_served": 185.14999999999998,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n08": {
+   "key": "f983aaa89d1affe1b13d60c1537c028e6138f181e6faf0df99abdf3ceb5d0895",
+   "truncated": true,
+   "cost_raw": 267.95,
+   "cost_served": 195.49999999999997,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n00": {
+   "key": "3aaf1ff2e476ada93957f2eb18db0dfefcb682ddb11dab7572b0ad0ced9f085e",
+   "truncated": true,
+   "cost_raw": 289.79999999999995,
+   "cost_served": 52.9,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n01": {
+   "key": "04d40d207838c142303aed965edc1b5fc07ba1ee21938ef64eb264bf69bd1577",
+   "truncated": true,
+   "cost_raw": 330.04999999999995,
+   "cost_served": 28.749999999999996,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n06": {
+   "key": "7253ba8ba69f3b4a664d0604fa8cf4f755064d1f2d2a9310f7b499c62188e44e",
+   "truncated": false,
+   "cost_raw": 142.6,
+   "cost_served": 142.6,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n02": {
+   "key": "3224a9eba50d5b6a7347cdc6241cbcc654b292d58b0ff9d5c5062e2ac8b49275",
+   "truncated": true,
+   "cost_raw": 319.7,
+   "cost_served": 197.79999999999998,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n15": {
+   "key": "ad4f7ed84122f625aeaddae8eccc718de9609846c0b78ffdc2a82fce5fbda7d9",
+   "truncated": true,
+   "cost_raw": 229.99999999999997,
+   "cost_served": 196.64999999999998,
+   "t": "2030-04-06T12:32:00Z"
+  },
+  "n05": {
+   "key": "17cc0caaa91586d716bda2c34d1fc0f8bd009fcf6f30c502116d537e8f423d50",
+   "truncated": false,
+   "cost_raw": 188.6,
+   "cost_served": 188.6,
+   "t": "2030-04-06T12:32:00Z"
+  }
+ },
+ "leak_units": [],
+ "reranker_seconds": 70.3742253780365,
+ "reranker_seconds_stream": 21.931,
+ "reranker_seconds_note": "per-stream delta; exact when stream-threads=1 (enforced with --confirm)"
+}

@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K070",
+   "key": "K073",
+   "via": "Felix Basu",
+   "session": "s27",
+   "paragraph": 28,
+   "sentence": "Felix Basu, who leads Orchid Lite, confirmed the update.",
+   "bridged_key": "K070"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K065",
+   "via": "Elena Ramani",
+   "session": "s18",
+   "paragraph": 30,
+   "sentence": "For the record, Vesper lives in the vesper-mono repo.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K045",
+   "via": "Felix Bose",
+   "session": "s55",
+   "paragraph": 31,
+   "sentence": "Felix Bose, who leads Atlas, confirmed the update.",
+   "bridged_key": "K044"
+  },
+  {
+   "hop_key": "K109",
+   "key": "K111",
+   "via": "Elena Raman",
+   "session": "s55",
+   "paragraph": 33,
+   "sentence": "For the record, session-cache-v2 listens on port 5000.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K086",
+   "key": "K089",
+   "via": "Elena Ramani",
+   "session": "s24",
+   "paragraph": 37,
+   "sentence": "Elena Ramani, who owns order-router, confirmed the update.",
+   "bridged_key": "K086"
+  },
+  {
+   "hop_key": "K048",
+   "key": "K050",
+   "via": "Kavya Mehta",
+   "session": "s51",
+   "paragraph": 37,
+   "sentence": "Kavya Mehta, who leads Nimbus, confirmed the update.",
+   "bridged_key": "K048"
+  },
+  {
+   "hop_key": "K113",
+   "key": "K116",
+   "via": "Tara Ghose",
+   "session": "s08",
+   "paragraph": 31,
+   "sentence": "Tara Ghose (owner of ranker-svc-v2) signed off on this.",
+   "bridged_key": "K113"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K061",
+   "via": "Lucas Kapoor",
+   "session": "s38",
+   "paragraph": 6,
+   "sentence": "For the record, Lumen is due September 1.",
+   "bridged_key": "K061"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K091",
+   "via": "Sameer Sethi",
+   "session": "s45",
+   "paragraph": 2,
+   "sentence": "Sameer Sethi (owner of metrics-sink) signed off on this.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K046",
+   "via": "Felix Bose",
+   "session": "s49",
+   "paragraph": 10,
+   "sentence": "For the record, Atlas is due June 30.",
+   "bridged_key": "K046"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0602",
+   "id": "e0602b",
+   "key": "K070",
+   "op": "observe",
+   "seq": 602,
+   "session": "s27",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Orchid Lite",
+   "t": "2030-02-16T14:33:00Z",
+   "type": "ASSERT",
+   "value": "Felix Basu",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0405",
+   "id": "e0405b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 405,
+   "session": "s18",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Vesper",
+   "t": "2030-02-03T11:07:00Z",
+   "type": "ASSERT",
+   "value": "vesper-mono",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1192",
+   "id": "e1192b",
+   "key": "K044",
+   "op": "observe",
+   "seq": 1192,
+   "session": "s55",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Atlas",
+   "t": "2030-03-30T10:36:00Z",
+   "type": "ASSERT",
+   "value": "Felix Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1194",
+   "id": "e1194b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 1194,
+   "session": "s55",
+   "slot": "listen_port",
+   "subject": "E32",
+   "subject_name": "session-cache-v2",
+   "t": "2030-03-30T10:40:00Z",
+   "type": "ASSERT",
+   "value": "5000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0542",
+   "id": "e0542b",
+   "key": "K086",
+   "op": "observe",
+   "seq": 542,
+   "session": "s24",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "order-router",
+   "t": "2030-02-12T16:38:00Z",
+   "type": "ASSERT",
+   "value": "Elena Ramani",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1117",
+   "id": "e1117b",
+   "key": "K048",
+   "op": "observe",
+   "seq": 1117,
+   "session": "s51",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Nimbus",
+   "t": "2030-03-24T12:42:00Z",
+   "type": "ASSERT",
+   "value": "Kavya Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0184",
+   "id": "e0184b",
+   "key": "K113",
+   "op": "observe",
+   "seq": 184,
+   "session": "s08",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "ranker-svc-v2",
+   "t": "2030-01-19T13:00:00Z",
+   "type": "ASSERT",
+   "value": "Tara Ghose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0822",
+   "id": "e0822b",
+   "key": "K061",
+   "op": "observe",
+   "seq": 822,
+   "session": "s38",
+   "slot": "proj_deadline",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-03-05T14:36:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0967",
+   "id": "e0967b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 967,
+   "session": "s45",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "metrics-sink",
+   "t": "2030-03-15T10:24:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1054",
+   "id": "e1054b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 1054,
+   "session": "s49",
+   "slot": "proj_deadline",
+   "subject": "E15",
+   "subject_name": "Atlas",
+   "t": "2030-03-21T14:47:00Z",
+   "type": "ASSERT",
+   "value": "June 30",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

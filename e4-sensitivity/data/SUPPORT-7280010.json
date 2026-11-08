@@ -1,0 +1,296 @@
+{
+ "seed": 7280010,
+ "L": 1,
+ "chain": 1,
+ "tokens": 84374,
+ "sessions": 60,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280010:MULTIHOP:K058": {
+   "cls": "MULTIHOP",
+   "gold": "October 13",
+   "union": 131.1,
+   "minimal": 131.1,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K062": {
+   "cls": "MULTIHOP",
+   "gold": "April 28",
+   "union": 97.75,
+   "minimal": 97.75,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K055": {
+   "cls": "MULTIHOP",
+   "gold": "pylon-next",
+   "union": 103.5,
+   "minimal": 103.5,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K098": {
+   "cls": "MULTIHOP",
+   "gold": "sa-east-1",
+   "union": 139.14999999999998,
+   "minimal": 139.14999999999998,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K102": {
+   "cls": "MULTIHOP",
+   "gold": "ca-central-1",
+   "union": 123.05,
+   "minimal": 123.05,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K080": {
+   "cls": "MULTIHOP",
+   "gold": "Postgres",
+   "union": 132.25,
+   "minimal": 132.25,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K048": {
+   "cls": "MULTIHOP",
+   "gold": "meridian-svc",
+   "union": 177.09999999999997,
+   "minimal": 127.64999999999998,
+   "n_paragraphs": 3
+  },
+  "7280010:MULTIHOP:K094": {
+   "cls": "MULTIHOP",
+   "gold": "sa-east-1",
+   "union": 117.3,
+   "minimal": 117.3,
+   "n_paragraphs": 2
+  },
+  "7280010:MULTIHOP:K090": {
+   "cls": "MULTIHOP",
+   "gold": "ap-south-1",
+   "union": 158.7,
+   "minimal": 113.85,
+   "n_paragraphs": 3
+  },
+  "7280010:MULTIHOP:K068": {
+   "cls": "MULTIHOP",
+   "gold": "October 13",
+   "union": 162.14999999999998,
+   "minimal": 87.39999999999999,
+   "n_paragraphs": 3
+  },
+  "7280010:DERIVED:K132": {
+   "cls": "DERIVED",
+   "gold": "Kochi",
+   "union": 108.1,
+   "minimal": 108.1,
+   "n_paragraphs": 2
+  },
+  "7280010:DERIVED:K134": {
+   "cls": "DERIVED",
+   "gold": "Mumbai",
+   "union": 158.7,
+   "minimal": 108.1,
+   "n_paragraphs": 3
+  },
+  "7280010:DERIVED:K145": {
+   "cls": "DERIVED",
+   "gold": "Core Infra",
+   "union": 193.2,
+   "minimal": 106.94999999999999,
+   "n_paragraphs": 3
+  },
+  "7280010:DERIVED:K133": {
+   "cls": "DERIVED",
+   "gold": "Lisbon",
+   "union": 227.7,
+   "minimal": 141.45,
+   "n_paragraphs": 4
+  },
+  "7280010:DERIVED:K136": {
+   "cls": "DERIVED",
+   "gold": "Mobile Apps",
+   "union": 231.14999999999998,
+   "minimal": 138.0,
+   "n_paragraphs": 4
+  },
+  "7280010:DERIVED:K129": {
+   "cls": "DERIVED",
+   "gold": "Mumbai",
+   "union": 89.69999999999999,
+   "minimal": 89.69999999999999,
+   "n_paragraphs": 2
+  },
+  "7280010:DERIVED:K141": {
+   "cls": "DERIVED",
+   "gold": "Bengaluru",
+   "union": 103.5,
+   "minimal": 103.5,
+   "n_paragraphs": 2
+  },
+  "7280010:DERIVED:K128": {
+   "cls": "DERIVED",
+   "gold": "Billing Ops",
+   "union": 144.89999999999998,
+   "minimal": 79.35,
+   "n_paragraphs": 3
+  },
+  "7280010:DERIVED:K149": {
+   "cls": "DERIVED",
+   "gold": "Kolkata",
+   "union": 167.89999999999998,
+   "minimal": 93.14999999999999,
+   "n_paragraphs": 3
+  },
+  "7280010:DERIVED:K143": {
+   "cls": "DERIVED",
+   "gold": "Kochi",
+   "union": 178.25,
+   "minimal": 178.25,
+   "n_paragraphs": 3
+  },
+  "7280010:AGG:K104": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 94.29999999999998,
+   "minimal": 94.29999999999998,
+   "n_paragraphs": 2
+  },
+  "7280010:AGG:K085": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 42.55,
+   "minimal": 42.55,
+   "n_paragraphs": 1
+  },
+  "7280010:AGG:K059": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280010:AGG:K071": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 155.25,
+   "minimal": 105.79999999999998,
+   "n_paragraphs": 3
+  },
+  "7280010:AGG:K042": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280010:AGG:K036": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280010:AGG:K047": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 100.05,
+   "minimal": 100.05,
+   "n_paragraphs": 2
+  },
+  "7280010:AGG:K025": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 41.4,
+   "minimal": 41.4,
+   "n_paragraphs": 1
+  },
+  "7280010:AGG:K057": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280010:AGG:K054": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 154.1,
+   "minimal": 154.1,
+   "n_paragraphs": 3
+  },
+  "7280010:CURRENT:K050": {
+   "cls": "CURRENT",
+   "gold": "in active build",
+   "union": 65.55,
+   "minimal": 65.55,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K076": {
+   "cls": "CURRENT",
+   "gold": "meridian-lite-hub",
+   "union": 62.099999999999994,
+   "minimal": 62.099999999999994,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K073": {
+   "cls": "CURRENT",
+   "gold": "Aisha Menon",
+   "union": 60.949999999999996,
+   "minimal": 60.949999999999996,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K045": {
+   "cls": "CURRENT",
+   "gold": "Yusuf Sethi",
+   "union": 177.09999999999997,
+   "minimal": 43.699999999999996,
+   "n_paragraphs": 3
+  },
+  "7280010:CURRENT:K079": {
+   "cls": "CURRENT",
+   "gold": "5000",
+   "union": 50.599999999999994,
+   "minimal": 50.599999999999994,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K001": {
+   "cls": "CURRENT",
+   "gold": "Core Infra",
+   "union": 60.949999999999996,
+   "minimal": 60.949999999999996,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K086": {
+   "cls": "CURRENT",
+   "gold": "sa-east-1",
+   "union": 54.05,
+   "minimal": 54.05,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K041": {
+   "cls": "CURRENT",
+   "gold": "Vikram Naik",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K093": {
+   "cls": "CURRENT",
+   "gold": "Leela Mehra",
+   "union": 71.3,
+   "minimal": 71.3,
+   "n_paragraphs": 1
+  },
+  "7280010:CURRENT:K038": {
+   "cls": "CURRENT",
+   "gold": "Hyderabad",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  }
+ }
+}

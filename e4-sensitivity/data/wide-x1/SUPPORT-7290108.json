@@ -1,0 +1,328 @@
+{
+ "seed": 7290108,
+ "scale": 1.0,
+ "stream_tokens": 281628,
+ "n_paragraphs": 4032,
+ "tasks": {
+  "7290108:COUNT:00": {
+   "family": "COUNT",
+   "n_entities": 151,
+   "n_min": 151,
+   "n_union": 397,
+   "minimal": 11065,
+   "union": 28855
+  },
+  "7290108:COUNT:01": {
+   "family": "COUNT",
+   "n_entities": 81,
+   "n_min": 81,
+   "n_union": 243,
+   "minimal": 5971,
+   "union": 17728
+  },
+  "7290108:COUNT:02": {
+   "family": "COUNT",
+   "n_entities": 71,
+   "n_min": 71,
+   "n_union": 190,
+   "minimal": 5242,
+   "union": 13785
+  },
+  "7290108:COUNT:03": {
+   "family": "COUNT",
+   "n_entities": 54,
+   "n_min": 54,
+   "n_union": 143,
+   "minimal": 3948,
+   "union": 10348
+  },
+  "7290108:COUNT:04": {
+   "family": "COUNT",
+   "n_entities": 44,
+   "n_min": 44,
+   "n_union": 126,
+   "minimal": 3238,
+   "union": 9177
+  },
+  "7290108:COUNT:05": {
+   "family": "COUNT",
+   "n_entities": 36,
+   "n_min": 36,
+   "n_union": 110,
+   "minimal": 2688,
+   "union": 8120
+  },
+  "7290108:COUNT:06": {
+   "family": "COUNT",
+   "n_entities": 31,
+   "n_min": 31,
+   "n_union": 95,
+   "minimal": 2291,
+   "union": 6946
+  },
+  "7290108:COUNT:07": {
+   "family": "COUNT",
+   "n_entities": 37,
+   "n_min": 37,
+   "n_union": 118,
+   "minimal": 2763,
+   "union": 8699
+  },
+  "7290108:COUNT:08": {
+   "family": "COUNT",
+   "n_entities": 30,
+   "n_min": 30,
+   "n_union": 97,
+   "minimal": 2217,
+   "union": 7081
+  },
+  "7290108:COUNT:09": {
+   "family": "COUNT",
+   "n_entities": 21,
+   "n_min": 21,
+   "n_union": 62,
+   "minimal": 1554,
+   "union": 4571
+  },
+  "7290108:SUM:00": {
+   "family": "SUM",
+   "n_entities": 14,
+   "n_min": 28,
+   "n_union": 48,
+   "minimal": 1861,
+   "union": 3299
+  },
+  "7290108:SUM:01": {
+   "family": "SUM",
+   "n_entities": 7,
+   "n_min": 14,
+   "n_union": 24,
+   "minimal": 949,
+   "union": 1670
+  },
+  "7290108:SUM:02": {
+   "family": "SUM",
+   "n_entities": 47,
+   "n_min": 94,
+   "n_union": 162,
+   "minimal": 6221,
+   "union": 11027
+  },
+  "7290108:SUM:03": {
+   "family": "SUM",
+   "n_entities": 6,
+   "n_min": 12,
+   "n_union": 23,
+   "minimal": 789,
+   "union": 1584
+  },
+  "7290108:SUM:04": {
+   "family": "SUM",
+   "n_entities": 6,
+   "n_min": 12,
+   "n_union": 25,
+   "minimal": 804,
+   "union": 1708
+  },
+  "7290108:SUM:05": {
+   "family": "SUM",
+   "n_entities": 11,
+   "n_min": 22,
+   "n_union": 44,
+   "minimal": 1450,
+   "union": 3011
+  },
+  "7290108:SUM:06": {
+   "family": "SUM",
+   "n_entities": 25,
+   "n_min": 50,
+   "n_union": 92,
+   "minimal": 3364,
+   "union": 6362
+  },
+  "7290108:SUM:07": {
+   "family": "SUM",
+   "n_entities": 9,
+   "n_min": 18,
+   "n_union": 32,
+   "minimal": 1183,
+   "union": 2163
+  },
+  "7290108:SUM:08": {
+   "family": "SUM",
+   "n_entities": 17,
+   "n_min": 34,
+   "n_union": 57,
+   "minimal": 2284,
+   "union": 3900
+  },
+  "7290108:SUM:09": {
+   "family": "SUM",
+   "n_entities": 8,
+   "n_min": 16,
+   "n_union": 26,
+   "minimal": 1080,
+   "union": 1808
+  },
+  "7290108:DELTA:00": {
+   "family": "DELTA",
+   "n_entities": 36,
+   "n_min": 36,
+   "n_union": 43,
+   "minimal": 2670,
+   "union": 3251
+  },
+  "7290108:DELTA:01": {
+   "family": "DELTA",
+   "n_entities": 10,
+   "n_min": 10,
+   "n_union": 11,
+   "minimal": 752,
+   "union": 833
+  },
+  "7290108:DELTA:02": {
+   "family": "DELTA",
+   "n_entities": 51,
+   "n_min": 51,
+   "n_union": 61,
+   "minimal": 3668,
+   "union": 4476
+  },
+  "7290108:DELTA:03": {
+   "family": "DELTA",
+   "n_entities": 7,
+   "n_min": 7,
+   "n_union": 8,
+   "minimal": 516,
+   "union": 595
+  },
+  "7290108:DELTA:04": {
+   "family": "DELTA",
+   "n_entities": 14,
+   "n_min": 14,
+   "n_union": 16,
+   "minimal": 1060,
+   "union": 1240
+  },
+  "7290108:DELTA:05": {
+   "family": "DELTA",
+   "n_entities": 19,
+   "n_min": 19,
+   "n_union": 22,
+   "minimal": 1454,
+   "union": 1708
+  },
+  "7290108:DELTA:06": {
+   "family": "DELTA",
+   "n_entities": 96,
+   "n_min": 96,
+   "n_union": 115,
+   "minimal": 6977,
+   "union": 8541
+  },
+  "7290108:DELTA:07": {
+   "family": "DELTA",
+   "n_entities": 131,
+   "n_min": 131,
+   "n_union": 157,
+   "minimal": 9712,
+   "union": 11915
+  },
+  "7290108:DELTA:08": {
+   "family": "DELTA",
+   "n_entities": 26,
+   "n_min": 26,
+   "n_union": 31,
+   "minimal": 1947,
+   "union": 2367
+  },
+  "7290108:DELTA:09": {
+   "family": "DELTA",
+   "n_entities": 71,
+   "n_min": 71,
+   "n_union": 85,
+   "minimal": 5520,
+   "union": 6733
+  },
+  "7290108:ARGMAX:00": {
+   "family": "ARGMAX",
+   "n_entities": 150,
+   "n_min": 62,
+   "n_union": 175,
+   "minimal": 4807,
+   "union": 13617
+  },
+  "7290108:ARGMAX:01": {
+   "family": "ARGMAX",
+   "n_entities": 110,
+   "n_min": 39,
+   "n_union": 128,
+   "minimal": 3005,
+   "union": 9944
+  },
+  "7290108:ARGMAX:02": {
+   "family": "ARGMAX",
+   "n_entities": 22,
+   "n_min": 10,
+   "n_union": 25,
+   "minimal": 772,
+   "union": 1937
+  },
+  "7290108:ARGMAX:03": {
+   "family": "ARGMAX",
+   "n_entities": 200,
+   "n_min": 78,
+   "n_union": 233,
+   "minimal": 6138,
+   "union": 18224
+  },
+  "7290108:ARGMAX:04": {
+   "family": "ARGMAX",
+   "n_entities": 58,
+   "n_min": 22,
+   "n_union": 67,
+   "minimal": 1714,
+   "union": 5213
+  },
+  "7290108:ARGMAX:05": {
+   "family": "ARGMAX",
+   "n_entities": 260,
+   "n_min": 114,
+   "n_union": 303,
+   "minimal": 8801,
+   "union": 23316
+  },
+  "7290108:ARGMAX:06": {
+   "family": "ARGMAX",
+   "n_entities": 80,
+   "n_min": 36,
+   "n_union": 93,
+   "minimal": 2757,
+   "union": 7160
+  },
+  "7290108:ARGMAX:07": {
+   "family": "ARGMAX",
+   "n_entities": 30,
+   "n_min": 14,
+   "n_union": 35,
+   "minimal": 1086,
+   "union": 2706
+  },
+  "7290108:ARGMAX:08": {
+   "family": "ARGMAX",
+   "n_entities": 15,
+   "n_min": 8,
+   "n_union": 17,
+   "minimal": 619,
+   "union": 1306
+  },
+  "7290108:ARGMAX:09": {
+   "family": "ARGMAX",
+   "n_entities": 42,
+   "n_min": 17,
+   "n_union": 49,
+   "minimal": 1327,
+   "union": 3804
+  }
+ }
+}

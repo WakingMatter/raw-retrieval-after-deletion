@@ -1,0 +1,196 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K053",
+   "key": "K054",
+   "via": "Nisha Sethia",
+   "session": "s45",
+   "paragraph": 20,
+   "sentence": "For the record, Lumen is paused.",
+   "bridged_key": "K054"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K077",
+   "via": "Omar Bose",
+   "session": "s05",
+   "paragraph": 10,
+   "sentence": "For the record, Nimbus Lite is due August 11.",
+   "bridged_key": "K077"
+  },
+  {
+   "hop_key": "K106",
+   "key": "K107",
+   "via": "Nisha Sethia",
+   "session": "s39",
+   "paragraph": 4,
+   "sentence": "Nisha Sethia, who owns notif-hub, confirmed the update.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K055",
+   "via": "Nisha Sethia",
+   "session": "s48",
+   "paragraph": 32,
+   "sentence": "Nisha Sethia, who leads Lumen, confirmed the update.",
+   "bridged_key": "K053"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K078",
+   "via": "Omar Bose",
+   "session": "s31",
+   "paragraph": 2,
+   "sentence": "Omar Bose, who leads Nimbus Lite, confirmed the update.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K106",
+   "key": "K108",
+   "via": "Nisha Sethia",
+   "session": "s51",
+   "paragraph": 32,
+   "sentence": "Nisha Sethia (owner of notif-hub) signed off on this.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K076",
+   "via": "Omar Bose",
+   "session": "s26",
+   "paragraph": 26,
+   "sentence": "Omar Bose, who leads Nimbus Lite, confirmed the update.",
+   "bridged_key": "K075"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0997",
+   "id": "e0997b",
+   "key": "K054",
+   "op": "observe",
+   "seq": 997,
+   "session": "s45",
+   "slot": "proj_status",
+   "subject": "E17",
+   "subject_name": "Lumen",
+   "t": "2030-03-15T10:39:00Z",
+   "type": "ASSERT",
+   "value": "paused",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0108",
+   "id": "e0108b",
+   "key": "K077",
+   "op": "observe",
+   "seq": 108,
+   "session": "s05",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-01-14T09:41:00Z",
+   "type": "ASSERT",
+   "value": "August 11",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0859",
+   "id": "e0859b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 859,
+   "session": "s39",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "notif-hub",
+   "t": "2030-03-06T11:22:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Sethia",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1063",
+   "id": "e1063b",
+   "key": "K053",
+   "op": "observe",
+   "seq": 1063,
+   "session": "s48",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Lumen",
+   "t": "2030-03-20T11:31:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Sethia",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0691",
+   "id": "e0691b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 691,
+   "session": "s31",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-02-22T11:57:00Z",
+   "type": "ASSERT",
+   "value": "Omar Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1134",
+   "id": "e1134b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 1134,
+   "session": "s51",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "notif-hub",
+   "t": "2030-03-24T09:35:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Sethia",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0596",
+   "id": "e0596b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 596,
+   "session": "s26",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-02-15T16:43:00Z",
+   "type": "ASSERT",
+   "value": "Omar Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

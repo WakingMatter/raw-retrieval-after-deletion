@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Aisha Raman",
+   "session": "s206",
+   "paragraph": 2,
+   "sentence": "For the record, Pylon is in design review.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K101",
+   "via": "Nisha Mennon",
+   "session": "s212",
+   "paragraph": 10,
+   "sentence": "For the record, metrics-sink runs on Postgres.",
+   "bridged_key": "K101"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K109",
+   "via": "Maya Sethi",
+   "session": "s209",
+   "paragraph": 16,
+   "sentence": "Maya Sethi, who owns session-cache-v2, confirmed the update.",
+   "bridged_key": "K108"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K091",
+   "via": "Yusuf Pillai",
+   "session": "s231",
+   "paragraph": 8,
+   "sentence": "For the record, order-router is hosted in eu-west-1.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K112",
+   "key": "K115",
+   "via": "Leela Reddy",
+   "session": "s194",
+   "paragraph": 30,
+   "sentence": "Leela Reddy, who owns ranker-svc-v2, confirmed the update.",
+   "bridged_key": "K112"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K050",
+   "via": "Leela Reddi",
+   "session": "s162",
+   "paragraph": 4,
+   "sentence": "Leela Reddi, who leads Tundra, confirmed the update.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K094",
+   "key": "K096",
+   "via": "Aisha Raman",
+   "session": "s222",
+   "paragraph": 27,
+   "sentence": "Aisha Raman (owner of profile-store) signed off on this.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K058",
+   "via": "Leela Reddy",
+   "session": "s176",
+   "paragraph": 6,
+   "sentence": "For the record, Cobalt is in design review.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K066",
+   "via": "Aisha Raman",
+   "session": "s206",
+   "paragraph": 2,
+   "sentence": "For the record, Pylon lives in the pylon-stack repo.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K111",
+   "via": "Maya Sethi",
+   "session": "s200",
+   "paragraph": 16,
+   "sentence": "For the record, session-cache-v2 runs on ScyllaDB.",
+   "bridged_key": "K111"
+  }
+ ],
+ "events": [
+  {
+   "after": "e3767",
+   "id": "e3767b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 3767,
+   "session": "s206",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-11-12T11:47:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3891",
+   "id": "e3891b",
+   "key": "K101",
+   "op": "observe",
+   "seq": 3891,
+   "session": "s212",
+   "slot": "db_engine",
+   "subject": "E29",
+   "subject_name": "metrics-sink",
+   "t": "2030-11-21T13:41:00Z",
+   "type": "ASSERT",
+   "value": "Postgres",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3835",
+   "id": "e3835b",
+   "key": "K108",
+   "op": "observe",
+   "seq": 3835,
+   "session": "s209",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "session-cache-v2",
+   "t": "2030-11-16T13:13:00Z",
+   "type": "ASSERT",
+   "value": "Maya Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4287",
+   "id": "e4287b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 4287,
+   "session": "s231",
+   "slot": "host_region",
+   "subject": "E27",
+   "subject_name": "order-router",
+   "t": "2030-12-19T15:03:00Z",
+   "type": "ASSERT",
+   "value": "eu-west-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3557",
+   "id": "e3557b",
+   "key": "K112",
+   "op": "observe",
+   "seq": 3557,
+   "session": "s194",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "ranker-svc-v2",
+   "t": "2030-10-25T12:30:00Z",
+   "type": "ASSERT",
+   "value": "Leela Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e2949",
+   "id": "e2949b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 2949,
+   "session": "s162",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Tundra",
+   "t": "2030-09-07T11:30:00Z",
+   "type": "ASSERT",
+   "value": "Leela Reddi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4109",
+   "id": "e4109b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 4109,
+   "session": "s222",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "profile-store",
+   "t": "2030-12-06T12:49:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3216",
+   "id": "e3216b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 3216,
+   "session": "s176",
+   "slot": "proj_status",
+   "subject": "E18",
+   "subject_name": "Cobalt",
+   "t": "2030-09-28T11:04:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3767",
+   "id": "e3767b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 3767,
+   "session": "s206",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-11-12T11:47:00Z",
+   "type": "ASSERT",
+   "value": "pylon-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3661",
+   "id": "e3661b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 3661,
+   "session": "s200",
+   "slot": "db_engine",
+   "subject": "E32",
+   "subject_name": "session-cache-v2",
+   "t": "2030-11-03T11:08:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

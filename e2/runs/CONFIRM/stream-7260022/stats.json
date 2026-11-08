@@ -1,0 +1,4827 @@
+{
+ "A6_calls": [
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2226,
+   "out": 2902,
+   "latency": 11.253,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1970,
+      "output_tokens": 2902,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 11.253
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 1372,
+   "out": 2444,
+   "latency": 10.545,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1116,
+      "output_tokens": 2444,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 10.545
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2896,
+   "out": 1138,
+   "latency": 20.831,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcc7c25514b8cb79bfa54926448f7\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2768,
+      "output_tokens": 1138,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 20.831
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1547,
+   "out": 53,
+   "latency": 1.739,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1202,
+      "output_tokens": 53,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.739
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 1517,
+   "out": 1294,
+   "latency": 15.145,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1389,
+      "output_tokens": 1294,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 15.145
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2857,
+   "out": 1164,
+   "latency": 10.243,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bccc431dfd2176c2aeba91d1f2ebd\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2729,
+      "output_tokens": 1164,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 10.243
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3111,
+   "out": 596,
+   "latency": 3.679,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2855,
+      "output_tokens": 596,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.679
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1552,
+   "out": 42,
+   "latency": 2.171,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1296,
+      "output_tokens": 42,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.171
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2826,
+   "out": 5176,
+   "latency": 36.704,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2584,
+      "output_tokens": 5176,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 36.704
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2844,
+   "out": 3953,
+   "latency": 19.753,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2588,
+      "output_tokens": 3953,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 19.753
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3644,
+   "out": 2661,
+   "latency": 21.392,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3516,
+      "output_tokens": 2661,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 21.392
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1562,
+   "out": 57,
+   "latency": 1.224,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1434,
+      "output_tokens": 57,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.224
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2975,
+   "out": 3330,
+   "latency": 15.385,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 927,
+      "output_tokens": 3330,
+      "cache_read_input_tokens": 2048,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 15.385
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 1522,
+   "out": 2697,
+   "latency": 19.677,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1280,
+      "output_tokens": 2697,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 19.677
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2855,
+   "out": 3756,
+   "latency": 38.546,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2727,
+      "output_tokens": 3756,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 38.546
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1542,
+   "out": 9,
+   "latency": 0.725,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1198,
+      "output_tokens": 9,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.725
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3954,
+   "out": 4095,
+   "latency": 47.232,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3826,
+      "output_tokens": 4095,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 47.232
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3838,
+   "out": 3272,
+   "latency": 29.031,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3596,
+      "output_tokens": 3272,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 29.031
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3515,
+   "out": 4672,
+   "latency": 21.182,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3259,
+      "output_tokens": 4672,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 21.182
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1622,
+   "out": 153,
+   "latency": 4.936,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1366,
+      "output_tokens": 153,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.936
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3653,
+   "out": 3124,
+   "latency": 21.591,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3397,
+      "output_tokens": 3124,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 21.591
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3657,
+   "out": 1292,
+   "latency": 6.309,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bce0a7c5780db8c9a80df61b37948\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3401,
+      "output_tokens": 1292,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.309
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 1267,
+   "out": 742,
+   "latency": 6.038,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1025,
+      "output_tokens": 742,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.038
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1554,
+   "out": 96,
+   "latency": 2.521,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1298,
+      "output_tokens": 96,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.521
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3928,
+   "out": 367,
+   "latency": 4.089,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3800,
+      "output_tokens": 367,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.089
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2830,
+   "out": 2680,
+   "latency": 22.581,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2541,
+      "output_tokens": 2680,
+      "cache_read_input_tokens": 289,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 22.581
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1577,
+   "out": 16,
+   "latency": 1.039,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1321,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.039
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2779,
+   "out": 3125,
+   "latency": 16.982,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2523,
+      "output_tokens": 3125,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 16.982
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3903,
+   "out": 3576,
+   "latency": 15.719,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3647,
+      "output_tokens": 3576,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 15.719
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1593,
+   "out": 12,
+   "latency": 2.98,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1337,
+      "output_tokens": 12,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.98
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3825,
+   "out": 2751,
+   "latency": 27.651,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3583,
+      "output_tokens": 2751,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 27.651
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3477,
+   "out": 3965,
+   "latency": 36.128,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3349,
+      "output_tokens": 3965,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 36.128
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1563,
+   "out": 16,
+   "latency": 1.987,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1218,
+      "output_tokens": 16,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.987
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3832,
+   "out": 2505,
+   "latency": 19.925,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3590,
+      "output_tokens": 2505,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 19.925
+    }
+   ]
+  },
+  {
+   "phase": "warm",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1546,
+   "out": 57,
+   "latency": 2.153,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1290,
+      "output_tokens": 57,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.153
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1598,
+   "out": 34,
+   "latency": 1.104,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1342,
+      "output_tokens": 34,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.104
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1591,
+   "out": 113,
+   "latency": 1.509,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcebb25e09d77a0d53edb323211ed\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1335,
+      "output_tokens": 113,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.509
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1495,
+   "out": 35,
+   "latency": 1.273,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1239,
+      "output_tokens": 35,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.273
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3822,
+   "out": 3594,
+   "latency": 25.324,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcebb21b3b792c9990e450a930274\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3566,
+      "output_tokens": 3594,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 25.324
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3527,
+   "out": 4057,
+   "latency": 26.71,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcef6e92565b7bb40f24a4a015ff9\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf01da0e49ce26ca483f7c7e0790\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3399,
+      "output_tokens": 4057,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 26.71
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3718,
+   "out": 6348,
+   "latency": 48.097,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcef560b6120965929159d55a832d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3476,
+      "output_tokens": 6348,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 48.097
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1524,
+   "out": 44,
+   "latency": 3.397,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf39631cc5afebb6382e5f847a6a\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1268,
+      "output_tokens": 44,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.397
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1586,
+   "out": 45,
+   "latency": 4.159,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1330,
+      "output_tokens": 45,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.159
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1588,
+   "out": 29,
+   "latency": 1.383,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf39ab642f9e8f7976bba98ccc28\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1460,
+      "output_tokens": 29,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.383
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1531,
+   "out": 23,
+   "latency": 1.329,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1344,
+      "output_tokens": 23,
+      "cache_read_input_tokens": 187,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.329
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3648,
+   "out": 1193,
+   "latency": 10.719,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf295b4599635d7d717c0ed5a89a\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3406,
+      "output_tokens": 1193,
+      "cache_read_input_tokens": 242,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 10.719
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3791,
+   "out": 1226,
+   "latency": 6.373,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf290ce4ead74e6822f6896e626e\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf3e03f18b4f5c10c52e2c1636b2\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3535,
+      "output_tokens": 1226,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.373
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1582,
+   "out": 232,
+   "latency": 2.444,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1454,
+      "output_tokens": 232,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.444
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1540,
+   "out": 7,
+   "latency": 2.516,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1284,
+      "output_tokens": 7,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.516
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1615,
+   "out": 56,
+   "latency": 2.597,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1359,
+      "output_tokens": 56,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.597
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1590,
+   "out": 54,
+   "latency": 1.28,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1334,
+      "output_tokens": 54,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.28
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1571,
+   "out": 152,
+   "latency": 3.382,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1224,
+      "output_tokens": 152,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.382
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1563,
+   "out": 4,
+   "latency": 0.993,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1216,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.993
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1529,
+   "out": 76,
+   "latency": 1.381,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1273,
+      "output_tokens": 76,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.381
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1526,
+   "out": 47,
+   "latency": 1.778,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1398,
+      "output_tokens": 47,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.778
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1608,
+   "out": 28,
+   "latency": 5.809,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1352,
+      "output_tokens": 28,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 5.809
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1569,
+   "out": 61,
+   "latency": 2.426,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1441,
+      "output_tokens": 61,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.426
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1566,
+   "out": 78,
+   "latency": 1.372,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1438,
+      "output_tokens": 78,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.372
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1572,
+   "out": 5,
+   "latency": 1.122,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf587fa8cc8e1cf431cb02db4e75\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf65fb124be47e2616103a0b526f\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf6d04a039fb8977c0c561867a0e\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1444,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.122
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1527,
+   "out": 30,
+   "latency": 1.063,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1399,
+      "output_tokens": 30,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.063
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1490,
+   "out": 6,
+   "latency": 0.894,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1362,
+      "output_tokens": 6,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.894
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1531,
+   "out": 61,
+   "latency": 1.389,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1187,
+      "output_tokens": 61,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.389
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1517,
+   "out": 94,
+   "latency": 1.803,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1172,
+      "output_tokens": 94,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.803
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1505,
+   "out": 56,
+   "latency": 1.494,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1158,
+      "output_tokens": 56,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.494
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1478,
+   "out": 21,
+   "latency": 1.153,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1222,
+      "output_tokens": 21,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.153
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2637,
+   "out": 646,
+   "latency": 3.716,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2381,
+      "output_tokens": 646,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.716
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1511,
+   "out": 108,
+   "latency": 3.337,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf94dc17a5c498e2cfb275e325ca\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf9d5fa8484e1344c6ac315d68db\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfb35d124cbf09d0f204c4e78c92\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1255,
+      "output_tokens": 108,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.337
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1470,
+   "out": 86,
+   "latency": 1.995,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf90f76395e1eb20dfef11cbc3b1\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf9853db172f35e42468f8d01c1d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfa505b66e6ade269095736ad45d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfb69f1439b4bd664d4e8f02be38\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1125,
+      "output_tokens": 86,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.995
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1552,
+   "out": 53,
+   "latency": 5.11,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1424,
+      "output_tokens": 53,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 5.11
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2017,
+   "out": 2345,
+   "latency": 23.583,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1761,
+      "output_tokens": 2345,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 23.583
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1539,
+   "out": 43,
+   "latency": 1.102,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfdbbaf7a4292a5dc2dd4bb8a9de\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfe6b72ffc3ee9260b2fb2d207c1\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1411,
+      "output_tokens": 43,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.102
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1567,
+   "out": 111,
+   "latency": 2.026,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1222,
+      "output_tokens": 111,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.026
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1543,
+   "out": 86,
+   "latency": 1.516,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1415,
+      "output_tokens": 86,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.516
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1517,
+   "out": 270,
+   "latency": 4.211,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1261,
+      "output_tokens": 270,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.211
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1554,
+   "out": 26,
+   "latency": 1.117,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf58a954425d64dd27870f3c1ce2\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf6ce038963a84d3df7b81ed795b\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf7c6bc722dc384b49a54236a80c\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf9ef0530db8b19adfccd2463ddc\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfb45025835e5ae483e01569200c\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfd6811f649a120d6337755dd127\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfe4c2d7c0517c4f613c9d5e5189\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcff427d6be86dfceaf0bb8c3d0ec\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1298,
+      "output_tokens": 26,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.117
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1568,
+   "out": 50,
+   "latency": 1.163,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1312,
+      "output_tokens": 50,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.163
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1528,
+   "out": 38,
+   "latency": 0.984,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1272,
+      "output_tokens": 38,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.984
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1568,
+   "out": 61,
+   "latency": 1.582,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfdb929d789abe4376d51e48e5ff\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfe46eac4167edec94dd62b23748\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1440,
+      "output_tokens": 61,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.582
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1571,
+   "out": 44,
+   "latency": 1.116,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1315,
+      "output_tokens": 44,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.116
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1568,
+   "out": 79,
+   "latency": 1.411,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1312,
+      "output_tokens": 79,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.411
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 38,
+   "latency": 1.189,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1362,
+      "output_tokens": 38,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.189
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1561,
+   "out": 65,
+   "latency": 2.701,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1374,
+      "output_tokens": 65,
+      "cache_read_input_tokens": 187,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.701
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1531,
+   "out": 674,
+   "latency": 10.052,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1403,
+      "output_tokens": 674,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 10.052
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1620,
+   "out": 391,
+   "latency": 4.996,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1492,
+      "output_tokens": 391,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.996
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1611,
+   "out": 200,
+   "latency": 3.401,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1483,
+      "output_tokens": 200,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.401
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 2879,
+   "out": 2186,
+   "latency": 18.577,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 2751,
+      "output_tokens": 2186,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 18.577
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1585,
+   "out": 430,
+   "latency": 5.622,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd00b44960917c948b6ce0dab893d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd01f209415bafc058f37dd066d1f\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0251b0f80ff29236f5ef1e2ad7b\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd035edd439524a8c38edda7acf9d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0585919de0b2b4a2792cb5a1755\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1240,
+      "output_tokens": 430,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 5.622
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 126,
+   "latency": 4.04,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd00a94ac38da2d6d78fcdc114638\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0195ae05a5f29cec9ff055c077a\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd02f8e79455d99f4cc1ab5a55db7\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd04e9758861a31fb3bf2132da4a0\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd058152c4364b99cd28f3c228013\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1423,
+      "output_tokens": 126,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.04
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 162,
+   "latency": 2.089,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1295,
+      "output_tokens": 162,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.089
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1561,
+   "out": 172,
+   "latency": 2.167,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1305,
+      "output_tokens": 172,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.167
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1557,
+   "out": 146,
+   "latency": 2.314,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1212,
+      "output_tokens": 146,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.314
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1548,
+   "out": 60,
+   "latency": 1.617,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1204,
+      "output_tokens": 60,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.617
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1539,
+   "out": 109,
+   "latency": 2.171,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1195,
+      "output_tokens": 109,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.171
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1602,
+   "out": 78,
+   "latency": 2.802,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1346,
+      "output_tokens": 78,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.802
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1584,
+   "out": 77,
+   "latency": 1.371,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1328,
+      "output_tokens": 77,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.371
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1609,
+   "out": 161,
+   "latency": 3.315,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0574e25ec2ea5f7c5a22b140fde\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd05f2021b1a027e25cd96d64884b\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0688079fa0e36ff1506a5e736f9\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1353,
+      "output_tokens": 161,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.315
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "synth",
+   "ok": true,
+   "memo": false,
+   "in": 3262,
+   "out": 1689,
+   "latency": 12.974,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 3006,
+      "output_tokens": 1689,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 12.974
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1541,
+   "out": 149,
+   "latency": 1.936,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1285,
+      "output_tokens": 149,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.936
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1534,
+   "out": 72,
+   "latency": 1.839,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1278,
+      "output_tokens": 72,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.839
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 375,
+   "latency": 3.006,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1295,
+      "output_tokens": 375,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.006
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1597,
+   "out": 55,
+   "latency": 1.549,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1408,
+      "output_tokens": 55,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.549
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1603,
+   "out": 87,
+   "latency": 2.703,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1347,
+      "output_tokens": 87,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.703
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1574,
+   "out": 192,
+   "latency": 2.411,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0909d13bddf9702a3777b9d6cd2\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1318,
+      "output_tokens": 192,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.411
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 106,
+   "latency": 2.836,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd090d399a03bc3b2b0704aa08516\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd09ce8969c338da21eb1bded70e6\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0a6fa29a4f74e92fe0398240e6c\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1297,
+      "output_tokens": 106,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.836
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1539,
+   "out": 72,
+   "latency": 4.063,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1411,
+      "output_tokens": 72,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.063
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1550,
+   "out": 94,
+   "latency": 2.397,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1422,
+      "output_tokens": 94,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.397
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1548,
+   "out": 168,
+   "latency": 2.822,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1203,
+      "output_tokens": 168,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.822
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1531,
+   "out": 90,
+   "latency": 3.194,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1275,
+      "output_tokens": 90,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.194
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1582,
+   "out": 7,
+   "latency": 1.067,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1326,
+      "output_tokens": 7,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.067
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1579,
+   "out": 10,
+   "latency": 2.675,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1323,
+      "output_tokens": 10,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.675
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1579,
+   "out": 59,
+   "latency": 2.391,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1323,
+      "output_tokens": 59,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.391
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1567,
+   "out": 12,
+   "latency": 0.816,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1439,
+      "output_tokens": 12,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.816
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1577,
+   "out": 13,
+   "latency": 1.137,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1321,
+      "output_tokens": 13,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.137
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1547,
+   "out": 7,
+   "latency": 1.605,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1163,
+      "output_tokens": 7,
+      "cache_read_input_tokens": 384,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.605
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1572,
+   "out": 95,
+   "latency": 2.575,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1225,
+      "output_tokens": 95,
+      "cache_read_input_tokens": 347,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.575
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1527,
+   "out": 126,
+   "latency": 3.962,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1271,
+      "output_tokens": 126,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.962
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1579,
+   "out": 49,
+   "latency": 1.596,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1390,
+      "output_tokens": 49,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.596
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1549,
+   "out": 65,
+   "latency": 1.177,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1421,
+      "output_tokens": 65,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.177
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1570,
+   "out": 518,
+   "latency": 7.383,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1314,
+      "output_tokens": 518,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 7.383
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1565,
+   "out": 35,
+   "latency": 2.873,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1309,
+      "output_tokens": 35,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.873
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1581,
+   "out": 70,
+   "latency": 2.303,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0c1e36cbe22aa48e607aae60489\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0d57486f9598974130f57a6612a\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1325,
+      "output_tokens": 70,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.303
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1567,
+   "out": 56,
+   "latency": 1.66,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1222,
+      "output_tokens": 56,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.66
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1566,
+   "out": 5,
+   "latency": 1.881,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0c47b67cb3bf4683d065f20fce4\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0dff9119ca5710766149f43daa8\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1377,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.881
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1571,
+   "out": 141,
+   "latency": 2.243,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0c1a64f05856c3f667e148fde86\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0db5c255a33b8c47ae210ec40ce\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0e2750f1b7266d395daf94be854\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1226,
+      "output_tokens": 141,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.243
+    }
+   ]
+  }
+ ],
+ "RR_calls": [
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1590,
+   "out": 59,
+   "latency": 1.331,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcebb25f1d6873bf986594da6c262\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1334,
+      "output_tokens": 59,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.331
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1543,
+   "out": 69,
+   "latency": 1.678,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1287,
+      "output_tokens": 69,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.678
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1538,
+   "out": 49,
+   "latency": 3.086,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1410,
+      "output_tokens": 49,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.086
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1605,
+   "out": 92,
+   "latency": 1.663,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1416,
+      "output_tokens": 92,
+      "cache_read_input_tokens": 189,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.663
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 9,
+   "latency": 1.834,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1366,
+      "output_tokens": 9,
+      "cache_read_input_tokens": 187,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.834
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1594,
+   "out": 41,
+   "latency": 1.142,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1338,
+      "output_tokens": 41,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.142
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1607,
+   "out": 47,
+   "latency": 1.137,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1351,
+      "output_tokens": 47,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.137
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1542,
+   "out": 9,
+   "latency": 1.727,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf5c9c514a1a5c2a66bfa87f301e\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf7dcd14edb3aee8fd8e63bfc105\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1198,
+      "output_tokens": 9,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.727
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1534,
+   "out": 65,
+   "latency": 1.241,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1189,
+      "output_tokens": 65,
+      "cache_read_input_tokens": 345,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.241
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1521,
+   "out": 66,
+   "latency": 4.138,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1265,
+      "output_tokens": 66,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.138
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1542,
+   "out": 43,
+   "latency": 2.474,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf58d922bb985ba67b6b84f85877\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf63082d25e9dff7384f5d3196cc\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf7004a88be73a42f09f1c097d71\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1286,
+      "output_tokens": 43,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.474
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1546,
+   "out": 72,
+   "latency": 2.127,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1418,
+      "output_tokens": 72,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.127
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1495,
+   "out": 5,
+   "latency": 0.967,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1239,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.967
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1524,
+   "out": 53,
+   "latency": 3.451,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcf917adfbe0f9ec400a55ce5433f\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfa6b6411c9f4fc47f6520d6cec4\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfb2448eb114dbd319f9d6494e62\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1396,
+      "output_tokens": 53,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.451
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1595,
+   "out": 88,
+   "latency": 1.456,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1339,
+      "output_tokens": 88,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.456
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1545,
+   "out": 80,
+   "latency": 1.721,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 80,
+      "cache_read_input_tokens": 187,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.721
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1548,
+   "out": 58,
+   "latency": 1.303,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1420,
+      "output_tokens": 58,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.303
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1613,
+   "out": 58,
+   "latency": 1.321,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1269,
+      "output_tokens": 58,
+      "cache_read_input_tokens": 344,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.321
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1566,
+   "out": 6,
+   "latency": 1.126,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfcfa811f0f2dec32b0e42075955\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfe130f5b069c2f0dff230f5fc8f\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcfe889e80e4b381eff022579099c\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bcff31ed4a29c2079dad4844a2a38\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1438,
+      "output_tokens": 6,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.126
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1598,
+   "out": 99,
+   "latency": 2.142,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd00d264b740ce022ef4deaaedb4a\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd02ba0e0624eddb700795329f6d5\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1342,
+      "output_tokens": 99,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.142
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1547,
+   "out": 5,
+   "latency": 1.594,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd00a34379b7e407fa21f62663fad\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd027a1aecfdd574764a360872aa3\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd02fa0f8e9e6ae0265c1d7465206\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1291,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.594
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1600,
+   "out": 108,
+   "latency": 2.127,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1344,
+      "output_tokens": 108,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.127
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1575,
+   "out": 208,
+   "latency": 2.403,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd04a6d18e71f4f7137c823313aa1\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd056c164e79fd75910ae6a5a6c22\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd06c2f12f8c80d20da62e679f194\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1319,
+      "output_tokens": 208,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.403
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1595,
+   "out": 156,
+   "latency": 3.165,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1339,
+      "output_tokens": 156,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.165
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1539,
+   "out": 129,
+   "latency": 2.706,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1411,
+      "output_tokens": 129,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.706
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1563,
+   "out": 102,
+   "latency": 1.885,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1307,
+      "output_tokens": 102,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.885
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1587,
+   "out": 53,
+   "latency": 1.277,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1331,
+      "output_tokens": 53,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.277
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1540,
+   "out": 199,
+   "latency": 4.92,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1412,
+      "output_tokens": 199,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 4.92
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1600,
+   "out": 71,
+   "latency": 1.376,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd090a7f1119afbc032cd20fab4aa\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0a3593ab9026d17df763aae0f37\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1344,
+      "output_tokens": 71,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.376
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1494,
+   "out": 87,
+   "latency": 1.414,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1238,
+      "output_tokens": 87,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.414
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1562,
+   "out": 406,
+   "latency": 6.894,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd09210ec6b8e8aaca8c9faff6999\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1306,
+      "output_tokens": 406,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 6.894
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1553,
+   "out": 114,
+   "latency": 1.789,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1297,
+      "output_tokens": 114,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.789
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1595,
+   "out": 41,
+   "latency": 1.269,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1467,
+      "output_tokens": 41,
+      "cache_read_input_tokens": 128,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.269
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1540,
+   "out": 12,
+   "latency": 0.916,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1284,
+      "output_tokens": 12,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 0.916
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1579,
+   "out": 96,
+   "latency": 1.576,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1323,
+      "output_tokens": 96,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.576
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1530,
+   "out": 125,
+   "latency": 1.602,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1274,
+      "output_tokens": 125,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.602
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1578,
+   "out": 117,
+   "latency": 2.209,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1322,
+      "output_tokens": 117,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 2.209
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1558,
+   "out": 51,
+   "latency": 3.349,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1302,
+      "output_tokens": 51,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.349
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1551,
+   "out": 43,
+   "latency": 1.213,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1295,
+      "output_tokens": 43,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 1.213
+    }
+   ]
+  },
+  {
+   "phase": "probe",
+   "role": "answer",
+   "ok": true,
+   "memo": false,
+   "in": 1580,
+   "out": 105,
+   "latency": 3.11,
+   "model_reported": "MiniMax-M3.1-Flash",
+   "attempt_history": [
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0c3cf42d068a5be7e9690bae81d\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 429,
+     "code": 2062,
+     "kind": "retry",
+     "err": "{\"type\":\"error\",\"error\":{\"type\":\"rate_limit_error\",\"message\":\"Token Plan rate limit reached: Upgrade your Token Plan or switch to pay-as-you-go API usage. (2062)\"},\"request_id\":\"072bd0d754ee43703d3799ff9f6a3056\"}"
+    },
+    {
+     "attempt": 1,
+     "status": 200,
+     "stop": "end_turn",
+     "usage": {
+      "input_tokens": 1324,
+      "output_tokens": 105,
+      "cache_read_input_tokens": 256,
+      "cache_creation_input_tokens": 0
+     },
+     "latency_s": 3.11
+    }
+   ]
+  }
+ ],
+ "recompute": [
+  {
+   "node": 11,
+   "phase": "warm",
+   "t": "2030-02-19T07:33:00Z",
+   "ok": true
+  },
+  {
+   "node": 1,
+   "phase": "warm",
+   "t": "2030-02-19T07:33:00Z",
+   "ok": true
+  },
+  {
+   "node": 5,
+   "phase": "warm",
+   "t": "2030-02-19T07:33:00Z",
+   "ok": true
+  },
+  {
+   "node": 6,
+   "phase": "warm",
+   "t": "2030-02-19T07:33:00Z",
+   "ok": true
+  },
+  {
+   "node": 13,
+   "phase": "warm",
+   "t": "2030-02-19T07:33:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-02-19T07:33:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "warm",
+   "t": "2030-03-05T12:11:00Z",
+   "ok": true
+  },
+  {
+   "node": 13,
+   "phase": "warm",
+   "t": "2030-03-05T12:11:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-03-05T12:11:00Z",
+   "ok": true
+  },
+  {
+   "node": 11,
+   "phase": "warm",
+   "t": "2030-03-05T12:11:00Z",
+   "ok": true
+  },
+  {
+   "node": 1,
+   "phase": "warm",
+   "t": "2030-03-05T12:11:00Z",
+   "ok": true
+  },
+  {
+   "node": 5,
+   "phase": "warm",
+   "t": "2030-03-05T12:11:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 9,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 15,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 8,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 3,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 13,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 0,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 11,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 4,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "warm",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 7,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 9,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 11,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 8,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 10,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 6,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 1,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 5,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  },
+  {
+   "node": 15,
+   "phase": "probe",
+   "t": "2030-04-06T13:32:00Z",
+   "ok": true
+  }
+ ],
+ "poison": [],
+ "summaries": {
+  "n13": {
+   "key": "34e633e5c856cd561a00a3215fff0446f925882fe4bcf664257942368f5cf925",
+   "truncated": true,
+   "cost_raw": 280.59999999999997,
+   "cost_served": 197.79999999999998,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n00": {
+   "key": "62db25a49c9830832099958bbbdddb20e67e2459789f1f564586f7dff4591b13",
+   "truncated": true,
+   "cost_raw": 217.35,
+   "cost_served": 188.6,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n07": {
+   "key": "cc5d3129af9755a425cdfeebadc7fa597c73f61b73ceff979c23fc14b62e2ccd",
+   "truncated": true,
+   "cost_raw": 213.89999999999998,
+   "cost_served": 187.45,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n09": {
+   "key": "0984e344a37e1083f93c92ca1fbe407cee95402c9a744d03de839d050ca6754e",
+   "truncated": true,
+   "cost_raw": 486.45,
+   "cost_served": 27.599999999999998,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n11": {
+   "key": "eaf97e13ef29178b7b06b6e7b4db929c7cd5d90b76d32da0dcd8fdbaa39e12da",
+   "truncated": true,
+   "cost_raw": 297.84999999999997,
+   "cost_served": 103.49999999999999,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n08": {
+   "key": "91040c24964fbe973e26afef06cc25859d1511330e16a9c765236935ae843f2b",
+   "truncated": true,
+   "cost_raw": 249.54999999999998,
+   "cost_served": 198.95,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n10": {
+   "key": "3e102920913d0bbf24fd1f78e06d90514460b8f35d950a581b51ed702bb87f89",
+   "truncated": true,
+   "cost_raw": 225.39999999999998,
+   "cost_served": 192.04999999999998,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n06": {
+   "key": "b7fd1784c95b165fd70a5faaf1f70c7c6981a21a53ef85f3371a2adaa88a906e",
+   "truncated": true,
+   "cost_raw": 231.14999999999998,
+   "cost_served": 114.99999999999999,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n01": {
+   "key": "d4a886c1c4aea3ae86c6563cbb60bb7047878c8dbfc2df5741bce19941a22c43",
+   "truncated": true,
+   "cost_raw": 334.65,
+   "cost_served": 34.5,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n05": {
+   "key": "bef9ac44dcdaf8a65c46edcb2bb0a221746db3a313a967ea22e1f06fb45484ab",
+   "truncated": false,
+   "cost_raw": 165.6,
+   "cost_served": 165.6,
+   "t": "2030-04-06T13:32:00Z"
+  },
+  "n15": {
+   "key": "c28cba3d3edaefd9f0189d40097ade1639f83115e8891750a3860f77531e276b",
+   "truncated": true,
+   "cost_raw": 248.39999999999998,
+   "cost_served": 163.29999999999998,
+   "t": "2030-04-06T13:32:00Z"
+  }
+ },
+ "leak_units": [],
+ "reranker_seconds": 47.75110054016113,
+ "reranker_seconds_stream": 23.486,
+ "reranker_seconds_note": "per-stream delta; exact when stream-threads=1 (enforced with --confirm)"
+}

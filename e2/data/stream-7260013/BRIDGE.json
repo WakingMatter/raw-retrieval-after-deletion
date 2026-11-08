@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K065",
+   "key": "K067",
+   "via": "Ines Menon",
+   "session": "s51",
+   "paragraph": 10,
+   "sentence": "Ines Menon, who leads Meridian, confirmed the update.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K056",
+   "via": "Tara Varma",
+   "session": "s09",
+   "paragraph": 36,
+   "sentence": "Tara Varma (lead on Halcyon) signed off on this.",
+   "bridged_key": "K054"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K063",
+   "via": "Leela Joshi",
+   "session": "s41",
+   "paragraph": 34,
+   "sentence": "For the record, Juniper is due September 22.",
+   "bridged_key": "K063"
+  },
+  {
+   "hop_key": "K069",
+   "key": "K072",
+   "via": "Rohan Bose",
+   "session": "s36",
+   "paragraph": 35,
+   "sentence": "For the record, Mosaic lives in the mosaic-stack repo.",
+   "bridged_key": "K072"
+  },
+  {
+   "hop_key": "K085",
+   "key": "K088",
+   "via": "Felix Chopra",
+   "session": "s54",
+   "paragraph": 10,
+   "sentence": "For the record, search-indexer runs on Cassandra.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K061",
+   "via": "Vikram Ramani",
+   "session": "s41",
+   "paragraph": 4,
+   "sentence": "Vikram Ramani (lead on Ember) signed off on this.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K101",
+   "key": "K104",
+   "via": "Omar Reddy",
+   "session": "s37",
+   "paragraph": 16,
+   "sentence": "Omar Reddy, who owns notif-hub, confirmed the update.",
+   "bridged_key": "K101"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K064",
+   "via": "Leela Joshi",
+   "session": "s41",
+   "paragraph": 34,
+   "sentence": "For the record, Juniper lives in the juniper-core repo.",
+   "bridged_key": "K064"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K060",
+   "via": "Vikram Ramani",
+   "session": "s15",
+   "paragraph": 4,
+   "sentence": "For the record, Ember is due September 1.",
+   "bridged_key": "K060"
+  },
+  {
+   "hop_key": "K065",
+   "key": "K066",
+   "via": "Ines Menon",
+   "session": "s35",
+   "paragraph": 28,
+   "sentence": "Ines Menon, who leads Meridian, confirmed the update.",
+   "bridged_key": "K065"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1110",
+   "id": "e1110b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 1110,
+   "session": "s51",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Meridian",
+   "t": "2030-03-24T12:44:00Z",
+   "type": "ASSERT",
+   "value": "Ines Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0206",
+   "id": "e0206b",
+   "key": "K054",
+   "op": "observe",
+   "seq": 206,
+   "session": "s09",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Halcyon",
+   "t": "2030-01-20T12:34:00Z",
+   "type": "ASSERT",
+   "value": "Tara Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0919",
+   "id": "e0919b",
+   "key": "K063",
+   "op": "observe",
+   "seq": 919,
+   "session": "s41",
+   "slot": "proj_deadline",
+   "subject": "E19",
+   "subject_name": "Juniper",
+   "t": "2030-03-09T15:48:00Z",
+   "type": "ASSERT",
+   "value": "September 22",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0818",
+   "id": "e0818b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 818,
+   "session": "s36",
+   "slot": "repo_name",
+   "subject": "E21",
+   "subject_name": "Mosaic",
+   "t": "2030-03-02T09:36:00Z",
+   "type": "ASSERT",
+   "value": "mosaic-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1173",
+   "id": "e1173b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 1173,
+   "session": "s54",
+   "slot": "db_engine",
+   "subject": "E25",
+   "subject_name": "search-indexer",
+   "t": "2030-03-29T14:24:00Z",
+   "type": "ASSERT",
+   "value": "Cassandra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0900",
+   "id": "e0900b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 900,
+   "session": "s41",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Ember",
+   "t": "2030-03-09T15:10:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Ramani",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0829",
+   "id": "e0829b",
+   "key": "K101",
+   "op": "observe",
+   "seq": 829,
+   "session": "s37",
+   "slot": "svc_owner",
+   "subject": "E30",
+   "subject_name": "notif-hub",
+   "t": "2030-03-03T13:03:00Z",
+   "type": "ASSERT",
+   "value": "Omar Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0919",
+   "id": "e0919b",
+   "key": "K064",
+   "op": "observe",
+   "seq": 919,
+   "session": "s41",
+   "slot": "repo_name",
+   "subject": "E19",
+   "subject_name": "Juniper",
+   "t": "2030-03-09T15:48:00Z",
+   "type": "ASSERT",
+   "value": "juniper-core",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0318",
+   "id": "e0318b",
+   "key": "K060",
+   "op": "observe",
+   "seq": 318,
+   "session": "s15",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Ember",
+   "t": "2030-01-29T12:24:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0794",
+   "id": "e0794b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 794,
+   "session": "s35",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Meridian",
+   "t": "2030-02-28T15:14:00Z",
+   "type": "ASSERT",
+   "value": "Ines Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

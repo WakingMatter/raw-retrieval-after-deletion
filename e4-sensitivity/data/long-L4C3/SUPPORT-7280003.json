@@ -1,0 +1,296 @@
+{
+ "seed": 7280003,
+ "L": 4,
+ "chain": 3,
+ "tokens": 337856,
+ "sessions": 240,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280003:MULTIHOP:K097": {
+   "cls": "MULTIHOP",
+   "gold": "CockroachDB",
+   "union": 132.25,
+   "minimal": 132.25,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K084": {
+   "cls": "MULTIHOP",
+   "gold": "8080",
+   "union": 290.95,
+   "minimal": 142.6,
+   "n_paragraphs": 4
+  },
+  "7280003:MULTIHOP:K043": {
+   "cls": "MULTIHOP",
+   "gold": "November 3",
+   "union": 105.79999999999998,
+   "minimal": 105.79999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K047": {
+   "cls": "MULTIHOP",
+   "gold": "October 13",
+   "union": 104.64999999999999,
+   "minimal": 104.64999999999999,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K111": {
+   "cls": "MULTIHOP",
+   "gold": "CockroachDB",
+   "union": 147.2,
+   "minimal": 147.2,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K072": {
+   "cls": "MULTIHOP",
+   "gold": "April 28",
+   "union": 106.94999999999999,
+   "minimal": 106.94999999999999,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K054": {
+   "cls": "MULTIHOP",
+   "gold": "shipped",
+   "union": 105.79999999999998,
+   "minimal": 105.79999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K107": {
+   "cls": "MULTIHOP",
+   "gold": "8443",
+   "union": 110.39999999999999,
+   "minimal": 110.39999999999999,
+   "n_paragraphs": 2
+  },
+  "7280003:MULTIHOP:K085": {
+   "cls": "MULTIHOP",
+   "gold": "Cassandra",
+   "union": 246.09999999999997,
+   "minimal": 146.04999999999998,
+   "n_paragraphs": 3
+  },
+  "7280003:MULTIHOP:K083": {
+   "cls": "MULTIHOP",
+   "gold": "ca-central-1",
+   "union": 195.5,
+   "minimal": 195.5,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K146": {
+   "cls": "DERIVED",
+   "gold": "Search Quality",
+   "union": 340.4,
+   "minimal": 192.04999999999998,
+   "n_paragraphs": 5
+  },
+  "7280003:DERIVED:K135": {
+   "cls": "DERIVED",
+   "gold": "Dublin",
+   "union": 97.75,
+   "minimal": 97.75,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K136": {
+   "cls": "DERIVED",
+   "gold": "Singapore",
+   "union": 179.39999999999998,
+   "minimal": 179.39999999999998,
+   "n_paragraphs": 3
+  },
+  "7280003:DERIVED:K131": {
+   "cls": "DERIVED",
+   "gold": "Lisbon",
+   "union": 161.0,
+   "minimal": 93.14999999999999,
+   "n_paragraphs": 3
+  },
+  "7280003:DERIVED:K132": {
+   "cls": "DERIVED",
+   "gold": "Toronto",
+   "union": 113.85,
+   "minimal": 113.85,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K144": {
+   "cls": "DERIVED",
+   "gold": "Singapore",
+   "union": 116.14999999999998,
+   "minimal": 116.14999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K149": {
+   "cls": "DERIVED",
+   "gold": "Identity",
+   "union": 121.89999999999998,
+   "minimal": 121.89999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K147": {
+   "cls": "DERIVED",
+   "gold": "Billing Ops",
+   "union": 95.44999999999999,
+   "minimal": 95.44999999999999,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K137": {
+   "cls": "DERIVED",
+   "gold": "Kochi",
+   "union": 123.04999999999998,
+   "minimal": 123.04999999999998,
+   "n_paragraphs": 2
+  },
+  "7280003:DERIVED:K148": {
+   "cls": "DERIVED",
+   "gold": "Jaipur",
+   "union": 205.85,
+   "minimal": 154.1,
+   "n_paragraphs": 4
+  },
+  "7280003:AGG:K087": {
+   "cls": "AGG",
+   "gold": "3",
+   "union": 161.0,
+   "minimal": 161.0,
+   "n_paragraphs": 3
+  },
+  "7280003:AGG:K088": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 47.15,
+   "minimal": 47.15,
+   "n_paragraphs": 1
+  },
+  "7280003:AGG:K048": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280003:AGG:K123": {
+   "cls": "AGG",
+   "gold": "3",
+   "union": 241.5,
+   "minimal": 171.35,
+   "n_paragraphs": 4
+  },
+  "7280003:AGG:K059": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 147.2,
+   "minimal": 82.8,
+   "n_paragraphs": 3
+  },
+  "7280003:AGG:K069": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280003:AGG:K082": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 288.65,
+   "minimal": 141.45,
+   "n_paragraphs": 4
+  },
+  "7280003:AGG:K049": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 104.64999999999999,
+   "minimal": 104.64999999999999,
+   "n_paragraphs": 2
+  },
+  "7280003:AGG:K095": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280003:AGG:K011": {
+   "cls": "AGG",
+   "gold": "3",
+   "union": 150.64999999999998,
+   "minimal": 150.64999999999998,
+   "n_paragraphs": 3
+  },
+  "7280003:CURRENT:K103": {
+   "cls": "CURRENT",
+   "gold": "sa-east-1",
+   "union": 54.05,
+   "minimal": 54.05,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K115": {
+   "cls": "CURRENT",
+   "gold": "Postgres",
+   "union": 52.9,
+   "minimal": 52.9,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K030": {
+   "cls": "CURRENT",
+   "gold": "Mobile Apps",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K122": {
+   "cls": "CURRENT",
+   "gold": "3000",
+   "union": 54.05,
+   "minimal": 54.05,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K076": {
+   "cls": "CURRENT",
+   "gold": "June 30",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K066": {
+   "cls": "CURRENT",
+   "gold": "Aisha Verma",
+   "union": 59.8,
+   "minimal": 59.8,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K005": {
+   "cls": "CURRENT",
+   "gold": "SRE lead",
+   "union": 64.39999999999999,
+   "minimal": 64.39999999999999,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K091": {
+   "cls": "CURRENT",
+   "gold": "sa-east-1",
+   "union": 71.3,
+   "minimal": 71.3,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K009": {
+   "cls": "CURRENT",
+   "gold": "Mumbai",
+   "union": 50.599999999999994,
+   "minimal": 50.599999999999994,
+   "n_paragraphs": 1
+  },
+  "7280003:CURRENT:K114": {
+   "cls": "CURRENT",
+   "gold": "7443",
+   "union": 73.6,
+   "minimal": 73.6,
+   "n_paragraphs": 1
+  }
+ }
+}

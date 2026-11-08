@@ -1,0 +1,296 @@
+{
+ "seed": 7280001,
+ "L": 4,
+ "chain": 1,
+ "tokens": 339455,
+ "sessions": 240,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280001:MULTIHOP:K046": {
+   "cls": "MULTIHOP",
+   "gold": "in design review",
+   "union": 186.29999999999998,
+   "minimal": 97.75,
+   "n_paragraphs": 3
+  },
+  "7280001:MULTIHOP:K042": {
+   "cls": "MULTIHOP",
+   "gold": "shipped",
+   "union": 135.7,
+   "minimal": 135.7,
+   "n_paragraphs": 2
+  },
+  "7280001:MULTIHOP:K083": {
+   "cls": "MULTIHOP",
+   "gold": "us-west-2",
+   "union": 146.05,
+   "minimal": 146.05,
+   "n_paragraphs": 2
+  },
+  "7280001:MULTIHOP:K100": {
+   "cls": "MULTIHOP",
+   "gold": "8443",
+   "union": 125.35,
+   "minimal": 125.35,
+   "n_paragraphs": 2
+  },
+  "7280001:MULTIHOP:K106": {
+   "cls": "MULTIHOP",
+   "gold": "ap-northeast-1",
+   "union": 193.2,
+   "minimal": 141.45,
+   "n_paragraphs": 3
+  },
+  "7280001:MULTIHOP:K092": {
+   "cls": "MULTIHOP",
+   "gold": "6060",
+   "union": 119.6,
+   "minimal": 119.6,
+   "n_paragraphs": 2
+  },
+  "7280001:MULTIHOP:K059": {
+   "cls": "MULTIHOP",
+   "gold": "March 14",
+   "union": 103.5,
+   "minimal": 103.5,
+   "n_paragraphs": 2
+  },
+  "7280001:MULTIHOP:K079": {
+   "cls": "MULTIHOP",
+   "gold": "us-east-1",
+   "union": 185.14999999999998,
+   "minimal": 116.14999999999999,
+   "n_paragraphs": 3
+  },
+  "7280001:MULTIHOP:K065": {
+   "cls": "MULTIHOP",
+   "gold": "in design review",
+   "union": 150.64999999999998,
+   "minimal": 108.1,
+   "n_paragraphs": 3
+  },
+  "7280001:MULTIHOP:K103": {
+   "cls": "MULTIHOP",
+   "gold": "eu-central-1",
+   "union": 118.44999999999999,
+   "minimal": 118.44999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:DERIVED:K145": {
+   "cls": "DERIVED",
+   "gold": "Dublin",
+   "union": 242.64999999999998,
+   "minimal": 150.64999999999998,
+   "n_paragraphs": 4
+  },
+  "7280001:DERIVED:K138": {
+   "cls": "DERIVED",
+   "gold": "Bengaluru",
+   "union": 171.35,
+   "minimal": 102.35,
+   "n_paragraphs": 3
+  },
+  "7280001:DERIVED:K149": {
+   "cls": "DERIVED",
+   "gold": "AppSec",
+   "union": 123.05,
+   "minimal": 123.05,
+   "n_paragraphs": 2
+  },
+  "7280001:DERIVED:K134": {
+   "cls": "DERIVED",
+   "gold": "Search Quality",
+   "union": 119.6,
+   "minimal": 119.6,
+   "n_paragraphs": 2
+  },
+  "7280001:DERIVED:K146": {
+   "cls": "DERIVED",
+   "gold": "Singapore",
+   "union": 208.14999999999998,
+   "minimal": 139.14999999999998,
+   "n_paragraphs": 3
+  },
+  "7280001:DERIVED:K130": {
+   "cls": "DERIVED",
+   "gold": "Chennai",
+   "union": 269.09999999999997,
+   "minimal": 149.5,
+   "n_paragraphs": 5
+  },
+  "7280001:DERIVED:K136": {
+   "cls": "DERIVED",
+   "gold": "Ads Ranking",
+   "union": 193.2,
+   "minimal": 193.2,
+   "n_paragraphs": 3
+  },
+  "7280001:DERIVED:K141": {
+   "cls": "DERIVED",
+   "gold": "Toronto",
+   "union": 118.44999999999999,
+   "minimal": 118.44999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:DERIVED:K140": {
+   "cls": "DERIVED",
+   "gold": "AppSec",
+   "union": 233.45,
+   "minimal": 164.45,
+   "n_paragraphs": 4
+  },
+  "7280001:DERIVED:K131": {
+   "cls": "DERIVED",
+   "gold": "Identity",
+   "union": 148.35,
+   "minimal": 148.35,
+   "n_paragraphs": 3
+  },
+  "7280001:AGG:K020": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 98.89999999999999,
+   "minimal": 98.89999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:AGG:K072": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 110.39999999999999,
+   "minimal": 110.39999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:AGG:K062": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280001:AGG:K064": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 152.95,
+   "minimal": 108.1,
+   "n_paragraphs": 3
+  },
+  "7280001:AGG:K047": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 41.4,
+   "minimal": 41.4,
+   "n_paragraphs": 1
+  },
+  "7280001:AGG:K085": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280001:AGG:K115": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 101.19999999999999,
+   "minimal": 101.19999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:AGG:K040": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 121.89999999999999,
+   "minimal": 121.89999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:AGG:K094": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280001:AGG:K005": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 104.64999999999999,
+   "minimal": 104.64999999999999,
+   "n_paragraphs": 2
+  },
+  "7280001:CURRENT:K031": {
+   "cls": "CURRENT",
+   "gold": "solutions architect",
+   "union": 57.49999999999999,
+   "minimal": 57.49999999999999,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K026": {
+   "cls": "CURRENT",
+   "gold": "Chennai",
+   "union": 102.35,
+   "minimal": 50.599999999999994,
+   "n_paragraphs": 2
+  },
+  "7280001:CURRENT:K056": {
+   "cls": "CURRENT",
+   "gold": "lumen-next",
+   "union": 66.69999999999999,
+   "minimal": 66.69999999999999,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K068": {
+   "cls": "CURRENT",
+   "gold": "in active build",
+   "union": 67.85,
+   "minimal": 67.85,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K022": {
+   "cls": "CURRENT",
+   "gold": "QA lead",
+   "union": 51.74999999999999,
+   "minimal": 51.74999999999999,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K091": {
+   "cls": "CURRENT",
+   "gold": "eu-west-1",
+   "union": 75.89999999999999,
+   "minimal": 75.89999999999999,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K119": {
+   "cls": "CURRENT",
+   "gold": "1200",
+   "union": 54.05,
+   "minimal": 54.05,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K027": {
+   "cls": "CURRENT",
+   "gold": "Storefront",
+   "union": 51.74999999999999,
+   "minimal": 51.74999999999999,
+   "n_paragraphs": 1
+  },
+  "7280001:CURRENT:K000": {
+   "cls": "CURRENT",
+   "gold": "Mumbai",
+   "union": 97.75,
+   "minimal": 48.3,
+   "n_paragraphs": 2
+  },
+  "7280001:CURRENT:K078": {
+   "cls": "CURRENT",
+   "gold": "Leela Reddi",
+   "union": 134.55,
+   "minimal": 65.55,
+   "n_paragraphs": 2
+  }
+ }
+}

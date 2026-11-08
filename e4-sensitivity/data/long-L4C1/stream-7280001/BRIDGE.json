@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K045",
+   "key": "K046",
+   "via": "Nisha Mennon",
+   "session": "s178",
+   "paragraph": 4,
+   "sentence": "Nisha Mennon, who leads Saffron, confirmed the update.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K100",
+   "via": "Elena Khanna",
+   "session": "s170",
+   "paragraph": 10,
+   "sentence": "For the record, metrics-sink listens on port 8443.",
+   "bridged_key": "K100"
+  },
+  {
+   "hop_key": "K041",
+   "key": "K042",
+   "via": "Yusuf Pillai",
+   "session": "s178",
+   "paragraph": 26,
+   "sentence": "Yusuf Pillai, who leads Orchid, confirmed the update.",
+   "bridged_key": "K041"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K083",
+   "via": "Meera Chopra",
+   "session": "s189",
+   "paragraph": 8,
+   "sentence": "Meera Chopra, who owns ranker-svc, confirmed the update.",
+   "bridged_key": "K082"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K059",
+   "via": "Leela Reddy",
+   "session": "s176",
+   "paragraph": 30,
+   "sentence": "For the record, Cobalt is due March 14.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K078",
+   "key": "K079",
+   "via": "Leela Reddi",
+   "session": "s180",
+   "paragraph": 16,
+   "sentence": "Leela Reddi (owner of session-cache) signed off on this.",
+   "bridged_key": "K078"
+  },
+  {
+   "hop_key": "K102",
+   "key": "K103",
+   "via": "Priya Kapoor",
+   "session": "s135",
+   "paragraph": 20,
+   "sentence": "Priya Kapoor (owner of auth-gateway) signed off on this.",
+   "bridged_key": "K102"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Aisha Raman",
+   "session": "s212",
+   "paragraph": 8,
+   "sentence": "For the record, Pylon is in design review.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K092",
+   "via": "Maya Sethi",
+   "session": "s097",
+   "paragraph": 28,
+   "sentence": "Maya Sethi, who owns order-router, confirmed the update.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K106",
+   "via": "Nisha Menon",
+   "session": "s181",
+   "paragraph": 18,
+   "sentence": "For the record, ledger-api is hosted in ap-northeast-1.",
+   "bridged_key": "K106"
+  }
+ ],
+ "events": [
+  {
+   "after": "e3259",
+   "id": "e3259b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 3259,
+   "session": "s178",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Saffron",
+   "t": "2030-10-01T14:13:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Mennon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3111",
+   "id": "e3111b",
+   "key": "K100",
+   "op": "observe",
+   "seq": 3111,
+   "session": "s170",
+   "slot": "listen_port",
+   "subject": "E29",
+   "subject_name": "metrics-sink",
+   "t": "2030-09-19T10:51:00Z",
+   "type": "ASSERT",
+   "value": "8443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3270",
+   "id": "e3270b",
+   "key": "K041",
+   "op": "observe",
+   "seq": 3270,
+   "session": "s178",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Orchid",
+   "t": "2030-10-01T14:35:00Z",
+   "type": "ASSERT",
+   "value": "Yusuf Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3465",
+   "id": "e3465b",
+   "key": "K082",
+   "op": "observe",
+   "seq": 3465,
+   "session": "s189",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "ranker-svc",
+   "t": "2030-10-17T13:36:00Z",
+   "type": "ASSERT",
+   "value": "Meera Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3233",
+   "id": "e3233b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 3233,
+   "session": "s176",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Cobalt",
+   "t": "2030-09-28T11:28:00Z",
+   "type": "ASSERT",
+   "value": "March 14",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3300",
+   "id": "e3300b",
+   "key": "K078",
+   "op": "observe",
+   "seq": 3300,
+   "session": "s180",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "session-cache",
+   "t": "2030-10-04T16:53:00Z",
+   "type": "ASSERT",
+   "value": "Leela Reddi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e2483",
+   "id": "e2483b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 2483,
+   "session": "s135",
+   "slot": "svc_owner",
+   "subject": "E30",
+   "subject_name": "auth-gateway",
+   "t": "2030-07-28T12:20:00Z",
+   "type": "ASSERT",
+   "value": "Priya Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3867",
+   "id": "e3867b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 3867,
+   "session": "s212",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-11-21T13:39:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1788",
+   "id": "e1788b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 1788,
+   "session": "s097",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "order-router",
+   "t": "2030-06-01T17:18:00Z",
+   "type": "ASSERT",
+   "value": "Maya Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3320",
+   "id": "e3320b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 3320,
+   "session": "s181",
+   "slot": "host_region",
+   "subject": "E31",
+   "subject_name": "ledger-api",
+   "t": "2030-10-05T14:13:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

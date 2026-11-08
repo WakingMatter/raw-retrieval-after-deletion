@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K079",
+   "key": "K080",
+   "via": "Arjun Reddy",
+   "session": "s26",
+   "paragraph": 16,
+   "sentence": "Arjun Reddy (owner of metrics-sink) signed off on this.",
+   "bridged_key": "K079"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K060",
+   "via": "Lucas Varma",
+   "session": "s36",
+   "paragraph": 20,
+   "sentence": "For the record, Pylon is in maintenance mode.",
+   "bridged_key": "K060"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K077",
+   "via": "Ishaan Ghosh",
+   "session": "s03",
+   "paragraph": 32,
+   "sentence": "Ishaan Ghosh (lead on Orchid Lite) signed off on this.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K055",
+   "via": "Yusuf Pillai",
+   "session": "s45",
+   "paragraph": 24,
+   "sentence": "For the record, Falcon is due June 30.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K095",
+   "via": "Ishaan Ghose",
+   "session": "s50",
+   "paragraph": 27,
+   "sentence": "Ishaan Ghose, who owns session-cache, confirmed the update.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K056",
+   "key": "K058",
+   "via": "Leela Mehta",
+   "session": "s31",
+   "paragraph": 28,
+   "sentence": "For the record, Cobalt is due March 14.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K070",
+   "via": "Mateo Joshua",
+   "session": "s47",
+   "paragraph": 32,
+   "sentence": "Mateo Joshua (lead on Saffron) signed off on this.",
+   "bridged_key": "K067"
+  },
+  {
+   "hop_key": "K103",
+   "key": "K105",
+   "via": "Mateo Joshi",
+   "session": "s48",
+   "paragraph": 14,
+   "sentence": "For the record, quota-guard listens on port 8080.",
+   "bridged_key": "K105"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K082",
+   "via": "Arjun Reddy",
+   "session": "s26",
+   "paragraph": 12,
+   "sentence": "For the record, metrics-sink runs on Spanner.",
+   "bridged_key": "K082"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K061",
+   "via": "Lucas Varma",
+   "session": "s39",
+   "paragraph": 34,
+   "sentence": "Lucas Varma, who leads Pylon, confirmed the update.",
+   "bridged_key": "K059"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0584",
+   "id": "e0584b",
+   "key": "K079",
+   "op": "observe",
+   "seq": 584,
+   "session": "s26",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "metrics-sink",
+   "t": "2030-02-15T16:04:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0791",
+   "id": "e0791b",
+   "key": "K060",
+   "op": "observe",
+   "seq": 791,
+   "session": "s36",
+   "slot": "proj_status",
+   "subject": "E19",
+   "subject_name": "Pylon",
+   "t": "2030-03-02T11:13:00Z",
+   "type": "ASSERT",
+   "value": "in maintenance mode",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0087",
+   "id": "e0087b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 87,
+   "session": "s03",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Orchid Lite",
+   "t": "2030-01-11T13:59:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0977",
+   "id": "e0977b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 977,
+   "session": "s45",
+   "slot": "proj_deadline",
+   "subject": "E17",
+   "subject_name": "Falcon",
+   "t": "2030-03-15T10:38:00Z",
+   "type": "ASSERT",
+   "value": "June 30",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1089",
+   "id": "e1089b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 1089,
+   "session": "s50",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "session-cache",
+   "t": "2030-03-23T13:53:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Ghose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0703",
+   "id": "e0703b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 703,
+   "session": "s31",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Cobalt",
+   "t": "2030-02-22T12:31:00Z",
+   "type": "ASSERT",
+   "value": "March 14",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1028",
+   "id": "e1028b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 1028,
+   "session": "s47",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Saffron",
+   "t": "2030-03-18T13:52:00Z",
+   "type": "ASSERT",
+   "value": "Mateo Joshua",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1040",
+   "id": "e1040b",
+   "key": "K105",
+   "op": "observe",
+   "seq": 1040,
+   "session": "s48",
+   "slot": "listen_port",
+   "subject": "E31",
+   "subject_name": "quota-guard",
+   "t": "2030-03-20T12:54:00Z",
+   "type": "ASSERT",
+   "value": "8080",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0582",
+   "id": "e0582b",
+   "key": "K082",
+   "op": "observe",
+   "seq": 582,
+   "session": "s26",
+   "slot": "db_engine",
+   "subject": "E24",
+   "subject_name": "metrics-sink",
+   "t": "2030-02-15T16:00:00Z",
+   "type": "ASSERT",
+   "value": "Spanner",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0862",
+   "id": "e0862b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 862,
+   "session": "s39",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Pylon",
+   "t": "2030-03-06T13:59:00Z",
+   "type": "ASSERT",
+   "value": "Lucas Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

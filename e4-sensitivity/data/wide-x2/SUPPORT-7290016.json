@@ -1,0 +1,328 @@
+{
+ "seed": 7290016,
+ "scale": 2.0,
+ "stream_tokens": 561972,
+ "n_paragraphs": 8066,
+ "tasks": {
+  "7290016:COUNT:00": {
+   "family": "COUNT",
+   "n_entities": 279,
+   "n_min": 279,
+   "n_union": 735,
+   "minimal": 20477,
+   "union": 53320
+  },
+  "7290016:COUNT:01": {
+   "family": "COUNT",
+   "n_entities": 166,
+   "n_min": 166,
+   "n_union": 481,
+   "minimal": 12196,
+   "union": 34931
+  },
+  "7290016:COUNT:02": {
+   "family": "COUNT",
+   "n_entities": 125,
+   "n_min": 125,
+   "n_union": 344,
+   "minimal": 9171,
+   "union": 25017
+  },
+  "7290016:COUNT:03": {
+   "family": "COUNT",
+   "n_entities": 101,
+   "n_min": 101,
+   "n_union": 298,
+   "minimal": 7439,
+   "union": 21721
+  },
+  "7290016:COUNT:04": {
+   "family": "COUNT",
+   "n_entities": 97,
+   "n_min": 97,
+   "n_union": 285,
+   "minimal": 7128,
+   "union": 20804
+  },
+  "7290016:COUNT:05": {
+   "family": "COUNT",
+   "n_entities": 75,
+   "n_min": 75,
+   "n_union": 230,
+   "minimal": 5544,
+   "union": 16942
+  },
+  "7290016:COUNT:06": {
+   "family": "COUNT",
+   "n_entities": 65,
+   "n_min": 65,
+   "n_union": 186,
+   "minimal": 4728,
+   "union": 13616
+  },
+  "7290016:COUNT:07": {
+   "family": "COUNT",
+   "n_entities": 65,
+   "n_min": 65,
+   "n_union": 190,
+   "minimal": 4832,
+   "union": 13983
+  },
+  "7290016:COUNT:08": {
+   "family": "COUNT",
+   "n_entities": 56,
+   "n_min": 56,
+   "n_union": 168,
+   "minimal": 4125,
+   "union": 12297
+  },
+  "7290016:COUNT:09": {
+   "family": "COUNT",
+   "n_entities": 55,
+   "n_min": 55,
+   "n_union": 159,
+   "minimal": 4031,
+   "union": 11708
+  },
+  "7290016:SUM:00": {
+   "family": "SUM",
+   "n_entities": 35,
+   "n_min": 70,
+   "n_union": 118,
+   "minimal": 4683,
+   "union": 8116
+  },
+  "7290016:SUM:01": {
+   "family": "SUM",
+   "n_entities": 13,
+   "n_min": 26,
+   "n_union": 48,
+   "minimal": 1756,
+   "union": 3304
+  },
+  "7290016:SUM:02": {
+   "family": "SUM",
+   "n_entities": 19,
+   "n_min": 38,
+   "n_union": 72,
+   "minimal": 2486,
+   "union": 4882
+  },
+  "7290016:SUM:03": {
+   "family": "SUM",
+   "n_entities": 22,
+   "n_min": 44,
+   "n_union": 79,
+   "minimal": 2935,
+   "union": 5415
+  },
+  "7290016:SUM:04": {
+   "family": "SUM",
+   "n_entities": 93,
+   "n_min": 186,
+   "n_union": 338,
+   "minimal": 12399,
+   "union": 23192
+  },
+  "7290016:SUM:05": {
+   "family": "SUM",
+   "n_entities": 12,
+   "n_min": 24,
+   "n_union": 50,
+   "minimal": 1571,
+   "union": 3410
+  },
+  "7290016:SUM:06": {
+   "family": "SUM",
+   "n_entities": 14,
+   "n_min": 28,
+   "n_union": 56,
+   "minimal": 1893,
+   "union": 3885
+  },
+  "7290016:SUM:07": {
+   "family": "SUM",
+   "n_entities": 50,
+   "n_min": 100,
+   "n_union": 181,
+   "minimal": 6715,
+   "union": 12477
+  },
+  "7290016:SUM:08": {
+   "family": "SUM",
+   "n_entities": 27,
+   "n_min": 54,
+   "n_union": 100,
+   "minimal": 3602,
+   "union": 6867
+  },
+  "7290016:SUM:09": {
+   "family": "SUM",
+   "n_entities": 15,
+   "n_min": 30,
+   "n_union": 55,
+   "minimal": 2004,
+   "union": 3763
+  },
+  "7290016:DELTA:00": {
+   "family": "DELTA",
+   "n_entities": 37,
+   "n_min": 37,
+   "n_union": 44,
+   "minimal": 2751,
+   "union": 3327
+  },
+  "7290016:DELTA:01": {
+   "family": "DELTA",
+   "n_entities": 13,
+   "n_min": 13,
+   "n_union": 15,
+   "minimal": 974,
+   "union": 1137
+  },
+  "7290016:DELTA:02": {
+   "family": "DELTA",
+   "n_entities": 101,
+   "n_min": 101,
+   "n_union": 121,
+   "minimal": 7286,
+   "union": 8898
+  },
+  "7290016:DELTA:03": {
+   "family": "DELTA",
+   "n_entities": 141,
+   "n_min": 141,
+   "n_union": 169,
+   "minimal": 10066,
+   "union": 12334
+  },
+  "7290016:DELTA:04": {
+   "family": "DELTA",
+   "n_entities": 51,
+   "n_min": 51,
+   "n_union": 61,
+   "minimal": 3826,
+   "union": 4659
+  },
+  "7290016:DELTA:05": {
+   "family": "DELTA",
+   "n_entities": 191,
+   "n_min": 191,
+   "n_union": 229,
+   "minimal": 14124,
+   "union": 17305
+  },
+  "7290016:DELTA:06": {
+   "family": "DELTA",
+   "n_entities": 261,
+   "n_min": 261,
+   "n_union": 313,
+   "minimal": 18656,
+   "union": 22932
+  },
+  "7290016:DELTA:07": {
+   "family": "DELTA",
+   "n_entities": 19,
+   "n_min": 19,
+   "n_union": 22,
+   "minimal": 1404,
+   "union": 1655
+  },
+  "7290016:DELTA:08": {
+   "family": "DELTA",
+   "n_entities": 27,
+   "n_min": 27,
+   "n_union": 32,
+   "minimal": 1988,
+   "union": 2415
+  },
+  "7290016:DELTA:09": {
+   "family": "DELTA",
+   "n_entities": 71,
+   "n_min": 71,
+   "n_union": 85,
+   "minimal": 5416,
+   "union": 6621
+  },
+  "7290016:ARGMAX:00": {
+   "family": "ARGMAX",
+   "n_entities": 84,
+   "n_min": 40,
+   "n_union": 98,
+   "minimal": 3049,
+   "union": 7547
+  },
+  "7290016:ARGMAX:01": {
+   "family": "ARGMAX",
+   "n_entities": 400,
+   "n_min": 164,
+   "n_union": 466,
+   "minimal": 12880,
+   "union": 36182
+  },
+  "7290016:ARGMAX:02": {
+   "family": "ARGMAX",
+   "n_entities": 520,
+   "n_min": 214,
+   "n_union": 606,
+   "minimal": 16636,
+   "union": 46911
+  },
+  "7290016:ARGMAX:03": {
+   "family": "ARGMAX",
+   "n_entities": 220,
+   "n_min": 105,
+   "n_union": 256,
+   "minimal": 8170,
+   "union": 19789
+  },
+  "7290016:ARGMAX:04": {
+   "family": "ARGMAX",
+   "n_entities": 44,
+   "n_min": 18,
+   "n_union": 51,
+   "minimal": 1370,
+   "union": 3939
+  },
+  "7290016:ARGMAX:05": {
+   "family": "ARGMAX",
+   "n_entities": 30,
+   "n_min": 12,
+   "n_union": 35,
+   "minimal": 937,
+   "union": 2721
+  },
+  "7290016:ARGMAX:06": {
+   "family": "ARGMAX",
+   "n_entities": 116,
+   "n_min": 51,
+   "n_union": 135,
+   "minimal": 3940,
+   "union": 10441
+  },
+  "7290016:ARGMAX:07": {
+   "family": "ARGMAX",
+   "n_entities": 300,
+   "n_min": 137,
+   "n_union": 350,
+   "minimal": 10669,
+   "union": 27069
+  },
+  "7290016:ARGMAX:08": {
+   "family": "ARGMAX",
+   "n_entities": 60,
+   "n_min": 27,
+   "n_union": 70,
+   "minimal": 2128,
+   "union": 5462
+  },
+  "7290016:ARGMAX:09": {
+   "family": "ARGMAX",
+   "n_entities": 160,
+   "n_min": 61,
+   "n_union": 186,
+   "minimal": 4796,
+   "union": 14559
+  }
+ }
+}

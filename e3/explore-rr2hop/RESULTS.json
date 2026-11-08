@@ -1,0 +1,453 @@
+{
+ "all": {
+  "n": 320,
+  "A6": 0.472,
+  "A6_lenient": 0.472,
+  "RR": 0.362,
+  "RR_lenient": 0.362,
+  "RR-2hop": 0.659,
+  "RR-2hop_lenient": 0.659,
+  "RR-agg": 0.359,
+  "RR-agg_lenient": 0.359,
+  "A6-syn": 0.356,
+  "A6-syn_lenient": 0.356,
+  "A6-RR-2hop": {
+   "mean": -0.1875,
+   "lo": -0.2423,
+   "hi": -0.1327,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.1519
+  },
+  "A6-RR": {
+   "mean": 0.1094,
+   "lo": 0.0615,
+   "hi": 0.1573,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.1329
+  },
+  "RR-2hop-RR": {
+   "mean": 0.2969,
+   "lo": 0.2423,
+   "hi": 0.3514,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.1513
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.3,
+   "lo": 0.2421,
+   "hi": 0.3579,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.1606
+  },
+  "A6-RR-2hop_97.5": {
+   "mean": -0.1875,
+   "lo": -0.2507,
+   "hi": -0.1243,
+   "level": 0.975,
+   "n_streams": 32,
+   "sd": 0.1519
+  },
+  "A6-RR_97.5": {
+   "mean": 0.1094,
+   "lo": 0.0541,
+   "hi": 0.1647,
+   "level": 0.975,
+   "n_streams": 32,
+   "sd": 0.1329
+  }
+ },
+ "touched": {
+  "n": 188,
+  "A6": 0.319,
+  "A6_lenient": 0.319,
+  "RR": 0.149,
+  "RR_lenient": 0.149,
+  "RR-2hop": 0.574,
+  "RR-2hop_lenient": 0.574,
+  "RR-agg": 0.16,
+  "RR-agg_lenient": 0.16,
+  "A6-syn": 0.17,
+  "A6-syn_lenient": 0.17,
+  "A6-RR-2hop": {
+   "mean": -0.2695,
+   "lo": -0.3629,
+   "hi": -0.1761,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.2591
+  },
+  "A6-RR": {
+   "mean": 0.1573,
+   "lo": 0.0892,
+   "hi": 0.2253,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.1888
+  },
+  "RR-2hop-RR": {
+   "mean": 0.4268,
+   "lo": 0.3415,
+   "hi": 0.5121,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.2366
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.4188,
+   "lo": 0.3301,
+   "hi": 0.5075,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.246
+  }
+ },
+ "hdr-gold-touched": {
+  "n": 89,
+  "A6": 0.517,
+  "A6_lenient": 0.517,
+  "RR": 0.157,
+  "RR_lenient": 0.157,
+  "RR-2hop": 0.618,
+  "RR-2hop_lenient": 0.618,
+  "RR-agg": 0.169,
+  "RR-agg_lenient": 0.169,
+  "A6-syn": 0.169,
+  "A6-syn_lenient": 0.169,
+  "A6-RR-2hop": {
+   "mean": -0.1603,
+   "lo": -0.297,
+   "hi": -0.0236,
+   "level": 0.95,
+   "n_streams": 30,
+   "sd": 0.366
+  },
+  "A6-RR": {
+   "mean": 0.3626,
+   "lo": 0.218,
+   "hi": 0.5072,
+   "level": 0.95,
+   "n_streams": 30,
+   "sd": 0.3872
+  },
+  "RR-2hop-RR": {
+   "mean": 0.5229,
+   "lo": 0.3994,
+   "hi": 0.6464,
+   "level": 0.95,
+   "n_streams": 30,
+   "sd": 0.3309
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.5187,
+   "lo": 0.393,
+   "hi": 0.6445,
+   "level": 0.95,
+   "n_streams": 30,
+   "sd": 0.3368
+  }
+ },
+ "infstmt-gold-no": {
+  "n": 207,
+  "A6": 0.261,
+  "A6_lenient": 0.261,
+  "RR": 0.029,
+  "RR_lenient": 0.029,
+  "RR-2hop": 0.522,
+  "RR-2hop_lenient": 0.522,
+  "RR-agg": 0.029,
+  "RR-agg_lenient": 0.029,
+  "A6-syn": 0.053,
+  "A6-syn_lenient": 0.053,
+  "A6-RR-2hop": {
+   "mean": -0.2669,
+   "lo": -0.3449,
+   "hi": -0.1889,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.2164
+  },
+  "A6-RR": {
+   "mean": 0.2409,
+   "lo": 0.1796,
+   "hi": 0.3023,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.1701
+  },
+  "RR-2hop-RR": {
+   "mean": 0.5078,
+   "lo": 0.427,
+   "hi": 0.5886,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.2241
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.5078,
+   "lo": 0.427,
+   "hi": 0.5886,
+   "level": 0.95,
+   "n_streams": 32,
+   "sd": 0.2241
+  }
+ },
+ "untouched": {
+  "n": 132,
+  "A6": 0.689,
+  "A6_lenient": 0.689,
+  "RR": 0.667,
+  "RR_lenient": 0.667,
+  "RR-2hop": 0.78,
+  "RR-2hop_lenient": 0.78,
+  "RR-agg": 0.644,
+  "RR-agg_lenient": 0.644,
+  "A6-syn": 0.621,
+  "A6-syn_lenient": 0.621,
+  "A6-RR-2hop": {
+   "mean": -0.0934,
+   "lo": -0.1857,
+   "hi": -0.0011,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.2516
+  },
+  "A6-RR": {
+   "mean": 0.0175,
+   "lo": -0.085,
+   "hi": 0.1199,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.2793
+  },
+  "RR-2hop-RR": {
+   "mean": 0.1109,
+   "lo": 0.0148,
+   "hi": 0.207,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.2619
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.1277,
+   "lo": 0.029,
+   "hi": 0.2263,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.2689
+  }
+ },
+ "hdr-nogold-untouched": {
+  "n": 53,
+  "A6": 0.528,
+  "A6_lenient": 0.528,
+  "RR": 0.66,
+  "RR_lenient": 0.66,
+  "RR-2hop": 0.717,
+  "RR-2hop_lenient": 0.717,
+  "RR-agg": 0.585,
+  "RR-agg_lenient": 0.585,
+  "A6-syn": 0.585,
+  "A6-syn_lenient": 0.585,
+  "A6-RR-2hop": {
+   "mean": -0.2613,
+   "lo": -0.4466,
+   "hi": -0.0761,
+   "level": 0.95,
+   "n_streams": 25,
+   "sd": 0.4487
+  },
+  "A6-RR": {
+   "mean": -0.2187,
+   "lo": -0.3778,
+   "hi": -0.0595,
+   "level": 0.95,
+   "n_streams": 25,
+   "sd": 0.3855
+  },
+  "RR-2hop-RR": {
+   "mean": 0.0427,
+   "lo": -0.0799,
+   "hi": 0.1652,
+   "level": 0.95,
+   "n_streams": 25,
+   "sd": 0.2968
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.116,
+   "lo": -0.0085,
+   "hi": 0.2405,
+   "level": 0.95,
+   "n_streams": 25,
+   "sd": 0.3017
+  }
+ },
+ "infstmt-gold-yes": {
+  "n": 113,
+  "A6": 0.858,
+  "A6_lenient": 0.858,
+  "RR": 0.973,
+  "RR_lenient": 0.973,
+  "RR-2hop": 0.912,
+  "RR-2hop_lenient": 0.912,
+  "RR-agg": 0.965,
+  "RR-agg_lenient": 0.965,
+  "A6-syn": 0.912,
+  "A6-syn_lenient": 0.912,
+  "A6-RR-2hop": {
+   "mean": -0.0898,
+   "lo": -0.2053,
+   "hi": 0.0257,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.3149
+  },
+  "A6-RR": {
+   "mean": -0.1489,
+   "lo": -0.2514,
+   "hi": -0.0464,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.2794
+  },
+  "RR-2hop-RR": {
+   "mean": -0.0591,
+   "lo": -0.1113,
+   "hi": -0.007,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.1423
+  },
+  "RR-2hop-RR-agg": {
+   "mean": -0.0505,
+   "lo": -0.1185,
+   "hi": 0.0174,
+   "level": 0.95,
+   "n_streams": 31,
+   "sd": 0.1852
+  }
+ },
+ "hdr-gold-untouched": {
+  "n": 79,
+  "A6": 0.797,
+  "A6_lenient": 0.797,
+  "RR": 0.671,
+  "RR_lenient": 0.671,
+  "RR-2hop": 0.823,
+  "RR-2hop_lenient": 0.823,
+  "RR-agg": 0.684,
+  "RR-agg_lenient": 0.684,
+  "A6-syn": 0.646,
+  "A6-syn_lenient": 0.646,
+  "A6-RR-2hop": {
+   "mean": -0.0042,
+   "lo": -0.0864,
+   "hi": 0.078,
+   "level": 0.95,
+   "n_streams": 28,
+   "sd": 0.212
+  },
+  "A6-RR": {
+   "mean": 0.1548,
+   "lo": 0.0399,
+   "hi": 0.2697,
+   "level": 0.95,
+   "n_streams": 28,
+   "sd": 0.2963
+  },
+  "RR-2hop-RR": {
+   "mean": 0.1589,
+   "lo": 0.0257,
+   "hi": 0.2921,
+   "level": 0.95,
+   "n_streams": 28,
+   "sd": 0.3436
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.147,
+   "lo": 0.014,
+   "hi": 0.2801,
+   "level": 0.95,
+   "n_streams": 28,
+   "sd": 0.3431
+  }
+ },
+ "hdr-nogold-touched": {
+  "n": 99,
+  "A6": 0.141,
+  "A6_lenient": 0.141,
+  "RR": 0.141,
+  "RR_lenient": 0.141,
+  "RR-2hop": 0.535,
+  "RR-2hop_lenient": 0.535,
+  "RR-agg": 0.152,
+  "RR-agg_lenient": 0.152,
+  "A6-syn": 0.172,
+  "A6-syn_lenient": 0.172,
+  "A6-RR-2hop": {
+   "mean": -0.3727,
+   "lo": -0.4828,
+   "hi": -0.2626,
+   "level": 0.95,
+   "n_streams": 27,
+   "sd": 0.2782
+  },
+  "A6-RR": {
+   "mean": 0.0031,
+   "lo": -0.0474,
+   "hi": 0.0536,
+   "level": 0.95,
+   "n_streams": 27,
+   "sd": 0.1276
+  },
+  "RR-2hop-RR": {
+   "mean": 0.3758,
+   "lo": 0.2642,
+   "hi": 0.4874,
+   "level": 0.95,
+   "n_streams": 27,
+   "sd": 0.2821
+  },
+  "RR-2hop-RR-agg": {
+   "mean": 0.3665,
+   "lo": 0.2517,
+   "hi": 0.4814,
+   "level": 0.95,
+   "n_streams": 27,
+   "sd": 0.2903
+  }
+ },
+ "rr2hop_meta": {
+  "bridge_ok": 320,
+  "entity_nonnull": 309,
+  "entity_matches_gold_ref_person": 258,
+  "acc_when_entity_correct": 0.756,
+  "acc_when_entity_wrong_or_none": 0.258,
+  "attr_leaf_served": 240,
+  "ref_leaf_served": 310,
+  "both_leaves_served": 238,
+  "RR_attr_leaf_served": 8,
+  "answer_ok": 320,
+  "abstained": 20,
+  "mentions_wrong": 66,
+  "raw_tokens_est_max": 1999.8500000000004,
+  "tokens": {
+   "input_tokens": 858128,
+   "output_tokens": 61816,
+   "cache_read_input_tokens": 139596
+  },
+  "tokens_bridge": {
+   "input_tokens": 428582,
+   "output_tokens": 38839
+  },
+  "memo_hits": 26,
+  "retried_calls": 38
+ },
+ "rule": {
+  "A6_minus_RR2hop": -0.1875,
+  "outcome": "SHELVE E3: RR-2hop within 3pp of A6 or above -> DERIVED lead is a single-pass retrieval artifact"
+ }
+}

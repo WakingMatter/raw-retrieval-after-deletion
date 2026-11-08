@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K087",
+   "key": "K089",
+   "via": "Leela Verma",
+   "session": "s43",
+   "paragraph": 26,
+   "sentence": "Leela Verma (owner of auth-gateway) signed off on this.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K078",
+   "via": "Leela Verma",
+   "session": "s11",
+   "paragraph": 8,
+   "sentence": "Leela Verma (lead on Orchid Lite) signed off on this.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K100",
+   "via": "Felix Raman",
+   "session": "s30",
+   "paragraph": 2,
+   "sentence": "For the record, vault-bridge listens on port 5000.",
+   "bridged_key": "K100"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K069",
+   "via": "Kabir Khanna",
+   "session": "s36",
+   "paragraph": 30,
+   "sentence": "For the record, Juniper is due October 13.",
+   "bridged_key": "K069"
+  },
+  {
+   "hop_key": "K039",
+   "key": "K042",
+   "via": "Diya Nair",
+   "session": "s34",
+   "paragraph": 27,
+   "sentence": "For the record, Meridian lives in the meridian-hub repo.",
+   "bridged_key": "K042"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Farhan Joshua",
+   "session": "s11",
+   "paragraph": 20,
+   "sentence": "Farhan Joshua, who leads Meridian Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K095",
+   "key": "K097",
+   "via": "Kavya Bose",
+   "session": "s56",
+   "paragraph": 2,
+   "sentence": "For the record, media-proxy listens on port 7000.",
+   "bridged_key": "K097"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K077",
+   "via": "Leela Verma",
+   "session": "s06",
+   "paragraph": 29,
+   "sentence": "Leela Verma (lead on Orchid Lite) signed off on this.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K076",
+   "via": "Leela Verma",
+   "session": "s44",
+   "paragraph": 34,
+   "sentence": "Leela Verma (lead on Orchid Lite) signed off on this.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K070",
+   "via": "Kabir Khanna",
+   "session": "s46",
+   "paragraph": 34,
+   "sentence": "Kabir Khanna, who leads Juniper, confirmed the update.",
+   "bridged_key": "K067"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0949",
+   "id": "e0949b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 949,
+   "session": "s43",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "auth-gateway",
+   "t": "2030-03-12T11:49:00Z",
+   "type": "ASSERT",
+   "value": "Leela Verma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0235",
+   "id": "e0235b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 235,
+   "session": "s11",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Orchid Lite",
+   "t": "2030-01-23T10:01:00Z",
+   "type": "ASSERT",
+   "value": "Leela Verma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0662",
+   "id": "e0662b",
+   "key": "K100",
+   "op": "observe",
+   "seq": 662,
+   "session": "s30",
+   "slot": "listen_port",
+   "subject": "E29",
+   "subject_name": "vault-bridge",
+   "t": "2030-02-21T10:24:00Z",
+   "type": "ASSERT",
+   "value": "5000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0806",
+   "id": "e0806b",
+   "key": "K069",
+   "op": "observe",
+   "seq": 806,
+   "session": "s36",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Juniper",
+   "t": "2030-03-02T16:57:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0759",
+   "id": "e0759b",
+   "key": "K042",
+   "op": "observe",
+   "seq": 759,
+   "session": "s34",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Meridian",
+   "t": "2030-02-27T13:24:00Z",
+   "type": "ASSERT",
+   "value": "meridian-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0242",
+   "id": "e0242b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 242,
+   "session": "s11",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Meridian Lite",
+   "t": "2030-01-23T10:14:00Z",
+   "type": "ASSERT",
+   "value": "Farhan Joshua",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1221",
+   "id": "e1221b",
+   "key": "K097",
+   "op": "observe",
+   "seq": 1221,
+   "session": "s56",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "media-proxy",
+   "t": "2030-04-01T14:04:00Z",
+   "type": "ASSERT",
+   "value": "7000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0141",
+   "id": "e0141b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 141,
+   "session": "s06",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Orchid Lite",
+   "t": "2030-01-16T17:08:00Z",
+   "type": "ASSERT",
+   "value": "Leela Verma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0976",
+   "id": "e0976b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 976,
+   "session": "s44",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Orchid Lite",
+   "t": "2030-03-14T14:57:00Z",
+   "type": "ASSERT",
+   "value": "Leela Verma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1021",
+   "id": "e1021b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 1021,
+   "session": "s46",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Juniper",
+   "t": "2030-03-17T14:31:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

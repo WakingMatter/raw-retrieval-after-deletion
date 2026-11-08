@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K041",
+   "key": "K042",
+   "via": "Ishaan Pillai",
+   "session": "s37",
+   "paragraph": 12,
+   "sentence": "For the record, Meridian is in beta.",
+   "bridged_key": "K042"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K106",
+   "via": "Vikram Basu",
+   "session": "s57",
+   "paragraph": 34,
+   "sentence": "For the record, notif-hub is hosted in eu-west-1.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K095",
+   "key": "K097",
+   "via": "Rahul Joshua",
+   "session": "s48",
+   "paragraph": 10,
+   "sentence": "For the record, session-cache listens on port 8888.",
+   "bridged_key": "K097"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K069",
+   "via": "Lucas Raman",
+   "session": "s39",
+   "paragraph": 2,
+   "sentence": "For the record, Halcyon is due March 14.",
+   "bridged_key": "K069"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K084",
+   "via": "Meera Sethia",
+   "session": "s31",
+   "paragraph": 16,
+   "sentence": "Meera Sethia, who owns ledger-api, confirmed the update.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K102",
+   "key": "K104",
+   "via": "Diya Ghosh",
+   "session": "s43",
+   "paragraph": 26,
+   "sentence": "For the record, auth-gateway listens on port 8888.",
+   "bridged_key": "K104"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K090",
+   "via": "Arjun Chopra",
+   "session": "s20",
+   "paragraph": 22,
+   "sentence": "Arjun Chopra, who owns media-proxy, confirmed the update.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K056",
+   "key": "K059",
+   "via": "Vikram Bose",
+   "session": "s33",
+   "paragraph": 33,
+   "sentence": "For the record, Juniper lives in the juniper-platform repo.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K063",
+   "key": "K066",
+   "via": "Arjun Chopra",
+   "session": "s43",
+   "paragraph": 20,
+   "sentence": "For the record, Zephyr lives in the zephyr-hub repo.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K099",
+   "key": "K100",
+   "via": "Meera Sethi",
+   "session": "s35",
+   "paragraph": 10,
+   "sentence": "Meera Sethi (owner of profile-store) signed off on this.",
+   "bridged_key": "K099"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0801",
+   "id": "e0801b",
+   "key": "K042",
+   "op": "observe",
+   "seq": 801,
+   "session": "s37",
+   "slot": "proj_status",
+   "subject": "E14",
+   "subject_name": "Meridian",
+   "t": "2030-03-03T15:36:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1249",
+   "id": "e1249b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 1249,
+   "session": "s57",
+   "slot": "host_region",
+   "subject": "E31",
+   "subject_name": "notif-hub",
+   "t": "2030-04-02T12:20:00Z",
+   "type": "ASSERT",
+   "value": "eu-west-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1041",
+   "id": "e1041b",
+   "key": "K097",
+   "op": "observe",
+   "seq": 1041,
+   "session": "s48",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "session-cache",
+   "t": "2030-03-20T15:00:00Z",
+   "type": "ASSERT",
+   "value": "8888",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0841",
+   "id": "e0841b",
+   "key": "K069",
+   "op": "observe",
+   "seq": 841,
+   "session": "s39",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Halcyon",
+   "t": "2030-03-06T15:16:00Z",
+   "type": "ASSERT",
+   "value": "March 14",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0672",
+   "id": "e0672b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 672,
+   "session": "s31",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "ledger-api",
+   "t": "2030-02-22T12:13:00Z",
+   "type": "ASSERT",
+   "value": "Meera Sethia",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0934",
+   "id": "e0934b",
+   "key": "K104",
+   "op": "observe",
+   "seq": 934,
+   "session": "s43",
+   "slot": "listen_port",
+   "subject": "E30",
+   "subject_name": "auth-gateway",
+   "t": "2030-03-12T17:17:00Z",
+   "type": "ASSERT",
+   "value": "8888",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0453",
+   "id": "e0453b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 453,
+   "session": "s20",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "media-proxy",
+   "t": "2030-02-06T10:18:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0729",
+   "id": "e0729b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 729,
+   "session": "s33",
+   "slot": "repo_name",
+   "subject": "E18",
+   "subject_name": "Juniper",
+   "t": "2030-02-25T15:13:00Z",
+   "type": "ASSERT",
+   "value": "juniper-platform",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0930",
+   "id": "e0930b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 930,
+   "session": "s43",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Zephyr",
+   "t": "2030-03-12T17:09:00Z",
+   "type": "ASSERT",
+   "value": "zephyr-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0758",
+   "id": "e0758b",
+   "key": "K099",
+   "op": "observe",
+   "seq": 758,
+   "session": "s35",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-02-28T12:37:00Z",
+   "type": "ASSERT",
+   "value": "Meera Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

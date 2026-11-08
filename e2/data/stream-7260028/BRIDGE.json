@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K076",
+   "key": "K077",
+   "via": "Rahul Bose",
+   "session": "s35",
+   "paragraph": 8,
+   "sentence": "For the record, Zephyr Lite is in active build.",
+   "bridged_key": "K077"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K064",
+   "via": "Yusuf Kapur",
+   "session": "s37",
+   "paragraph": 33,
+   "sentence": "Yusuf Kapur (lead on Lumen) signed off on this.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K072",
+   "key": "K073",
+   "via": "Tara Shahi",
+   "session": "s52",
+   "paragraph": 4,
+   "sentence": "Tara Shahi (lead on Ember Lite) signed off on this.",
+   "bridged_key": "K072"
+  },
+  {
+   "hop_key": "K113",
+   "key": "K116",
+   "via": "Lucas Pillai",
+   "session": "s56",
+   "paragraph": 14,
+   "sentence": "Lucas Pillai, who owns vault-bridge-v2, confirmed the update.",
+   "bridged_key": "K113"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K056",
+   "via": "Lucas Pillai",
+   "session": "s57",
+   "paragraph": 4,
+   "sentence": "For the record, Cobalt is due March 14.",
+   "bridged_key": "K056"
+  },
+  {
+   "hop_key": "K109",
+   "key": "K111",
+   "via": "Rahul Bose",
+   "session": "s13",
+   "paragraph": 2,
+   "sentence": "For the record, notif-hub-v2 listens on port 9090.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K080",
+   "key": "K081",
+   "via": "Sameer Iyer",
+   "session": "s14",
+   "paragraph": 6,
+   "sentence": "Sameer Iyer, who owns notif-hub, confirmed the update.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K088",
+   "key": "K089",
+   "via": "Ananya Mennon",
+   "session": "s39",
+   "paragraph": 20,
+   "sentence": "For the record, order-router is hosted in ca-central-1.",
+   "bridged_key": "K089"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K061",
+   "via": "Ananya Mennon",
+   "session": "s40",
+   "paragraph": 20,
+   "sentence": "For the record, Quasar lives in the quasar-svc repo.",
+   "bridged_key": "K061"
+  },
+  {
+   "hop_key": "K096",
+   "key": "K098",
+   "via": "Yusuf Kapur",
+   "session": "s34",
+   "paragraph": 35,
+   "sentence": "Yusuf Kapur (owner of tile-server) signed off on this.",
+   "bridged_key": "K096"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0767",
+   "id": "e0767b",
+   "key": "K077",
+   "op": "observe",
+   "seq": 767,
+   "session": "s35",
+   "slot": "proj_status",
+   "subject": "E23",
+   "subject_name": "Zephyr Lite",
+   "t": "2030-02-28T12:27:00Z",
+   "type": "ASSERT",
+   "value": "in active build",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0822",
+   "id": "e0822b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 822,
+   "session": "s37",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-03-03T11:54:00Z",
+   "type": "ASSERT",
+   "value": "Yusuf Kapur",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1129",
+   "id": "e1129b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 1129,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Ember Lite",
+   "t": "2030-03-26T14:35:00Z",
+   "type": "ASSERT",
+   "value": "Tara Shahi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1222",
+   "id": "e1222b",
+   "key": "K113",
+   "op": "observe",
+   "seq": 1222,
+   "session": "s56",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "vault-bridge-v2",
+   "t": "2030-04-01T14:03:00Z",
+   "type": "ASSERT",
+   "value": "Lucas Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1239",
+   "id": "e1239b",
+   "key": "K056",
+   "op": "observe",
+   "seq": 1239,
+   "session": "s57",
+   "slot": "proj_deadline",
+   "subject": "E17",
+   "subject_name": "Cobalt",
+   "t": "2030-04-02T16:32:00Z",
+   "type": "ASSERT",
+   "value": "March 14",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0295",
+   "id": "e0295b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 295,
+   "session": "s13",
+   "slot": "listen_port",
+   "subject": "E32",
+   "subject_name": "notif-hub-v2",
+   "t": "2030-01-26T12:18:00Z",
+   "type": "ASSERT",
+   "value": "9090",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0320",
+   "id": "e0320b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 320,
+   "session": "s14",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "notif-hub",
+   "t": "2030-01-28T13:47:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0852",
+   "id": "e0852b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 852,
+   "session": "s39",
+   "slot": "host_region",
+   "subject": "E26",
+   "subject_name": "order-router",
+   "t": "2030-03-06T13:50:00Z",
+   "type": "ASSERT",
+   "value": "ca-central-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0876",
+   "id": "e0876b",
+   "key": "K061",
+   "op": "observe",
+   "seq": 876,
+   "session": "s40",
+   "slot": "repo_name",
+   "subject": "E18",
+   "subject_name": "Quasar",
+   "t": "2030-03-08T15:39:00Z",
+   "type": "ASSERT",
+   "value": "quasar-svc",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0763",
+   "id": "e0763b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 763,
+   "session": "s34",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "tile-server",
+   "t": "2030-02-27T15:59:00Z",
+   "type": "ASSERT",
+   "value": "Yusuf Kapur",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "seed": 7280002,
+ "L": 4,
+ "chain": 3,
+ "tokens": 339100,
+ "sessions": 240,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280002:MULTIHOP:K068": {
+   "cls": "MULTIHOP",
+   "gold": "April 28",
+   "union": 152.95,
+   "minimal": 152.95,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K080": {
+   "cls": "MULTIHOP",
+   "gold": "8000",
+   "union": 136.84999999999997,
+   "minimal": 136.84999999999997,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K065": {
+   "cls": "MULTIHOP",
+   "gold": "mosaic-stack",
+   "union": 125.35,
+   "minimal": 125.35,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K083": {
+   "cls": "MULTIHOP",
+   "gold": "ap-south-1",
+   "union": 211.59999999999997,
+   "minimal": 135.7,
+   "n_paragraphs": 3
+  },
+  "7280002:MULTIHOP:K053": {
+   "cls": "MULTIHOP",
+   "gold": "in beta",
+   "union": 113.85,
+   "minimal": 113.85,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K059": {
+   "cls": "MULTIHOP",
+   "gold": "ember-svc",
+   "union": 112.69999999999999,
+   "minimal": 112.69999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K072": {
+   "cls": "MULTIHOP",
+   "gold": "July 21",
+   "union": 156.39999999999998,
+   "minimal": 111.54999999999998,
+   "n_paragraphs": 3
+  },
+  "7280002:MULTIHOP:K092": {
+   "cls": "MULTIHOP",
+   "gold": "Spanner",
+   "union": 116.14999999999998,
+   "minimal": 116.14999999999998,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K096": {
+   "cls": "MULTIHOP",
+   "gold": "CockroachDB",
+   "union": 134.55,
+   "minimal": 134.55,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K103": {
+   "cls": "MULTIHOP",
+   "gold": "8080",
+   "union": 170.2,
+   "minimal": 93.15,
+   "n_paragraphs": 3
+  },
+  "7280002:DERIVED:K129": {
+   "cls": "DERIVED",
+   "gold": "Payments",
+   "union": 239.2,
+   "minimal": 90.85,
+   "n_paragraphs": 4
+  },
+  "7280002:DERIVED:K132": {
+   "cls": "DERIVED",
+   "gold": "Singapore",
+   "union": 194.35,
+   "minimal": 105.8,
+   "n_paragraphs": 3
+  },
+  "7280002:DERIVED:K137": {
+   "cls": "DERIVED",
+   "gold": "Growth",
+   "union": 102.35,
+   "minimal": 102.35,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K142": {
+   "cls": "DERIVED",
+   "gold": "Core Infra",
+   "union": 108.1,
+   "minimal": 108.1,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K148": {
+   "cls": "DERIVED",
+   "gold": "Mobile Apps",
+   "union": 114.99999999999999,
+   "minimal": 114.99999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K138": {
+   "cls": "DERIVED",
+   "gold": "Lisbon",
+   "union": 111.54999999999998,
+   "minimal": 111.54999999999998,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K139": {
+   "cls": "DERIVED",
+   "gold": "Singapore",
+   "union": 173.64999999999998,
+   "minimal": 109.25,
+   "n_paragraphs": 3
+  },
+  "7280002:DERIVED:K134": {
+   "cls": "DERIVED",
+   "gold": "Growth",
+   "union": 89.69999999999999,
+   "minimal": 89.69999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K135": {
+   "cls": "DERIVED",
+   "gold": "Payments",
+   "union": 114.99999999999999,
+   "minimal": 114.99999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K133": {
+   "cls": "DERIVED",
+   "gold": "Singapore",
+   "union": 204.7,
+   "minimal": 121.89999999999998,
+   "n_paragraphs": 3
+  },
+  "7280002:AGG:K088": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 98.89999999999999,
+   "minimal": 98.89999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:AGG:K066": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 194.35,
+   "minimal": 111.54999999999998,
+   "n_paragraphs": 3
+  },
+  "7280002:AGG:K011": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280002:AGG:K038": {
+   "cls": "AGG",
+   "gold": "3",
+   "union": 201.25,
+   "minimal": 143.75,
+   "n_paragraphs": 4
+  },
+  "7280002:AGG:K022": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280002:AGG:K076": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280002:AGG:K121": {
+   "cls": "AGG",
+   "gold": "3",
+   "union": 161.0,
+   "minimal": 161.0,
+   "n_paragraphs": 3
+  },
+  "7280002:AGG:K112": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 95.44999999999999,
+   "minimal": 47.15,
+   "n_paragraphs": 2
+  },
+  "7280002:AGG:K110": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280002:AGG:K114": {
+   "cls": "AGG",
+   "gold": "3",
+   "union": 171.34999999999997,
+   "minimal": 171.34999999999997,
+   "n_paragraphs": 3
+  },
+  "7280002:CURRENT:K036": {
+   "cls": "CURRENT",
+   "gold": "Billing Ops",
+   "union": 62.099999999999994,
+   "minimal": 62.099999999999994,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K056": {
+   "cls": "CURRENT",
+   "gold": "Farhan Varma",
+   "union": 70.14999999999999,
+   "minimal": 70.14999999999999,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K049": {
+   "cls": "CURRENT",
+   "gold": "Ines Shah",
+   "union": 64.39999999999999,
+   "minimal": 64.39999999999999,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K029": {
+   "cls": "CURRENT",
+   "gold": "Lisbon",
+   "union": 59.8,
+   "minimal": 59.8,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K070": {
+   "cls": "CURRENT",
+   "gold": "Sofia Pillai",
+   "union": 67.85,
+   "minimal": 67.85,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K060": {
+   "cls": "CURRENT",
+   "gold": "Hana Naik",
+   "union": 57.49999999999999,
+   "minimal": 57.49999999999999,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K054": {
+   "cls": "CURRENT",
+   "gold": "September 1",
+   "union": 50.599999999999994,
+   "minimal": 50.599999999999994,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K041": {
+   "cls": "CURRENT",
+   "gold": "Ines Shah",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K035": {
+   "cls": "CURRENT",
+   "gold": "Singapore",
+   "union": 51.74999999999999,
+   "minimal": 51.74999999999999,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K027": {
+   "cls": "CURRENT",
+   "gold": "Payments",
+   "union": 104.64999999999999,
+   "minimal": 44.849999999999994,
+   "n_paragraphs": 2
+  }
+ }
+}

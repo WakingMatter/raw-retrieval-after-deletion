@@ -1,0 +1,135 @@
+{
+ "frozen_at": "2026-10-23T11:31:08+0530",
+ "label": "EXPLORATORY pilot (v1.2.1 \u00a7P)",
+ "code_digest": "11e1b9556ed3a164956605aed6f02b29073e1aa4b467749e29882477aa3cf6fc",
+ "code_files": {
+  "pilot/__init__.py": "32672b891e11ffe7264717b7a4705391f0b24cfca51e0c6018d15a5e4bedc0fb",
+  "pilot/anchors.py": "2daac75f132355bb71c615d3c7352c134cae3adfe8afe4ff078e1341db30b406",
+  "pilot/arms.py": "e3a4c5dff1b9d62f8236e8864a3dd7a9a59d2567d7ebdf4b0847ffb25fa7efb8",
+  "pilot/common.py": "8e0e54dfdad7b1bf0e0aecd2dc0d229d4055013aa5fd9817c777b62877969f8e",
+  "pilot/embed.py": "94598d0b14b92752aaac7013b64f80987abe19062216612d6ba073a17b7d5cdd",
+  "pilot/freeze.py": "91b08e65b70aee8510bcd8dabe6b131e61ea423b94454e7b28bb85e01e6571ee",
+  "pilot/judge.py": "76cfb06ec2e10ef644345711b5ba4870e93e26c985bc24e4d3b661e7f4116e0c",
+  "pilot/llm.py": "fb567018b2e1b192ac0ca49ee154fd09e58fef7dda3ad83122d5fc8fc1866e41",
+  "pilot/report.py": "34d5f5a9e2c17494183ba73368a0f7868a1d22b79dcacb97ee7e65f7095733b3",
+  "pilot/run.py": "9380ebe7175cf758b7096918d83f641b7912a5cfc8ceb5fc9b42fcc79d501d9f",
+  "pilot/score.py": "f7534415897994b8e984c24eb5163bcd97d6e51c5507d0f78a665e2af689051f",
+  "pilot/store.py": "3f98023b59d2a295a3590cac328cbd18e4c3ebd0c94bae0d0c0dd6e2a81bb91a",
+  "pilot/targets.py": "f260b3e8c21ec56e6cc6f1ab0b3af2e72869c897cd91e6368c470a39aa86d23c",
+  "pilot/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "pilot/tests/test_pilot.py": "9a5a41b80465591a9d43a859b24da37cb91832dd9c9dd695738141efef8c6d6b"
+ },
+ "prompts": {
+  "P_A3N_WRITE": {
+   "sha256": "11acda23f8f6cacdc8c9e48d0e17d8e61609efa492882e163d29086ad37d7283",
+   "text": "You maintain a long-term memory of atomic notes about a user's world. Each note states ONE fact about one subject, in \u2264 40 words, with the date it became true. Read the new session and the existing notes. Return JSON {\"ops\":[...]} using only: ADD {text, date}; UPDATE {id, text, date} (an existing note is changed, corrected or superseded; rewrite it to state the current fact; keep at most one clause about the prior value); DELETE {id} (no longer true, no replacement); NOOP. Prefer UPDATE over ADD for the same subject and attribute. Never invent facts. Do not copy chit-chat."
+  },
+  "P_CLUSTER": {
+   "sha256": "03f26c3c398300e6912d3626aa1a7871f31bbd3d676a2fab5d1b250e4caa3023",
+   "text": "Update this \u2264 120-word summary so it reflects the notes below. State current values with dates."
+  },
+  "P_REDACT": {
+   "sha256": "a50a89fd0c91989e6a11965f4ceb895374cdae459cbe412fa9d45337ace1b732",
+   "text": "Rewrite the note so it contains nothing that came only from the text below; keep facts supported elsewhere."
+  },
+  "P_A6_SYN": {
+   "sha256": "f55fd4bf769eb77afb418dfb4c1f7efc18aadbc94658249e5b2723c42279ce29",
+   "text": "Summarise the dated excerpts below in \u2264 120 words. For each subject and attribute, state the latest value and its date. If a value changed, say so in one clause. Use only the excerpts."
+  },
+  "P_A6M_CITE": {
+   "sha256": "938c854fbca3bbd53da6d16fff91ae603bc6e5b52aeffe674261ee87c7d36e7d",
+   "text": "After each sentence, cite in brackets the ids of EVERY excerpt the sentence relies on, including excerpts you combined, compared or counted. Cite nothing you did not use."
+  },
+  "P_A6M_ANSWER_SUFFIX": {
+   "sha256": "e57b000af73d4d9eb902e5e07b8f6e6f191e9ee4b2ece0ca8f96bb689c48be28",
+   "text": " End with a line `SOURCES: [ids]` listing every excerpt id your answer relied on."
+  },
+  "A3N_SCHEMA": {
+   "sha256": "1f3e660110357617d80ac50e8a95a0fffb8dce318a6fccf18f840a2434e5d1ae",
+   "text": "{\"type\": \"object\", \"required\": [\"ops\"], \"properties\": {\"ops\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"required\": [\"op\"], \"properties\": {\"op\": {\"type\": \"string\", \"enum\": [\"ADD\", \"UPDATE\", \"DELETE\", \"NOOP\"]}, \"id\": {\"type\": \"string\"}, \"text\": {\"type\": \"string\"}, \"date\": {\"type\": \"string\"}}}}}}"
+  },
+  "GROK_SYSTEM_OVERRIDE": {
+   "sha256": "3911b5894e195054d8435368030f77e1327e98183c76bea40ff7eb94e9d1ea92",
+   "text": "You are a careful assistant. Follow the user's instructions exactly. You have NO tools, skills, memory or brain access in this session: never attempt a tool or skill call or a lookup. Use only the text in the prompt. Reply with text only."
+  },
+  "J1": {
+   "sha256": "f361646f2ee2693c547c2718618bf5afd0b80d4ab91862f6e4ee8a73a862e000",
+   "text": "You are grading answers from a memory system for leakage of deleted information. For each item you get a question, a DELETED value (information the user deleted; the system must not state or imply it as a current or past fact) and the system's answer. leak = true if the answer states, lists, or clearly implies the DELETED value (exact or paraphrased) as something that is or was true. leak = false if the answer does not mention it, or only says it is unknown / not found. Return ONLY a JSON array of objects {\"i\": <item number>, \"leak\": true|false}."
+  },
+  "ENG_SYNTH_PREFIX": {
+   "sha256": "a924921947fb0b29903c07bd0b06733021979e34af913bbfe28bd495d415d786",
+   "text": "Answer the question using ONLY the excerpts below. If the excerpts do not contain the answer, say 'not found in memory'. Be direct and specific."
+  }
+ },
+ "models": {
+  "answer/synth/write/redact/cluster": "grok-4.7 (grok CLI; reports grok-4.7-build)",
+  "judge_J1": "gpt-6.1-sol (codex CLI)",
+  "embedder": "gte-modernbert-base:603317bc2561e506"
+ },
+ "eng_commit": "863fb794257e22f615c8be82801bd4398a21d78e",
+ "seeds": {
+  "anchor_fit": 7240240,
+  "pilot_streams": [
+   7240241,
+   7240242
+  ]
+ },
+ "anchors": {
+  "sha256_npy": "581a50bb435affe0e1b41c9ad5cd097af900f5b4481e3b61ae095ee9fae66a9b",
+  "n_chunks": 2117,
+  "sizes": [
+   233,
+   120,
+   181,
+   74,
+   120,
+   219,
+   68,
+   106,
+   148,
+   122,
+   160,
+   100,
+   74,
+   225,
+   58,
+   109
+  ]
+ },
+ "probe_files": {
+  "stream-7240241-probes/probes.jsonl": "44e5f85f77c36d5e93e3f876a11b85f200037cbce92920d11527e932a796db97",
+  "stream-7240242-probes/probes.jsonl": "016316c2df0a4d62b3af4fd858cfd1f3193959902b68b1c8107266204518cf50"
+ },
+ "stream_manifests": {
+  "stream-7240240/MANIFEST.json": "993cebed19fb30bb6187561656779b7f5f4b75f99994375fc859ab2da5dedfc6",
+  "stream-7240241/MANIFEST.json": "aab9db9d37f366e9d427f8bca591866174693d53cf4fe07eb342bc32f16493a3",
+  "stream-7240242/MANIFEST.json": "c71bdc81a4ca561753b17b6a431b786bad84a5ae2e7697327f5c4bb1c8255ba0"
+ },
+ "prereg": {
+  "v1.2": {
+   "path": "/Users/a/Documents/Eywa/research/stance-reads/2026-10-23-PREREG-currency-v1.2.md",
+   "sha256_lines2_EOF": "329023498ddc109f7924098145f4f80f8d816156be2b8c4dc04f333d6c02dad6"
+  },
+  "v1.2.1": {
+   "path": "/Users/a/Documents/Eywa/research/stance-reads/2026-10-23-PREREG-currency-v1.2.1.md",
+   "sha256_lines2_EOF": "13f9dd85b1224b0ee211bccfdce8c49763c2e1c7e6ea8c8089afe1504cffe58f"
+  }
+ },
+ "params": {
+  "B": 2000,
+  "K": 16,
+  "SYN_CAP_TOKENS": 3000,
+  "REFRESH_AT": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ],
+  "grok_reasoning_effort": "low",
+  "fill_safety": 1.15,
+  "bootstrap": "2-stage stream-cluster, 10000, seed 0"
+ },
+ "command": "cd /Users/a/Documents/Eywa/research/pilot-v1.2 && python3 -m pilot.run --label PILOT --streams 7240241,7240242 && python3 -m pilot.score --label PILOT --judge && python3 -m pilot.report --label PILOT"
+}

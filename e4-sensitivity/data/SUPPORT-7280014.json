@@ -1,0 +1,296 @@
+{
+ "seed": 7280014,
+ "L": 1,
+ "chain": 1,
+ "tokens": 84697,
+ "sessions": 60,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280014:MULTIHOP:K062": {
+   "cls": "MULTIHOP",
+   "gold": "sable-app",
+   "union": 129.95,
+   "minimal": 129.95,
+   "n_paragraphs": 2
+  },
+  "7280014:MULTIHOP:K115": {
+   "cls": "MULTIHOP",
+   "gold": "MongoDB",
+   "union": 182.85,
+   "minimal": 125.35,
+   "n_paragraphs": 3
+  },
+  "7280014:MULTIHOP:K103": {
+   "cls": "MULTIHOP",
+   "gold": "7443",
+   "union": 147.2,
+   "minimal": 147.2,
+   "n_paragraphs": 2
+  },
+  "7280014:MULTIHOP:K058": {
+   "cls": "MULTIHOP",
+   "gold": "mosaic-mono",
+   "union": 187.45,
+   "minimal": 106.94999999999999,
+   "n_paragraphs": 3
+  },
+  "7280014:MULTIHOP:K107": {
+   "cls": "MULTIHOP",
+   "gold": "7443",
+   "union": 136.85,
+   "minimal": 136.85,
+   "n_paragraphs": 2
+  },
+  "7280014:MULTIHOP:K065": {
+   "cls": "MULTIHOP",
+   "gold": "November 3",
+   "union": 177.1,
+   "minimal": 103.5,
+   "n_paragraphs": 3
+  },
+  "7280014:MULTIHOP:K097": {
+   "cls": "MULTIHOP",
+   "gold": "8888",
+   "union": 161.0,
+   "minimal": 89.69999999999999,
+   "n_paragraphs": 3
+  },
+  "7280014:MULTIHOP:K046": {
+   "cls": "MULTIHOP",
+   "gold": "September 22",
+   "union": 166.75,
+   "minimal": 124.19999999999999,
+   "n_paragraphs": 3
+  },
+  "7280014:MULTIHOP:K060": {
+   "cls": "MULTIHOP",
+   "gold": "in planning",
+   "union": 177.09999999999997,
+   "minimal": 110.39999999999999,
+   "n_paragraphs": 3
+  },
+  "7280014:MULTIHOP:K057": {
+   "cls": "MULTIHOP",
+   "gold": "April 28",
+   "union": 187.45,
+   "minimal": 120.75,
+   "n_paragraphs": 3
+  },
+  "7280014:DERIVED:K128": {
+   "cls": "DERIVED",
+   "gold": "Bengaluru",
+   "union": 123.04999999999998,
+   "minimal": 123.04999999999998,
+   "n_paragraphs": 2
+  },
+  "7280014:DERIVED:K140": {
+   "cls": "DERIVED",
+   "gold": "AppSec",
+   "union": 85.1,
+   "minimal": 85.1,
+   "n_paragraphs": 2
+  },
+  "7280014:DERIVED:K143": {
+   "cls": "DERIVED",
+   "gold": "Growth",
+   "union": 278.29999999999995,
+   "minimal": 131.1,
+   "n_paragraphs": 5
+  },
+  "7280014:DERIVED:K147": {
+   "cls": "DERIVED",
+   "gold": "Jaipur",
+   "union": 105.8,
+   "minimal": 105.8,
+   "n_paragraphs": 2
+  },
+  "7280014:DERIVED:K132": {
+   "cls": "DERIVED",
+   "gold": "Mobile Apps",
+   "union": 97.75,
+   "minimal": 97.75,
+   "n_paragraphs": 2
+  },
+  "7280014:DERIVED:K129": {
+   "cls": "DERIVED",
+   "gold": "Identity",
+   "union": 219.64999999999998,
+   "minimal": 88.54999999999998,
+   "n_paragraphs": 4
+  },
+  "7280014:DERIVED:K137": {
+   "cls": "DERIVED",
+   "gold": "AppSec",
+   "union": 80.5,
+   "minimal": 80.5,
+   "n_paragraphs": 2
+  },
+  "7280014:DERIVED:K141": {
+   "cls": "DERIVED",
+   "gold": "Austin",
+   "union": 87.39999999999999,
+   "minimal": 87.39999999999999,
+   "n_paragraphs": 2
+  },
+  "7280014:DERIVED:K149": {
+   "cls": "DERIVED",
+   "gold": "Delhi",
+   "union": 159.85,
+   "minimal": 88.54999999999998,
+   "n_paragraphs": 3
+  },
+  "7280014:DERIVED:K133": {
+   "cls": "DERIVED",
+   "gold": "Observability",
+   "union": 139.14999999999998,
+   "minimal": 139.14999999999998,
+   "n_paragraphs": 3
+  },
+  "7280014:AGG:K034": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 170.2,
+   "minimal": 118.44999999999999,
+   "n_paragraphs": 3
+  },
+  "7280014:AGG:K041": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 83.94999999999999,
+   "minimal": 37.949999999999996,
+   "n_paragraphs": 2
+  },
+  "7280014:AGG:K015": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280014:AGG:K100": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 96.6,
+   "minimal": 96.6,
+   "n_paragraphs": 2
+  },
+  "7280014:AGG:K084": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 47.15,
+   "minimal": 47.15,
+   "n_paragraphs": 1
+  },
+  "7280014:AGG:K096": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280014:AGG:K002": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 92.0,
+   "minimal": 92.0,
+   "n_paragraphs": 2
+  },
+  "7280014:AGG:K027": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 42.55,
+   "minimal": 42.55,
+   "n_paragraphs": 1
+  },
+  "7280014:AGG:K019": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280014:AGG:K064": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 83.94999999999999,
+   "minimal": 83.94999999999999,
+   "n_paragraphs": 2
+  },
+  "7280014:CURRENT:K105": {
+   "cls": "CURRENT",
+   "gold": "Hana Shah",
+   "union": 136.85,
+   "minimal": 65.55,
+   "n_paragraphs": 2
+  },
+  "7280014:CURRENT:K090": {
+   "cls": "CURRENT",
+   "gold": "DynamoDB",
+   "union": 66.69999999999999,
+   "minimal": 66.69999999999999,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K087": {
+   "cls": "CURRENT",
+   "gold": "Ishaan Pillai",
+   "union": 66.69999999999999,
+   "minimal": 66.69999999999999,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K016": {
+   "cls": "CURRENT",
+   "gold": "Growth",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K059": {
+   "cls": "CURRENT",
+   "gold": "Ishaan Pillai",
+   "union": 129.95,
+   "minimal": 63.24999999999999,
+   "n_paragraphs": 2
+  },
+  "7280014:CURRENT:K092": {
+   "cls": "CURRENT",
+   "gold": "us-west-2",
+   "union": 69.0,
+   "minimal": 69.0,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K050": {
+   "cls": "CURRENT",
+   "gold": "October 13",
+   "union": 47.15,
+   "minimal": 47.15,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K011": {
+   "cls": "CURRENT",
+   "gold": "data scientist",
+   "union": 65.55,
+   "minimal": 65.55,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K061": {
+   "cls": "CURRENT",
+   "gold": "September 1",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280014:CURRENT:K036": {
+   "cls": "CURRENT",
+   "gold": "product designer",
+   "union": 66.69999999999999,
+   "minimal": 66.69999999999999,
+   "n_paragraphs": 1
+  }
+ }
+}

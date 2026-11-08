@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K088",
+   "key": "K089",
+   "via": "Priya Mehta",
+   "session": "s46",
+   "paragraph": 4,
+   "sentence": "Priya Mehta, who owns media-proxy, confirmed the update.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K084",
+   "key": "K086",
+   "via": "Aisha Ghosh",
+   "session": "s34",
+   "paragraph": 26,
+   "sentence": "Aisha Ghosh (owner of quota-guard) signed off on this.",
+   "bridged_key": "K084"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K100",
+   "via": "Sofia Menon",
+   "session": "s28",
+   "paragraph": 20,
+   "sentence": "For the record, profile-store listens on port 3000.",
+   "bridged_key": "K100"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K043",
+   "via": "Hana Nair",
+   "session": "s41",
+   "paragraph": 26,
+   "sentence": "For the record, Mosaic is in planning.",
+   "bridged_key": "K043"
+  },
+  {
+   "hop_key": "K102",
+   "key": "K104",
+   "via": "Arjun Shah",
+   "session": "s28",
+   "paragraph": 4,
+   "sentence": "Arjun Shah (owner of vault-bridge) signed off on this.",
+   "bridged_key": "K102"
+  },
+  {
+   "hop_key": "K088",
+   "key": "K091",
+   "via": "Priya Mehta",
+   "session": "s40",
+   "paragraph": 26,
+   "sentence": "For the record, media-proxy runs on Cassandra.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K088",
+   "key": "K090",
+   "via": "Priya Mehta",
+   "session": "s54",
+   "paragraph": 8,
+   "sentence": "Priya Mehta (owner of media-proxy) signed off on this.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K045",
+   "via": "Hana Nair",
+   "session": "s41",
+   "paragraph": 26,
+   "sentence": "For the record, Mosaic lives in the mosaic-svc repo.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K102",
+   "key": "K103",
+   "via": "Arjun Shah",
+   "session": "s44",
+   "paragraph": 10,
+   "sentence": "Arjun Shah, who owns vault-bridge, confirmed the update.",
+   "bridged_key": "K102"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K101",
+   "via": "Sofia Menon",
+   "session": "s50",
+   "paragraph": 33,
+   "sentence": "Sofia Menon, who owns profile-store, confirmed the update.",
+   "bridged_key": "K098"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0988",
+   "id": "e0988b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 988,
+   "session": "s46",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "media-proxy",
+   "t": "2030-03-17T15:03:00Z",
+   "type": "ASSERT",
+   "value": "Priya Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0743",
+   "id": "e0743b",
+   "key": "K084",
+   "op": "observe",
+   "seq": 743,
+   "session": "s34",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "quota-guard",
+   "t": "2030-02-27T09:38:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0612",
+   "id": "e0612b",
+   "key": "K100",
+   "op": "observe",
+   "seq": 612,
+   "session": "s28",
+   "slot": "listen_port",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-02-18T15:20:00Z",
+   "type": "ASSERT",
+   "value": "3000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0894",
+   "id": "e0894b",
+   "key": "K043",
+   "op": "observe",
+   "seq": 894,
+   "session": "s41",
+   "slot": "proj_status",
+   "subject": "E14",
+   "subject_name": "Mosaic",
+   "t": "2030-03-09T14:35:00Z",
+   "type": "ASSERT",
+   "value": "in planning",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0604",
+   "id": "e0604b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 604,
+   "session": "s28",
+   "slot": "svc_owner",
+   "subject": "E30",
+   "subject_name": "vault-bridge",
+   "t": "2030-02-18T15:04:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0870",
+   "id": "e0870b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 870,
+   "session": "s40",
+   "slot": "db_engine",
+   "subject": "E26",
+   "subject_name": "media-proxy",
+   "t": "2030-03-08T15:11:00Z",
+   "type": "ASSERT",
+   "value": "Cassandra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1163",
+   "id": "e1163b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 1163,
+   "session": "s54",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "media-proxy",
+   "t": "2030-03-29T10:38:00Z",
+   "type": "ASSERT",
+   "value": "Priya Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0894",
+   "id": "e0894b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 894,
+   "session": "s41",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Mosaic",
+   "t": "2030-03-09T14:35:00Z",
+   "type": "ASSERT",
+   "value": "mosaic-svc",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0947",
+   "id": "e0947b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 947,
+   "session": "s44",
+   "slot": "svc_owner",
+   "subject": "E30",
+   "subject_name": "vault-bridge",
+   "t": "2030-03-14T11:26:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1097",
+   "id": "e1097b",
+   "key": "K098",
+   "op": "observe",
+   "seq": 1097,
+   "session": "s50",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-03-23T17:23:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

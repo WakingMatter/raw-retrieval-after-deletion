@@ -1,0 +1,296 @@
+{
+ "seed": 7280016,
+ "L": 1,
+ "chain": 1,
+ "tokens": 84791,
+ "sessions": 60,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280016:MULTIHOP:K078": {
+   "cls": "MULTIHOP",
+   "gold": "October 13",
+   "union": 127.64999999999999,
+   "minimal": 127.64999999999999,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K086": {
+   "cls": "MULTIHOP",
+   "gold": "8443",
+   "union": 157.54999999999998,
+   "minimal": 157.54999999999998,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K107": {
+   "cls": "MULTIHOP",
+   "gold": "6060",
+   "union": 119.6,
+   "minimal": 119.6,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K090": {
+   "cls": "MULTIHOP",
+   "gold": "8000",
+   "union": 131.1,
+   "minimal": 131.1,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K114": {
+   "cls": "MULTIHOP",
+   "gold": "eu-central-1",
+   "union": 151.8,
+   "minimal": 151.8,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K058": {
+   "cls": "MULTIHOP",
+   "gold": "in design review",
+   "union": 189.75,
+   "minimal": 81.65,
+   "n_paragraphs": 4
+  },
+  "7280016:MULTIHOP:K050": {
+   "cls": "MULTIHOP",
+   "gold": "in beta",
+   "union": 88.54999999999998,
+   "minimal": 88.54999999999998,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K112": {
+   "cls": "MULTIHOP",
+   "gold": "Postgres",
+   "union": 110.39999999999999,
+   "minimal": 110.39999999999999,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K071": {
+   "cls": "MULTIHOP",
+   "gold": "juniper-next",
+   "union": 108.1,
+   "minimal": 108.1,
+   "n_paragraphs": 2
+  },
+  "7280016:MULTIHOP:K100": {
+   "cls": "MULTIHOP",
+   "gold": "8000",
+   "union": 162.15,
+   "minimal": 93.15,
+   "n_paragraphs": 3
+  },
+  "7280016:DERIVED:K139": {
+   "cls": "DERIVED",
+   "gold": "Core Infra",
+   "union": 154.1,
+   "minimal": 154.1,
+   "n_paragraphs": 3
+  },
+  "7280016:DERIVED:K144": {
+   "cls": "DERIVED",
+   "gold": "Berlin",
+   "union": 110.39999999999999,
+   "minimal": 110.39999999999999,
+   "n_paragraphs": 2
+  },
+  "7280016:DERIVED:K149": {
+   "cls": "DERIVED",
+   "gold": "Search Quality",
+   "union": 166.75,
+   "minimal": 97.75,
+   "n_paragraphs": 3
+  },
+  "7280016:DERIVED:K141": {
+   "cls": "DERIVED",
+   "gold": "Kochi",
+   "union": 113.85,
+   "minimal": 113.85,
+   "n_paragraphs": 2
+  },
+  "7280016:DERIVED:K140": {
+   "cls": "DERIVED",
+   "gold": "Core Infra",
+   "union": 138.0,
+   "minimal": 138.0,
+   "n_paragraphs": 3
+  },
+  "7280016:DERIVED:K133": {
+   "cls": "DERIVED",
+   "gold": "Search Quality",
+   "union": 120.75,
+   "minimal": 120.75,
+   "n_paragraphs": 2
+  },
+  "7280016:DERIVED:K128": {
+   "cls": "DERIVED",
+   "gold": "Identity",
+   "union": 93.14999999999999,
+   "minimal": 93.14999999999999,
+   "n_paragraphs": 2
+  },
+  "7280016:DERIVED:K143": {
+   "cls": "DERIVED",
+   "gold": "Observability",
+   "union": 179.39999999999998,
+   "minimal": 100.04999999999998,
+   "n_paragraphs": 3
+  },
+  "7280016:DERIVED:K130": {
+   "cls": "DERIVED",
+   "gold": "Austin",
+   "union": 183.99999999999997,
+   "minimal": 183.99999999999997,
+   "n_paragraphs": 3
+  },
+  "7280016:DERIVED:K142": {
+   "cls": "DERIVED",
+   "gold": "Data Platform",
+   "union": 233.45,
+   "minimal": 166.75,
+   "n_paragraphs": 4
+  },
+  "7280016:AGG:K030": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 95.44999999999999,
+   "minimal": 95.44999999999999,
+   "n_paragraphs": 2
+  },
+  "7280016:AGG:K007": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 112.69999999999999,
+   "minimal": 112.69999999999999,
+   "n_paragraphs": 2
+  },
+  "7280016:AGG:K095": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280016:AGG:K076": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 108.1,
+   "minimal": 108.1,
+   "n_paragraphs": 2
+  },
+  "7280016:AGG:K075": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 52.9,
+   "minimal": 52.9,
+   "n_paragraphs": 1
+  },
+  "7280016:AGG:K053": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280016:AGG:K108": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 139.14999999999998,
+   "minimal": 90.85,
+   "n_paragraphs": 3
+  },
+  "7280016:AGG:K027": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 44.849999999999994,
+   "minimal": 44.849999999999994,
+   "n_paragraphs": 1
+  },
+  "7280016:AGG:K018": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280016:AGG:K084": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 233.45,
+   "minimal": 179.39999999999998,
+   "n_paragraphs": 4
+  },
+  "7280016:CURRENT:K043": {
+   "cls": "CURRENT",
+   "gold": "October 13",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K041": {
+   "cls": "CURRENT",
+   "gold": "Vikram Sethi",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K042": {
+   "cls": "CURRENT",
+   "gold": "in planning",
+   "union": 63.24999999999999,
+   "minimal": 63.24999999999999,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K056": {
+   "cls": "CURRENT",
+   "gold": "saffron-platform",
+   "union": 95.44999999999999,
+   "minimal": 44.849999999999994,
+   "n_paragraphs": 2
+  },
+  "7280016:CURRENT:K046": {
+   "cls": "CURRENT",
+   "gold": "in maintenance mode",
+   "union": 65.55,
+   "minimal": 65.55,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K039": {
+   "cls": "CURRENT",
+   "gold": "Data Platform",
+   "union": 65.55,
+   "minimal": 65.55,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K083": {
+   "cls": "CURRENT",
+   "gold": "Spanner",
+   "union": 62.099999999999994,
+   "minimal": 62.099999999999994,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K060": {
+   "cls": "CURRENT",
+   "gold": "zephyr-svc",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K054": {
+   "cls": "CURRENT",
+   "gold": "in beta",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280016:CURRENT:K094": {
+   "cls": "CURRENT",
+   "gold": "Postgres",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  }
+ }
+}

@@ -1,0 +1,37 @@
+embedder namespace gte-modernbert-base:1a034ed7c2828f013991...
+
+## A6-F (PILOT3 streams 7240241-45) units with missing cached vector: 0
+replayed header == logged served summaries: 306/306
+  blocked:first_existing_summary_over_cap: 132
+  blocked:first_existing_summary_over_cap+later_fit_skipped_by_break: 119
+  served: 55
+  AGG: blocked:first_existing_summary_over_cap=2, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=4
+  DERIVED: blocked:first_existing_summary_over_cap=4, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=2
+  DIRECT: blocked:first_existing_summary_over_cap=50, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=47, served=28
+  ENUM: blocked:first_existing_summary_over_cap=14, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=17, served=9
+  HIST: blocked:first_existing_summary_over_cap=29, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=15, served=9
+  SUMM: blocked:first_existing_summary_over_cap=8, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=11, served=4
+  current: blocked:first_existing_summary_over_cap=7, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=3, served=1
+  deleted_retracted_absent: blocked:first_existing_summary_over_cap=2, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=2, served=4
+  multi_hop: blocked:first_existing_summary_over_cap=9, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=10
+  premise_bait: blocked:first_existing_summary_over_cap=2, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=1
+  unaffected_control: blocked:first_existing_summary_over_cap=2, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=2
+  use_in_task: blocked:first_existing_summary_over_cap=3, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=5
+
+## A6-C (PILOT3 streams 7240241-45) units with missing cached vector: 0
+replayed header == logged served summaries: 306/306
+  blocked:first_existing_summary_over_cap: 115
+  blocked:first_existing_summary_over_cap+later_fit_skipped_by_break: 102
+  served: 89
+  AGG: blocked:first_existing_summary_over_cap=4, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=1, served=1
+  DERIVED: blocked:first_existing_summary_over_cap=4, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=2
+  DIRECT: blocked:first_existing_summary_over_cap=42, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=43, served=40
+  ENUM: blocked:first_existing_summary_over_cap=10, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=16, served=14
+  HIST: blocked:first_existing_summary_over_cap=24, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=15, served=14
+  SUMM: blocked:first_existing_summary_over_cap=10, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=3, served=10
+  current: blocked:first_existing_summary_over_cap=7, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=1, served=3
+  deleted_retracted_absent: blocked:first_existing_summary_over_cap=1, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=2, served=5
+  multi_hop: blocked:first_existing_summary_over_cap=10, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=8, served=1
+  premise_bait: blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=3
+  unaffected_control: blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=3, served=1
+  use_in_task: blocked:first_existing_summary_over_cap=3, blocked:first_existing_summary_over_cap+later_fit_skipped_by_break=5

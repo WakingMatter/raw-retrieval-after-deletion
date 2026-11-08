@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K074",
+   "key": "K075",
+   "via": "Ananya Mehta",
+   "session": "s51",
+   "paragraph": 32,
+   "sentence": "Ananya Mehta, who leads Saffron Lite, confirmed the update.",
+   "bridged_key": "K074"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Zoya Menon",
+   "session": "s39",
+   "paragraph": 23,
+   "sentence": "For the record, Mosaic lives in the mosaic-stack repo.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K051",
+   "via": "Ines Shah",
+   "session": "s54",
+   "paragraph": 29,
+   "sentence": "Ines Shah (lead on Vesper) signed off on this.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K041",
+   "key": "K044",
+   "via": "Kabir Chopra",
+   "session": "s54",
+   "paragraph": 10,
+   "sentence": "For the record, Pylon lives in the pylon-hub repo.",
+   "bridged_key": "K044"
+  },
+  {
+   "hop_key": "K086",
+   "key": "K087",
+   "via": "Hana Naik",
+   "session": "s46",
+   "paragraph": 2,
+   "sentence": "For the record, profile-store is hosted in sa-east-1.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K070",
+   "key": "K071",
+   "via": "Vikram Sethi",
+   "session": "s57",
+   "paragraph": 35,
+   "sentence": "Vikram Sethi (lead on Pylon Lite) signed off on this.",
+   "bridged_key": "K070"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K067",
+   "via": "Nisha Ghose",
+   "session": "s51",
+   "paragraph": 10,
+   "sentence": "For the record, Zephyr is in planning.",
+   "bridged_key": "K067"
+  },
+  {
+   "hop_key": "K060",
+   "key": "K063",
+   "via": "Aisha Iyer",
+   "session": "s41",
+   "paragraph": 30,
+   "sentence": "For the record, Lumen lives in the lumen-app repo.",
+   "bridged_key": "K063"
+  },
+  {
+   "hop_key": "K078",
+   "key": "K080",
+   "via": "Rohan Reddy",
+   "session": "s48",
+   "paragraph": 8,
+   "sentence": "For the record, sync-daemon listens on port 8443.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K091",
+   "via": "Nisha Ghosh",
+   "session": "s30",
+   "paragraph": 2,
+   "sentence": "For the record, session-cache listens on port 6060.",
+   "bridged_key": "K091"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1104",
+   "id": "e1104b",
+   "key": "K074",
+   "op": "observe",
+   "seq": 1104,
+   "session": "s51",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Saffron Lite",
+   "t": "2030-03-24T16:02:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0849",
+   "id": "e0849b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 849,
+   "session": "s39",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Mosaic",
+   "t": "2030-03-06T09:27:00Z",
+   "type": "ASSERT",
+   "value": "mosaic-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1168",
+   "id": "e1168b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 1168,
+   "session": "s54",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Vesper",
+   "t": "2030-03-29T14:44:00Z",
+   "type": "ASSERT",
+   "value": "Ines Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1158",
+   "id": "e1158b",
+   "key": "K044",
+   "op": "observe",
+   "seq": 1158,
+   "session": "s54",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Pylon",
+   "t": "2030-03-29T14:24:00Z",
+   "type": "ASSERT",
+   "value": "pylon-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0987",
+   "id": "e0987b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 987,
+   "session": "s46",
+   "slot": "host_region",
+   "subject": "E26",
+   "subject_name": "profile-store",
+   "t": "2030-03-17T16:16:00Z",
+   "type": "ASSERT",
+   "value": "sa-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1238",
+   "id": "e1238b",
+   "key": "K070",
+   "op": "observe",
+   "seq": 1238,
+   "session": "s57",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Pylon Lite",
+   "t": "2030-04-02T12:18:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1091",
+   "id": "e1091b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 1091,
+   "session": "s51",
+   "slot": "proj_status",
+   "subject": "E21",
+   "subject_name": "Zephyr",
+   "t": "2030-03-24T15:36:00Z",
+   "type": "ASSERT",
+   "value": "in planning",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0896",
+   "id": "e0896b",
+   "key": "K063",
+   "op": "observe",
+   "seq": 896,
+   "session": "s41",
+   "slot": "repo_name",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-03-09T15:02:00Z",
+   "type": "ASSERT",
+   "value": "lumen-app",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1029",
+   "id": "e1029b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 1029,
+   "session": "s48",
+   "slot": "listen_port",
+   "subject": "E24",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-20T16:28:00Z",
+   "type": "ASSERT",
+   "value": "8443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0642",
+   "id": "e0642b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 642,
+   "session": "s30",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "session-cache",
+   "t": "2030-02-21T09:56:00Z",
+   "type": "ASSERT",
+   "value": "6060",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

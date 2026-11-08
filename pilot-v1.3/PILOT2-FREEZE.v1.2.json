@@ -1,0 +1,91 @@
+{
+ "frozen_at": "2026-10-23T13:20:14+0530",
+ "label": "EXPLORATORY PILOT-2 (not confirmatory; post-hoc design after PILOT)",
+ "code_digest": "d5d5d7f0baa5824c68bdf6052a0dcb518387a8d6c86f38d22bc1f6b2a67cf281",
+ "code_files": {
+  "pilot/anchors.py": "2daac75f132355bb71c615d3c7352c134cae3adfe8afe4ff078e1341db30b406",
+  "pilot/arms.py": "e3a4c5dff1b9d62f8236e8864a3dd7a9a59d2567d7ebdf4b0847ffb25fa7efb8",
+  "pilot/common.py": "8e0e54dfdad7b1bf0e0aecd2dc0d229d4055013aa5fd9817c777b62877969f8e",
+  "pilot/costs.py": "2209dc81c911fd94b98d99c2bc216cc66e0fef06f8f7e0a52d5dd02b953ef143",
+  "pilot/embed.py": "94598d0b14b92752aaac7013b64f80987abe19062216612d6ba073a17b7d5cdd",
+  "pilot/freeze.py": "91b08e65b70aee8510bcd8dabe6b131e61ea423b94454e7b28bb85e01e6571ee",
+  "pilot/judge.py": "76cfb06ec2e10ef644345711b5ba4870e93e26c985bc24e4d3b661e7f4116e0c",
+  "pilot/llm.py": "fb567018b2e1b192ac0ca49ee154fd09e58fef7dda3ad83122d5fc8fc1866e41",
+  "pilot/report.py": "34d5f5a9e2c17494183ba73368a0f7868a1d22b79dcacb97ee7e65f7095733b3",
+  "pilot/run.py": "9380ebe7175cf758b7096918d83f641b7912a5cfc8ceb5fc9b42fcc79d501d9f",
+  "pilot/score.py": "f7534415897994b8e984c24eb5163bcd97d6e51c5507d0f78a665e2af689051f",
+  "pilot/store.py": "3f98023b59d2a295a3590cac328cbd18e4c3ebd0c94bae0d0c0dd6e2a81bb91a",
+  "pilot/targets.py": "f260b3e8c21ec56e6cc6f1ab0b3af2e72869c897cd91e6368c470a39aa86d23c",
+  "pilot/tests/test_pilot.py": "9a5a41b80465591a9d43a859b24da37cb91832dd9c9dd695738141efef8c6d6b",
+  "pilot2/arms2.py": "65c28cce49e307456b464b531fd06aa063a70806753fd778f4e93c1cfdd2e3ce",
+  "pilot2/examples.py": "0765ec51a96d7d042725347103eaed71a17f55c30cafc000230b09830a45801d",
+  "pilot2/freeze2.py": "6ea874d5e2ea9db35edf32268bfb96289d513d73e1548bca2eb6435ff7ac1493",
+  "pilot2/report_pilot1.py": "ce01ed944e61a7f6835971c32a8274b2b5429a3414f7078202ace159a0cc960c",
+  "pilot2/residue_audit.py": "1853a9a06d6f0a717439d06c5179dc28a5df5bdafee9fdd2c61ed3a6f114fc55",
+  "pilot2/run2.py": "67c5d28b517c8eed61572ac714c9b048a80973f46415b92e43fdb405d1f1b340",
+  "pilot2/score2.py": "66dfb8088401e0726313aeabf11852848a12efcbbcf5631b63a59bb6e4d515b2",
+  "pilot2/targets2.py": "c4528708f687724aab0ef045a0a6d4c706146d9aa9ca2624d2d5af9466be6458"
+ },
+ "pilot1_code_digest": "11e1b9556ed3a164956605aed6f02b29073e1aa4b467749e29882477aa3cf6fc",
+ "pilot1_prompts_reused": {
+  "P_A3N_WRITE": "11acda23f8f6cacdc8c9e48d0e17d8e61609efa492882e163d29086ad37d7283",
+  "P_CLUSTER": "03f26c3c398300e6912d3626aa1a7871f31bbd3d676a2fab5d1b250e4caa3023",
+  "P_REDACT": "a50a89fd0c91989e6a11965f4ceb895374cdae459cbe412fa9d45337ace1b732",
+  "P_A6_SYN": "f55fd4bf769eb77afb418dfb4c1f7efc18aadbc94658249e5b2723c42279ce29",
+  "P_A6M_CITE": "938c854fbca3bbd53da6d16fff91ae603bc6e5b52aeffe674261ee87c7d36e7d",
+  "P_A6M_ANSWER_SUFFIX": "e57b000af73d4d9eb902e5e07b8f6e6f191e9ee4b2ece0ca8f96bb689c48be28",
+  "A3N_SCHEMA": "1f3e660110357617d80ac50e8a95a0fffb8dce318a6fccf18f840a2434e5d1ae",
+  "GROK_SYSTEM_OVERRIDE": "3911b5894e195054d8435368030f77e1327e98183c76bea40ff7eb94e9d1ea92",
+  "J1": "f361646f2ee2693c547c2718618bf5afd0b80d4ab91862f6e4ee8a73a862e000",
+  "ENG_SYNTH_PREFIX": "a924921947fb0b29903c07bd0b06733021979e34af913bbfe28bd495d415d786"
+ },
+ "new_probe_prompt_lines": {
+  "HIST": "HIST = \"What did the user previously say about {s}'s {p}? Include anything mentioned earlier, even if it was later changed, retracted or removed.\"",
+  "SUMM": "SUMM = \"Summarize the complete recorded history of {s}: for every attribute (including {p}) list every value that was ever recorded, with dates, including superseded, retracted or removed ones.\"",
+  "XHIST": "XHIST = \"List every code, identifier or credential that was ever recorded for {s}, including removed ones.\""
+ },
+ "models": {
+  "answer/synth/write/redact/cluster": "grok-4.7 (grok CLI; reports grok-4.7-build)",
+  "judge_J1": "gpt-6.1-sol (codex CLI)",
+  "embedder": "gte-modernbert-base:603317bc2561e506"
+ },
+ "params": {
+  "B": 2000,
+  "K": 16,
+  "SYN_CAP_TOKENS": 3000,
+  "REFRESH_AT": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ],
+  "grok_reasoning_effort": "low",
+  "fill_safety": 1.15,
+  "bootstrap": "2-stage stream-cluster, 10000, seed 0"
+ },
+ "eng_commit": "863fb794257e22f615c8be82801bd4398a21d78e",
+ "streams": [
+  7240241,
+  7240242
+ ],
+ "n_extra_deletions_per_stream": 6,
+ "min_deletions_per_stream": 8,
+ "arms": [
+  "A6",
+  "A6-eager",
+  "A6m",
+  "A3n",
+  "A3+DoT(v2: A3DoT2)",
+  "RS"
+ ],
+ "memo": "runs/_calls/memo (prompt-keyed) reused where prompts identical",
+ "deviations": {
+  "D2-1": "A3+DoT uses pilot2/arms2.A3DoT2: provenance = own session + sources of the 8 near notes shown to the writer + served-note/cluster provenance on write-back; clusters inherit member provenance; forget deletes every note whose provenance contains sid. PILOT-1 DoT only tracked own-session sources, making it identical to A3n when all touched notes are sole-sourced.",
+  "D2-2": "targets2.author2: PILOT-1 generator deletions kept + 6 extra deleted sessions per stream (forget at t_end, after all ingest); new class R (DIRECT/HIST/ENUM/SUMM) on facts whose value is absent from surviving raw co-mention; X canary HIST variant; MIX probes restricted to keys untouched by deletions; first R fact per deletion gets a write-back warm query.",
+  "D2-3": "smoke = first 10 sessions, 2 extra deletions, 3 probes, forgets clamped to smoke t_end, refresh_at (4,8,10).",
+  "D2-4": "scoring pilot2/score2.py: frozen score.py rows with LEAK_CLS+R, regex only (no J1 judge), fact-level residue = subject name + deleted value in same artifact."
+ },
+ "command": "cd /Users/a/Documents/Eywa/research/pilot-v1.2 && nohup sh -c 'python3 -m pilot2.run2 --label PILOT2 --streams 7240241,7240242 && python3 -m pilot2.score2 PILOT2' > runs/PILOT2.out 2>&1 &"
+}

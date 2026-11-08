@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K074",
+   "key": "K076",
+   "via": "Nisha Kapoor",
+   "session": "s36",
+   "paragraph": 8,
+   "sentence": "For the record, Sable Lite is due September 22.",
+   "bridged_key": "K076"
+  },
+  {
+   "hop_key": "K092",
+   "key": "K094",
+   "via": "Farhan Pillai",
+   "session": "s17",
+   "paragraph": 24,
+   "sentence": "For the record, quota-guard listens on port 7443.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K047",
+   "via": "Felix Mehta",
+   "session": "s45",
+   "paragraph": 20,
+   "sentence": "Felix Mehta, who leads Sable, confirmed the update.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K059",
+   "via": "Rahul Reddi",
+   "session": "s22",
+   "paragraph": 6,
+   "sentence": "For the record, Falcon is due September 1.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K070",
+   "key": "K072",
+   "via": "Ines Ghosh",
+   "session": "s12",
+   "paragraph": 6,
+   "sentence": "For the record, Atlas Lite is due April 3.",
+   "bridged_key": "K072"
+  },
+  {
+   "hop_key": "K061",
+   "key": "K062",
+   "via": "Elena Sethi",
+   "session": "s36",
+   "paragraph": 16,
+   "sentence": "Elena Sethi (lead on Lumen) signed off on this.",
+   "bridged_key": "K061"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K055",
+   "via": "Sofia Varma",
+   "session": "s48",
+   "paragraph": 35,
+   "sentence": "For the record, Meridian is due October 13.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K096",
+   "key": "K097",
+   "via": "Ishaan Naik",
+   "session": "s35",
+   "paragraph": 39,
+   "sentence": "Ishaan Naik, who owns profile-store, confirmed the update.",
+   "bridged_key": "K096"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K045",
+   "via": "Hana Menon",
+   "session": "s38",
+   "paragraph": 10,
+   "sentence": "For the record, Atlas lives in the atlas-stack repo.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K084",
+   "via": "Rahul Reddy",
+   "session": "s53",
+   "paragraph": 24,
+   "sentence": "Rahul Reddy, who owns metrics-sink, confirmed the update.",
+   "bridged_key": "K082"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0776",
+   "id": "e0776b",
+   "key": "K076",
+   "op": "observe",
+   "seq": 776,
+   "session": "s36",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Sable Lite",
+   "t": "2030-03-02T11:02:00Z",
+   "type": "ASSERT",
+   "value": "September 22",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0379",
+   "id": "e0379b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 379,
+   "session": "s17",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "quota-guard",
+   "t": "2030-02-01T14:01:00Z",
+   "type": "ASSERT",
+   "value": "7443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0987",
+   "id": "e0987b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 987,
+   "session": "s45",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Sable",
+   "t": "2030-03-15T16:40:00Z",
+   "type": "ASSERT",
+   "value": "Felix Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0475",
+   "id": "e0475b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 475,
+   "session": "s22",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Falcon",
+   "t": "2030-02-09T11:25:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0265",
+   "id": "e0265b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 265,
+   "session": "s12",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Atlas Lite",
+   "t": "2030-01-25T12:00:00Z",
+   "type": "ASSERT",
+   "value": "April 3",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0780",
+   "id": "e0780b",
+   "key": "K061",
+   "op": "observe",
+   "seq": 780,
+   "session": "s36",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-03-02T11:10:00Z",
+   "type": "ASSERT",
+   "value": "Elena Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1058",
+   "id": "e1058b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 1058,
+   "session": "s48",
+   "slot": "proj_deadline",
+   "subject": "E17",
+   "subject_name": "Meridian",
+   "t": "2030-03-20T12:29:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0772",
+   "id": "e0772b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 772,
+   "session": "s35",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-02-28T14:02:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Naik",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0826",
+   "id": "e0826b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 826,
+   "session": "s38",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Atlas",
+   "t": "2030-03-05T13:21:00Z",
+   "type": "ASSERT",
+   "value": "atlas-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1152",
+   "id": "e1152b",
+   "key": "K082",
+   "op": "observe",
+   "seq": 1152,
+   "session": "s53",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "metrics-sink",
+   "t": "2030-03-27T12:51:00Z",
+   "type": "ASSERT",
+   "value": "Rahul Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

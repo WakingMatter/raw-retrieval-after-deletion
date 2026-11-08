@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K066",
+   "key": "K068",
+   "via": "Meera Chopra",
+   "session": "s27",
+   "paragraph": 16,
+   "sentence": "For the record, Pylon is due May 19.",
+   "bridged_key": "K068"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K094",
+   "via": "Kavya Khana",
+   "session": "s51",
+   "paragraph": 16,
+   "sentence": "Kavya Khana (owner of ranker-svc) signed off on this.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K101",
+   "key": "K102",
+   "via": "Zoya Mehta",
+   "session": "s54",
+   "paragraph": 36,
+   "sentence": "For the record, metrics-sink is hosted in ap-southeast-1.",
+   "bridged_key": "K102"
+  },
+  {
+   "hop_key": "K086",
+   "key": "K088",
+   "via": "Neel Menon",
+   "session": "s35",
+   "paragraph": 34,
+   "sentence": "Neel Menon, who owns profile-store, confirmed the update.",
+   "bridged_key": "K086"
+  },
+  {
+   "hop_key": "K089",
+   "key": "K092",
+   "via": "Arjun Ghosh",
+   "session": "s45",
+   "paragraph": 20,
+   "sentence": "For the record, vault-bridge runs on MySQL.",
+   "bridged_key": "K092"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K107",
+   "via": "Hana Iyer",
+   "session": "s43",
+   "paragraph": 2,
+   "sentence": "Hana Iyer (owner of tile-server) signed off on this.",
+   "bridged_key": "K105"
+  },
+  {
+   "hop_key": "K055",
+   "key": "K056",
+   "via": "Neel Menon",
+   "session": "s44",
+   "paragraph": 16,
+   "sentence": "For the record, Lumen is in maintenance mode.",
+   "bridged_key": "K056"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K084",
+   "via": "Felix Reddy",
+   "session": "s36",
+   "paragraph": 33,
+   "sentence": "Felix Reddy (owner of notif-hub) signed off on this.",
+   "bridged_key": "K082"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K095",
+   "via": "Kavya Khana",
+   "session": "s36",
+   "paragraph": 16,
+   "sentence": "Kavya Khana (owner of ranker-svc) signed off on this.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K069",
+   "via": "Meera Chopra",
+   "session": "s27",
+   "paragraph": 16,
+   "sentence": "For the record, Pylon lives in the pylon-stack repo.",
+   "bridged_key": "K069"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0605",
+   "id": "e0605b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 605,
+   "session": "s27",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Pylon",
+   "t": "2030-02-16T15:18:00Z",
+   "type": "ASSERT",
+   "value": "May 19",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1135",
+   "id": "e1135b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 1135,
+   "session": "s51",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-24T13:41:00Z",
+   "type": "ASSERT",
+   "value": "Kavya Khana",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1217",
+   "id": "e1217b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 1217,
+   "session": "s54",
+   "slot": "host_region",
+   "subject": "E30",
+   "subject_name": "metrics-sink",
+   "t": "2030-03-29T12:48:00Z",
+   "type": "ASSERT",
+   "value": "ap-southeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0797",
+   "id": "e0797b",
+   "key": "K086",
+   "op": "observe",
+   "seq": 797,
+   "session": "s35",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "profile-store",
+   "t": "2030-02-28T10:48:00Z",
+   "type": "ASSERT",
+   "value": "Neel Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1015",
+   "id": "e1015b",
+   "key": "K092",
+   "op": "observe",
+   "seq": 1015,
+   "session": "s45",
+   "slot": "db_engine",
+   "subject": "E27",
+   "subject_name": "vault-bridge",
+   "t": "2030-03-15T12:00:00Z",
+   "type": "ASSERT",
+   "value": "MySQL",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0955",
+   "id": "e0955b",
+   "key": "K105",
+   "op": "observe",
+   "seq": 955,
+   "session": "s43",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "tile-server",
+   "t": "2030-03-12T15:36:00Z",
+   "type": "ASSERT",
+   "value": "Hana Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0987",
+   "id": "e0987b",
+   "key": "K056",
+   "op": "observe",
+   "seq": 987,
+   "session": "s44",
+   "slot": "proj_status",
+   "subject": "E18",
+   "subject_name": "Lumen",
+   "t": "2030-03-14T13:49:00Z",
+   "type": "ASSERT",
+   "value": "in maintenance mode",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0820",
+   "id": "e0820b",
+   "key": "K082",
+   "op": "observe",
+   "seq": 820,
+   "session": "s36",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "notif-hub",
+   "t": "2030-03-02T09:52:00Z",
+   "type": "ASSERT",
+   "value": "Felix Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0809",
+   "id": "e0809b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 809,
+   "session": "s36",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-02T09:30:00Z",
+   "type": "ASSERT",
+   "value": "Kavya Khana",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0605",
+   "id": "e0605b",
+   "key": "K069",
+   "op": "observe",
+   "seq": 605,
+   "session": "s27",
+   "slot": "repo_name",
+   "subject": "E21",
+   "subject_name": "Pylon",
+   "t": "2030-02-16T15:18:00Z",
+   "type": "ASSERT",
+   "value": "pylon-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

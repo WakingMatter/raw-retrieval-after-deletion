@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K083",
+   "key": "K085",
+   "via": "Arjun Menon",
+   "session": "s51",
+   "paragraph": 6,
+   "sentence": "For the record, notif-hub listens on port 5000.",
+   "bridged_key": "K085"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K062",
+   "via": "Yusuf Shahi",
+   "session": "s53",
+   "paragraph": 36,
+   "sentence": "Yusuf Shahi, who leads Lumen, confirmed the update.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K107",
+   "key": "K109",
+   "via": "Sofia Iyengar",
+   "session": "s38",
+   "paragraph": 33,
+   "sentence": "For the record, tile-server-v2 listens on port 8000.",
+   "bridged_key": "K109"
+  },
+  {
+   "hop_key": "K048",
+   "key": "K050",
+   "via": "Arjun Menon",
+   "session": "s57",
+   "paragraph": 34,
+   "sentence": "For the record, Orchid is due October 13.",
+   "bridged_key": "K050"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K088",
+   "via": "Elena Bose",
+   "session": "s34",
+   "paragraph": 18,
+   "sentence": "For the record, profile-store listens on port 3000.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K094",
+   "key": "K096",
+   "via": "Yusuf Shah",
+   "session": "s44",
+   "paragraph": 12,
+   "sentence": "For the record, order-router listens on port 9443.",
+   "bridged_key": "K096"
+  },
+  {
+   "hop_key": "K063",
+   "key": "K066",
+   "via": "Yusuf Shah",
+   "session": "s48",
+   "paragraph": 24,
+   "sentence": "For the record, Pylon lives in the pylon-next repo.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K082",
+   "via": "Tara Nair",
+   "session": "s47",
+   "paragraph": 16,
+   "sentence": "Tara Nair, who owns tile-server, confirmed the update.",
+   "bridged_key": "K079"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K099",
+   "via": "Arjun Mennon",
+   "session": "s39",
+   "paragraph": 16,
+   "sentence": "For the record, media-proxy listens on port 6060.",
+   "bridged_key": "K099"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K076",
+   "via": "Tara Nair",
+   "session": "s54",
+   "paragraph": 20,
+   "sentence": "Tara Nair, who leads Juniper Lite, confirmed the update.",
+   "bridged_key": "K075"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1111",
+   "id": "e1111b",
+   "key": "K085",
+   "op": "observe",
+   "seq": 1111,
+   "session": "s51",
+   "slot": "listen_port",
+   "subject": "E25",
+   "subject_name": "notif-hub",
+   "t": "2030-03-24T13:03:00Z",
+   "type": "ASSERT",
+   "value": "5000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1172",
+   "id": "e1172b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 1172,
+   "session": "s53",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-03-27T11:45:00Z",
+   "type": "ASSERT",
+   "value": "Yusuf Shahi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0850",
+   "id": "e0850b",
+   "key": "K109",
+   "op": "observe",
+   "seq": 850,
+   "session": "s38",
+   "slot": "listen_port",
+   "subject": "E32",
+   "subject_name": "tile-server-v2",
+   "t": "2030-03-05T10:23:00Z",
+   "type": "ASSERT",
+   "value": "8000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1258",
+   "id": "e1258b",
+   "key": "K050",
+   "op": "observe",
+   "seq": 1258,
+   "session": "s57",
+   "slot": "proj_deadline",
+   "subject": "E16",
+   "subject_name": "Orchid",
+   "t": "2030-04-02T16:54:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0751",
+   "id": "e0751b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 751,
+   "session": "s34",
+   "slot": "listen_port",
+   "subject": "E26",
+   "subject_name": "profile-store",
+   "t": "2030-02-27T09:58:00Z",
+   "type": "ASSERT",
+   "value": "3000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0967",
+   "id": "e0967b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 967,
+   "session": "s44",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "order-router",
+   "t": "2030-03-14T11:41:00Z",
+   "type": "ASSERT",
+   "value": "9443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1051",
+   "id": "e1051b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 1051,
+   "session": "s48",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-03-20T15:45:00Z",
+   "type": "ASSERT",
+   "value": "pylon-next",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1030",
+   "id": "e1030b",
+   "key": "K079",
+   "op": "observe",
+   "seq": 1030,
+   "session": "s47",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "tile-server",
+   "t": "2030-03-18T13:49:00Z",
+   "type": "ASSERT",
+   "value": "Tara Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0865",
+   "id": "e0865b",
+   "key": "K099",
+   "op": "observe",
+   "seq": 865,
+   "session": "s39",
+   "slot": "listen_port",
+   "subject": "E29",
+   "subject_name": "media-proxy",
+   "t": "2030-03-06T14:19:00Z",
+   "type": "ASSERT",
+   "value": "6060",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1182",
+   "id": "e1182b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 1182,
+   "session": "s54",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Juniper Lite",
+   "t": "2030-03-29T16:43:00Z",
+   "type": "ASSERT",
+   "value": "Tara Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

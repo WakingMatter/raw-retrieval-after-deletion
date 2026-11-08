@@ -1,0 +1,1243 @@
+{
+ "seed": 7260039,
+ "t_end": "2030-04-06T10:36:00Z",
+ "deleted": [
+  "s26",
+  "s46",
+  "s01",
+  "s10",
+  "s23",
+  "s24",
+  "s32",
+  "s38"
+ ],
+ "generator_deleted": [
+  "s26",
+  "s46"
+ ],
+ "extra_deleted": [
+  "s01",
+  "s10",
+  "s23",
+  "s24",
+  "s32",
+  "s38"
+ ],
+ "forgets": {
+  "s26": "2030-02-19T14:25:00Z",
+  "s46": "2030-03-21T09:44:00Z",
+  "s01": "2030-04-06T10:36:00Z",
+  "s10": "2030-04-06T10:36:00Z",
+  "s23": "2030-04-06T10:36:00Z",
+  "s24": "2030-04-06T10:36:00Z",
+  "s32": "2030-04-06T10:36:00Z",
+  "s38": "2030-04-06T10:36:00Z"
+ },
+ "tasks": [
+  {
+   "task_id": "7260039:MULTIHOP:K088",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K088",
+   "slot": "db_engine",
+   "subject": "E26",
+   "question": "Which database does the service owned by Neel Menon use?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Spanner",
+   "truth_any": [
+    "\\bSpanner\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s09",
+    "s35"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "hop_key": "K086",
+   "via": "Neel Menon",
+   "hop_entity": "profile-store",
+   "bridge_session": "s35"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K102",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K102",
+   "slot": "host_region",
+   "subject": "E30",
+   "question": "Which region is the service owned by Zoya Mehta hosted in?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "ap-southeast-1",
+   "truth_any": [
+    "\\bap\\-southeast\\-1\\b"
+   ],
+   "wrong_any": [
+    "\\beu\\-west\\-1\\b"
+   ],
+   "wrong_t": [
+    "2030-01-17T13:37:00Z"
+   ],
+   "support_sessions": [
+    "s36",
+    "s54"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "hop_key": "K101",
+   "via": "Zoya Mehta",
+   "hop_entity": "metrics-sink",
+   "bridge_session": "s54"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K094",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K094",
+   "slot": "host_region",
+   "subject": "E28",
+   "question": "Which region is the service owned by Kavya Khana hosted in?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "eu-central-1",
+   "truth_any": [
+    "\\beu\\-central\\-1\\b"
+   ],
+   "wrong_any": [
+    "\\bsa\\-east\\-1\\b"
+   ],
+   "wrong_t": [
+    "2030-02-10T16:30:00Z"
+   ],
+   "support_sessions": [
+    "s29",
+    "s36",
+    "s51"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "hop_key": "K093",
+   "via": "Kavya Khana",
+   "hop_entity": "ranker-svc",
+   "bridge_session": "s51"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K068",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K068",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "question": "When is the project led by Meera Chopra due?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "May 19",
+   "truth_any": [
+    "\\bMay\\ 19\\b"
+   ],
+   "wrong_any": [
+    "\\bSeptember\\ 1\\b"
+   ],
+   "wrong_t": [
+    "2030-01-20T11:57:00Z"
+   ],
+   "support_sessions": [
+    "s11",
+    "s27"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "hop_key": "K066",
+   "via": "Meera Chopra",
+   "hop_entity": "Pylon",
+   "bridge_session": "s27"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K056",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K056",
+   "slot": "proj_status",
+   "subject": "E18",
+   "question": "What is the status of the project led by Neel Menon?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "in maintenance mode",
+   "truth_any": [
+    "\\bin\\ maintenance\\ mode\\b"
+   ],
+   "wrong_any": [
+    "\\bin\\ active\\ build\\b"
+   ],
+   "wrong_t": [
+    "2030-01-07T17:04:00Z"
+   ],
+   "support_sessions": [
+    "s12",
+    "s44"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false,
+   "hop_key": "K055",
+   "via": "Neel Menon",
+   "hop_entity": "Lumen",
+   "bridge_session": "s44"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K092",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K092",
+   "slot": "db_engine",
+   "subject": "E27",
+   "question": "Which database does the service owned by Arjun Ghosh use?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "MySQL",
+   "truth_any": [
+    "\\bMySQL\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s02",
+    "s45"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false,
+   "hop_key": "K089",
+   "via": "Arjun Ghosh",
+   "hop_entity": "vault-bridge",
+   "bridge_session": "s45"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K107",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K107",
+   "slot": "listen_port",
+   "subject": "E31",
+   "question": "Which port does the service owned by Hana Iyer listen on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "6060",
+   "truth_any": [
+    "\\b6060\\b"
+   ],
+   "wrong_any": [
+    "\\b8000\\b"
+   ],
+   "wrong_t": [
+    "2030-01-29T12:06:00Z"
+   ],
+   "support_sessions": [
+    "s27",
+    "s43"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false,
+   "hop_key": "K105",
+   "via": "Hana Iyer",
+   "hop_entity": "tile-server",
+   "bridge_session": "s43"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K084",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K084",
+   "slot": "listen_port",
+   "subject": "E25",
+   "question": "Which port does the service owned by Felix Reddy listen on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "9443",
+   "truth_any": [
+    "\\b9443\\b"
+   ],
+   "wrong_any": [
+    "\\b7443\\b"
+   ],
+   "wrong_t": [
+    "2030-02-03T16:19:00Z"
+   ],
+   "support_sessions": [
+    "s29",
+    "s36"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false,
+   "hop_key": "K082",
+   "via": "Felix Reddy",
+   "hop_entity": "notif-hub",
+   "bridge_session": "s36"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K095",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K095",
+   "slot": "listen_port",
+   "subject": "E28",
+   "question": "Which port does the service owned by Kavya Khana listen on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "9000",
+   "truth_any": [
+    "\\b9000\\b"
+   ],
+   "wrong_any": [
+    "\\b9090\\b"
+   ],
+   "wrong_t": [
+    "2030-02-28T10:44:00Z"
+   ],
+   "support_sessions": [
+    "s29",
+    "s36",
+    "s51",
+    "s54"
+   ],
+   "n_support_sessions": 4,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "hop_key": "K093",
+   "via": "Kavya Khana",
+   "hop_entity": "ranker-svc",
+   "bridge_session": "s36"
+  },
+  {
+   "task_id": "7260039:MULTIHOP:K069",
+   "seed": 7260039,
+   "cls": "MULTIHOP",
+   "key": "K069",
+   "slot": "repo_name",
+   "subject": "E21",
+   "question": "Which repository holds the code of the project led by Meera Chopra?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "pylon-stack",
+   "truth_any": [
+    "\\bpylon\\-stack\\b"
+   ],
+   "wrong_any": [
+    "\\bpylon\\-platform\\b"
+   ],
+   "wrong_t": [
+    "2030-01-19T09:43:00Z"
+   ],
+   "support_sessions": [
+    "s20",
+    "s27"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "hop_key": "K066",
+   "via": "Meera Chopra",
+   "hop_entity": "Pylon",
+   "bridge_session": "s27"
+  },
+  {
+   "task_id": "7260039:DERIVED:K130",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K130",
+   "slot": "lead_team_name",
+   "subject": "E23",
+   "question": "Which team is the person leading Mosaic Lite on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Ads Ranking",
+   "truth_any": [
+    "\\bAds\\ Ranking\\b"
+   ],
+   "wrong_any": [
+    "\\bSearch\\ Quality\\b"
+   ],
+   "wrong_t": [
+    "2030-02-10T16:24:00Z"
+   ],
+   "support_sessions": [
+    "s08",
+    "s14"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true
+  },
+  {
+   "task_id": "7260039:DERIVED:K146",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K146",
+   "slot": "lead_team_name",
+   "subject": "E14",
+   "question": "Which team is the person leading Vesper on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Ads Ranking",
+   "truth_any": [
+    "\\bAds\\ Ranking\\b"
+   ],
+   "wrong_any": [
+    "\\bSearch\\ Quality\\b"
+   ],
+   "wrong_t": [
+    "2030-02-10T16:24:00Z"
+   ],
+   "support_sessions": [
+    "s08",
+    "s20",
+    "s34"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": true
+  },
+  {
+   "task_id": "7260039:DERIVED:K144",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K144",
+   "slot": "lead_office_city",
+   "subject": "E18",
+   "question": "In which city does the person leading Lumen have their office?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Lisbon",
+   "truth_any": [
+    "\\bLisbon\\b"
+   ],
+   "wrong_any": [
+    "\\bKolkata\\b"
+   ],
+   "wrong_t": [
+    "2030-02-15T16:12:00Z"
+   ],
+   "support_sessions": [
+    "s44",
+    "s48",
+    "s55"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K133",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K133",
+   "slot": "lead_office_city",
+   "subject": "E14",
+   "question": "In which city does the person leading Vesper have their office?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Delhi",
+   "truth_any": [
+    "\\bDelhi\\b"
+   ],
+   "wrong_any": [
+    "\\bSingapore\\b"
+   ],
+   "wrong_t": [
+    "2030-02-06T16:52:00Z"
+   ],
+   "support_sessions": [
+    "s20",
+    "s34",
+    "s40"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K135",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K135",
+   "slot": "owner_team_name",
+   "subject": "E30",
+   "question": "Which team is the person who owns metrics-sink on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Payments",
+   "truth_any": [
+    "\\bPayments\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s40",
+    "s50",
+    "s54",
+    "s56"
+   ],
+   "n_support_sessions": 4,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K131",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K131",
+   "slot": "lead_office_city",
+   "subject": "E21",
+   "question": "In which city does the person leading Pylon have their office?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Chennai",
+   "truth_any": [
+    "\\bChennai\\b"
+   ],
+   "wrong_any": [
+    "\\bSingapore\\b",
+    "\\bDublin\\b"
+   ],
+   "wrong_t": [
+    "2030-02-10T16:12:00Z",
+    "2030-02-16T15:18:00Z"
+   ],
+   "support_sessions": [
+    "s27",
+    "s56"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K143",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K143",
+   "slot": "lead_team_name",
+   "subject": "E17",
+   "question": "Which team is the person leading Ember on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Observability",
+   "truth_any": [
+    "\\bObservability\\b"
+   ],
+   "wrong_any": [
+    "\\bCore\\ Infra\\b"
+   ],
+   "wrong_t": [
+    "2030-02-09T15:28:00Z"
+   ],
+   "support_sessions": [
+    "s19",
+    "s37"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K149",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K149",
+   "slot": "owner_office_city",
+   "subject": "E25",
+   "question": "In which city does the person who owns notif-hub have their office?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Indore",
+   "truth_any": [
+    "\\bIndore\\b"
+   ],
+   "wrong_any": [
+    "\\bHyderabad\\b"
+   ],
+   "wrong_t": [
+    "2030-02-19T16:56:00Z"
+   ],
+   "support_sessions": [
+    "s29",
+    "s36",
+    "s58"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K134",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K134",
+   "slot": "owner_team_name",
+   "subject": "E31",
+   "question": "Which team is the person who owns tile-server on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Identity",
+   "truth_any": [
+    "\\bIdentity\\b"
+   ],
+   "wrong_any": [
+    "\\bAds\\ Ranking\\b"
+   ],
+   "wrong_t": [
+    "2030-02-16T15:34:00Z"
+   ],
+   "support_sessions": [
+    "s27",
+    "s28",
+    "s35",
+    "s43"
+   ],
+   "n_support_sessions": 4,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:DERIVED:K138",
+   "seed": 7260039,
+   "cls": "DERIVED",
+   "key": "K138",
+   "slot": "lead_office_city",
+   "subject": "E15",
+   "question": "In which city does the person leading Mosaic have their office?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Berlin",
+   "truth_any": [
+    "\\bBerlin\\b"
+   ],
+   "wrong_any": [
+    "\\bSingapore\\b"
+   ],
+   "wrong_t": [
+    "2030-02-03T16:13:00Z"
+   ],
+   "support_sessions": [
+    "s22",
+    "s36",
+    "s41"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:AGG:K065",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K065",
+   "slot": "repo_name",
+   "subject": "E20",
+   "question": "How many different values has Meridian's code repository had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "2",
+   "truth_any": [
+    "\\b(2|two)\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s33",
+    "s35"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "meridian-next",
+    "meridian-mono"
+   ]
+  },
+  {
+   "task_id": "7260039:AGG:K106",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K106",
+   "slot": "host_region",
+   "subject": "E31",
+   "question": "How many different values has tile-server's hosting region had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "1",
+   "truth_any": [
+    "\\b(1|one)\\b"
+   ],
+   "wrong_any": [
+    "\\b2\\b"
+   ],
+   "wrong_t": [
+    null
+   ],
+   "support_sessions": [
+    "s12"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "sa-east-1"
+   ]
+  },
+  {
+   "task_id": "7260039:AGG:K067",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K067",
+   "slot": "proj_status",
+   "subject": "E21",
+   "question": "How many different values has Pylon's status had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "0",
+   "truth_any": [
+    "\\b(0|zero)\\b"
+   ],
+   "wrong_any": [
+    "\\b1\\b"
+   ],
+   "wrong_t": [
+    null
+   ],
+   "support_sessions": [],
+   "n_support_sessions": 0,
+   "stratum": "single",
+   "deletion_touched": true,
+   "count_undeleted": 1,
+   "values_post_delete": []
+  },
+  {
+   "task_id": "7260039:AGG:K111",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K111",
+   "slot": "listen_port",
+   "subject": "E32",
+   "question": "How many different values has search-indexer-v2's listening port had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "2",
+   "truth_any": [
+    "\\b(2|two)\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s14",
+    "s35",
+    "s47"
+   ],
+   "n_support_sessions": 3,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "8000",
+    "3000"
+   ]
+  },
+  {
+   "task_id": "7260039:AGG:K018",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K018",
+   "slot": "team_name",
+   "subject": "E06",
+   "question": "How many different values has Diya Joshi's team had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "1",
+   "truth_any": [
+    "\\b(1|one)\\b"
+   ],
+   "wrong_any": [
+    "\\b2\\b"
+   ],
+   "wrong_t": [
+    null
+   ],
+   "support_sessions": [
+    "s52"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "Ads Ranking"
+   ]
+  },
+  {
+   "task_id": "7260039:AGG:K021",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K021",
+   "slot": "team_name",
+   "subject": "E07",
+   "question": "How many different values has Arjun Ghosh's team had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "0",
+   "truth_any": [
+    "\\b(0|zero)\\b"
+   ],
+   "wrong_any": [
+    "\\b1\\b"
+   ],
+   "wrong_t": [
+    null
+   ],
+   "support_sessions": [],
+   "n_support_sessions": 0,
+   "stratum": "single",
+   "deletion_touched": true,
+   "count_undeleted": 1,
+   "values_post_delete": []
+  },
+  {
+   "task_id": "7260039:AGG:K011",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K011",
+   "slot": "job_role",
+   "subject": "E03",
+   "question": "How many different values has Felix Reddy's role had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "2",
+   "truth_any": [
+    "\\b(2|two)\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s28",
+    "s30"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "engineering manager",
+    "QA lead"
+   ]
+  },
+  {
+   "task_id": "7260039:AGG:K019",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K019",
+   "slot": "job_role",
+   "subject": "E06",
+   "question": "How many different values has Diya Joshi's role had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "1",
+   "truth_any": [
+    "\\b(1|one)\\b"
+   ],
+   "wrong_any": [
+    "\\b2\\b"
+   ],
+   "wrong_t": [
+    null
+   ],
+   "support_sessions": [
+    "s05"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "solutions architect"
+   ]
+  },
+  {
+   "task_id": "7260039:AGG:K070",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K070",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "question": "How many different values has Vesper Lite's lead had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "0",
+   "truth_any": [
+    "\\b(0|zero)\\b"
+   ],
+   "wrong_any": [
+    "\\b1\\b"
+   ],
+   "wrong_t": [
+    null
+   ],
+   "support_sessions": [],
+   "n_support_sessions": 0,
+   "stratum": "single",
+   "deletion_touched": true,
+   "count_undeleted": 1,
+   "values_post_delete": []
+  },
+  {
+   "task_id": "7260039:AGG:K017",
+   "seed": 7260039,
+   "cls": "AGG",
+   "key": "K017",
+   "slot": "office_city",
+   "subject": "E06",
+   "question": "How many different values has Diya Joshi's office city had so far? Count only values recorded in sessions that are still in memory (deleted sessions do not count), and ignore values that were only proposed, quoted or hypothetical. Answer with a number.",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "2",
+   "truth_any": [
+    "\\b(2|two)\\b"
+   ],
+   "wrong_any": [],
+   "wrong_t": [],
+   "support_sessions": [
+    "s33",
+    "s45"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": true,
+   "count_undeleted": 2,
+   "values_post_delete": [
+    "Mumbai",
+    "Indore"
+   ]
+  },
+  {
+   "task_id": "7260039:CURRENT:K104",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K104",
+   "slot": "db_engine",
+   "subject": "E30",
+   "question": "Which database does metrics-sink use?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "MySQL",
+   "truth_any": [
+    "\\bMySQL\\b"
+   ],
+   "wrong_any": [
+    "\\bSpanner\\b"
+   ],
+   "wrong_t": [
+    "2030-01-29T11:27:00Z"
+   ],
+   "support_sessions": [
+    "s54"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K014",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K014",
+   "slot": "job_role",
+   "subject": "E04",
+   "question": "What is Elena Bose's role?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "QA lead",
+   "truth_any": [
+    "\\bQA\\ lead\\b"
+   ],
+   "wrong_any": [
+    "\\bproduct\\ manager\\b"
+   ],
+   "wrong_t": [
+    "2030-01-28T12:56:00Z"
+   ],
+   "support_sessions": [
+    "s42"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K105",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K105",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "question": "Who owns tile-server?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Hana Iyer",
+   "truth_any": [
+    "\\bHana\\ Iyer\\b"
+   ],
+   "wrong_any": [
+    "\\bNeel\\ Menon\\b"
+   ],
+   "wrong_t": [
+    "2030-02-03T15:43:00Z"
+   ],
+   "support_sessions": [
+    "s27",
+    "s43"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K080",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K080",
+   "slot": "listen_port",
+   "subject": "E24",
+   "question": "Which port does search-indexer listen on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "6060",
+   "truth_any": [
+    "\\b6060\\b"
+   ],
+   "wrong_any": [
+    "\\b9443\\b"
+   ],
+   "wrong_t": [
+    "2030-01-31T14:38:00Z"
+   ],
+   "support_sessions": [
+    "s44"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K016",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K016",
+   "slot": "team_name",
+   "subject": "E05",
+   "question": "Which team is Dev Kapoor on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Observability",
+   "truth_any": [
+    "\\bObservability\\b"
+   ],
+   "wrong_any": [
+    "\\bCore\\ Infra\\b"
+   ],
+   "wrong_t": [
+    "2030-02-09T15:28:00Z"
+   ],
+   "support_sessions": [
+    "s37"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K050",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K050",
+   "slot": "proj_status",
+   "subject": "E16",
+   "question": "What is the status of Nimbus?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "paused",
+   "truth_any": [
+    "\\bpaused\\b"
+   ],
+   "wrong_any": [
+    "\\bin\\ planning\\b"
+   ],
+   "wrong_t": [
+    "2030-01-19T09:33:00Z"
+   ],
+   "support_sessions": [
+    "s53"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K082",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K082",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "question": "Who owns notif-hub?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Felix Reddy",
+   "truth_any": [
+    "\\bFelix\\ Reddy\\b"
+   ],
+   "wrong_any": [
+    "\\bElena\\ Bose\\b"
+   ],
+   "wrong_t": [
+    "2030-01-07T16:43:00Z"
+   ],
+   "support_sessions": [
+    "s29",
+    "s36"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K110",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K110",
+   "slot": "host_region",
+   "subject": "E32",
+   "question": "Which region is search-indexer-v2 hosted in?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "ap-northeast-1",
+   "truth_any": [
+    "\\bap\\-northeast\\-1\\b"
+   ],
+   "wrong_any": [
+    "\\bap\\-southeast\\-1\\b"
+   ],
+   "wrong_t": [
+    "2030-02-09T15:20:00Z"
+   ],
+   "support_sessions": [
+    "s28"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K001",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K001",
+   "slot": "team_name",
+   "subject": "E00",
+   "question": "Which team is Kavya Khanna on?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Identity",
+   "truth_any": [
+    "\\bIdentity\\b"
+   ],
+   "wrong_any": [
+    "\\bSearch\\ Quality\\b"
+   ],
+   "wrong_t": [
+    "2030-02-16T15:14:00Z"
+   ],
+   "support_sessions": [
+    "s53"
+   ],
+   "n_support_sessions": 1,
+   "stratum": "single",
+   "deletion_touched": false
+  },
+  {
+   "task_id": "7260039:CURRENT:K041",
+   "seed": 7260039,
+   "cls": "CURRENT",
+   "key": "K041",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "question": "Who leads Vesper?",
+   "t_query": "2030-04-06T10:36:00Z",
+   "gold": "Zoya Mehra",
+   "truth_any": [
+    "\\bZoya\\ Mehra\\b"
+   ],
+   "wrong_any": [
+    "\\bDev\\ Kapoor\\b"
+   ],
+   "wrong_t": [
+    "2030-01-20T12:05:00Z"
+   ],
+   "support_sessions": [
+    "s20",
+    "s34"
+   ],
+   "n_support_sessions": 2,
+   "stratum": "distributed",
+   "deletion_touched": false
+  }
+ ],
+ "warm": [
+  {
+   "warm_id": "7260039:W:s26:K065",
+   "before_forget": "s26",
+   "t": "2030-02-19T14:25:00Z",
+   "key": "K065",
+   "question": "Write the one-line clone instruction for Meridian, naming the repository."
+  },
+  {
+   "warm_id": "7260039:W:s46:K030",
+   "before_forget": "s46",
+   "t": "2030-03-21T09:44:00Z",
+   "key": "K030",
+   "question": "Draft a one-line message routing a question to Neel Menon's team, naming the team."
+  },
+  {
+   "warm_id": "7260039:W:s01:K066",
+   "before_forget": "s01",
+   "t": "2030-04-06T10:36:00Z",
+   "key": "K066",
+   "question": "Draft a one-line email asking the lead of Pylon for a review, addressed to them by name."
+  },
+  {
+   "warm_id": "7260039:W:s10:K017",
+   "before_forget": "s10",
+   "t": "2030-04-06T10:36:00Z",
+   "key": "K017",
+   "question": "Write a one-sentence note telling a new colleague which city to fly to for an in-person meeting with Diya Joshi."
+  },
+  {
+   "warm_id": "7260039:W:s23:K033",
+   "before_forget": "s23",
+   "t": "2030-04-06T10:36:00Z",
+   "key": "K033",
+   "question": "Draft a one-line message routing a question to Kavya Khana's team, naming the team."
+  },
+  {
+   "warm_id": "7260039:W:s24:K060",
+   "before_forget": "s24",
+   "t": "2030-04-06T10:36:00Z",
+   "key": "K060",
+   "question": "Write a one-line roadmap entry for Halcyon that states its status."
+  },
+  {
+   "warm_id": "7260039:W:s32:K010",
+   "before_forget": "s32",
+   "t": "2030-04-06T10:36:00Z",
+   "key": "K010",
+   "question": "Draft a one-line message routing a question to Felix Reddy's team, naming the team."
+  },
+  {
+   "warm_id": "7260039:W:s38:K019",
+   "before_forget": "s38",
+   "t": "2030-04-06T10:36:00Z",
+   "key": "K019",
+   "question": "Write the one-line speaker bio for Diya Joshi, including the role Diya Joshi holds."
+  },
+  {
+   "warm_id": "7260039:W:s26:K002",
+   "before_forget": "s26",
+   "t": "2030-02-19T14:25:00Z",
+   "key": "K002",
+   "question": "Write the one-line speaker bio for Kavya Khanna, including the role Kavya Khanna holds."
+  },
+  {
+   "warm_id": "7260039:W:s46:K116",
+   "before_forget": "s46",
+   "t": "2030-03-21T09:44:00Z",
+   "key": "K116",
+   "question": "Write a one-line backup instruction for notif-hub-v2 that names its database."
+  }
+ ],
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "bridge_sha256": "e11c44753c3cbd4d73519887f70079bae7e58972494ed908a9ff1e95aad842cd"
+}

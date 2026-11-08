@@ -1,0 +1,328 @@
+{
+ "seed": 7290104,
+ "scale": 1.0,
+ "stream_tokens": 283876,
+ "n_paragraphs": 4069,
+ "tasks": {
+  "7290104:COUNT:00": {
+   "family": "COUNT",
+   "n_entities": 143,
+   "n_min": 143,
+   "n_union": 370,
+   "minimal": 10468,
+   "union": 26864
+  },
+  "7290104:COUNT:01": {
+   "family": "COUNT",
+   "n_entities": 87,
+   "n_min": 87,
+   "n_union": 254,
+   "minimal": 6465,
+   "union": 18602
+  },
+  "7290104:COUNT:02": {
+   "family": "COUNT",
+   "n_entities": 65,
+   "n_min": 65,
+   "n_union": 185,
+   "minimal": 4762,
+   "union": 13478
+  },
+  "7290104:COUNT:03": {
+   "family": "COUNT",
+   "n_entities": 58,
+   "n_min": 58,
+   "n_union": 168,
+   "minimal": 4254,
+   "union": 12277
+  },
+  "7290104:COUNT:04": {
+   "family": "COUNT",
+   "n_entities": 44,
+   "n_min": 44,
+   "n_union": 128,
+   "minimal": 3264,
+   "union": 9350
+  },
+  "7290104:COUNT:05": {
+   "family": "COUNT",
+   "n_entities": 40,
+   "n_min": 40,
+   "n_union": 114,
+   "minimal": 2944,
+   "union": 8396
+  },
+  "7290104:COUNT:06": {
+   "family": "COUNT",
+   "n_entities": 34,
+   "n_min": 34,
+   "n_union": 104,
+   "minimal": 2562,
+   "union": 7630
+  },
+  "7290104:COUNT:07": {
+   "family": "COUNT",
+   "n_entities": 27,
+   "n_min": 27,
+   "n_union": 88,
+   "minimal": 1998,
+   "union": 6479
+  },
+  "7290104:COUNT:08": {
+   "family": "COUNT",
+   "n_entities": 34,
+   "n_min": 34,
+   "n_union": 97,
+   "minimal": 2487,
+   "union": 7026
+  },
+  "7290104:COUNT:09": {
+   "family": "COUNT",
+   "n_entities": 25,
+   "n_min": 25,
+   "n_union": 74,
+   "minimal": 1865,
+   "union": 5492
+  },
+  "7290104:SUM:00": {
+   "family": "SUM",
+   "n_entities": 8,
+   "n_min": 16,
+   "n_union": 28,
+   "minimal": 1073,
+   "union": 1942
+  },
+  "7290104:SUM:01": {
+   "family": "SUM",
+   "n_entities": 8,
+   "n_min": 16,
+   "n_union": 32,
+   "minimal": 1058,
+   "union": 2178
+  },
+  "7290104:SUM:02": {
+   "family": "SUM",
+   "n_entities": 25,
+   "n_min": 50,
+   "n_union": 99,
+   "minimal": 3294,
+   "union": 6727
+  },
+  "7290104:SUM:03": {
+   "family": "SUM",
+   "n_entities": 6,
+   "n_min": 12,
+   "n_union": 19,
+   "minimal": 785,
+   "union": 1296
+  },
+  "7290104:SUM:04": {
+   "family": "SUM",
+   "n_entities": 47,
+   "n_min": 94,
+   "n_union": 181,
+   "minimal": 6309,
+   "union": 12515
+  },
+  "7290104:SUM:05": {
+   "family": "SUM",
+   "n_entities": 11,
+   "n_min": 22,
+   "n_union": 35,
+   "minimal": 1465,
+   "union": 2389
+  },
+  "7290104:SUM:06": {
+   "family": "SUM",
+   "n_entities": 6,
+   "n_min": 12,
+   "n_union": 26,
+   "minimal": 818,
+   "union": 1818
+  },
+  "7290104:SUM:07": {
+   "family": "SUM",
+   "n_entities": 9,
+   "n_min": 18,
+   "n_union": 33,
+   "minimal": 1206,
+   "union": 2254
+  },
+  "7290104:SUM:08": {
+   "family": "SUM",
+   "n_entities": 17,
+   "n_min": 34,
+   "n_union": 68,
+   "minimal": 2285,
+   "union": 4680
+  },
+  "7290104:SUM:09": {
+   "family": "SUM",
+   "n_entities": 13,
+   "n_min": 26,
+   "n_union": 46,
+   "minimal": 1732,
+   "union": 3143
+  },
+  "7290104:DELTA:00": {
+   "family": "DELTA",
+   "n_entities": 26,
+   "n_min": 26,
+   "n_union": 31,
+   "minimal": 1889,
+   "union": 2306
+  },
+  "7290104:DELTA:01": {
+   "family": "DELTA",
+   "n_entities": 131,
+   "n_min": 131,
+   "n_union": 157,
+   "minimal": 9746,
+   "union": 11934
+  },
+  "7290104:DELTA:02": {
+   "family": "DELTA",
+   "n_entities": 7,
+   "n_min": 7,
+   "n_union": 8,
+   "minimal": 503,
+   "union": 584
+  },
+  "7290104:DELTA:03": {
+   "family": "DELTA",
+   "n_entities": 14,
+   "n_min": 14,
+   "n_union": 16,
+   "minimal": 1010,
+   "union": 1174
+  },
+  "7290104:DELTA:04": {
+   "family": "DELTA",
+   "n_entities": 51,
+   "n_min": 51,
+   "n_union": 61,
+   "minimal": 3900,
+   "union": 4750
+  },
+  "7290104:DELTA:05": {
+   "family": "DELTA",
+   "n_entities": 19,
+   "n_min": 19,
+   "n_union": 22,
+   "minimal": 1441,
+   "union": 1700
+  },
+  "7290104:DELTA:06": {
+   "family": "DELTA",
+   "n_entities": 71,
+   "n_min": 71,
+   "n_union": 85,
+   "minimal": 5084,
+   "union": 6236
+  },
+  "7290104:DELTA:07": {
+   "family": "DELTA",
+   "n_entities": 96,
+   "n_min": 96,
+   "n_union": 115,
+   "minimal": 6997,
+   "union": 8563
+  },
+  "7290104:DELTA:08": {
+   "family": "DELTA",
+   "n_entities": 36,
+   "n_min": 36,
+   "n_union": 43,
+   "minimal": 2681,
+   "union": 3267
+  },
+  "7290104:DELTA:09": {
+   "family": "DELTA",
+   "n_entities": 10,
+   "n_min": 10,
+   "n_union": 11,
+   "minimal": 768,
+   "union": 858
+  },
+  "7290104:ARGMAX:00": {
+   "family": "ARGMAX",
+   "n_entities": 22,
+   "n_min": 11,
+   "n_union": 25,
+   "minimal": 856,
+   "union": 1935
+  },
+  "7290104:ARGMAX:01": {
+   "family": "ARGMAX",
+   "n_entities": 80,
+   "n_min": 33,
+   "n_union": 93,
+   "minimal": 2523,
+   "union": 7196
+  },
+  "7290104:ARGMAX:02": {
+   "family": "ARGMAX",
+   "n_entities": 260,
+   "n_min": 102,
+   "n_union": 303,
+   "minimal": 7995,
+   "union": 23453
+  },
+  "7290104:ARGMAX:03": {
+   "family": "ARGMAX",
+   "n_entities": 110,
+   "n_min": 40,
+   "n_union": 128,
+   "minimal": 3135,
+   "union": 9957
+  },
+  "7290104:ARGMAX:04": {
+   "family": "ARGMAX",
+   "n_entities": 42,
+   "n_min": 19,
+   "n_union": 49,
+   "minimal": 1452,
+   "union": 3749
+  },
+  "7290104:ARGMAX:05": {
+   "family": "ARGMAX",
+   "n_entities": 15,
+   "n_min": 7,
+   "n_union": 17,
+   "minimal": 537,
+   "union": 1300
+  },
+  "7290104:ARGMAX:06": {
+   "family": "ARGMAX",
+   "n_entities": 30,
+   "n_min": 13,
+   "n_union": 35,
+   "minimal": 1017,
+   "union": 2720
+  },
+  "7290104:ARGMAX:07": {
+   "family": "ARGMAX",
+   "n_entities": 58,
+   "n_min": 27,
+   "n_union": 67,
+   "minimal": 2107,
+   "union": 5220
+  },
+  "7290104:ARGMAX:08": {
+   "family": "ARGMAX",
+   "n_entities": 200,
+   "n_min": 77,
+   "n_union": 233,
+   "minimal": 5922,
+   "union": 17972
+  },
+  "7290104:ARGMAX:09": {
+   "family": "ARGMAX",
+   "n_entities": 150,
+   "n_min": 67,
+   "n_union": 175,
+   "minimal": 5234,
+   "union": 13600
+  }
+ }
+}

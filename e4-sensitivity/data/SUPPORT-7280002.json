@@ -1,0 +1,296 @@
+{
+ "seed": 7280002,
+ "L": 1,
+ "chain": 1,
+ "tokens": 84574,
+ "sessions": 60,
+ "n_tasks": 40,
+ "shortfall": {
+  "MULTIHOP": 0,
+  "DERIVED": 0,
+  "AGG": 0,
+  "CURRENT": 0
+ },
+ "tasks": {
+  "7280002:MULTIHOP:K065": {
+   "cls": "MULTIHOP",
+   "gold": "mosaic-stack",
+   "union": 119.6,
+   "minimal": 119.6,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K071": {
+   "cls": "MULTIHOP",
+   "gold": "in planning",
+   "union": 118.44999999999999,
+   "minimal": 118.44999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K087": {
+   "cls": "MULTIHOP",
+   "gold": "sa-east-1",
+   "union": 146.05,
+   "minimal": 142.6,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K075": {
+   "cls": "MULTIHOP",
+   "gold": "shipped",
+   "union": 135.7,
+   "minimal": 135.7,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K044": {
+   "cls": "MULTIHOP",
+   "gold": "pylon-hub",
+   "union": 120.75,
+   "minimal": 120.75,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K051": {
+   "cls": "MULTIHOP",
+   "gold": "vesper-stack",
+   "union": 144.89999999999998,
+   "minimal": 144.89999999999998,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K067": {
+   "cls": "MULTIHOP",
+   "gold": "in planning",
+   "union": 129.95,
+   "minimal": 129.95,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K080": {
+   "cls": "MULTIHOP",
+   "gold": "8443",
+   "union": 133.39999999999998,
+   "minimal": 133.39999999999998,
+   "n_paragraphs": 2
+  },
+  "7280002:MULTIHOP:K063": {
+   "cls": "MULTIHOP",
+   "gold": "lumen-app",
+   "union": 167.89999999999998,
+   "minimal": 120.75,
+   "n_paragraphs": 3
+  },
+  "7280002:MULTIHOP:K091": {
+   "cls": "MULTIHOP",
+   "gold": "6060",
+   "union": 113.85,
+   "minimal": 113.85,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K134": {
+   "cls": "DERIVED",
+   "gold": "Core Infra",
+   "union": 90.85,
+   "minimal": 90.85,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K131": {
+   "cls": "DERIVED",
+   "gold": "Search Quality",
+   "union": 139.14999999999998,
+   "minimal": 139.14999999999998,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K147": {
+   "cls": "DERIVED",
+   "gold": "Observability",
+   "union": 86.25,
+   "minimal": 86.25,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K139": {
+   "cls": "DERIVED",
+   "gold": "Hyderabad",
+   "union": 102.35,
+   "minimal": 102.35,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K127": {
+   "cls": "DERIVED",
+   "gold": "Observability",
+   "union": 175.95,
+   "minimal": 115.0,
+   "n_paragraphs": 3
+  },
+  "7280002:DERIVED:K136": {
+   "cls": "DERIVED",
+   "gold": "Pune",
+   "union": 227.7,
+   "minimal": 142.6,
+   "n_paragraphs": 4
+  },
+  "7280002:DERIVED:K130": {
+   "cls": "DERIVED",
+   "gold": "Pune",
+   "union": 116.14999999999999,
+   "minimal": 116.14999999999999,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K141": {
+   "cls": "DERIVED",
+   "gold": "Hyderabad",
+   "union": 93.15,
+   "minimal": 93.15,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K133": {
+   "cls": "DERIVED",
+   "gold": "Dublin",
+   "union": 141.45,
+   "minimal": 141.45,
+   "n_paragraphs": 2
+  },
+  "7280002:DERIVED:K143": {
+   "cls": "DERIVED",
+   "gold": "AppSec",
+   "union": 174.79999999999998,
+   "minimal": 174.79999999999998,
+   "n_paragraphs": 3
+  },
+  "7280002:AGG:K089": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 161.0,
+   "minimal": 161.0,
+   "n_paragraphs": 3
+  },
+  "7280002:AGG:K000": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 49.449999999999996,
+   "minimal": 49.449999999999996,
+   "n_paragraphs": 1
+  },
+  "7280002:AGG:K093": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280002:AGG:K025": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 116.14999999999998,
+   "minimal": 116.14999999999998,
+   "n_paragraphs": 2
+  },
+  "7280002:AGG:K042": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 108.1,
+   "minimal": 108.1,
+   "n_paragraphs": 2
+  },
+  "7280002:AGG:K011": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280002:AGG:K115": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 103.5,
+   "minimal": 103.5,
+   "n_paragraphs": 2
+  },
+  "7280002:AGG:K039": {
+   "cls": "AGG",
+   "gold": "1",
+   "union": 56.349999999999994,
+   "minimal": 56.349999999999994,
+   "n_paragraphs": 1
+  },
+  "7280002:AGG:K112": {
+   "cls": "AGG",
+   "gold": "0",
+   "union": 0,
+   "minimal": 0,
+   "n_paragraphs": 0
+  },
+  "7280002:AGG:K074": {
+   "cls": "AGG",
+   "gold": "2",
+   "union": 175.95,
+   "minimal": 90.85,
+   "n_paragraphs": 3
+  },
+  "7280002:CURRENT:K119": {
+   "cls": "CURRENT",
+   "gold": "750",
+   "union": 57.49999999999999,
+   "minimal": 57.49999999999999,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K054": {
+   "cls": "CURRENT",
+   "gold": "April 3",
+   "union": 48.3,
+   "minimal": 48.3,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K053": {
+   "cls": "CURRENT",
+   "gold": "in beta",
+   "union": 86.25,
+   "minimal": 37.949999999999996,
+   "n_paragraphs": 2
+  },
+  "7280002:CURRENT:K060": {
+   "cls": "CURRENT",
+   "gold": "Aisha Iyer",
+   "union": 77.05,
+   "minimal": 77.05,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K086": {
+   "cls": "CURRENT",
+   "gold": "Hana Naik",
+   "union": 71.3,
+   "minimal": 71.3,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K018": {
+   "cls": "CURRENT",
+   "gold": "Ads Ranking",
+   "union": 66.69999999999999,
+   "minimal": 66.69999999999999,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K050": {
+   "cls": "CURRENT",
+   "gold": "October 13",
+   "union": 60.949999999999996,
+   "minimal": 60.949999999999996,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K097": {
+   "cls": "CURRENT",
+   "gold": "Ananya Mehta",
+   "union": 67.85,
+   "minimal": 67.85,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K088": {
+   "cls": "CURRENT",
+   "gold": "7443",
+   "union": 50.599999999999994,
+   "minimal": 50.599999999999994,
+   "n_paragraphs": 1
+  },
+  "7280002:CURRENT:K038": {
+   "cls": "CURRENT",
+   "gold": "Toronto",
+   "union": 56.349999999999994,
+   "minimal": 56.349999999999994,
+   "n_paragraphs": 1
+  }
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K077",
+   "key": "K080",
+   "via": "Hana Menon",
+   "session": "s12",
+   "paragraph": 28,
+   "sentence": "For the record, Juniper Lite lives in the juniper-lite-core repo.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K111",
+   "via": "Leela Joshua",
+   "session": "s48",
+   "paragraph": 20,
+   "sentence": "For the record, search-indexer-v2 runs on Postgres.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K089",
+   "key": "K090",
+   "via": "Farhan Sethi",
+   "session": "s40",
+   "paragraph": 8,
+   "sentence": "For the record, session-cache is hosted in ap-southeast-1.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K085",
+   "key": "K087",
+   "via": "Maya Ghosh",
+   "session": "s56",
+   "paragraph": 14,
+   "sentence": "Maya Ghosh (owner of ledger-api) signed off on this.",
+   "bridged_key": "K085"
+  },
+  {
+   "hop_key": "K081",
+   "key": "K082",
+   "via": "Hana Mennon",
+   "session": "s32",
+   "paragraph": 6,
+   "sentence": "Hana Mennon, who owns search-indexer, confirmed the update.",
+   "bridged_key": "K081"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K059",
+   "via": "Ananya Nair",
+   "session": "s48",
+   "paragraph": 12,
+   "sentence": "Ananya Nair, who leads Meridian, confirmed the update.",
+   "bridged_key": "K057"
+  },
+  {
+   "hop_key": "K065",
+   "key": "K067",
+   "via": "Rahul Raman",
+   "session": "s32",
+   "paragraph": 28,
+   "sentence": "For the record, Halcyon is due May 19.",
+   "bridged_key": "K067"
+  },
+  {
+   "hop_key": "K069",
+   "key": "K071",
+   "via": "Leela Joshua",
+   "session": "s52",
+   "paragraph": 4,
+   "sentence": "For the record, Ember is due April 3.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Yusuf Reddy",
+   "session": "s50",
+   "paragraph": 33,
+   "sentence": "For the record, profile-store listens on port 8443.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K050",
+   "via": "Yusuf Reddy",
+   "session": "s41",
+   "paragraph": 6,
+   "sentence": "For the record, Quasar is paused.",
+   "bridged_key": "K050"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0265",
+   "id": "e0265b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 265,
+   "session": "s12",
+   "slot": "repo_name",
+   "subject": "E23",
+   "subject_name": "Juniper Lite",
+   "t": "2030-01-25T16:09:00Z",
+   "type": "ASSERT",
+   "value": "juniper-lite-core",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1055",
+   "id": "e1055b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 1055,
+   "session": "s48",
+   "slot": "db_engine",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2",
+   "t": "2030-03-20T09:50:00Z",
+   "type": "ASSERT",
+   "value": "Postgres",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0876",
+   "id": "e0876b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 876,
+   "session": "s40",
+   "slot": "host_region",
+   "subject": "E26",
+   "subject_name": "session-cache",
+   "t": "2030-03-08T09:42:00Z",
+   "type": "ASSERT",
+   "value": "ap-southeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1225",
+   "id": "e1225b",
+   "key": "K085",
+   "op": "observe",
+   "seq": 1225,
+   "session": "s56",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "ledger-api",
+   "t": "2030-04-01T16:25:00Z",
+   "type": "ASSERT",
+   "value": "Maya Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0699",
+   "id": "e0699b",
+   "key": "K081",
+   "op": "observe",
+   "seq": 699,
+   "session": "s32",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "search-indexer",
+   "t": "2030-02-24T12:13:00Z",
+   "type": "ASSERT",
+   "value": "Hana Mennon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1051",
+   "id": "e1051b",
+   "key": "K057",
+   "op": "observe",
+   "seq": 1051,
+   "session": "s48",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Meridian",
+   "t": "2030-03-20T09:42:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0710",
+   "id": "e0710b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 710,
+   "session": "s32",
+   "slot": "proj_deadline",
+   "subject": "E20",
+   "subject_name": "Halcyon",
+   "t": "2030-02-24T12:35:00Z",
+   "type": "ASSERT",
+   "value": "May 19",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1136",
+   "id": "e1136b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 1136,
+   "session": "s52",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Ember",
+   "t": "2030-03-26T13:19:00Z",
+   "type": "ASSERT",
+   "value": "April 3",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1109",
+   "id": "e1109b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 1109,
+   "session": "s50",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "profile-store",
+   "t": "2030-03-23T16:24:00Z",
+   "type": "ASSERT",
+   "value": "8443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0896",
+   "id": "e0896b",
+   "key": "K050",
+   "op": "observe",
+   "seq": 896,
+   "session": "s41",
+   "slot": "proj_status",
+   "subject": "E16",
+   "subject_name": "Quasar",
+   "t": "2030-03-09T15:38:00Z",
+   "type": "ASSERT",
+   "value": "paused",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

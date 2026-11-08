@@ -1,0 +1,328 @@
+{
+ "seed": 7290102,
+ "scale": 1.0,
+ "stream_tokens": 282565,
+ "n_paragraphs": 4048,
+ "tasks": {
+  "7290102:COUNT:00": {
+   "family": "COUNT",
+   "n_entities": 128,
+   "n_min": 128,
+   "n_union": 335,
+   "minimal": 9421,
+   "union": 24255
+  },
+  "7290102:COUNT:01": {
+   "family": "COUNT",
+   "n_entities": 83,
+   "n_min": 83,
+   "n_union": 240,
+   "minimal": 6119,
+   "union": 17437
+  },
+  "7290102:COUNT:02": {
+   "family": "COUNT",
+   "n_entities": 71,
+   "n_min": 71,
+   "n_union": 191,
+   "minimal": 5228,
+   "union": 13854
+  },
+  "7290102:COUNT:03": {
+   "family": "COUNT",
+   "n_entities": 57,
+   "n_min": 57,
+   "n_union": 160,
+   "minimal": 4198,
+   "union": 11689
+  },
+  "7290102:COUNT:04": {
+   "family": "COUNT",
+   "n_entities": 52,
+   "n_min": 52,
+   "n_union": 150,
+   "minimal": 3834,
+   "union": 10868
+  },
+  "7290102:COUNT:05": {
+   "family": "COUNT",
+   "n_entities": 39,
+   "n_min": 39,
+   "n_union": 96,
+   "minimal": 2882,
+   "union": 7002
+  },
+  "7290102:COUNT:06": {
+   "family": "COUNT",
+   "n_entities": 28,
+   "n_min": 28,
+   "n_union": 87,
+   "minimal": 2048,
+   "union": 6325
+  },
+  "7290102:COUNT:07": {
+   "family": "COUNT",
+   "n_entities": 36,
+   "n_min": 36,
+   "n_union": 102,
+   "minimal": 2677,
+   "union": 7536
+  },
+  "7290102:COUNT:08": {
+   "family": "COUNT",
+   "n_entities": 21,
+   "n_min": 21,
+   "n_union": 66,
+   "minimal": 1534,
+   "union": 4850
+  },
+  "7290102:COUNT:09": {
+   "family": "COUNT",
+   "n_entities": 27,
+   "n_min": 27,
+   "n_union": 92,
+   "minimal": 1996,
+   "union": 6860
+  },
+  "7290102:SUM:00": {
+   "family": "SUM",
+   "n_entities": 25,
+   "n_min": 50,
+   "n_union": 95,
+   "minimal": 3309,
+   "union": 6480
+  },
+  "7290102:SUM:01": {
+   "family": "SUM",
+   "n_entities": 11,
+   "n_min": 22,
+   "n_union": 45,
+   "minimal": 1474,
+   "union": 3076
+  },
+  "7290102:SUM:02": {
+   "family": "SUM",
+   "n_entities": 9,
+   "n_min": 18,
+   "n_union": 35,
+   "minimal": 1206,
+   "union": 2393
+  },
+  "7290102:SUM:03": {
+   "family": "SUM",
+   "n_entities": 18,
+   "n_min": 36,
+   "n_union": 58,
+   "minimal": 2409,
+   "union": 3974
+  },
+  "7290102:SUM:04": {
+   "family": "SUM",
+   "n_entities": 13,
+   "n_min": 26,
+   "n_union": 47,
+   "minimal": 1753,
+   "union": 3256
+  },
+  "7290102:SUM:05": {
+   "family": "SUM",
+   "n_entities": 6,
+   "n_min": 12,
+   "n_union": 20,
+   "minimal": 797,
+   "union": 1345
+  },
+  "7290102:SUM:06": {
+   "family": "SUM",
+   "n_entities": 6,
+   "n_min": 12,
+   "n_union": 26,
+   "minimal": 805,
+   "union": 1797
+  },
+  "7290102:SUM:07": {
+   "family": "SUM",
+   "n_entities": 7,
+   "n_min": 14,
+   "n_union": 22,
+   "minimal": 953,
+   "union": 1513
+  },
+  "7290102:SUM:08": {
+   "family": "SUM",
+   "n_entities": 47,
+   "n_min": 94,
+   "n_union": 176,
+   "minimal": 6300,
+   "union": 12103
+  },
+  "7290102:SUM:09": {
+   "family": "SUM",
+   "n_entities": 8,
+   "n_min": 16,
+   "n_union": 32,
+   "minimal": 1089,
+   "union": 2224
+  },
+  "7290102:DELTA:00": {
+   "family": "DELTA",
+   "n_entities": 131,
+   "n_min": 131,
+   "n_union": 157,
+   "minimal": 9568,
+   "union": 11731
+  },
+  "7290102:DELTA:01": {
+   "family": "DELTA",
+   "n_entities": 71,
+   "n_min": 71,
+   "n_union": 85,
+   "minimal": 5272,
+   "union": 6448
+  },
+  "7290102:DELTA:02": {
+   "family": "DELTA",
+   "n_entities": 14,
+   "n_min": 14,
+   "n_union": 16,
+   "minimal": 1033,
+   "union": 1193
+  },
+  "7290102:DELTA:03": {
+   "family": "DELTA",
+   "n_entities": 96,
+   "n_min": 96,
+   "n_union": 115,
+   "minimal": 6874,
+   "union": 8427
+  },
+  "7290102:DELTA:04": {
+   "family": "DELTA",
+   "n_entities": 7,
+   "n_min": 7,
+   "n_union": 8,
+   "minimal": 529,
+   "union": 618
+  },
+  "7290102:DELTA:05": {
+   "family": "DELTA",
+   "n_entities": 36,
+   "n_min": 36,
+   "n_union": 43,
+   "minimal": 2738,
+   "union": 3344
+  },
+  "7290102:DELTA:06": {
+   "family": "DELTA",
+   "n_entities": 10,
+   "n_min": 10,
+   "n_union": 11,
+   "minimal": 727,
+   "union": 806
+  },
+  "7290102:DELTA:07": {
+   "family": "DELTA",
+   "n_entities": 51,
+   "n_min": 51,
+   "n_union": 61,
+   "minimal": 3842,
+   "union": 4702
+  },
+  "7290102:DELTA:08": {
+   "family": "DELTA",
+   "n_entities": 19,
+   "n_min": 19,
+   "n_union": 22,
+   "minimal": 1413,
+   "union": 1669
+  },
+  "7290102:DELTA:09": {
+   "family": "DELTA",
+   "n_entities": 26,
+   "n_min": 26,
+   "n_union": 31,
+   "minimal": 2017,
+   "union": 2453
+  },
+  "7290102:ARGMAX:00": {
+   "family": "ARGMAX",
+   "n_entities": 200,
+   "n_min": 75,
+   "n_union": 233,
+   "minimal": 5859,
+   "union": 18012
+  },
+  "7290102:ARGMAX:01": {
+   "family": "ARGMAX",
+   "n_entities": 80,
+   "n_min": 37,
+   "n_union": 93,
+   "minimal": 2868,
+   "union": 7153
+  },
+  "7290102:ARGMAX:02": {
+   "family": "ARGMAX",
+   "n_entities": 110,
+   "n_min": 41,
+   "n_union": 128,
+   "minimal": 3190,
+   "union": 9893
+  },
+  "7290102:ARGMAX:03": {
+   "family": "ARGMAX",
+   "n_entities": 22,
+   "n_min": 10,
+   "n_union": 25,
+   "minimal": 781,
+   "union": 1958
+  },
+  "7290102:ARGMAX:04": {
+   "family": "ARGMAX",
+   "n_entities": 42,
+   "n_min": 18,
+   "n_union": 49,
+   "minimal": 1398,
+   "union": 3782
+  },
+  "7290102:ARGMAX:05": {
+   "family": "ARGMAX",
+   "n_entities": 260,
+   "n_min": 94,
+   "n_union": 303,
+   "minimal": 7309,
+   "union": 23699
+  },
+  "7290102:ARGMAX:06": {
+   "family": "ARGMAX",
+   "n_entities": 58,
+   "n_min": 22,
+   "n_union": 67,
+   "minimal": 1738,
+   "union": 5247
+  },
+  "7290102:ARGMAX:07": {
+   "family": "ARGMAX",
+   "n_entities": 30,
+   "n_min": 14,
+   "n_union": 35,
+   "minimal": 1099,
+   "union": 2735
+  },
+  "7290102:ARGMAX:08": {
+   "family": "ARGMAX",
+   "n_entities": 15,
+   "n_min": 8,
+   "n_union": 17,
+   "minimal": 627,
+   "union": 1319
+  },
+  "7290102:ARGMAX:09": {
+   "family": "ARGMAX",
+   "n_entities": 150,
+   "n_min": 65,
+   "n_union": 175,
+   "minimal": 5055,
+   "union": 13504
+  }
+ }
+}

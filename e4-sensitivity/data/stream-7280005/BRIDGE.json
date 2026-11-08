@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K069",
+   "key": "K072",
+   "via": "Hana Iyer",
+   "session": "s33",
+   "paragraph": 27,
+   "sentence": "Hana Iyer (lead on Quasar Lite) signed off on this.",
+   "bridged_key": "K069"
+  },
+  {
+   "hop_key": "K081",
+   "key": "K082",
+   "via": "Zoya Kapoor",
+   "session": "s50",
+   "paragraph": 27,
+   "sentence": "For the record, ranker-svc is hosted in ap-northeast-1.",
+   "bridged_key": "K082"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K052",
+   "via": "Priya Raman",
+   "session": "s56",
+   "paragraph": 4,
+   "sentence": "Priya Raman, who leads Vesper, confirmed the update.",
+   "bridged_key": "K050"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K095",
+   "via": "Mateo Ghose",
+   "session": "s49",
+   "paragraph": 29,
+   "sentence": "For the record, metrics-sink listens on port 5000.",
+   "bridged_key": "K095"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K056",
+   "via": "Mateo Ghosh",
+   "session": "s55",
+   "paragraph": 26,
+   "sentence": "Mateo Ghosh (lead on Saffron) signed off on this.",
+   "bridged_key": "K053"
+  },
+  {
+   "hop_key": "K065",
+   "key": "K068",
+   "via": "Mateo Ghose",
+   "session": "s57",
+   "paragraph": 32,
+   "sentence": "For the record, Cobalt lives in the cobalt-app repo.",
+   "bridged_key": "K068"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K098",
+   "via": "Mateo Ghosh",
+   "session": "s55",
+   "paragraph": 39,
+   "sentence": "Mateo Ghosh, who owns profile-store, confirmed the update.",
+   "bridged_key": "K097"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K063",
+   "via": "Arjun Shah",
+   "session": "s32",
+   "paragraph": 4,
+   "sentence": "Arjun Shah (lead on Atlas) signed off on this.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K085",
+   "key": "K088",
+   "via": "Ines Menon",
+   "session": "s43",
+   "paragraph": 34,
+   "sentence": "For the record, media-proxy runs on MySQL.",
+   "bridged_key": "K088"
+  },
+  {
+   "hop_key": "K077",
+   "key": "K079",
+   "via": "Sameer Sethi",
+   "session": "s47",
+   "paragraph": 31,
+   "sentence": "Sameer Sethi (owner of order-router) signed off on this.",
+   "bridged_key": "K077"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0742",
+   "id": "e0742b",
+   "key": "K069",
+   "op": "observe",
+   "seq": 742,
+   "session": "s33",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Quasar Lite",
+   "t": "2030-02-25T09:28:00Z",
+   "type": "ASSERT",
+   "value": "Hana Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1102",
+   "id": "e1102b",
+   "key": "K082",
+   "op": "observe",
+   "seq": 1102,
+   "session": "s50",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-23T12:32:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1219",
+   "id": "e1219b",
+   "key": "K050",
+   "op": "observe",
+   "seq": 1219,
+   "session": "s56",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Vesper",
+   "t": "2030-04-01T11:39:00Z",
+   "type": "ASSERT",
+   "value": "Priya Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1085",
+   "id": "e1085b",
+   "key": "K095",
+   "op": "observe",
+   "seq": 1085,
+   "session": "s49",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "metrics-sink",
+   "t": "2030-03-21T10:43:00Z",
+   "type": "ASSERT",
+   "value": "5000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1204",
+   "id": "e1204b",
+   "key": "K053",
+   "op": "observe",
+   "seq": 1204,
+   "session": "s55",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Saffron",
+   "t": "2030-03-30T15:33:00Z",
+   "type": "ASSERT",
+   "value": "Mateo Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1255",
+   "id": "e1255b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 1255,
+   "session": "s57",
+   "slot": "repo_name",
+   "subject": "E21",
+   "subject_name": "Cobalt",
+   "t": "2030-04-02T16:00:00Z",
+   "type": "ASSERT",
+   "value": "cobalt-app",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1216",
+   "id": "e1216b",
+   "key": "K097",
+   "op": "observe",
+   "seq": 1216,
+   "session": "s55",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "profile-store",
+   "t": "2030-03-30T15:57:00Z",
+   "type": "ASSERT",
+   "value": "Mateo Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0714",
+   "id": "e0714b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 714,
+   "session": "s32",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Atlas",
+   "t": "2030-02-24T12:03:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0963",
+   "id": "e0963b",
+   "key": "K088",
+   "op": "observe",
+   "seq": 963,
+   "session": "s43",
+   "slot": "db_engine",
+   "subject": "E26",
+   "subject_name": "media-proxy",
+   "t": "2030-03-12T14:18:00Z",
+   "type": "ASSERT",
+   "value": "MySQL",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1045",
+   "id": "e1045b",
+   "key": "K077",
+   "op": "observe",
+   "seq": 1045,
+   "session": "s47",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "order-router",
+   "t": "2030-03-18T13:36:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

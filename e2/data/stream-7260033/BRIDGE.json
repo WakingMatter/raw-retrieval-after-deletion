@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K083",
+   "key": "K085",
+   "via": "Kabir Kapoor",
+   "session": "s56",
+   "paragraph": 14,
+   "sentence": "Kabir Kapoor (owner of media-proxy) signed off on this.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K106",
+   "via": "Farhan Naik",
+   "session": "s34",
+   "paragraph": 33,
+   "sentence": "For the record, auth-gateway is hosted in sa-east-1.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Kabir Kapoor",
+   "session": "s33",
+   "paragraph": 8,
+   "sentence": "For the record, Ember Lite is due August 11.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K060",
+   "key": "K062",
+   "via": "Dev Khanna",
+   "session": "s52",
+   "paragraph": 18,
+   "sentence": "Dev Khanna (lead on Halcyon) signed off on this.",
+   "bridged_key": "K060"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K100",
+   "via": "Maya Varma",
+   "session": "s51",
+   "paragraph": 30,
+   "sentence": "For the record, search-indexer listens on port 7443.",
+   "bridged_key": "K100"
+  },
+  {
+   "hop_key": "K041",
+   "key": "K044",
+   "via": "Farhan Nair",
+   "session": "s25",
+   "paragraph": 6,
+   "sentence": "For the record, Ember lives in the ember-hub repo.",
+   "bridged_key": "K044"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K078",
+   "via": "Priya Chopra",
+   "session": "s38",
+   "paragraph": 6,
+   "sentence": "Priya Chopra (lead on Atlas Lite) signed off on this.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K050",
+   "via": "Sameer Bose",
+   "session": "s48",
+   "paragraph": 18,
+   "sentence": "Sameer Bose (lead on Sable) signed off on this.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K086",
+   "via": "Kabir Kapoor",
+   "session": "s13",
+   "paragraph": 32,
+   "sentence": "Kabir Kapoor, who owns media-proxy, confirmed the update.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K072",
+   "via": "Kabir Kapoor",
+   "session": "s45",
+   "paragraph": 12,
+   "sentence": "Kabir Kapoor, who leads Ember Lite, confirmed the update.",
+   "bridged_key": "K071"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1211",
+   "id": "e1211b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 1211,
+   "session": "s56",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "media-proxy",
+   "t": "2030-04-01T15:15:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0750",
+   "id": "e0750b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 750,
+   "session": "s34",
+   "slot": "host_region",
+   "subject": "E31",
+   "subject_name": "auth-gateway",
+   "t": "2030-02-27T15:00:00Z",
+   "type": "ASSERT",
+   "value": "sa-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0716",
+   "id": "e0716b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 716,
+   "session": "s33",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Ember Lite",
+   "t": "2030-02-25T09:53:00Z",
+   "type": "ASSERT",
+   "value": "August 11",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1125",
+   "id": "e1125b",
+   "key": "K060",
+   "op": "observe",
+   "seq": 1125,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Halcyon",
+   "t": "2030-03-26T12:38:00Z",
+   "type": "ASSERT",
+   "value": "Dev Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1112",
+   "id": "e1112b",
+   "key": "K100",
+   "op": "observe",
+   "seq": 1112,
+   "session": "s51",
+   "slot": "listen_port",
+   "subject": "E29",
+   "subject_name": "search-indexer",
+   "t": "2030-03-24T12:13:00Z",
+   "type": "ASSERT",
+   "value": "7443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0554",
+   "id": "e0554b",
+   "key": "K044",
+   "op": "observe",
+   "seq": 554,
+   "session": "s25",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Ember",
+   "t": "2030-02-13T09:43:00Z",
+   "type": "ASSERT",
+   "value": "ember-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0825",
+   "id": "e0825b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 825,
+   "session": "s38",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Atlas Lite",
+   "t": "2030-03-05T13:39:00Z",
+   "type": "ASSERT",
+   "value": "Priya Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1041",
+   "id": "e1041b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 1041,
+   "session": "s48",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Sable",
+   "t": "2030-03-20T16:14:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0304",
+   "id": "e0304b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 304,
+   "session": "s13",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "media-proxy",
+   "t": "2030-01-26T16:12:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0977",
+   "id": "e0977b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 977,
+   "session": "s45",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Ember Lite",
+   "t": "2030-03-15T13:25:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

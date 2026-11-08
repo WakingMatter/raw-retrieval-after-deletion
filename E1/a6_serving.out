@@ -1,0 +1,35 @@
+# A6 summary-serving audit (saved traces only)
+
+## P2 pilot-v1.2/runs/PILOT2
+A6-F terminal probes n=206 with_summary=54 summaries_per_probe={0: 152, 1: 54}
+   by kind: AGG 0/3; DERIVED 1/2; DIRECT 26/77; ENUM 6/37; HIST 9/41; SUMM 8/29; current 1/2; deleted_retracted_absent 2/3; multi_hop 0/8; premise_bait 1/3; use_in_task 0/1
+A6-C terminal probes n=206 with_summary=52 summaries_per_probe={0: 154, 1: 52}
+   by kind: AGG 0/3; DERIVED 1/2; DIRECT 24/77; ENUM 6/37; HIST 9/41; SUMM 8/29; current 1/2; deleted_retracted_absent 2/3; multi_hop 0/8; premise_bait 1/3; use_in_task 0/1
+A6-eager-F terminal probes n=206 with_summary=54 summaries_per_probe={0: 152, 1: 54}
+   by kind: AGG 0/3; DERIVED 1/2; DIRECT 26/77; ENUM 6/37; HIST 9/41; SUMM 8/29; current 1/2; deleted_retracted_absent 2/3; multi_hop 0/8; premise_bait 1/3; use_in_task 0/1
+A6m-F terminal probes n=206 with_summary=6 summaries_per_probe={0: 200, 1: 6}
+   by kind: AGG 0/3; DERIVED 0/2; DIRECT 4/77; ENUM 1/37; HIST 1/41; SUMM 0/29; current 0/2; deleted_retracted_absent 0/3; multi_hop 0/8; premise_bait 0/3; use_in_task 0/1
+A6m-C terminal probes n=206 with_summary=2 summaries_per_probe={0: 204, 1: 2}
+   by kind: AGG 0/3; DERIVED 0/2; DIRECT 0/77; ENUM 1/37; HIST 1/41; SUMM 0/29; current 0/2; deleted_retracted_absent 0/3; multi_hop 0/8; premise_bait 0/3; use_in_task 0/1
+A6-F warm reads n=23 with_summary=6
+distinct ok A6/A6-eager synth outputs with memo text: 108; header item_cost <= 400 (fits alone): 38 (0.352); cost median 435 p10 289 p90 622; words median 114, >120 words: 49
+F terminal answer prompts byte-identical (memo key equal) A6 vs A6-eager: 206/206
+F terminal answer prompts byte-identical (memo key equal) A6 vs A6m: 142/206
+F terminal answer prompts byte-identical (memo key equal) A6 vs RS: 9/206
+
+## P3 pilot-v1.3/runs/PILOT3-GROK-FULL
+A6-F terminal probes n=306 with_summary=55 summaries_per_probe={0: 251, 1: 55}
+   by kind: AGG 0/6; DERIVED 0/6; DIRECT 28/125; ENUM 9/40; HIST 9/53; SUMM 4/23; current 1/11; deleted_retracted_absent 4/8; multi_hop 0/19; premise_bait 0/3; unaffected_control 0/4; use_in_task 0/8
+A6-C terminal probes n=306 with_summary=89 summaries_per_probe={0: 217, 1: 89}
+   by kind: AGG 1/6; DERIVED 0/6; DIRECT 40/125; ENUM 14/40; HIST 14/53; SUMM 10/23; current 3/11; deleted_retracted_absent 5/8; multi_hop 1/19; premise_bait 0/3; unaffected_control 1/4; use_in_task 0/8
+A6-eager-F terminal probes n=306 with_summary=55 summaries_per_probe={0: 251, 1: 55}
+   by kind: AGG 0/6; DERIVED 0/6; DIRECT 28/125; ENUM 9/40; HIST 9/53; SUMM 4/23; current 1/11; deleted_retracted_absent 4/8; multi_hop 0/19; premise_bait 0/3; unaffected_control 0/4; use_in_task 0/8
+A6m-F terminal probes n=306 with_summary=11 summaries_per_probe={0: 295, 1: 11}
+   by kind: AGG 0/6; DERIVED 1/6; DIRECT 4/125; ENUM 3/40; HIST 1/53; SUMM 1/23; current 1/11; deleted_retracted_absent 0/8; multi_hop 0/19; premise_bait 0/3; unaffected_control 0/4; use_in_task 0/8
+A6m-C terminal probes n=306 with_summary=8 summaries_per_probe={0: 298, 1: 8}
+   by kind: AGG 0/6; DERIVED 0/6; DIRECT 3/125; ENUM 3/40; HIST 1/53; SUMM 1/23; current 0/11; deleted_retracted_absent 0/8; multi_hop 0/19; premise_bait 0/3; unaffected_control 0/4; use_in_task 0/8
+A6-F warm reads n=37 with_summary=9
+distinct ok A6/A6-eager synth outputs with memo text: 173; header item_cost <= 400 (fits alone): 50 (0.289); cost median 452 p10 281 p90 626; words median 107, >120 words: 63
+F terminal answer prompts byte-identical (memo key equal) A6 vs A6-eager: 306/306
+F terminal answer prompts byte-identical (memo key equal) A6 vs A6m: 243/306
+F terminal answer prompts byte-identical (memo key equal) A6 vs RS: 26/306

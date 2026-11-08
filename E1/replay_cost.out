@@ -1,0 +1,70 @@
+
+## PILOT2  (pilot-v1.2/runs/PILOT2)
+| instance | streams | logical calls | real calls | synth calls | forget-phase calls | tokens in+out (logical) | per stream | answers | tokens/answer | real-call latency mean / p95 s | probe-answer calls |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A3+DoT-F | 2 | 719 | 559 | 0 | 159 (4,621,801 tok) | 19,961,567 | 9,980,784 | 206 | 96,901 | 26.5 / 83.1 (n 558) | 206 |
+| A3n-C | 2 | 544 | 535 | 0 | 0 (0 tok) | 14,741,579 | 7,370,790 | 206 | 71,561 | 26.6 / 71.7 (n 535) | 206 |
+| A3n-F | 2 | 734 | 661 | 0 | 175 (5,471,250 tok) | 20,799,340 | 10,399,670 | 206 | 100,968 | 32.7 / 90.0 (n 658) | 206 |
+| A6-C | 2 | 283 | 103 | 54 | 0 (0 tok) | 7,521,212 | 3,760,606 | 206 | 36,511 | 17.0 / 43.9 (n 103) | 206 |
+| A6-F | 2 | 281 | 166 | 52 | 0 (0 tok) | 7,493,210 | 3,746,605 | 206 | 36,375 | 15.0 / 30.8 (n 166) | 206 |
+| A6-eager-F | 2 | 316 | 55 | 87 | 55 (1,671,244 tok) | 8,549,606 | 4,274,803 | 206 | 41,503 | 25.4 / 54.8 (n 55) | 206 |
+| A6m-C | 2 | 270 | 67 | 41 | 0 (0 tok) | 7,468,225 | 3,734,112 | 206 | 36,254 | 42.8 / 175.5 (n 67) | 206 |
+| A6m-F | 2 | 275 | 137 | 46 | 0 (0 tok) | 7,602,690 | 3,801,345 | 206 | 36,906 | 28.2 / 110.7 (n 137) | 206 |
+| RS-C | 2 | 206 | 65 | 0 | 0 (0 tok) | 5,331,271 | 2,665,636 | 206 | 25,880 | 10.8 / 18.7 (n 65) | 206 |
+| RS-F | 2 | 206 | 137 | 0 | 0 (0 tok) | 5,331,271 | 2,665,636 | 206 | 25,880 | 13.3 / 25.0 (n 137) | 206 |
+
+forget-time work and deletion bookkeeping (sum over streams; wall_s = time inside arm.forget):
+| instance | forgets | wall_s total | wall_s median | units deleted | caches invalidated | eager recomputed | notes deleted | notes redacted | clusters rebuilt / dropped / failed | kc1a ok | recomputes by phase | canary bytes in store files |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A3+DoT-F | 16 | 2342.11 | 168.004 | 0 | 0 | 0 | 2074 | 0 | 159 / 0 / 1 | - | - | 0 |
+| A3n-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | - | 0 |
+| A3n-F | 16 | 3279.13 | 187.899 | 0 | 0 | 0 | 367 | 6 | 167 / 0 / 0 | - | - | 5 |
+| A6-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | {'warm': 25, 'probe': 29} | 0 |
+| A6-F | 16 | 0.46 | 0.019 | 633 | 24 | 0 | 0 | 0 | 0 / 0 / 0 | 16/16 | {'warm': 26, 'probe': 26} | 0 |
+| A6-eager-F | 16 | 2781.81 | 192.501 | 633 | 55 | 55 | 0 | 0 | 0 / 0 / 0 | 16/16 | {'warm': 20, 'forget': 55, 'probe': 12} | 0 |
+| A6m-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | {'warm': 20, 'probe': 21} | 0 |
+| A6m-F | 16 | 0.47 | 0.017 | 628 | 21 | 0 | 0 | 0 | 0 / 0 / 0 | 16/16 | {'warm': 22, 'probe': 24} | 0 |
+| RS-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | - | 0 |
+| RS-F | 16 | 0.34 | 0.003 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | - | 0 |
+
+A6-eager-F: eager recomputes 55; of these, the same node was recomputed again later (eager result superseded i.e. eager result did not survive to probe time): 41 (next recompute was itself another eager one: 36)
+
+## PILOT3-GROK-FULL  (pilot-v1.3/runs/PILOT3-GROK-FULL)
+| instance | streams | logical calls | real calls | synth calls | forget-phase calls | tokens in+out (logical) | per stream | answers | tokens/answer | real-call latency mean / p95 s | probe-answer calls |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A6-C | 5 | 431 | 209 | 88 | 0 (0 tok) | 11,408,108 | 2,281,622 | 306 | 37,281 | 16.3 / 39.6 (n 209) | 306 |
+| A6-F | 5 | 442 | 139 | 99 | 0 (0 tok) | 11,727,010 | 2,345,402 | 306 | 38,324 | 15.9 / 41.6 (n 139) | 306 |
+| A6-eager-F | 5 | 487 | 98 | 144 | 88 (2,639,988 tok) | 13,050,432 | 2,610,086 | 306 | 42,648 | 21.5 / 51.5 (n 98) | 306 |
+| A6m-C | 5 | 439 | 130 | 96 | 0 (0 tok) | 12,240,411 | 2,448,082 | 306 | 40,001 | 36.5 / 139.5 (n 130) | 306 |
+| A6m-F | 5 | 442 | 85 | 99 | 0 (0 tok) | 12,387,407 | 2,477,481 | 306 | 40,482 | 37.7 / 152.5 (n 85) | 306 |
+| RS-C | 5 | 306 | 80 | 0 | 0 (0 tok) | 7,782,285 | 1,556,457 | 306 | 25,432 | 10.9 / 19.6 (n 80) | 306 |
+| RS-F | 5 | 306 | 63 | 0 | 0 (0 tok) | 7,782,285 | 1,556,457 | 306 | 25,432 | 11.9 / 24.1 (n 63) | 306 |
+
+forget-time work and deletion bookkeeping (sum over streams; wall_s = time inside arm.forget):
+| instance | forgets | wall_s total | wall_s median | units deleted | caches invalidated | eager recomputed | notes deleted | notes redacted | clusters rebuilt / dropped / failed | kc1a ok | recomputes by phase | canary bytes in store files |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A6-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | {'warm': 32, 'probe': 56} | 0 |
+| A6-F | 40 | 10.85 | 0.066 | 1528 | 44 | 0 | 0 | 0 | 0 / 0 / 0 | 40/40 | {'warm': 44, 'probe': 55} | 0 |
+| A6-eager-F | 40 | 3191.88 | 36.231 | 1528 | 88 | 88 | 0 | 0 | 0 / 0 / 0 | 40/40 | {'warm': 25, 'forget': 88, 'probe': 31} | 0 |
+| A6m-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | {'warm': 31, 'probe': 65} | 0 |
+| A6m-F | 40 | 9.08 | 0.057 | 1525 | 37 | 0 | 0 | 0 | 0 / 0 / 0 | 40/40 | {'warm': 40, 'probe': 59} | 0 |
+| RS-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | - | 0 |
+| RS-F | 40 | 7.91 | 0.042 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | - | 0 |
+
+A6-eager-F: eager recomputes 88; of these, the same node was recomputed again later (eager result superseded i.e. eager result did not survive to probe time): 68 (next recompute was itself another eager one: 63)
+
+## PILOT3-ASTRA  (pilot-v1.3/runs/PILOT3-ASTRA)
+| instance | streams | logical calls | real calls | synth calls | forget-phase calls | tokens in+out (logical) | per stream | answers | tokens/answer | real-call latency mean / p95 s | probe-answer calls |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A3+DoT-F | 2 | 580 | 182 | 0 | 121 (1,374,516 tok) | 6,622,756 | 3,311,378 | 119 | 55,653 | 5.9 / 9.3 (n 182) | 119 |
+| A3+DoTn-F | 2 | 589 | 259 | 0 | 130 (1,591,488 tok) | 6,851,936 | 3,425,968 | 119 | 57,579 | 7.8 / 14.2 (n 259) | 119 |
+| A3n-C | 4 | 846 | 836 | 0 | 0 (0 tok) | 9,440,868 | 2,360,217 | 247 | 38,222 | 8.4 / 16.3 (n 836) | 247 |
+| A3n-F | 2 | 617 | 316 | 0 | 158 (1,996,783 tok) | 7,258,724 | 3,629,362 | 119 | 60,998 | 8.6 / 16.5 (n 316) | 119 |
+
+forget-time work and deletion bookkeeping (sum over streams; wall_s = time inside arm.forget):
+| instance | forgets | wall_s total | wall_s median | units deleted | caches invalidated | eager recomputed | notes deleted | notes redacted | clusters rebuilt / dropped / failed | kc1a ok | recomputes by phase | canary bytes in store files |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A3+DoT-F | 16 | 188.49 | 0.020 | 0 | 0 | 0 | 2053 | 0 | 121 / 2 / 0 | - | - | 0 |
+| A3+DoTn-F | 16 | 215.55 | 6.970 | 0 | 0 | 0 | 264 | 0 | 130 / 1 / 0 | - | - | 0 |
+| A3n-C | 0 | 0.00 | 0.000 | 0 | 0 | 0 | 0 | 0 | 0 / 0 / 0 | - | - | 0 |
+| A3n-F | 16 | 381.74 | 14.968 | 0 | 0 | 0 | 262 | 2 | 156 / 1 / 0 | - | - | 15 |

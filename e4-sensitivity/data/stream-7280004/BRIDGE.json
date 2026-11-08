@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K085",
+   "key": "K087",
+   "via": "Ishaan Varma",
+   "session": "s17",
+   "paragraph": 39,
+   "sentence": "For the record, media-proxy listens on port 7000.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K076",
+   "via": "Arjun Kapoor",
+   "session": "s54",
+   "paragraph": 30,
+   "sentence": "Arjun Kapoor, who leads Orchid Lite, confirmed the update.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K106",
+   "via": "Sameer Reddy",
+   "session": "s39",
+   "paragraph": 34,
+   "sentence": "For the record, tile-server is hosted in ap-northeast-1.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Mateo Iyer",
+   "session": "s34",
+   "paragraph": 10,
+   "sentence": "For the record, auth-gateway listens on port 3000.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K061",
+   "key": "K062",
+   "via": "Sameer Reddy",
+   "session": "s21",
+   "paragraph": 2,
+   "sentence": "Sameer Reddy, who leads Atlas, confirmed the update.",
+   "bridged_key": "K061"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K049",
+   "via": "Zoya Bose",
+   "session": "s11",
+   "paragraph": 20,
+   "sentence": "Zoya Bose, who leads Saffron, confirmed the update.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K109",
+   "key": "K110",
+   "via": "Sameer Reddi",
+   "session": "s46",
+   "paragraph": 24,
+   "sentence": "Sameer Reddi (owner of metrics-sink-v2) signed off on this.",
+   "bridged_key": "K109"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K056",
+   "via": "Rohan Sethia",
+   "session": "s50",
+   "paragraph": 30,
+   "sentence": "For the record, Lumen lives in the lumen-next repo.",
+   "bridged_key": "K056"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K074",
+   "via": "Arjun Kapoor",
+   "session": "s37",
+   "paragraph": 16,
+   "sentence": "For the record, Orchid Lite is paused.",
+   "bridged_key": "K074"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K075",
+   "via": "Arjun Kapoor",
+   "session": "s41",
+   "paragraph": 6,
+   "sentence": "Arjun Kapoor (lead on Orchid Lite) signed off on this.",
+   "bridged_key": "K073"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0384",
+   "id": "e0384b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 384,
+   "session": "s17",
+   "slot": "listen_port",
+   "subject": "E25",
+   "subject_name": "media-proxy",
+   "t": "2030-02-01T09:54:00Z",
+   "type": "ASSERT",
+   "value": "7000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1171",
+   "id": "e1171b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 1171,
+   "session": "s54",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Orchid Lite",
+   "t": "2030-03-29T16:40:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0867",
+   "id": "e0867b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 867,
+   "session": "s39",
+   "slot": "host_region",
+   "subject": "E31",
+   "subject_name": "tile-server",
+   "t": "2030-03-06T16:01:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0754",
+   "id": "e0754b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 754,
+   "session": "s34",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "auth-gateway",
+   "t": "2030-02-27T12:12:00Z",
+   "type": "ASSERT",
+   "value": "3000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0456",
+   "id": "e0456b",
+   "key": "K061",
+   "op": "observe",
+   "seq": 456,
+   "session": "s21",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Atlas",
+   "t": "2030-02-07T13:45:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0243",
+   "id": "e0243b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 243,
+   "session": "s11",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Saffron",
+   "t": "2030-01-23T13:32:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1004",
+   "id": "e1004b",
+   "key": "K109",
+   "op": "observe",
+   "seq": 1004,
+   "session": "s46",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "metrics-sink-v2",
+   "t": "2030-03-17T13:45:00Z",
+   "type": "ASSERT",
+   "value": "Sameer Reddi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1087",
+   "id": "e1087b",
+   "key": "K056",
+   "op": "observe",
+   "seq": 1087,
+   "session": "s50",
+   "slot": "repo_name",
+   "subject": "E17",
+   "subject_name": "Lumen",
+   "t": "2030-03-23T11:31:00Z",
+   "type": "ASSERT",
+   "value": "lumen-next",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0814",
+   "id": "e0814b",
+   "key": "K074",
+   "op": "observe",
+   "seq": 814,
+   "session": "s37",
+   "slot": "proj_status",
+   "subject": "E22",
+   "subject_name": "Orchid Lite",
+   "t": "2030-03-03T12:27:00Z",
+   "type": "ASSERT",
+   "value": "paused",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0894",
+   "id": "e0894b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 894,
+   "session": "s41",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Orchid Lite",
+   "t": "2030-03-09T15:59:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

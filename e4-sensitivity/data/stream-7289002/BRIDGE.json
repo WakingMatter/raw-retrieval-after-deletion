@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K104",
+   "key": "K107",
+   "via": "Rohan Verma",
+   "session": "s46",
+   "paragraph": 24,
+   "sentence": "For the record, sync-daemon runs on ScyllaDB.",
+   "bridged_key": "K107"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K045",
+   "via": "Lucas Joshi",
+   "session": "s23",
+   "paragraph": 32,
+   "sentence": "Lucas Joshi, who leads Sable, confirmed the update.",
+   "bridged_key": "K042"
+  },
+  {
+   "hop_key": "K060",
+   "key": "K062",
+   "via": "Hana Reddy",
+   "session": "s17",
+   "paragraph": 8,
+   "sentence": "For the record, Saffron is due April 28.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K092",
+   "via": "Rohan Varma",
+   "session": "s42",
+   "paragraph": 8,
+   "sentence": "For the record, ranker-svc listens on port 6060.",
+   "bridged_key": "K092"
+  },
+  {
+   "hop_key": "K070",
+   "key": "K073",
+   "via": "Leela Nair",
+   "session": "s36",
+   "paragraph": 22,
+   "sentence": "For the record, Sable Lite lives in the sable-lite-stack repo.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Dev Kapoor",
+   "session": "s34",
+   "paragraph": 18,
+   "sentence": "Dev Kapoor, who leads Falcon, confirmed the update.",
+   "bridged_key": "K064"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K055",
+   "via": "Hana Reddi",
+   "session": "s42",
+   "paragraph": 16,
+   "sentence": "For the record, Juniper is due June 9.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K049",
+   "via": "Meera Mehta",
+   "session": "s41",
+   "paragraph": 32,
+   "sentence": "Meera Mehta (lead on Nimbus) signed off on this.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K069",
+   "via": "Rohan Verma",
+   "session": "s28",
+   "paragraph": 4,
+   "sentence": "Rohan Verma, who leads Mosaic, confirmed the update.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K052",
+   "via": "Priya Bose",
+   "session": "s38",
+   "paragraph": 35,
+   "sentence": "For the record, Quasar is due June 30.",
+   "bridged_key": "K052"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1017",
+   "id": "e1017b",
+   "key": "K107",
+   "op": "observe",
+   "seq": 1017,
+   "session": "s46",
+   "slot": "db_engine",
+   "subject": "E31",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-17T10:35:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0513",
+   "id": "e0513b",
+   "key": "K042",
+   "op": "observe",
+   "seq": 513,
+   "session": "s23",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Sable",
+   "t": "2030-02-10T17:10:00Z",
+   "type": "ASSERT",
+   "value": "Lucas Joshi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0373",
+   "id": "e0373b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 373,
+   "session": "s17",
+   "slot": "proj_deadline",
+   "subject": "E19",
+   "subject_name": "Saffron",
+   "t": "2030-02-01T14:17:00Z",
+   "type": "ASSERT",
+   "value": "April 28",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0929",
+   "id": "e0929b",
+   "key": "K092",
+   "op": "observe",
+   "seq": 929,
+   "session": "s42",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-11T13:53:00Z",
+   "type": "ASSERT",
+   "value": "6060",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0801",
+   "id": "e0801b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 801,
+   "session": "s36",
+   "slot": "repo_name",
+   "subject": "E22",
+   "subject_name": "Sable Lite",
+   "t": "2030-03-02T12:12:00Z",
+   "type": "ASSERT",
+   "value": "sable-lite-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0758",
+   "id": "e0758b",
+   "key": "K064",
+   "op": "observe",
+   "seq": 758,
+   "session": "s34",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Falcon",
+   "t": "2030-02-27T10:35:00Z",
+   "type": "ASSERT",
+   "value": "Dev Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0933",
+   "id": "e0933b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 933,
+   "session": "s42",
+   "slot": "proj_deadline",
+   "subject": "E17",
+   "subject_name": "Juniper",
+   "t": "2030-03-11T14:01:00Z",
+   "type": "ASSERT",
+   "value": "June 9",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0920",
+   "id": "e0920b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 920,
+   "session": "s41",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Nimbus",
+   "t": "2030-03-09T15:42:00Z",
+   "type": "ASSERT",
+   "value": "Meera Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0615",
+   "id": "e0615b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 615,
+   "session": "s28",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Mosaic",
+   "t": "2030-02-18T10:39:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Verma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0854",
+   "id": "e0854b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 854,
+   "session": "s38",
+   "slot": "proj_deadline",
+   "subject": "E16",
+   "subject_name": "Quasar",
+   "t": "2030-03-05T12:45:00Z",
+   "type": "ASSERT",
+   "value": "June 30",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

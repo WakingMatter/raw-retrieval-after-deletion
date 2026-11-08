@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K085",
+   "key": "K086",
+   "via": "Ines Pillay",
+   "session": "s47",
+   "paragraph": 14,
+   "sentence": "Ines Pillay (owner of ledger-api) signed off on this.",
+   "bridged_key": "K085"
+  },
+  {
+   "hop_key": "K089",
+   "key": "K090",
+   "via": "Elena Kapoor",
+   "session": "s55",
+   "paragraph": 22,
+   "sentence": "Elena Kapoor (owner of order-router) signed off on this.",
+   "bridged_key": "K089"
+  },
+  {
+   "hop_key": "K055",
+   "key": "K056",
+   "via": "Sofia Sethi",
+   "session": "s55",
+   "paragraph": 6,
+   "sentence": "Sofia Sethi (lead on Orchid) signed off on this.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K109",
+   "via": "Sofia Sethia",
+   "session": "s57",
+   "paragraph": 28,
+   "sentence": "Sofia Sethia, who owns search-indexer-v2, confirmed the update.",
+   "bridged_key": "K108"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K098",
+   "via": "Vikram Varma",
+   "session": "s25",
+   "paragraph": 35,
+   "sentence": "Vikram Varma (owner of notif-hub) signed off on this.",
+   "bridged_key": "K097"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K094",
+   "via": "Zoya Ghosh",
+   "session": "s22",
+   "paragraph": 6,
+   "sentence": "For the record, ranker-svc is hosted in sa-east-1.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K077",
+   "key": "K080",
+   "via": "Hana Joshi",
+   "session": "s45",
+   "paragraph": 20,
+   "sentence": "For the record, search-indexer runs on Postgres.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K065",
+   "via": "Ines Pillai",
+   "session": "s53",
+   "paragraph": 31,
+   "sentence": "For the record, Atlas lives in the atlas-mono repo.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K047",
+   "via": "Diya Nair",
+   "session": "s49",
+   "paragraph": 6,
+   "sentence": "For the record, Tundra lives in the tundra-svc repo.",
+   "bridged_key": "K047"
+  },
+  {
+   "hop_key": "K085",
+   "key": "K088",
+   "via": "Ines Pillay",
+   "session": "s57",
+   "paragraph": 32,
+   "sentence": "Ines Pillay, who owns ledger-api, confirmed the update.",
+   "bridged_key": "K085"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1021",
+   "id": "e1021b",
+   "key": "K085",
+   "op": "observe",
+   "seq": 1021,
+   "session": "s47",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "ledger-api",
+   "t": "2030-03-18T10:04:00Z",
+   "type": "ASSERT",
+   "value": "Ines Pillay",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1196",
+   "id": "e1196b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 1196,
+   "session": "s55",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "order-router",
+   "t": "2030-03-30T13:58:00Z",
+   "type": "ASSERT",
+   "value": "Elena Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1188",
+   "id": "e1188b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 1188,
+   "session": "s55",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Orchid",
+   "t": "2030-03-30T13:42:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Sethi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1241",
+   "id": "e1241b",
+   "key": "K108",
+   "op": "observe",
+   "seq": 1241,
+   "session": "s57",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "search-indexer-v2",
+   "t": "2030-04-02T11:08:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Sethia",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0566",
+   "id": "e0566b",
+   "key": "K097",
+   "op": "observe",
+   "seq": 566,
+   "session": "s25",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "notif-hub",
+   "t": "2030-02-13T11:44:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0486",
+   "id": "e0486b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 486,
+   "session": "s22",
+   "slot": "host_region",
+   "subject": "E28",
+   "subject_name": "ranker-svc",
+   "t": "2030-02-09T14:25:00Z",
+   "type": "ASSERT",
+   "value": "sa-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0980",
+   "id": "e0980b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 980,
+   "session": "s45",
+   "slot": "db_engine",
+   "subject": "E24",
+   "subject_name": "search-indexer",
+   "t": "2030-03-15T10:33:00Z",
+   "type": "ASSERT",
+   "value": "Postgres",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1162",
+   "id": "e1162b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 1162,
+   "session": "s53",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Atlas",
+   "t": "2030-03-27T13:20:00Z",
+   "type": "ASSERT",
+   "value": "atlas-mono",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1062",
+   "id": "e1062b",
+   "key": "K047",
+   "op": "observe",
+   "seq": 1062,
+   "session": "s49",
+   "slot": "repo_name",
+   "subject": "E15",
+   "subject_name": "Tundra",
+   "t": "2030-03-21T11:07:00Z",
+   "type": "ASSERT",
+   "value": "tundra-svc",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1245",
+   "id": "e1245b",
+   "key": "K085",
+   "op": "observe",
+   "seq": 1245,
+   "session": "s57",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "ledger-api",
+   "t": "2030-04-02T11:16:00Z",
+   "type": "ASSERT",
+   "value": "Ines Pillay",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

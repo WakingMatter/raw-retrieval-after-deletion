@@ -1,0 +1,250 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Tara Bose",
+   "session": "s39",
+   "paragraph": 14,
+   "sentence": "Tara Bose, who leads Lumen Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K056",
+   "via": "Ishaan Naik",
+   "session": "s41",
+   "paragraph": 6,
+   "sentence": "For the record, Vesper lives in the vesper-mono repo.",
+   "bridged_key": "K056"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K051",
+   "via": "Priya Raman",
+   "session": "s50",
+   "paragraph": 32,
+   "sentence": "For the record, Ember is due April 28.",
+   "bridged_key": "K051"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Mateo Joshi",
+   "session": "s32",
+   "paragraph": 12,
+   "sentence": "For the record, Zephyr is in beta.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K054",
+   "via": "Ishaan Naik",
+   "session": "s42",
+   "paragraph": 31,
+   "sentence": "Ishaan Naik, who leads Vesper, confirmed the update.",
+   "bridged_key": "K053"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K050",
+   "via": "Priya Raman",
+   "session": "s50",
+   "paragraph": 32,
+   "sentence": "For the record, Ember is in maintenance mode.",
+   "bridged_key": "K050"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K052",
+   "via": "Priya Raman",
+   "session": "s50",
+   "paragraph": 32,
+   "sentence": "For the record, Ember lives in the ember-core repo.",
+   "bridged_key": "K052"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Tara Bose",
+   "session": "s43",
+   "paragraph": 37,
+   "sentence": "Tara Bose, who leads Lumen Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K072",
+   "via": "Tara Bose",
+   "session": "s36",
+   "paragraph": 32,
+   "sentence": "For the record, Lumen Lite is in beta.",
+   "bridged_key": "K072"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0861",
+   "id": "e0861b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 861,
+   "session": "s39",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Lumen Lite",
+   "t": "2030-03-06T14:07:00Z",
+   "type": "ASSERT",
+   "value": "Tara Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0901",
+   "id": "e0901b",
+   "key": "K056",
+   "op": "observe",
+   "seq": 901,
+   "session": "s41",
+   "slot": "repo_name",
+   "subject": "E17",
+   "subject_name": "Vesper",
+   "t": "2030-03-09T15:26:00Z",
+   "type": "ASSERT",
+   "value": "vesper-mono",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1108",
+   "id": "e1108b",
+   "key": "K051",
+   "op": "observe",
+   "seq": 1108,
+   "session": "s50",
+   "slot": "proj_deadline",
+   "subject": "E16",
+   "subject_name": "Ember",
+   "t": "2030-03-23T15:02:00Z",
+   "type": "ASSERT",
+   "value": "April 28",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0709",
+   "id": "e0709b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 709,
+   "session": "s32",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Zephyr",
+   "t": "2030-02-24T13:48:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0937",
+   "id": "e0937b",
+   "key": "K053",
+   "op": "observe",
+   "seq": 937,
+   "session": "s42",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Vesper",
+   "t": "2030-03-11T14:19:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Naik",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1108",
+   "id": "e1108b",
+   "key": "K050",
+   "op": "observe",
+   "seq": 1108,
+   "session": "s50",
+   "slot": "proj_status",
+   "subject": "E16",
+   "subject_name": "Ember",
+   "t": "2030-03-23T15:02:00Z",
+   "type": "ASSERT",
+   "value": "in maintenance mode",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1108",
+   "id": "e1108b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 1108,
+   "session": "s50",
+   "slot": "repo_name",
+   "subject": "E16",
+   "subject_name": "Ember",
+   "t": "2030-03-23T15:02:00Z",
+   "type": "ASSERT",
+   "value": "ember-core",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0962",
+   "id": "e0962b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 962,
+   "session": "s43",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Lumen Lite",
+   "t": "2030-03-12T17:16:00Z",
+   "type": "ASSERT",
+   "value": "Tara Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0806",
+   "id": "e0806b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 806,
+   "session": "s36",
+   "slot": "proj_status",
+   "subject": "E22",
+   "subject_name": "Lumen Lite",
+   "t": "2030-03-02T11:00:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

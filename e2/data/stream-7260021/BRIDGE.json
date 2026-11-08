@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K083",
+   "key": "K085",
+   "via": "Vikram Ramani",
+   "session": "s48",
+   "paragraph": 6,
+   "sentence": "Vikram Ramani, who owns sync-daemon, confirmed the update.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K055",
+   "via": "Aisha Joshua",
+   "session": "s54",
+   "paragraph": 10,
+   "sentence": "For the record, Quasar lives in the quasar-app repo.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K081",
+   "via": "Nisha Sethi",
+   "session": "s20",
+   "paragraph": 33,
+   "sentence": "For the record, notif-hub listens on port 9000.",
+   "bridged_key": "K081"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K068",
+   "via": "Vikram Raman",
+   "session": "s42",
+   "paragraph": 22,
+   "sentence": "Vikram Raman (lead on Halcyon) signed off on this.",
+   "bridged_key": "K067"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K092",
+   "via": "Dev Kapoor",
+   "session": "s17",
+   "paragraph": 14,
+   "sentence": "Dev Kapoor, who owns metrics-sink, confirmed the update.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K045",
+   "key": "K048",
+   "via": "Rohan Reddy",
+   "session": "s40",
+   "paragraph": 4,
+   "sentence": "Rohan Reddy, who leads Falcon, confirmed the update.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K041",
+   "key": "K044",
+   "via": "Ananya Pillai",
+   "session": "s20",
+   "paragraph": 31,
+   "sentence": "Ananya Pillai (lead on Orchid) signed off on this.",
+   "bridged_key": "K041"
+  },
+  {
+   "hop_key": "K104",
+   "key": "K106",
+   "via": "Vikram Raman",
+   "session": "s39",
+   "paragraph": 16,
+   "sentence": "For the record, ranker-svc runs on DynamoDB.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K080",
+   "via": "Nisha Sethi",
+   "session": "s20",
+   "paragraph": 33,
+   "sentence": "For the record, notif-hub is hosted in us-east-1.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K070",
+   "via": "Vikram Raman",
+   "session": "s25",
+   "paragraph": 10,
+   "sentence": "For the record, Halcyon lives in the halcyon-stack repo.",
+   "bridged_key": "K070"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1041",
+   "id": "e1041b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 1041,
+   "session": "s48",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-20T11:09:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Ramani",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1173",
+   "id": "e1173b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 1173,
+   "session": "s54",
+   "slot": "repo_name",
+   "subject": "E17",
+   "subject_name": "Quasar",
+   "t": "2030-03-29T13:25:00Z",
+   "type": "ASSERT",
+   "value": "quasar-app",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0452",
+   "id": "e0452b",
+   "key": "K081",
+   "op": "observe",
+   "seq": 452,
+   "session": "s20",
+   "slot": "listen_port",
+   "subject": "E24",
+   "subject_name": "notif-hub",
+   "t": "2030-02-06T16:10:00Z",
+   "type": "ASSERT",
+   "value": "9000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0920",
+   "id": "e0920b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 920,
+   "session": "s42",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Halcyon",
+   "t": "2030-03-11T11:34:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0370",
+   "id": "e0370b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 370,
+   "session": "s17",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "metrics-sink",
+   "t": "2030-02-01T10:16:00Z",
+   "type": "ASSERT",
+   "value": "Dev Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0867",
+   "id": "e0867b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 867,
+   "session": "s40",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Falcon",
+   "t": "2030-03-08T14:34:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0450",
+   "id": "e0450b",
+   "key": "K041",
+   "op": "observe",
+   "seq": 450,
+   "session": "s20",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Orchid",
+   "t": "2030-02-06T16:06:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0852",
+   "id": "e0852b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 852,
+   "session": "s39",
+   "slot": "db_engine",
+   "subject": "E31",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-06T09:46:00Z",
+   "type": "ASSERT",
+   "value": "DynamoDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0452",
+   "id": "e0452b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 452,
+   "session": "s20",
+   "slot": "host_region",
+   "subject": "E24",
+   "subject_name": "notif-hub",
+   "t": "2030-02-06T16:10:00Z",
+   "type": "ASSERT",
+   "value": "us-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0556",
+   "id": "e0556b",
+   "key": "K070",
+   "op": "observe",
+   "seq": 556,
+   "session": "s25",
+   "slot": "repo_name",
+   "subject": "E21",
+   "subject_name": "Halcyon",
+   "t": "2030-02-13T15:04:00Z",
+   "type": "ASSERT",
+   "value": "halcyon-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

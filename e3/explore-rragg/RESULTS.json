@@ -1,0 +1,246 @@
+{
+ "all": {
+  "n": 320,
+  "A6": 0.472,
+  "A6_lenient": 0.472,
+  "RR": 0.362,
+  "RR_lenient": 0.362,
+  "RR-agg": 0.359,
+  "RR-agg_lenient": 0.359,
+  "A6-syn": 0.356,
+  "A6-syn_lenient": 0.356,
+  "A6-RR-agg": {
+   "mean": 0.1125,
+   "lo": 0.0669,
+   "hi": 0.1581,
+   "n_streams": 32,
+   "sd": 0.1264
+  },
+  "RR-agg-RR": {
+   "mean": -0.0031,
+   "lo": -0.0202,
+   "hi": 0.014,
+   "n_streams": 32,
+   "sd": 0.0474
+  },
+  "A6-RR": {
+   "mean": 0.1094,
+   "lo": 0.0615,
+   "hi": 0.1573,
+   "n_streams": 32,
+   "sd": 0.1329
+  }
+ },
+ "hdr-gold-touched": {
+  "n": 89,
+  "A6": 0.517,
+  "A6_lenient": 0.517,
+  "RR": 0.157,
+  "RR_lenient": 0.157,
+  "RR-agg": 0.169,
+  "RR-agg_lenient": 0.169,
+  "A6-syn": 0.169,
+  "A6-syn_lenient": 0.169,
+  "A6-RR-agg": {
+   "mean": 0.3584,
+   "lo": 0.2126,
+   "hi": 0.5042,
+   "n_streams": 30,
+   "sd": 0.3906
+  },
+  "RR-agg-RR": {
+   "mean": 0.0042,
+   "lo": -0.0044,
+   "hi": 0.0127,
+   "n_streams": 30,
+   "sd": 0.0228
+  },
+  "A6-RR": {
+   "mean": 0.3626,
+   "lo": 0.218,
+   "hi": 0.5072,
+   "n_streams": 30,
+   "sd": 0.3872
+  }
+ },
+ "touched": {
+  "n": 188,
+  "A6": 0.319,
+  "A6_lenient": 0.319,
+  "RR": 0.149,
+  "RR_lenient": 0.149,
+  "RR-agg": 0.16,
+  "RR-agg_lenient": 0.16,
+  "A6-syn": 0.17,
+  "A6-syn_lenient": 0.17,
+  "A6-RR-agg": {
+   "mean": 0.1493,
+   "lo": 0.0811,
+   "hi": 0.2175,
+   "n_streams": 32,
+   "sd": 0.1892
+  },
+  "RR-agg-RR": {
+   "mean": 0.0079,
+   "lo": -0.0034,
+   "hi": 0.0193,
+   "n_streams": 32,
+   "sd": 0.0315
+  },
+  "A6-RR": {
+   "mean": 0.1573,
+   "lo": 0.0892,
+   "hi": 0.2253,
+   "n_streams": 32,
+   "sd": 0.1888
+  }
+ },
+ "hdr-nogold-untouched": {
+  "n": 53,
+  "A6": 0.528,
+  "A6_lenient": 0.528,
+  "RR": 0.66,
+  "RR_lenient": 0.66,
+  "RR-agg": 0.585,
+  "RR-agg_lenient": 0.585,
+  "A6-syn": 0.585,
+  "A6-syn_lenient": 0.585,
+  "A6-RR-agg": {
+   "mean": -0.1453,
+   "lo": -0.3215,
+   "hi": 0.0309,
+   "n_streams": 25,
+   "sd": 0.4269
+  },
+  "RR-agg-RR": {
+   "mean": -0.0733,
+   "lo": -0.1452,
+   "hi": -0.0015,
+   "n_streams": 25,
+   "sd": 0.174
+  },
+  "A6-RR": {
+   "mean": -0.2187,
+   "lo": -0.3778,
+   "hi": -0.0595,
+   "n_streams": 25,
+   "sd": 0.3855
+  }
+ },
+ "untouched": {
+  "n": 132,
+  "A6": 0.689,
+  "A6_lenient": 0.689,
+  "RR": 0.667,
+  "RR_lenient": 0.667,
+  "RR-agg": 0.644,
+  "RR-agg_lenient": 0.644,
+  "A6-syn": 0.621,
+  "A6-syn_lenient": 0.621,
+  "A6-RR-agg": {
+   "mean": 0.0342,
+   "lo": -0.0729,
+   "hi": 0.1414,
+   "n_streams": 31,
+   "sd": 0.2922
+  },
+  "RR-agg-RR": {
+   "mean": -0.0168,
+   "lo": -0.0491,
+   "hi": 0.0156,
+   "n_streams": 31,
+   "sd": 0.0881
+  },
+  "A6-RR": {
+   "mean": 0.0175,
+   "lo": -0.085,
+   "hi": 0.1199,
+   "n_streams": 31,
+   "sd": 0.2793
+  }
+ },
+ "hdr-gold-untouched": {
+  "n": 79,
+  "A6": 0.797,
+  "A6_lenient": 0.797,
+  "RR": 0.671,
+  "RR_lenient": 0.671,
+  "RR-agg": 0.684,
+  "RR-agg_lenient": 0.684,
+  "A6-syn": 0.646,
+  "A6-syn_lenient": 0.646,
+  "A6-RR-agg": {
+   "mean": 0.1429,
+   "lo": 0.0282,
+   "hi": 0.2575,
+   "n_streams": 28,
+   "sd": 0.2956
+  },
+  "RR-agg-RR": {
+   "mean": 0.0119,
+   "lo": -0.0125,
+   "hi": 0.0363,
+   "n_streams": 28,
+   "sd": 0.063
+  },
+  "A6-RR": {
+   "mean": 0.1548,
+   "lo": 0.0399,
+   "hi": 0.2697,
+   "n_streams": 28,
+   "sd": 0.2963
+  }
+ },
+ "hdr-nogold-touched": {
+  "n": 99,
+  "A6": 0.141,
+  "A6_lenient": 0.141,
+  "RR": 0.141,
+  "RR_lenient": 0.141,
+  "RR-agg": 0.152,
+  "RR-agg_lenient": 0.152,
+  "A6-syn": 0.172,
+  "A6-syn_lenient": 0.172,
+  "A6-RR-agg": {
+   "mean": -0.0062,
+   "lo": -0.0527,
+   "hi": 0.0404,
+   "n_streams": 27,
+   "sd": 0.1177
+  },
+  "RR-agg-RR": {
+   "mean": 0.0093,
+   "lo": -0.0098,
+   "hi": 0.0283,
+   "n_streams": 27,
+   "sd": 0.0481
+  },
+  "A6-RR": {
+   "mean": 0.0031,
+   "lo": -0.0474,
+   "hi": 0.0536,
+   "n_streams": 27,
+   "sd": 0.1276
+  }
+ },
+ "rragg_meta": {
+  "note_ok": 320,
+  "answer_ok": 320,
+  "note_truncated": 4,
+  "note_contains_gold": 121,
+  "abstained": 66,
+  "mentions_wrong": 117,
+  "header_tokens_est_mean": 86.8,
+  "tokens": {
+   "input_tokens": 798881,
+   "output_tokens": 98624,
+   "cache_read_input_tokens": 131577
+  },
+  "tokens_note": {
+   "input_tokens": 363762,
+   "output_tokens": 89065
+  },
+  "memo_hits": 0
+ },
+ "decision": "FREEZE E3: RR-agg >= 6pp below A6"
+}

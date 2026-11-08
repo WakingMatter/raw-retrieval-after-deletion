@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K112",
+   "key": "K114",
+   "via": "Vikram Joshi",
+   "session": "s48",
+   "paragraph": 29,
+   "sentence": "For the record, auth-gateway-v2 listens on port 7000.",
+   "bridged_key": "K114"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K072",
+   "via": "Arjun Shah",
+   "session": "s52",
+   "paragraph": 18,
+   "sentence": "Arjun Shah (lead on Nimbus Lite) signed off on this.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K100",
+   "key": "K103",
+   "via": "Leela Raman",
+   "session": "s51",
+   "paragraph": 18,
+   "sentence": "For the record, sync-daemon runs on ScyllaDB.",
+   "bridged_key": "K103"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K047",
+   "via": "Hana Pillai",
+   "session": "s43",
+   "paragraph": 33,
+   "sentence": "For the record, Halcyon is in planning.",
+   "bridged_key": "K047"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K082",
+   "via": "Ishaan Kapoor",
+   "session": "s25",
+   "paragraph": 34,
+   "sentence": "Ishaan Kapoor, who owns order-router, confirmed the update.",
+   "bridged_key": "K079"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K092",
+   "via": "Kabir Iyengar",
+   "session": "s29",
+   "paragraph": 27,
+   "sentence": "Kabir Iyengar (owner of vault-bridge) signed off on this.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K065",
+   "key": "K066",
+   "via": "Kabir Iyengar",
+   "session": "s32",
+   "paragraph": 33,
+   "sentence": "For the record, Falcon is in beta.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K068",
+   "key": "K070",
+   "via": "Diya Chopra",
+   "session": "s11",
+   "paragraph": 33,
+   "sentence": "Diya Chopra (lead on Vesper) signed off on this.",
+   "bridged_key": "K068"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K078",
+   "via": "Ines Nair",
+   "session": "s27",
+   "paragraph": 24,
+   "sentence": "Ines Nair, who leads Halcyon Lite, confirmed the update.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K100",
+   "key": "K102",
+   "via": "Leela Raman",
+   "session": "s51",
+   "paragraph": 18,
+   "sentence": "For the record, sync-daemon listens on port 8443.",
+   "bridged_key": "K102"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1049",
+   "id": "e1049b",
+   "key": "K114",
+   "op": "observe",
+   "seq": 1049,
+   "session": "s48",
+   "slot": "listen_port",
+   "subject": "E33",
+   "subject_name": "auth-gateway-v2",
+   "t": "2030-03-20T13:29:00Z",
+   "type": "ASSERT",
+   "value": "7000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1136",
+   "id": "e1136b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 1136,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-03-26T17:15:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Shah",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1112",
+   "id": "e1112b",
+   "key": "K103",
+   "op": "observe",
+   "seq": 1112,
+   "session": "s51",
+   "slot": "db_engine",
+   "subject": "E30",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-24T15:20:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0949",
+   "id": "e0949b",
+   "key": "K047",
+   "op": "observe",
+   "seq": 949,
+   "session": "s43",
+   "slot": "proj_status",
+   "subject": "E15",
+   "subject_name": "Halcyon",
+   "t": "2030-03-12T13:24:00Z",
+   "type": "ASSERT",
+   "value": "in planning",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0566",
+   "id": "e0566b",
+   "key": "K079",
+   "op": "observe",
+   "seq": 566,
+   "session": "s25",
+   "slot": "svc_owner",
+   "subject": "E24",
+   "subject_name": "order-router",
+   "t": "2030-02-13T17:35:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Kapoor",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0658",
+   "id": "e0658b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 658,
+   "session": "s29",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "vault-bridge",
+   "t": "2030-02-19T11:25:00Z",
+   "type": "ASSERT",
+   "value": "Kabir Iyengar",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0725",
+   "id": "e0725b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 725,
+   "session": "s32",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Falcon",
+   "t": "2030-02-24T16:25:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0250",
+   "id": "e0250b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 250,
+   "session": "s11",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Vesper",
+   "t": "2030-01-23T11:27:00Z",
+   "type": "ASSERT",
+   "value": "Diya Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0609",
+   "id": "e0609b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 609,
+   "session": "s27",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Halcyon Lite",
+   "t": "2030-02-16T10:33:00Z",
+   "type": "ASSERT",
+   "value": "Ines Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1112",
+   "id": "e1112b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 1112,
+   "session": "s51",
+   "slot": "listen_port",
+   "subject": "E30",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-24T15:20:00Z",
+   "type": "ASSERT",
+   "value": "8443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

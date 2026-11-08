@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K074",
+   "key": "K076",
+   "via": "Maya Chopra",
+   "session": "s30",
+   "paragraph": 2,
+   "sentence": "For the record, Falcon Lite is due July 21.",
+   "bridged_key": "K076"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K069",
+   "via": "Yusuf Sethia",
+   "session": "s16",
+   "paragraph": 28,
+   "sentence": "For the record, Juniper lives in the juniper-mono repo.",
+   "bridged_key": "K069"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K063",
+   "via": "Sofia Joshi",
+   "session": "s13",
+   "paragraph": 20,
+   "sentence": "Sofia Joshi, who leads Atlas, confirmed the update.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K085",
+   "via": "Dev Mehta",
+   "session": "s45",
+   "paragraph": 10,
+   "sentence": "For the record, profile-store runs on CockroachDB.",
+   "bridged_key": "K085"
+  },
+  {
+   "hop_key": "K086",
+   "key": "K087",
+   "via": "Aisha Varma",
+   "session": "s20",
+   "paragraph": 24,
+   "sentence": "For the record, media-proxy is hosted in eu-west-1.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K045",
+   "key": "K046",
+   "via": "Aisha Varma",
+   "session": "s15",
+   "paragraph": 20,
+   "sentence": "For the record, Falcon is in beta.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K066",
+   "key": "K068",
+   "via": "Yusuf Sethia",
+   "session": "s16",
+   "paragraph": 28,
+   "sentence": "For the record, Juniper is due May 19.",
+   "bridged_key": "K068"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K065",
+   "via": "Sofia Joshi",
+   "session": "s41",
+   "paragraph": 6,
+   "sentence": "Sofia Joshi, who leads Atlas, confirmed the update.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K083",
+   "via": "Dev Mehta",
+   "session": "s45",
+   "paragraph": 10,
+   "sentence": "For the record, profile-store is hosted in ca-central-1.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K045",
+   "key": "K047",
+   "via": "Aisha Varma",
+   "session": "s36",
+   "paragraph": 31,
+   "sentence": "Aisha Varma, who leads Falcon, confirmed the update.",
+   "bridged_key": "K045"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0655",
+   "id": "e0655b",
+   "key": "K076",
+   "op": "observe",
+   "seq": 655,
+   "session": "s30",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Falcon Lite",
+   "t": "2030-02-21T14:07:00Z",
+   "type": "ASSERT",
+   "value": "July 21",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0344",
+   "id": "e0344b",
+   "key": "K069",
+   "op": "observe",
+   "seq": 344,
+   "session": "s16",
+   "slot": "repo_name",
+   "subject": "E21",
+   "subject_name": "Juniper",
+   "t": "2030-01-31T14:36:00Z",
+   "type": "ASSERT",
+   "value": "juniper-mono",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0276",
+   "id": "e0276b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 276,
+   "session": "s13",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Atlas",
+   "t": "2030-01-26T16:50:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Joshi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0992",
+   "id": "e0992b",
+   "key": "K085",
+   "op": "observe",
+   "seq": 992,
+   "session": "s45",
+   "slot": "db_engine",
+   "subject": "E25",
+   "subject_name": "profile-store",
+   "t": "2030-03-15T12:37:00Z",
+   "type": "ASSERT",
+   "value": "CockroachDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0432",
+   "id": "e0432b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 432,
+   "session": "s20",
+   "slot": "host_region",
+   "subject": "E26",
+   "subject_name": "media-proxy",
+   "t": "2030-02-06T14:08:00Z",
+   "type": "ASSERT",
+   "value": "eu-west-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0316",
+   "id": "e0316b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 316,
+   "session": "s15",
+   "slot": "proj_status",
+   "subject": "E15",
+   "subject_name": "Falcon",
+   "t": "2030-01-29T14:11:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0344",
+   "id": "e0344b",
+   "key": "K068",
+   "op": "observe",
+   "seq": 344,
+   "session": "s16",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Juniper",
+   "t": "2030-01-31T14:36:00Z",
+   "type": "ASSERT",
+   "value": "May 19",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0897",
+   "id": "e0897b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 897,
+   "session": "s41",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Atlas",
+   "t": "2030-03-09T09:50:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Joshi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0992",
+   "id": "e0992b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 992,
+   "session": "s45",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "profile-store",
+   "t": "2030-03-15T12:37:00Z",
+   "type": "ASSERT",
+   "value": "ca-central-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0798",
+   "id": "e0798b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 798,
+   "session": "s36",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Falcon",
+   "t": "2030-03-02T11:43:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

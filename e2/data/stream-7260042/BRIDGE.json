@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K042",
+   "key": "K045",
+   "via": "Rahul Mehta",
+   "session": "s28",
+   "paragraph": 8,
+   "sentence": "For the record, Lumen lives in the lumen-stack repo.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K107",
+   "key": "K110",
+   "via": "Diya Iyer",
+   "session": "s56",
+   "paragraph": 18,
+   "sentence": "For the record, vault-bridge-v2 runs on MongoDB.",
+   "bridged_key": "K110"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K066",
+   "via": "Nisha Sethia",
+   "session": "s49",
+   "paragraph": 10,
+   "sentence": "For the record, Meridian lives in the meridian-svc repo.",
+   "bridged_key": "K066"
+  },
+  {
+   "hop_key": "K111",
+   "key": "K113",
+   "via": "Sofia Varma",
+   "session": "s45",
+   "paragraph": 4,
+   "sentence": "Sofia Varma, who owns search-indexer-v2, confirmed the update.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K097",
+   "key": "K099",
+   "via": "Ananya Joshi",
+   "session": "s51",
+   "paragraph": 29,
+   "sentence": "For the record, sync-daemon runs on DynamoDB.",
+   "bridged_key": "K099"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K085",
+   "via": "Mateo Pillai",
+   "session": "s32",
+   "paragraph": 6,
+   "sentence": "Mateo Pillai, who owns search-indexer, confirmed the update.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K100",
+   "key": "K101",
+   "via": "Kavya Bose",
+   "session": "s55",
+   "paragraph": 10,
+   "sentence": "Kavya Bose (owner of order-router) signed off on this.",
+   "bridged_key": "K100"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Diya Iyengar",
+   "session": "s30",
+   "paragraph": 12,
+   "sentence": "Diya Iyengar (owner of notif-hub) signed off on this.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Meera Chopra",
+   "session": "s33",
+   "paragraph": 16,
+   "sentence": "For the record, Lumen Lite lives in the lumen-lite-core repo.",
+   "bridged_key": "K074"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K044",
+   "via": "Rahul Mehta",
+   "session": "s31",
+   "paragraph": 30,
+   "sentence": "Rahul Mehta (lead on Lumen) signed off on this.",
+   "bridged_key": "K042"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0609",
+   "id": "e0609b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 609,
+   "session": "s28",
+   "slot": "repo_name",
+   "subject": "E14",
+   "subject_name": "Lumen",
+   "t": "2030-02-18T13:46:00Z",
+   "type": "ASSERT",
+   "value": "lumen-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1204",
+   "id": "e1204b",
+   "key": "K110",
+   "op": "observe",
+   "seq": 1204,
+   "session": "s56",
+   "slot": "db_engine",
+   "subject": "E32",
+   "subject_name": "vault-bridge-v2",
+   "t": "2030-04-01T17:06:00Z",
+   "type": "ASSERT",
+   "value": "MongoDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1049",
+   "id": "e1049b",
+   "key": "K066",
+   "op": "observe",
+   "seq": 1049,
+   "session": "s49",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Meridian",
+   "t": "2030-03-21T14:20:00Z",
+   "type": "ASSERT",
+   "value": "meridian-svc",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0959",
+   "id": "e0959b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 959,
+   "session": "s45",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "search-indexer-v2",
+   "t": "2030-03-15T16:18:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1105",
+   "id": "e1105b",
+   "key": "K099",
+   "op": "observe",
+   "seq": 1105,
+   "session": "s51",
+   "slot": "db_engine",
+   "subject": "E29",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-24T16:35:00Z",
+   "type": "ASSERT",
+   "value": "DynamoDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0687",
+   "id": "e0687b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 687,
+   "session": "s32",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "search-indexer",
+   "t": "2030-02-24T11:00:00Z",
+   "type": "ASSERT",
+   "value": "Mateo Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1179",
+   "id": "e1179b",
+   "key": "K100",
+   "op": "observe",
+   "seq": 1179,
+   "session": "s55",
+   "slot": "svc_owner",
+   "subject": "E30",
+   "subject_name": "order-router",
+   "t": "2030-03-30T09:50:00Z",
+   "type": "ASSERT",
+   "value": "Kavya Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0651",
+   "id": "e0651b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 651,
+   "session": "s30",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "notif-hub",
+   "t": "2030-02-21T12:11:00Z",
+   "type": "ASSERT",
+   "value": "Diya Iyengar",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0712",
+   "id": "e0712b",
+   "key": "K074",
+   "op": "observe",
+   "seq": 712,
+   "session": "s33",
+   "slot": "repo_name",
+   "subject": "E22",
+   "subject_name": "Lumen Lite",
+   "t": "2030-02-25T09:28:00Z",
+   "type": "ASSERT",
+   "value": "lumen-lite-core",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0681",
+   "id": "e0681b",
+   "key": "K042",
+   "op": "observe",
+   "seq": 681,
+   "session": "s31",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Lumen",
+   "t": "2030-02-22T17:22:00Z",
+   "type": "ASSERT",
+   "value": "Rahul Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

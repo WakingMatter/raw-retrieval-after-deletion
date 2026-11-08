@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K063",
+   "key": "K064",
+   "via": "Ishaan Mehra",
+   "session": "s57",
+   "paragraph": 28,
+   "sentence": "Ishaan Mehra, who leads Meridian, confirmed the update.",
+   "bridged_key": "K063"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K045",
+   "via": "Sofia Iyer",
+   "session": "s50",
+   "paragraph": 26,
+   "sentence": "Sofia Iyer (lead on Atlas) signed off on this.",
+   "bridged_key": "K044"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K078",
+   "via": "Yusuf Bose",
+   "session": "s48",
+   "paragraph": 36,
+   "sentence": "For the record, Atlas Lite lives in the atlas-lite-core repo.",
+   "bridged_key": "K078"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K060",
+   "via": "Rohan Raman",
+   "session": "s51",
+   "paragraph": 20,
+   "sentence": "For the record, Falcon is in active build.",
+   "bridged_key": "K060"
+  },
+  {
+   "hop_key": "K100",
+   "key": "K103",
+   "via": "Maya Ghosh",
+   "session": "s50",
+   "paragraph": 34,
+   "sentence": "For the record, session-cache runs on ScyllaDB.",
+   "bridged_key": "K103"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K046",
+   "via": "Sofia Iyer",
+   "session": "s52",
+   "paragraph": 34,
+   "sentence": "Sofia Iyer, who leads Atlas, confirmed the update.",
+   "bridged_key": "K044"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K077",
+   "via": "Yusuf Bose",
+   "session": "s48",
+   "paragraph": 36,
+   "sentence": "For the record, Atlas Lite is due June 9.",
+   "bridged_key": "K077"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K061",
+   "via": "Rohan Raman",
+   "session": "s54",
+   "paragraph": 2,
+   "sentence": "Rohan Raman (lead on Falcon) signed off on this.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K075",
+   "key": "K076",
+   "via": "Yusuf Bose",
+   "session": "s48",
+   "paragraph": 36,
+   "sentence": "For the record, Atlas Lite is in active build.",
+   "bridged_key": "K076"
+  },
+  {
+   "hop_key": "K100",
+   "key": "K101",
+   "via": "Maya Ghosh",
+   "session": "s50",
+   "paragraph": 34,
+   "sentence": "For the record, session-cache is hosted in ap-south-1.",
+   "bridged_key": "K101"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1234",
+   "id": "e1234b",
+   "key": "K063",
+   "op": "observe",
+   "seq": 1234,
+   "session": "s57",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Meridian",
+   "t": "2030-04-02T14:36:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Mehra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1085",
+   "id": "e1085b",
+   "key": "K044",
+   "op": "observe",
+   "seq": 1085,
+   "session": "s50",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Atlas",
+   "t": "2030-03-23T12:43:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1048",
+   "id": "e1048b",
+   "key": "K078",
+   "op": "observe",
+   "seq": 1048,
+   "session": "s48",
+   "slot": "repo_name",
+   "subject": "E23",
+   "subject_name": "Atlas Lite",
+   "t": "2030-03-20T15:12:00Z",
+   "type": "ASSERT",
+   "value": "atlas-lite-core",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1102",
+   "id": "e1102b",
+   "key": "K060",
+   "op": "observe",
+   "seq": 1102,
+   "session": "s51",
+   "slot": "proj_status",
+   "subject": "E19",
+   "subject_name": "Falcon",
+   "t": "2030-03-24T15:06:00Z",
+   "type": "ASSERT",
+   "value": "in active build",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1091",
+   "id": "e1091b",
+   "key": "K103",
+   "op": "observe",
+   "seq": 1091,
+   "session": "s50",
+   "slot": "db_engine",
+   "subject": "E30",
+   "subject_name": "session-cache",
+   "t": "2030-03-23T12:55:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1133",
+   "id": "e1133b",
+   "key": "K044",
+   "op": "observe",
+   "seq": 1133,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Atlas",
+   "t": "2030-03-26T14:10:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1048",
+   "id": "e1048b",
+   "key": "K077",
+   "op": "observe",
+   "seq": 1048,
+   "session": "s48",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Atlas Lite",
+   "t": "2030-03-20T15:12:00Z",
+   "type": "ASSERT",
+   "value": "June 9",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1153",
+   "id": "e1153b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 1153,
+   "session": "s54",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Falcon",
+   "t": "2030-03-29T15:22:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1048",
+   "id": "e1048b",
+   "key": "K076",
+   "op": "observe",
+   "seq": 1048,
+   "session": "s48",
+   "slot": "proj_status",
+   "subject": "E23",
+   "subject_name": "Atlas Lite",
+   "t": "2030-03-20T15:12:00Z",
+   "type": "ASSERT",
+   "value": "in active build",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1091",
+   "id": "e1091b",
+   "key": "K101",
+   "op": "observe",
+   "seq": 1091,
+   "session": "s50",
+   "slot": "host_region",
+   "subject": "E30",
+   "subject_name": "session-cache",
+   "t": "2030-03-23T12:55:00Z",
+   "type": "ASSERT",
+   "value": "ap-south-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

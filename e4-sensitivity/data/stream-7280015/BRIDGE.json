@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Ishaan Mehta",
+   "session": "s52",
+   "paragraph": 32,
+   "sentence": "Ishaan Mehta, who leads Sable Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K056",
+   "key": "K057",
+   "via": "Nisha Reddy",
+   "session": "s23",
+   "paragraph": 29,
+   "sentence": "For the record, Mosaic is paused.",
+   "bridged_key": "K057"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K092",
+   "via": "Aisha Nair",
+   "session": "s42",
+   "paragraph": 6,
+   "sentence": "Aisha Nair, who owns session-cache, confirmed the update.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K064",
+   "key": "K065",
+   "via": "Vikram Khana",
+   "session": "s33",
+   "paragraph": 30,
+   "sentence": "Vikram Khana (lead on Pylon) signed off on this.",
+   "bridged_key": "K064"
+  },
+  {
+   "hop_key": "K094",
+   "key": "K095",
+   "via": "Neel Raman",
+   "session": "s41",
+   "paragraph": 18,
+   "sentence": "Neel Raman, who owns vault-bridge, confirmed the update.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K101",
+   "via": "Lucas Menon",
+   "session": "s53",
+   "paragraph": 14,
+   "sentence": "For the record, tile-server runs on ScyllaDB.",
+   "bridged_key": "K101"
+  },
+  {
+   "hop_key": "K113",
+   "key": "K115",
+   "via": "Ishaan Mehta",
+   "session": "s49",
+   "paragraph": 20,
+   "sentence": "For the record, ledger-api-v2 listens on port 9090.",
+   "bridged_key": "K115"
+  },
+  {
+   "hop_key": "K053",
+   "key": "K054",
+   "via": "Omar Joshi",
+   "session": "s38",
+   "paragraph": 16,
+   "sentence": "Omar Joshi, who leads Atlas, confirmed the update.",
+   "bridged_key": "K053"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K051",
+   "via": "Lucas Menon",
+   "session": "s47",
+   "paragraph": 24,
+   "sentence": "Lucas Menon, who leads Nimbus, confirmed the update.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K102",
+   "key": "K103",
+   "via": "Vikram Khana",
+   "session": "s37",
+   "paragraph": 12,
+   "sentence": "For the record, media-proxy is hosted in ap-south-1.",
+   "bridged_key": "K103"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1141",
+   "id": "e1141b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 1141,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Sable Lite",
+   "t": "2030-03-26T16:49:00Z",
+   "type": "ASSERT",
+   "value": "Ishaan Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0515",
+   "id": "e0515b",
+   "key": "K057",
+   "op": "observe",
+   "seq": 515,
+   "session": "s23",
+   "slot": "proj_status",
+   "subject": "E18",
+   "subject_name": "Mosaic",
+   "t": "2030-02-10T15:47:00Z",
+   "type": "ASSERT",
+   "value": "paused",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0920",
+   "id": "e0920b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 920,
+   "session": "s42",
+   "slot": "svc_owner",
+   "subject": "E27",
+   "subject_name": "session-cache",
+   "t": "2030-03-11T12:14:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0736",
+   "id": "e0736b",
+   "key": "K064",
+   "op": "observe",
+   "seq": 736,
+   "session": "s33",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Pylon",
+   "t": "2030-02-25T10:41:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Khana",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0904",
+   "id": "e0904b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 904,
+   "session": "s41",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "vault-bridge",
+   "t": "2030-03-09T11:36:00Z",
+   "type": "ASSERT",
+   "value": "Neel Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1151",
+   "id": "e1151b",
+   "key": "K101",
+   "op": "observe",
+   "seq": 1151,
+   "session": "s53",
+   "slot": "db_engine",
+   "subject": "E29",
+   "subject_name": "tile-server",
+   "t": "2030-03-27T14:50:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1069",
+   "id": "e1069b",
+   "key": "K115",
+   "op": "observe",
+   "seq": 1069,
+   "session": "s49",
+   "slot": "listen_port",
+   "subject": "E33",
+   "subject_name": "ledger-api-v2",
+   "t": "2030-03-21T13:44:00Z",
+   "type": "ASSERT",
+   "value": "9090",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0832",
+   "id": "e0832b",
+   "key": "K053",
+   "op": "observe",
+   "seq": 832,
+   "session": "s38",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Atlas",
+   "t": "2030-03-05T13:42:00Z",
+   "type": "ASSERT",
+   "value": "Omar Joshi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1029",
+   "id": "e1029b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 1029,
+   "session": "s47",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Nimbus",
+   "t": "2030-03-18T16:04:00Z",
+   "type": "ASSERT",
+   "value": "Lucas Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0809",
+   "id": "e0809b",
+   "key": "K103",
+   "op": "observe",
+   "seq": 809,
+   "session": "s37",
+   "slot": "host_region",
+   "subject": "E30",
+   "subject_name": "media-proxy",
+   "t": "2030-03-03T16:29:00Z",
+   "type": "ASSERT",
+   "value": "ap-south-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

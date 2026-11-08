@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K075",
+   "key": "K078",
+   "via": "Arjun Bose",
+   "session": "s23",
+   "paragraph": 10,
+   "sentence": "Arjun Bose, who leads Cobalt Lite, confirmed the update.",
+   "bridged_key": "K075"
+  },
+  {
+   "hop_key": "K040",
+   "key": "K041",
+   "via": "Kavya Nair",
+   "session": "s46",
+   "paragraph": 33,
+   "sentence": "For the record, Juniper is in beta.",
+   "bridged_key": "K041"
+  },
+  {
+   "hop_key": "K063",
+   "key": "K065",
+   "via": "Ananya Verma",
+   "session": "s48",
+   "paragraph": 24,
+   "sentence": "Ananya Verma, who leads Mosaic, confirmed the update.",
+   "bridged_key": "K063"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K085",
+   "via": "Rohan Iyer",
+   "session": "s41",
+   "paragraph": 18,
+   "sentence": "Rohan Iyer (owner of quota-guard) signed off on this.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K108",
+   "key": "K109",
+   "via": "Nisha Khanna",
+   "session": "s46",
+   "paragraph": 28,
+   "sentence": "For the record, auth-gateway-v2 is hosted in ap-southeast-1.",
+   "bridged_key": "K109"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K068",
+   "via": "Aisha Joshi",
+   "session": "s57",
+   "paragraph": 31,
+   "sentence": "Aisha Joshi, who leads Pylon, confirmed the update.",
+   "bridged_key": "K067"
+  },
+  {
+   "hop_key": "K048",
+   "key": "K049",
+   "via": "Nisha Khanna",
+   "session": "s38",
+   "paragraph": 2,
+   "sentence": "For the record, Meridian is shipped.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K060",
+   "via": "Felix Sethi",
+   "session": "s36",
+   "paragraph": 33,
+   "sentence": "For the record, Tundra is in planning.",
+   "bridged_key": "K060"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K092",
+   "via": "Felix Sethi",
+   "session": "s11",
+   "paragraph": 20,
+   "sentence": "For the record, notif-hub runs on CockroachDB.",
+   "bridged_key": "K092"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K046",
+   "via": "Vikram Ramani",
+   "session": "s40",
+   "paragraph": 37,
+   "sentence": "Vikram Ramani (lead on Cobalt) signed off on this.",
+   "bridged_key": "K044"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0505",
+   "id": "e0505b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 505,
+   "session": "s23",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Cobalt Lite",
+   "t": "2030-02-10T12:50:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1004",
+   "id": "e1004b",
+   "key": "K041",
+   "op": "observe",
+   "seq": 1004,
+   "session": "s46",
+   "slot": "proj_status",
+   "subject": "E14",
+   "subject_name": "Juniper",
+   "t": "2030-03-17T15:04:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1042",
+   "id": "e1042b",
+   "key": "K063",
+   "op": "observe",
+   "seq": 1042,
+   "session": "s48",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Mosaic",
+   "t": "2030-03-20T13:58:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Verma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0889",
+   "id": "e0889b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 889,
+   "session": "s41",
+   "slot": "svc_owner",
+   "subject": "E25",
+   "subject_name": "quota-guard",
+   "t": "2030-03-09T13:32:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0999",
+   "id": "e0999b",
+   "key": "K109",
+   "op": "observe",
+   "seq": 999,
+   "session": "s46",
+   "slot": "host_region",
+   "subject": "E32",
+   "subject_name": "auth-gateway-v2",
+   "t": "2030-03-17T14:54:00Z",
+   "type": "ASSERT",
+   "value": "ap-southeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1239",
+   "id": "e1239b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 1239,
+   "session": "s57",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Pylon",
+   "t": "2030-04-02T13:08:00Z",
+   "type": "ASSERT",
+   "value": "Aisha Joshi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0813",
+   "id": "e0813b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 813,
+   "session": "s38",
+   "slot": "proj_status",
+   "subject": "E16",
+   "subject_name": "Meridian",
+   "t": "2030-03-05T14:51:00Z",
+   "type": "ASSERT",
+   "value": "shipped",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0789",
+   "id": "e0789b",
+   "key": "K060",
+   "op": "observe",
+   "seq": 789,
+   "session": "s36",
+   "slot": "proj_status",
+   "subject": "E19",
+   "subject_name": "Tundra",
+   "t": "2030-03-02T15:47:00Z",
+   "type": "ASSERT",
+   "value": "in planning",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0238",
+   "id": "e0238b",
+   "key": "K092",
+   "op": "observe",
+   "seq": 238,
+   "session": "s11",
+   "slot": "db_engine",
+   "subject": "E27",
+   "subject_name": "notif-hub",
+   "t": "2030-01-23T12:48:00Z",
+   "type": "ASSERT",
+   "value": "CockroachDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0879",
+   "id": "e0879b",
+   "key": "K044",
+   "op": "observe",
+   "seq": 879,
+   "session": "s40",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Cobalt",
+   "t": "2030-03-08T10:44:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Ramani",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

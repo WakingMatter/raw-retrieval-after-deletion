@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K087",
+   "key": "K088",
+   "via": "Vikram Raman",
+   "session": "s43",
+   "paragraph": 2,
+   "sentence": "Vikram Raman (owner of vault-bridge) signed off on this.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K106",
+   "key": "K108",
+   "via": "Mateo Ghosh",
+   "session": "s13",
+   "paragraph": 6,
+   "sentence": "Mateo Ghosh, who owns media-proxy, confirmed the update.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K052",
+   "key": "K053",
+   "via": "Priya Chopra",
+   "session": "s42",
+   "paragraph": 4,
+   "sentence": "For the record, Vesper is due August 11.",
+   "bridged_key": "K053"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Sofia Reddy",
+   "session": "s43",
+   "paragraph": 32,
+   "sentence": "Sofia Reddy, who leads Ember Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K095",
+   "key": "K096",
+   "via": "Maya Mehta",
+   "session": "s40",
+   "paragraph": 27,
+   "sentence": "For the record, search-indexer is hosted in eu-central-1.",
+   "bridged_key": "K096"
+  },
+  {
+   "hop_key": "K049",
+   "key": "K050",
+   "via": "Zoya Iyer",
+   "session": "s19",
+   "paragraph": 31,
+   "sentence": "Zoya Iyer, who leads Orchid, confirmed the update.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K052",
+   "key": "K054",
+   "via": "Priya Chopra",
+   "session": "s53",
+   "paragraph": 4,
+   "sentence": "Priya Chopra, who leads Vesper, confirmed the update.",
+   "bridged_key": "K052"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Sofia Reddy",
+   "session": "s45",
+   "paragraph": 33,
+   "sentence": "Sofia Reddy, who leads Ember Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K072",
+   "via": "Sofia Reddy",
+   "session": "s36",
+   "paragraph": 12,
+   "sentence": "Sofia Reddy (lead on Ember Lite) signed off on this.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K106",
+   "key": "K109",
+   "via": "Mateo Ghosh",
+   "session": "s49",
+   "paragraph": 4,
+   "sentence": "Mateo Ghosh (owner of media-proxy) signed off on this.",
+   "bridged_key": "K106"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0939",
+   "id": "e0939b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 939,
+   "session": "s43",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "vault-bridge",
+   "t": "2030-03-12T13:01:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0268",
+   "id": "e0268b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 268,
+   "session": "s13",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "media-proxy",
+   "t": "2030-01-26T10:33:00Z",
+   "type": "ASSERT",
+   "value": "Mateo Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0918",
+   "id": "e0918b",
+   "key": "K053",
+   "op": "observe",
+   "seq": 918,
+   "session": "s42",
+   "slot": "proj_deadline",
+   "subject": "E17",
+   "subject_name": "Vesper",
+   "t": "2030-03-11T16:04:00Z",
+   "type": "ASSERT",
+   "value": "August 11",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0956",
+   "id": "e0956b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 956,
+   "session": "s43",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Ember Lite",
+   "t": "2030-03-12T13:35:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0882",
+   "id": "e0882b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 882,
+   "session": "s40",
+   "slot": "host_region",
+   "subject": "E28",
+   "subject_name": "search-indexer",
+   "t": "2030-03-08T12:17:00Z",
+   "type": "ASSERT",
+   "value": "eu-central-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0406",
+   "id": "e0406b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 406,
+   "session": "s19",
+   "slot": "proj_lead",
+   "subject": "E16",
+   "subject_name": "Orchid",
+   "t": "2030-02-04T16:54:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1159",
+   "id": "e1159b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 1159,
+   "session": "s53",
+   "slot": "proj_lead",
+   "subject": "E17",
+   "subject_name": "Vesper",
+   "t": "2030-03-27T16:56:00Z",
+   "type": "ASSERT",
+   "value": "Priya Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1005",
+   "id": "e1005b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 1005,
+   "session": "s45",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Ember Lite",
+   "t": "2030-03-15T09:37:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0776",
+   "id": "e0776b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 776,
+   "session": "s36",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Ember Lite",
+   "t": "2030-03-02T10:14:00Z",
+   "type": "ASSERT",
+   "value": "Sofia Reddy",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1074",
+   "id": "e1074b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 1074,
+   "session": "s49",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "media-proxy",
+   "t": "2030-03-21T11:43:00Z",
+   "type": "ASSERT",
+   "value": "Mateo Ghosh",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

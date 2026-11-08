@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Diya Bose",
+   "session": "s17",
+   "paragraph": 24,
+   "sentence": "For the record, auth-gateway listens on port 8000.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K099",
+   "key": "K100",
+   "via": "Rohan Menon",
+   "session": "s39",
+   "paragraph": 36,
+   "sentence": "Rohan Menon, who owns ledger-api, confirmed the update.",
+   "bridged_key": "K099"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K069",
+   "via": "Rohan Mennon",
+   "session": "s26",
+   "paragraph": 22,
+   "sentence": "For the record, Vesper is due May 19.",
+   "bridged_key": "K069"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K047",
+   "via": "Rohan Menon",
+   "session": "s44",
+   "paragraph": 2,
+   "sentence": "For the record, Orchid is in design review.",
+   "bridged_key": "K047"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Arjun Pillay",
+   "session": "s36",
+   "paragraph": 10,
+   "sentence": "For the record, Juniper Lite is due September 1.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K079",
+   "key": "K081",
+   "via": "Arjun Pillay",
+   "session": "s39",
+   "paragraph": 6,
+   "sentence": "For the record, sync-daemon listens on port 8000.",
+   "bridged_key": "K081"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K059",
+   "via": "Yusuf Sethi",
+   "session": "s54",
+   "paragraph": 12,
+   "sentence": "For the record, Mosaic is due May 19.",
+   "bridged_key": "K059"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K089",
+   "via": "Ananya Chopra",
+   "session": "s18",
+   "paragraph": 12,
+   "sentence": "Ananya Chopra, who owns profile-store, confirmed the update.",
+   "bridged_key": "K087"
+  },
+  {
+   "hop_key": "K111",
+   "key": "K112",
+   "via": "Rahul Nair",
+   "session": "s46",
+   "paragraph": 2,
+   "sentence": "Rahul Nair, who owns search-indexer-v2, confirmed the update.",
+   "bridged_key": "K111"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K052",
+   "via": "Rahul Nair",
+   "session": "s42",
+   "paragraph": 26,
+   "sentence": "For the record, Halcyon lives in the halcyon-hub repo.",
+   "bridged_key": "K052"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0372",
+   "id": "e0372b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 372,
+   "session": "s17",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "auth-gateway",
+   "t": "2030-02-01T17:00:00Z",
+   "type": "ASSERT",
+   "value": "8000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0883",
+   "id": "e0883b",
+   "key": "K099",
+   "op": "observe",
+   "seq": 883,
+   "session": "s39",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "ledger-api",
+   "t": "2030-03-06T13:05:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Menon",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0576",
+   "id": "e0576b",
+   "key": "K069",
+   "op": "observe",
+   "seq": 576,
+   "session": "s26",
+   "slot": "proj_deadline",
+   "subject": "E21",
+   "subject_name": "Vesper",
+   "t": "2030-02-15T09:35:00Z",
+   "type": "ASSERT",
+   "value": "May 19",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0970",
+   "id": "e0970b",
+   "key": "K047",
+   "op": "observe",
+   "seq": 970,
+   "session": "s44",
+   "slot": "proj_status",
+   "subject": "E15",
+   "subject_name": "Orchid",
+   "t": "2030-03-14T12:51:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0805",
+   "id": "e0805b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 805,
+   "session": "s36",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Juniper Lite",
+   "t": "2030-03-02T10:49:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0865",
+   "id": "e0865b",
+   "key": "K081",
+   "op": "observe",
+   "seq": 865,
+   "session": "s39",
+   "slot": "listen_port",
+   "subject": "E24",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-06T12:29:00Z",
+   "type": "ASSERT",
+   "value": "8000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1185",
+   "id": "e1185b",
+   "key": "K059",
+   "op": "observe",
+   "seq": 1185,
+   "session": "s54",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Mosaic",
+   "t": "2030-03-29T16:18:00Z",
+   "type": "ASSERT",
+   "value": "May 19",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0388",
+   "id": "e0388b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 388,
+   "session": "s18",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "profile-store",
+   "t": "2030-02-03T16:43:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1013",
+   "id": "e1013b",
+   "key": "K111",
+   "op": "observe",
+   "seq": 1013,
+   "session": "s46",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "search-indexer-v2",
+   "t": "2030-03-17T10:22:00Z",
+   "type": "ASSERT",
+   "value": "Rahul Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0937",
+   "id": "e0937b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 937,
+   "session": "s42",
+   "slot": "repo_name",
+   "subject": "E16",
+   "subject_name": "Halcyon",
+   "t": "2030-03-11T13:02:00Z",
+   "type": "ASSERT",
+   "value": "halcyon-hub",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

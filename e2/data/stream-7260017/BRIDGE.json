@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K071",
+   "key": "K072",
+   "via": "Sofia Nair",
+   "session": "s42",
+   "paragraph": 33,
+   "sentence": "For the record, Quasar Lite is in beta.",
+   "bridged_key": "K072"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K090",
+   "via": "Sameer Shah",
+   "session": "s30",
+   "paragraph": 20,
+   "sentence": "For the record, tile-server runs on ScyllaDB.",
+   "bridged_key": "K090"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K108",
+   "via": "Tara Mehta",
+   "session": "s54",
+   "paragraph": 16,
+   "sentence": "Tara Mehta, who owns auth-gateway, confirmed the update.",
+   "bridged_key": "K105"
+  },
+  {
+   "hop_key": "K056",
+   "key": "K058",
+   "via": "Arjun Raman",
+   "session": "s28",
+   "paragraph": 29,
+   "sentence": "Arjun Raman (lead on Juniper) signed off on this.",
+   "bridged_key": "K056"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K049",
+   "via": "Sameer Shah",
+   "session": "s39",
+   "paragraph": 37,
+   "sentence": "For the record, Zephyr lives in the zephyr-core repo.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Arjun Ramani",
+   "session": "s54",
+   "paragraph": 29,
+   "sentence": "For the record, profile-store runs on ScyllaDB.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K083",
+   "key": "K086",
+   "via": "Sofia Nair",
+   "session": "s42",
+   "paragraph": 4,
+   "sentence": "For the record, search-indexer runs on MySQL.",
+   "bridged_key": "K086"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Sofia Nair",
+   "session": "s42",
+   "paragraph": 33,
+   "sentence": "For the record, Quasar Lite lives in the quasar-lite-platform repo.",
+   "bridged_key": "K074"
+  },
+  {
+   "hop_key": "K071",
+   "key": "K073",
+   "via": "Sofia Nair",
+   "session": "s42",
+   "paragraph": 33,
+   "sentence": "For the record, Quasar Lite is due September 1.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K089",
+   "via": "Sameer Shah",
+   "session": "s30",
+   "paragraph": 20,
+   "sentence": "For the record, tile-server listens on port 7443.",
+   "bridged_key": "K089"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0942",
+   "id": "e0942b",
+   "key": "K072",
+   "op": "observe",
+   "seq": 942,
+   "session": "s42",
+   "slot": "proj_status",
+   "subject": "E22",
+   "subject_name": "Quasar Lite",
+   "t": "2030-03-11T16:31:00Z",
+   "type": "ASSERT",
+   "value": "in beta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0672",
+   "id": "e0672b",
+   "key": "K090",
+   "op": "observe",
+   "seq": 672,
+   "session": "s30",
+   "slot": "db_engine",
+   "subject": "E26",
+   "subject_name": "tile-server",
+   "t": "2030-02-21T12:34:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1184",
+   "id": "e1184b",
+   "key": "K105",
+   "op": "observe",
+   "seq": 1184,
+   "session": "s54",
+   "slot": "svc_owner",
+   "subject": "E31",
+   "subject_name": "auth-gateway",
+   "t": "2030-03-29T17:14:00Z",
+   "type": "ASSERT",
+   "value": "Tara Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0641",
+   "id": "e0641b",
+   "key": "K056",
+   "op": "observe",
+   "seq": 641,
+   "session": "s28",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Juniper",
+   "t": "2030-02-18T14:48:00Z",
+   "type": "ASSERT",
+   "value": "Arjun Raman",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0880",
+   "id": "e0880b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 880,
+   "session": "s39",
+   "slot": "repo_name",
+   "subject": "E15",
+   "subject_name": "Zephyr",
+   "t": "2030-03-06T13:37:00Z",
+   "type": "ASSERT",
+   "value": "zephyr-core",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1193",
+   "id": "e1193b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 1193,
+   "session": "s54",
+   "slot": "db_engine",
+   "subject": "E27",
+   "subject_name": "profile-store",
+   "t": "2030-03-29T17:32:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0926",
+   "id": "e0926b",
+   "key": "K086",
+   "op": "observe",
+   "seq": 926,
+   "session": "s42",
+   "slot": "db_engine",
+   "subject": "E25",
+   "subject_name": "search-indexer",
+   "t": "2030-03-11T15:59:00Z",
+   "type": "ASSERT",
+   "value": "MySQL",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0942",
+   "id": "e0942b",
+   "key": "K074",
+   "op": "observe",
+   "seq": 942,
+   "session": "s42",
+   "slot": "repo_name",
+   "subject": "E22",
+   "subject_name": "Quasar Lite",
+   "t": "2030-03-11T16:31:00Z",
+   "type": "ASSERT",
+   "value": "quasar-lite-platform",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0942",
+   "id": "e0942b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 942,
+   "session": "s42",
+   "slot": "proj_deadline",
+   "subject": "E22",
+   "subject_name": "Quasar Lite",
+   "t": "2030-03-11T16:31:00Z",
+   "type": "ASSERT",
+   "value": "September 1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0672",
+   "id": "e0672b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 672,
+   "session": "s30",
+   "slot": "listen_port",
+   "subject": "E26",
+   "subject_name": "tile-server",
+   "t": "2030-02-21T12:34:00Z",
+   "type": "ASSERT",
+   "value": "7443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

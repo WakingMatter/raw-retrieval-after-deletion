@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K101",
+   "key": "K102",
+   "via": "Leela Iyer",
+   "session": "s28",
+   "paragraph": 32,
+   "sentence": "For the record, search-indexer is hosted in ap-northeast-1.",
+   "bridged_key": "K102"
+  },
+  {
+   "hop_key": "K082",
+   "key": "K083",
+   "via": "Hana Pillay",
+   "session": "s46",
+   "paragraph": 22,
+   "sentence": "For the record, ranker-svc is hosted in ap-northeast-1.",
+   "bridged_key": "K083"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K091",
+   "via": "Maya Bose",
+   "session": "s36",
+   "paragraph": 34,
+   "sentence": "For the record, vault-bridge is hosted in ap-northeast-1.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K098",
+   "key": "K099",
+   "via": "Yusuf Chopra",
+   "session": "s39",
+   "paragraph": 33,
+   "sentence": "Yusuf Chopra (owner of quota-guard) signed off on this.",
+   "bridged_key": "K098"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K059",
+   "via": "Leela Iyer",
+   "session": "s47",
+   "paragraph": 2,
+   "sentence": "Leela Iyer (lead on Quasar) signed off on this.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K108",
+   "via": "Rohan Ghosh",
+   "session": "s44",
+   "paragraph": 20,
+   "sentence": "For the record, order-router runs on Spanner.",
+   "bridged_key": "K108"
+  },
+  {
+   "hop_key": "K062",
+   "key": "K064",
+   "via": "Ananya Kapoor",
+   "session": "s52",
+   "paragraph": 22,
+   "sentence": "For the record, Tundra is due October 13.",
+   "bridged_key": "K064"
+  },
+  {
+   "hop_key": "K055",
+   "key": "K056",
+   "via": "Hana Pillai",
+   "session": "s57",
+   "paragraph": 26,
+   "sentence": "Hana Pillai, who leads Cobalt, confirmed the update.",
+   "bridged_key": "K055"
+  },
+  {
+   "hop_key": "K086",
+   "key": "K089",
+   "via": "Arjun Menon",
+   "session": "s50",
+   "paragraph": 8,
+   "sentence": "For the record, ledger-api runs on CockroachDB.",
+   "bridged_key": "K089"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K047",
+   "via": "Maya Basu",
+   "session": "s36",
+   "paragraph": 30,
+   "sentence": "For the record, Juniper lives in the juniper-stack repo.",
+   "bridged_key": "K047"
+  }
+ ],
+ "events": [
+  {
+   "after": "e0639",
+   "id": "e0639b",
+   "key": "K102",
+   "op": "observe",
+   "seq": 639,
+   "session": "s28",
+   "slot": "host_region",
+   "subject": "E30",
+   "subject_name": "search-indexer",
+   "t": "2030-02-18T09:45:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1021",
+   "id": "e1021b",
+   "key": "K083",
+   "op": "observe",
+   "seq": 1021,
+   "session": "s46",
+   "slot": "host_region",
+   "subject": "E25",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-17T11:25:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0819",
+   "id": "e0819b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 819,
+   "session": "s36",
+   "slot": "host_region",
+   "subject": "E27",
+   "subject_name": "vault-bridge",
+   "t": "2030-03-02T12:16:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0879",
+   "id": "e0879b",
+   "key": "K098",
+   "op": "observe",
+   "seq": 879,
+   "session": "s39",
+   "slot": "svc_owner",
+   "subject": "E29",
+   "subject_name": "quota-guard",
+   "t": "2030-03-06T14:34:00Z",
+   "type": "ASSERT",
+   "value": "Yusuf Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1029",
+   "id": "e1029b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 1029,
+   "session": "s47",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Quasar",
+   "t": "2030-03-18T16:20:00Z",
+   "type": "ASSERT",
+   "value": "Leela Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0977",
+   "id": "e0977b",
+   "key": "K108",
+   "op": "observe",
+   "seq": 977,
+   "session": "s44",
+   "slot": "db_engine",
+   "subject": "E31",
+   "subject_name": "order-router",
+   "t": "2030-03-14T16:51:00Z",
+   "type": "ASSERT",
+   "value": "Spanner",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1149",
+   "id": "e1149b",
+   "key": "K064",
+   "op": "observe",
+   "seq": 1149,
+   "session": "s52",
+   "slot": "proj_deadline",
+   "subject": "E20",
+   "subject_name": "Tundra",
+   "t": "2030-03-26T14:13:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1256",
+   "id": "e1256b",
+   "key": "K055",
+   "op": "observe",
+   "seq": 1256,
+   "session": "s57",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Cobalt",
+   "t": "2030-04-02T10:55:00Z",
+   "type": "ASSERT",
+   "value": "Hana Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1096",
+   "id": "e1096b",
+   "key": "K089",
+   "op": "observe",
+   "seq": 1096,
+   "session": "s50",
+   "slot": "db_engine",
+   "subject": "E26",
+   "subject_name": "ledger-api",
+   "t": "2030-03-23T12:11:00Z",
+   "type": "ASSERT",
+   "value": "CockroachDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0815",
+   "id": "e0815b",
+   "key": "K047",
+   "op": "observe",
+   "seq": 815,
+   "session": "s36",
+   "slot": "repo_name",
+   "subject": "E15",
+   "subject_name": "Juniper",
+   "t": "2030-03-02T12:08:00Z",
+   "type": "ASSERT",
+   "value": "juniper-stack",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

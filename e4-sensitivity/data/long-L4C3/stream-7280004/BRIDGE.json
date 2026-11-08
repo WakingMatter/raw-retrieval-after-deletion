@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K077",
+   "key": "K080",
+   "via": "Leela Shahi",
+   "session": "s227",
+   "paragraph": 2,
+   "sentence": "For the record, Saffron Lite lives in the saffron-lite-svc repo.",
+   "bridged_key": "K080"
+  },
+  {
+   "hop_key": "K065",
+   "key": "K067",
+   "via": "Vikram Nair",
+   "session": "s134",
+   "paragraph": 34,
+   "sentence": "Vikram Nair, who leads Halcyon, confirmed the update.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K081",
+   "key": "K084",
+   "via": "Rohan Sethia",
+   "session": "s225",
+   "paragraph": 22,
+   "sentence": "For the record, metrics-sink runs on Cassandra.",
+   "bridged_key": "K084"
+  },
+  {
+   "hop_key": "K095",
+   "key": "K097",
+   "via": "Leela Shahi",
+   "session": "s219",
+   "paragraph": 33,
+   "sentence": "For the record, search-indexer listens on port 7443.",
+   "bridged_key": "K097"
+  },
+  {
+   "hop_key": "K054",
+   "key": "K056",
+   "via": "Ishaan Varma",
+   "session": "s227",
+   "paragraph": 22,
+   "sentence": "For the record, Lumen lives in the lumen-next repo.",
+   "bridged_key": "K056"
+  },
+  {
+   "hop_key": "K105",
+   "key": "K108",
+   "via": "Sameer Reddy",
+   "session": "s180",
+   "paragraph": 27,
+   "sentence": "For the record, tile-server runs on Spanner.",
+   "bridged_key": "K108"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K049",
+   "via": "Rohan Sethi",
+   "session": "s177",
+   "paragraph": 31,
+   "sentence": "For the record, Saffron lives in the saffron-app repo.",
+   "bridged_key": "K049"
+  },
+  {
+   "hop_key": "K057",
+   "key": "K059",
+   "via": "Zoya Bose",
+   "session": "s176",
+   "paragraph": 6,
+   "sentence": "Zoya Bose, who leads Mosaic, confirmed the update.",
+   "bridged_key": "K057"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Leela Shah",
+   "session": "s221",
+   "paragraph": 26,
+   "sentence": "For the record, auth-gateway listens on port 3000.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K113",
+   "key": "K114",
+   "via": "Felix Joshi",
+   "session": "s230",
+   "paragraph": 30,
+   "sentence": "Felix Joshi, who owns media-proxy-v2, confirmed the update.",
+   "bridged_key": "K113"
+  }
+ ],
+ "events": [
+  {
+   "after": "e4214",
+   "id": "e4214b",
+   "key": "K080",
+   "op": "observe",
+   "seq": 4214,
+   "session": "s227",
+   "slot": "repo_name",
+   "subject": "E23",
+   "subject_name": "Saffron Lite",
+   "t": "2030-12-13T10:38:00Z",
+   "type": "ASSERT",
+   "value": "saffron-lite-svc",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e2465",
+   "id": "e2465b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 2465,
+   "session": "s134",
+   "slot": "proj_lead",
+   "subject": "E20",
+   "subject_name": "Halcyon",
+   "t": "2030-07-27T13:12:00Z",
+   "type": "ASSERT",
+   "value": "Vikram Nair",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4182",
+   "id": "e4182b",
+   "key": "K084",
+   "op": "observe",
+   "seq": 4182,
+   "session": "s225",
+   "slot": "db_engine",
+   "subject": "E24",
+   "subject_name": "metrics-sink",
+   "t": "2030-12-10T16:50:00Z",
+   "type": "ASSERT",
+   "value": "Cassandra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4062",
+   "id": "e4062b",
+   "key": "K097",
+   "op": "observe",
+   "seq": 4062,
+   "session": "s219",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "search-indexer",
+   "t": "2030-12-01T12:57:00Z",
+   "type": "ASSERT",
+   "value": "7443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4224",
+   "id": "e4224b",
+   "key": "K056",
+   "op": "observe",
+   "seq": 4224,
+   "session": "s227",
+   "slot": "repo_name",
+   "subject": "E17",
+   "subject_name": "Lumen",
+   "t": "2030-12-13T10:58:00Z",
+   "type": "ASSERT",
+   "value": "lumen-next",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3315",
+   "id": "e3315b",
+   "key": "K108",
+   "op": "observe",
+   "seq": 3315,
+   "session": "s180",
+   "slot": "db_engine",
+   "subject": "E31",
+   "subject_name": "tile-server",
+   "t": "2030-10-04T14:15:00Z",
+   "type": "ASSERT",
+   "value": "Spanner",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3257",
+   "id": "e3257b",
+   "key": "K049",
+   "op": "observe",
+   "seq": 3257,
+   "session": "s177",
+   "slot": "repo_name",
+   "subject": "E15",
+   "subject_name": "Saffron",
+   "t": "2030-09-29T10:01:00Z",
+   "type": "ASSERT",
+   "value": "saffron-app",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e3223",
+   "id": "e3223b",
+   "key": "K057",
+   "op": "observe",
+   "seq": 3223,
+   "session": "s176",
+   "slot": "proj_lead",
+   "subject": "E18",
+   "subject_name": "Mosaic",
+   "t": "2030-09-28T12:38:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4096",
+   "id": "e4096b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 4096,
+   "session": "s221",
+   "slot": "listen_port",
+   "subject": "E27",
+   "subject_name": "auth-gateway",
+   "t": "2030-12-04T09:37:00Z",
+   "type": "ASSERT",
+   "value": "3000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e4294",
+   "id": "e4294b",
+   "key": "K113",
+   "op": "observe",
+   "seq": 4294,
+   "session": "s230",
+   "slot": "svc_owner",
+   "subject": "E33",
+   "subject_name": "media-proxy-v2",
+   "t": "2030-12-18T16:09:00Z",
+   "type": "ASSERT",
+   "value": "Felix Joshi",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

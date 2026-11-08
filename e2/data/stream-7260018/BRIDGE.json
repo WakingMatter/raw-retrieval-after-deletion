@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K107",
+   "key": "K108",
+   "via": "Ananya Pillai",
+   "session": "s56",
+   "paragraph": 12,
+   "sentence": "Ananya Pillai, who owns metrics-sink-v2, confirmed the update.",
+   "bridged_key": "K107"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K093",
+   "via": "Aisha Raman",
+   "session": "s57",
+   "paragraph": 20,
+   "sentence": "For the record, quota-guard listens on port 3000.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K076",
+   "via": "Dev Ghose",
+   "session": "s39",
+   "paragraph": 20,
+   "sentence": "Dev Ghose, who leads Nimbus Lite, confirmed the update.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K061",
+   "via": "Priya Joshua",
+   "session": "s31",
+   "paragraph": 10,
+   "sentence": "Priya Joshua, who leads Lumen, confirmed the update.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K091",
+   "key": "K094",
+   "via": "Aisha Raman",
+   "session": "s57",
+   "paragraph": 20,
+   "sentence": "For the record, quota-guard runs on Postgres.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K107",
+   "key": "K110",
+   "via": "Ananya Pillai",
+   "session": "s34",
+   "paragraph": 22,
+   "sentence": "Ananya Pillai, who owns metrics-sink-v2, confirmed the update.",
+   "bridged_key": "K107"
+  },
+  {
+   "hop_key": "K107",
+   "key": "K109",
+   "via": "Ananya Pillai",
+   "session": "s42",
+   "paragraph": 22,
+   "sentence": "Ananya Pillai, who owns metrics-sink-v2, confirmed the update.",
+   "bridged_key": "K107"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K074",
+   "via": "Dev Ghose",
+   "session": "s38",
+   "paragraph": 24,
+   "sentence": "For the record, Nimbus Lite is in maintenance mode.",
+   "bridged_key": "K074"
+  },
+  {
+   "hop_key": "K058",
+   "key": "K059",
+   "via": "Priya Joshua",
+   "session": "s55",
+   "paragraph": 10,
+   "sentence": "Priya Joshua (lead on Lumen) signed off on this.",
+   "bridged_key": "K058"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K075",
+   "via": "Dev Ghose",
+   "session": "s38",
+   "paragraph": 24,
+   "sentence": "For the record, Nimbus Lite is due October 13.",
+   "bridged_key": "K075"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1195",
+   "id": "e1195b",
+   "key": "K107",
+   "op": "observe",
+   "seq": 1195,
+   "session": "s56",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "metrics-sink-v2",
+   "t": "2030-04-01T14:29:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1220",
+   "id": "e1220b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 1220,
+   "session": "s57",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "quota-guard",
+   "t": "2030-04-02T11:50:00Z",
+   "type": "ASSERT",
+   "value": "3000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0844",
+   "id": "e0844b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 844,
+   "session": "s39",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-03-06T12:48:00Z",
+   "type": "ASSERT",
+   "value": "Dev Ghose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0681",
+   "id": "e0681b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 681,
+   "session": "s31",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-02-22T09:09:00Z",
+   "type": "ASSERT",
+   "value": "Priya Joshua",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1220",
+   "id": "e1220b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 1220,
+   "session": "s57",
+   "slot": "db_engine",
+   "subject": "E28",
+   "subject_name": "quota-guard",
+   "t": "2030-04-02T11:50:00Z",
+   "type": "ASSERT",
+   "value": "Postgres",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0746",
+   "id": "e0746b",
+   "key": "K107",
+   "op": "observe",
+   "seq": 746,
+   "session": "s34",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "metrics-sink-v2",
+   "t": "2030-02-27T13:07:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0911",
+   "id": "e0911b",
+   "key": "K107",
+   "op": "observe",
+   "seq": 911,
+   "session": "s42",
+   "slot": "svc_owner",
+   "subject": "E32",
+   "subject_name": "metrics-sink-v2",
+   "t": "2030-03-11T16:01:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Pillai",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0824",
+   "id": "e0824b",
+   "key": "K074",
+   "op": "observe",
+   "seq": 824,
+   "session": "s38",
+   "slot": "proj_status",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-03-05T11:32:00Z",
+   "type": "ASSERT",
+   "value": "in maintenance mode",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1173",
+   "id": "e1173b",
+   "key": "K058",
+   "op": "observe",
+   "seq": 1173,
+   "session": "s55",
+   "slot": "proj_lead",
+   "subject": "E19",
+   "subject_name": "Lumen",
+   "t": "2030-03-30T12:17:00Z",
+   "type": "ASSERT",
+   "value": "Priya Joshua",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0824",
+   "id": "e0824b",
+   "key": "K075",
+   "op": "observe",
+   "seq": 824,
+   "session": "s38",
+   "slot": "proj_deadline",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-03-05T11:32:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

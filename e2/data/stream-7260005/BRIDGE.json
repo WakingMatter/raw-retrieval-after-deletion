@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K107",
+   "key": "K108",
+   "via": "Kabir Varma",
+   "session": "s53",
+   "paragraph": 32,
+   "sentence": "For the record, ledger-api-v2 is hosted in us-east-1.",
+   "bridged_key": "K108"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K095",
+   "via": "Zoya Bose",
+   "session": "s51",
+   "paragraph": 14,
+   "sentence": "Zoya Bose, who owns media-proxy, confirmed the update.",
+   "bridged_key": "K093"
+  },
+  {
+   "hop_key": "K042",
+   "key": "K043",
+   "via": "Zoya Bose",
+   "session": "s30",
+   "paragraph": 32,
+   "sentence": "For the record, Pylon is shipped.",
+   "bridged_key": "K043"
+  },
+  {
+   "hop_key": "K050",
+   "key": "K052",
+   "via": "Rohan Khana",
+   "session": "s50",
+   "paragraph": 18,
+   "sentence": "For the record, Juniper lives in the juniper-next repo.",
+   "bridged_key": "K052"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K074",
+   "via": "Ananya Mehta",
+   "session": "s52",
+   "paragraph": 8,
+   "sentence": "Ananya Mehta, who leads Nimbus Lite, confirmed the update.",
+   "bridged_key": "K073"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K047",
+   "via": "Rohan Khanna",
+   "session": "s56",
+   "paragraph": 2,
+   "sentence": "Rohan Khanna, who leads Nimbus, confirmed the update.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K065",
+   "key": "K067",
+   "via": "Zoya Basu",
+   "session": "s41",
+   "paragraph": 26,
+   "sentence": "Zoya Basu (lead on Cobalt) signed off on this.",
+   "bridged_key": "K065"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K094",
+   "via": "Zoya Bose",
+   "session": "s41",
+   "paragraph": 12,
+   "sentence": "For the record, media-proxy listens on port 9000.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K107",
+   "key": "K109",
+   "via": "Kabir Varma",
+   "session": "s53",
+   "paragraph": 32,
+   "sentence": "For the record, ledger-api-v2 listens on port 7443.",
+   "bridged_key": "K109"
+  },
+  {
+   "hop_key": "K073",
+   "key": "K076",
+   "via": "Ananya Mehta",
+   "session": "s11",
+   "paragraph": 32,
+   "sentence": "For the record, Nimbus Lite lives in the nimbus-lite-mono repo.",
+   "bridged_key": "K076"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1155",
+   "id": "e1155b",
+   "key": "K108",
+   "op": "observe",
+   "seq": 1155,
+   "session": "s53",
+   "slot": "host_region",
+   "subject": "E32",
+   "subject_name": "ledger-api-v2",
+   "t": "2030-03-27T09:57:00Z",
+   "type": "ASSERT",
+   "value": "us-east-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1103",
+   "id": "e1103b",
+   "key": "K093",
+   "op": "observe",
+   "seq": 1103,
+   "session": "s51",
+   "slot": "svc_owner",
+   "subject": "E28",
+   "subject_name": "media-proxy",
+   "t": "2030-03-24T14:47:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0673",
+   "id": "e0673b",
+   "key": "K043",
+   "op": "observe",
+   "seq": 673,
+   "session": "s30",
+   "slot": "proj_status",
+   "subject": "E14",
+   "subject_name": "Pylon",
+   "t": "2030-02-21T13:24:00Z",
+   "type": "ASSERT",
+   "value": "shipped",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1084",
+   "id": "e1084b",
+   "key": "K052",
+   "op": "observe",
+   "seq": 1084,
+   "session": "s50",
+   "slot": "repo_name",
+   "subject": "E16",
+   "subject_name": "Juniper",
+   "t": "2030-03-23T15:19:00Z",
+   "type": "ASSERT",
+   "value": "juniper-next",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1119",
+   "id": "e1119b",
+   "key": "K073",
+   "op": "observe",
+   "seq": 1119,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-03-26T11:10:00Z",
+   "type": "ASSERT",
+   "value": "Ananya Mehta",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1200",
+   "id": "e1200b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 1200,
+   "session": "s56",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Nimbus",
+   "t": "2030-04-01T12:27:00Z",
+   "type": "ASSERT",
+   "value": "Rohan Khanna",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0907",
+   "id": "e0907b",
+   "key": "K065",
+   "op": "observe",
+   "seq": 907,
+   "session": "s41",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Cobalt",
+   "t": "2030-03-09T12:08:00Z",
+   "type": "ASSERT",
+   "value": "Zoya Basu",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0900",
+   "id": "e0900b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 900,
+   "session": "s41",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "media-proxy",
+   "t": "2030-03-09T11:54:00Z",
+   "type": "ASSERT",
+   "value": "9000",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1155",
+   "id": "e1155b",
+   "key": "K109",
+   "op": "observe",
+   "seq": 1155,
+   "session": "s53",
+   "slot": "listen_port",
+   "subject": "E32",
+   "subject_name": "ledger-api-v2",
+   "t": "2030-03-27T09:57:00Z",
+   "type": "ASSERT",
+   "value": "7443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0254",
+   "id": "e0254b",
+   "key": "K076",
+   "op": "observe",
+   "seq": 254,
+   "session": "s11",
+   "slot": "repo_name",
+   "subject": "E23",
+   "subject_name": "Nimbus Lite",
+   "t": "2030-01-23T12:31:00Z",
+   "type": "ASSERT",
+   "value": "nimbus-lite-mono",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

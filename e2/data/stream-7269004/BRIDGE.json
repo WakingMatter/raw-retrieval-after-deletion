@@ -1,0 +1,223 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K042",
+   "key": "K044",
+   "via": "Ines Varma",
+   "session": "s52",
+   "paragraph": 38,
+   "sentence": "Ines Varma (lead on Lumen) signed off on this.",
+   "bridged_key": "K042"
+  },
+  {
+   "hop_key": "K046",
+   "key": "K048",
+   "via": "Farhan Bose",
+   "session": "s57",
+   "paragraph": 29,
+   "sentence": "Farhan Bose (lead on Juniper) signed off on this.",
+   "bridged_key": "K046"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K095",
+   "via": "Sofia Pillai",
+   "session": "s54",
+   "paragraph": 26,
+   "sentence": "For the record, sync-daemon listens on port 9443.",
+   "bridged_key": "K095"
+  },
+  {
+   "hop_key": "K061",
+   "key": "K062",
+   "via": "Nisha Chopra",
+   "session": "s47",
+   "paragraph": 29,
+   "sentence": "For the record, Cobalt is in design review.",
+   "bridged_key": "K062"
+  },
+  {
+   "hop_key": "K061",
+   "key": "K064",
+   "via": "Nisha Chopra",
+   "session": "s47",
+   "paragraph": 29,
+   "sentence": "For the record, Cobalt lives in the cobalt-platform repo.",
+   "bridged_key": "K064"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K094",
+   "via": "Sofia Pillai",
+   "session": "s54",
+   "paragraph": 26,
+   "sentence": "For the record, sync-daemon is hosted in ap-southeast-1.",
+   "bridged_key": "K094"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K096",
+   "via": "Sofia Pillai",
+   "session": "s54",
+   "paragraph": 26,
+   "sentence": "For the record, sync-daemon runs on ScyllaDB.",
+   "bridged_key": "K096"
+  },
+  {
+   "hop_key": "K061",
+   "key": "K063",
+   "via": "Nisha Chopra",
+   "session": "s47",
+   "paragraph": 29,
+   "sentence": "For the record, Cobalt is due October 13.",
+   "bridged_key": "K063"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1143",
+   "id": "e1143b",
+   "key": "K042",
+   "op": "observe",
+   "seq": 1143,
+   "session": "s52",
+   "slot": "proj_lead",
+   "subject": "E14",
+   "subject_name": "Lumen",
+   "t": "2030-03-26T13:08:00Z",
+   "type": "ASSERT",
+   "value": "Ines Varma",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1244",
+   "id": "e1244b",
+   "key": "K046",
+   "op": "observe",
+   "seq": 1244,
+   "session": "s57",
+   "slot": "proj_lead",
+   "subject": "E15",
+   "subject_name": "Juniper",
+   "t": "2030-04-02T16:58:00Z",
+   "type": "ASSERT",
+   "value": "Farhan Bose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1179",
+   "id": "e1179b",
+   "key": "K095",
+   "op": "observe",
+   "seq": 1179,
+   "session": "s54",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-29T11:19:00Z",
+   "type": "ASSERT",
+   "value": "9443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1035",
+   "id": "e1035b",
+   "key": "K062",
+   "op": "observe",
+   "seq": 1035,
+   "session": "s47",
+   "slot": "proj_status",
+   "subject": "E20",
+   "subject_name": "Cobalt",
+   "t": "2030-03-18T17:15:00Z",
+   "type": "ASSERT",
+   "value": "in design review",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1035",
+   "id": "e1035b",
+   "key": "K064",
+   "op": "observe",
+   "seq": 1035,
+   "session": "s47",
+   "slot": "repo_name",
+   "subject": "E20",
+   "subject_name": "Cobalt",
+   "t": "2030-03-18T17:15:00Z",
+   "type": "ASSERT",
+   "value": "cobalt-platform",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1179",
+   "id": "e1179b",
+   "key": "K094",
+   "op": "observe",
+   "seq": 1179,
+   "session": "s54",
+   "slot": "host_region",
+   "subject": "E28",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-29T11:19:00Z",
+   "type": "ASSERT",
+   "value": "ap-southeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1179",
+   "id": "e1179b",
+   "key": "K096",
+   "op": "observe",
+   "seq": 1179,
+   "session": "s54",
+   "slot": "db_engine",
+   "subject": "E28",
+   "subject_name": "sync-daemon",
+   "t": "2030-03-29T11:19:00Z",
+   "type": "ASSERT",
+   "value": "ScyllaDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1035",
+   "id": "e1035b",
+   "key": "K063",
+   "op": "observe",
+   "seq": 1035,
+   "session": "s47",
+   "slot": "proj_deadline",
+   "subject": "E20",
+   "subject_name": "Cobalt",
+   "t": "2030-03-18T17:15:00Z",
+   "type": "ASSERT",
+   "value": "October 13",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}

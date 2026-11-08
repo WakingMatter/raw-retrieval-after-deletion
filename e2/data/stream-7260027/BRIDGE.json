@@ -1,0 +1,277 @@
+{
+ "note": "E2 MULTIHOP bridges (tasks.make_bridge); session text edited once at generation",
+ "tasks": [
+  {
+   "hop_key": "K071",
+   "key": "K074",
+   "via": "Kavya Chopra",
+   "session": "s54",
+   "paragraph": 33,
+   "sentence": "Kavya Chopra, who leads Pylon Lite, confirmed the update.",
+   "bridged_key": "K071"
+  },
+  {
+   "hop_key": "K093",
+   "key": "K095",
+   "via": "Kavya Chopra",
+   "session": "s54",
+   "paragraph": 18,
+   "sentence": "For the record, auth-gateway listens on port 9090.",
+   "bridged_key": "K095"
+  },
+  {
+   "hop_key": "K090",
+   "key": "K091",
+   "via": "Tara Ghosh",
+   "session": "s37",
+   "paragraph": 20,
+   "sentence": "For the record, session-cache is hosted in ap-northeast-1.",
+   "bridged_key": "K091"
+  },
+  {
+   "hop_key": "K055",
+   "key": "K057",
+   "via": "Tara Ghosh",
+   "session": "s49",
+   "paragraph": 31,
+   "sentence": "For the record, Mosaic is due July 21.",
+   "bridged_key": "K057"
+  },
+  {
+   "hop_key": "K103",
+   "key": "K106",
+   "via": "Dev Sethi",
+   "session": "s54",
+   "paragraph": 32,
+   "sentence": "For the record, ranker-svc runs on CockroachDB.",
+   "bridged_key": "K106"
+  },
+  {
+   "hop_key": "K107",
+   "key": "K109",
+   "via": "Zoya Mehra",
+   "session": "s56",
+   "paragraph": 20,
+   "sentence": "For the record, sync-daemon-v2 listens on port 8443.",
+   "bridged_key": "K109"
+  },
+  {
+   "hop_key": "K067",
+   "key": "K068",
+   "via": "Nisha Iyer",
+   "session": "s25",
+   "paragraph": 31,
+   "sentence": "Nisha Iyer, who leads Lumen, confirmed the update.",
+   "bridged_key": "K067"
+  },
+  {
+   "hop_key": "K059",
+   "key": "K060",
+   "via": "Hana Varma",
+   "session": "s32",
+   "paragraph": 33,
+   "sentence": "For the record, Sable is in maintenance mode.",
+   "bridged_key": "K060"
+  },
+  {
+   "hop_key": "K044",
+   "key": "K045",
+   "via": "Sofia Raman",
+   "session": "s57",
+   "paragraph": 4,
+   "sentence": "For the record, Atlas is shipped.",
+   "bridged_key": "K045"
+  },
+  {
+   "hop_key": "K087",
+   "key": "K088",
+   "via": "Tara Ghose",
+   "session": "s56",
+   "paragraph": 12,
+   "sentence": "Tara Ghose (owner of quota-guard) signed off on this.",
+   "bridged_key": "K087"
+  }
+ ],
+ "events": [
+  {
+   "after": "e1196",
+   "id": "e1196b",
+   "key": "K071",
+   "op": "observe",
+   "seq": 1196,
+   "session": "s54",
+   "slot": "proj_lead",
+   "subject": "E22",
+   "subject_name": "Pylon Lite",
+   "t": "2030-03-29T14:13:00Z",
+   "type": "ASSERT",
+   "value": "Kavya Chopra",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1186",
+   "id": "e1186b",
+   "key": "K095",
+   "op": "observe",
+   "seq": 1186,
+   "session": "s54",
+   "slot": "listen_port",
+   "subject": "E28",
+   "subject_name": "auth-gateway",
+   "t": "2030-03-29T13:53:00Z",
+   "type": "ASSERT",
+   "value": "9090",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0819",
+   "id": "e0819b",
+   "key": "K091",
+   "op": "observe",
+   "seq": 819,
+   "session": "s37",
+   "slot": "host_region",
+   "subject": "E27",
+   "subject_name": "session-cache",
+   "t": "2030-03-03T14:17:00Z",
+   "type": "ASSERT",
+   "value": "ap-northeast-1",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1083",
+   "id": "e1083b",
+   "key": "K057",
+   "op": "observe",
+   "seq": 1083,
+   "session": "s49",
+   "slot": "proj_deadline",
+   "subject": "E18",
+   "subject_name": "Mosaic",
+   "t": "2030-03-21T14:25:00Z",
+   "type": "ASSERT",
+   "value": "July 21",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1195",
+   "id": "e1195b",
+   "key": "K106",
+   "op": "observe",
+   "seq": 1195,
+   "session": "s54",
+   "slot": "db_engine",
+   "subject": "E31",
+   "subject_name": "ranker-svc",
+   "t": "2030-03-29T14:11:00Z",
+   "type": "ASSERT",
+   "value": "CockroachDB",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1233",
+   "id": "e1233b",
+   "key": "K109",
+   "op": "observe",
+   "seq": 1233,
+   "session": "s56",
+   "slot": "listen_port",
+   "subject": "E32",
+   "subject_name": "sync-daemon-v2",
+   "t": "2030-04-01T13:46:00Z",
+   "type": "ASSERT",
+   "value": "8443",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0574",
+   "id": "e0574b",
+   "key": "K067",
+   "op": "observe",
+   "seq": 574,
+   "session": "s25",
+   "slot": "proj_lead",
+   "subject": "E21",
+   "subject_name": "Lumen",
+   "t": "2030-02-13T13:18:00Z",
+   "type": "ASSERT",
+   "value": "Nisha Iyer",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e0734",
+   "id": "e0734b",
+   "key": "K060",
+   "op": "observe",
+   "seq": 734,
+   "session": "s32",
+   "slot": "proj_status",
+   "subject": "E19",
+   "subject_name": "Sable",
+   "t": "2030-02-24T15:45:00Z",
+   "type": "ASSERT",
+   "value": "in maintenance mode",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1248",
+   "id": "e1248b",
+   "key": "K045",
+   "op": "observe",
+   "seq": 1248,
+   "session": "s57",
+   "slot": "proj_status",
+   "subject": "E15",
+   "subject_name": "Atlas",
+   "t": "2030-04-02T12:34:00Z",
+   "type": "ASSERT",
+   "value": "shipped",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  },
+  {
+   "after": "e1229",
+   "id": "e1229b",
+   "key": "K087",
+   "op": "observe",
+   "seq": 1229,
+   "session": "s56",
+   "slot": "svc_owner",
+   "subject": "E26",
+   "subject_name": "quota-guard",
+   "t": "2030-04-01T13:38:00Z",
+   "type": "ASSERT",
+   "value": "Tara Ghose",
+   "provenance": {
+    "e2_bridge": true
+   },
+   "rendered": true
+  }
+ ]
+}
